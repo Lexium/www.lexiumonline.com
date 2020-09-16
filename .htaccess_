@@ -1,0 +1,3 @@
+Redirect 301 /es/contacto https://www.lexiumonline.com/contacto.php
+Redirect 301 /es https://www.lexiumonline.com
+Redirect 301 /es/ https://www.lexiumonline.com

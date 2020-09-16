@@ -1,0 +1,18 @@
+<?php include('header.php'); ?>
+    <div class="talent_map demo">
+       <section class="sub-header d-flex align-items-center justify-content-center">
+        <h1>Página no encontrada</h1>
+      </section>
+      <section class="container py-5">
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="img-fluid" src="images/404.jpg">
+          </div>
+          <div class="col-sm-6">
+            <h2 style="font-size: 4rem; color: #f78f1e;" class="my-5">¡Oops!</h2>
+            <p>No se encontró la ruta de la página que buscas, haz <a href="<?php echo 'index.php'?>">clic aquí</a> para regresar a la página principal.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+<?php include('footer.php'); ?>

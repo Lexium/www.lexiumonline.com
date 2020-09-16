@@ -1,0 +1,724 @@
+<?php
+    $category = ( isset ($_GET['category']));
+    $section = (isset( $_GET['section']));
+
+    if($section == 'ingreso'){
+        $dos = 'active';
+        $cero = '';
+    }else{
+        $dos = '';
+        $cero = 'active';
+    }
+?>
+
+<!doctype html>
+
+<html lang="en">
+
+  <head>
+	<!-- Global site tag (gtag.js) - Google Ads: 784291087 -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-784291087"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag()
+		{
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'AW-784291087');
+	</script>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+
+    <meta name="author" content="">
+
+    <link rel="icon" href="./favicon.ico">
+
+
+
+    <title>LEXIUM</title>
+
+
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="./css/bootstrap-multiselect.css" rel="stylesheet">
+
+    <link href="./css/carousel.css" rel="stylesheet">
+
+    <link href="./css/main.css" rel="stylesheet">
+
+    <link href="./css/style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:400,600,700" rel="stylesheet">
+
+      <link type="text/css" rel="stylesheet" href="bower_components/toastr/toastr.min.css"/>
+
+    <script src="./js/jquery-3.2.1.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/bootstrap-multiselect.js"></script>
+    <script src="./js/wizard.js"></script>
+
+    <script type="text/javascript">
+         $(document).ready(function(){
+            $("#mPromocion").modal("show");
+        });
+    </script>
+
+    <!--recaptcha-->
+
+    <script src="https://www.google.com/recaptcha/api.js?onload=myCallBack&render=explicit" async defer></script>
+
+<?php include('linkedin.php');?>
+
+<!-- Hotjar Tracking Code for https://www.lexiumonline.com/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1334117,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+  </head>
+
+
+
+  <body>
+    <a class="promo_button" data-target="#mPromocion" data-toggle="modal">
+        <img class="img-fluid" src="images/boton_promo.png">
+    </a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-blue">
+        <div class="container">
+
+            <a class="navbar-brand" href="<?php echo 'index.php' ?>"><img src="images/logo_lexium.png" class="logo" /></a>
+
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarCollapse" style="">
+
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="<?php echo 'index.php' ?>">Inicio <span class="sr-only">(current)</span></a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="<?php echo 'servicios.php'?>">Servicios</a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filosofía</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                          <li><a class="dropdown-item" href="<?php echo 'filosofia.php'?>">Nuestra Filosofía</a></li>
+                          <li><a class="dropdown-item" href="<?php echo "quienes_somos.php";?>">Quiénes somos</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link" href="<?php echo 'contacto.php'?>">Contacto</a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Confianza</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                          <li><a class="dropdown-item" href="<?php echo 'confianza.php'?>">Confianza</a></li>
+                          <li><a class="dropdown-item" href="<?php echo "nuestros_clientes_opinan.php";?>">Nuestros clientes opinan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo 'valores.php'?>">Valores</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="b1_landing jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Plataforma especializada en<br/> evaluar, diagnosticar y entrenar<br/> el <b>aprendizaje</b>. </h1>
+        <h2 class="jumbotron-heading">Para todos los <b>niveles escolares</b> y la <b>comunidad educativa</b>.</h2>
+        <p style="margin-top:2rem;">
+          <a href="<?php echo 'solicita_demo.php'?>" class="btn btn-lg btn-primary my-2 mar-right">Solicitar Demo</a>
+          <a href="<?php echo 'contacto.php'?>" class="btn btn-lg btn-primary my-2" >Contacto</a>
+        </p>
+      </div>
+    </section>
+    <section class="b1_landing_subSection down">
+        <div class="row">
+            <div class="col-xl-2 col-lg-4 col-sm-4">
+                <a href="<?php echo 'servicios.php' ?>#desempeno" data-ancla="desempeno">Desempeño</a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-sm-4">
+                <a href="<?php echo 'servicios.php' ?>#permanencia" data-ancla="permanencia">Ingreso</a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-sm-4">
+                <a href="<?php echo 'servicios.php' ?>#permanencia" data-ancla="permanencia">Permanencia</a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-sm-4">
+                <a href="<?php echo 'servicios.php' ?>#desempeno" data-ancla="desempeno">Desarrollo</a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-sm-4">
+                <a href="<?php echo 'servicios.php' ?>#permanencia" data-ancla="permanencia">Evidencias</a>
+            </div>
+            <div class="col-xl-2 col-lg-4 col-sm-4">
+                <a href="<?php echo 'servicios.php' ?>#permanencia" data-ancla="permanencia">Impacto</a>
+            </div>
+        </div>
+    </section>
+    <section class="b2_landing">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="<?php echo $cero ?>"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"  class="<?php echo $dos ?>"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+            <li data-target="#demo" data-slide-to="5"></li>
+          </ul>
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item <?php echo $cero ?>">
+                <div class="container"><img class="img-fluid" src="images/expertos_tecnologia_educativa.png" alt="Somos expertos en tecnología educativa."></div>
+            </div>
+            <div class="carousel-item">
+                <div class="container"><img class="img-fluid" src="images/expertos_tecnologia_de_aprendizaje.png" alt="Somos expertos en tecnologías de aprendizaje."></div>
+            </div>
+            <div class="carousel-item <?php echo $dos ?>">
+               <div class="container">
+                   <img class="img-fluid" src="images/lexium_mercados.png" alt="LEXIUM beneficios, potencial, competencias y mercado.">
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container"><img class="img-fluid" src="images/modelo_pedagogico.png" alt="Modelo Pedagógico MAPCO"></div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+               <a href="#" data-toggle="modal" data-target="#MAPCOcircular" id="matematicas">
+
+                    <img  class="img-fluid" src="images/fundamentos_pedagogicos_MAPCO.png" alt="Fundamentos pedagógicos de MAPCO " />
+                </a>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container" id="servicio"><img class="img-fluid" src="images/por_que_lexium.png" alt="Porqué Lexium"></div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <div class="button"><span class="carousel-control-prev-icon"></span></div>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <div class="button"><span class="carousel-control-next-icon"></span></div>
+          </a>
+
+        </div>
+    </section>
+    <a href="#" name="servicios" id="servicios"></a>
+    <section class="b3_landing">
+
+        <div class="container">
+            <h1>¿Cómo lo hacemos?…</h1><br/><br/>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#"  data-toggle="modal" data-target="#MAPCOmodal">
+                        <span class="img_container">
+                            <img class="img-fluid" src="images/grafica_evaluaciones.png" alt="Gráfica Evalueaciones" title="Gráfica Evalueaciones" />
+                        </span>
+                        <p class="btn btn-primary my-2 mar-right">Ver Información</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#"  data-toggle="modal" data-target="#EPPAmodal">
+                        <span class="img_container">
+                            <img class="img-fluid" src="images/grafica_diagnostico.png" alt="Gráfica Diagnóstico" title="Gráfica Diagnóstico" />
+                        </span>
+                        <p class="btn btn-primary my-2 mar-right">Ver Información</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#"  data-toggle="modal" data-target="#DPPAmodal">
+                        <span class="img_container">
+                            <img class="img-fluid" src="images/grafica_herramientas.png" alt="Gráfica Herramientas" title="Gráfica Herramientas" />
+                        </span>
+                        <p class="btn btn-primary my-2 mar-right">Ver Información</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#"  data-toggle="modal" data-target="#modulosmodal">
+                        <span class="img_container">
+                            <img class="img-fluid" src="images/grafica_entrenamiento.png" alt="Gráfica Entrenamiento" title="Gráfica Entrenamiento" />
+                        </span>
+                        <p class="btn btn-primary my-2 mar-right">Ver Información</p>
+                    </a>
+                </div>
+            </div>
+
+            <!--<ul>
+                <li>Metodología basada en un modelo de aprendizaje exitoso: MAPCO</a></li>
+                <li>Evaluación de perfil y potencial de aprendizaje utilizando instrumentos de medición de nueva generación. <a href="#" data-toggle="modal" data-target="#EPPAmodal"><img src="images/icono_eppa.png"></a></li>
+                <li>Diagnóstico que provee de poderosas estrategias para enseñar y aprender. <a href="#" data-toggle="modal" data-target="#DPPAmodal"><img src="images/icono_dppa.png"></a></li>
+                <li>Entrenamientos basados en una eficaz metodología que permiten desarrollar el potencial al máximo. <a href="#" data-toggle="modal" data-target="#DPmodal" ><img src="images/icono_dp.png"></a></li>
+                <li>Medición de impacto con evidencias certificables.</li>
+            </ul>-->
+
+        </div>
+
+    </section>
+    <a href="#" name="potenciar" id="potenciar"></a>
+    <section class="b4_landing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Si lo que buscas es</h1>
+                    <br/>
+                    <h2>POTENCIAR</h2>
+                    <h3>LAS COMPETENCIAS CLAVE DE</h3>
+                    <h3 class="black">ALUMNOS Y DOCENTES </h3><br/>
+                    <h2>PROPORCIONAR</h2>
+                    <h3>SISTEMAS QUE REFUERCEN</h3>
+                    <h3>LOS PROCESOS CLAVE</h3>
+                    <h3 class="title">"LEXIUM ES PARA TI"</h3>
+                </div>
+                <div class="col-md-6">
+                    <table width="100%">
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td align="center" valign="top">
+                                <a href="<?php echo 'servicios.php' ?>#lectura" data-ancla="lectura"><img class="img-fluid" src="images/pci_implementacion.png"></a>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td width="33%" valign="top">
+                                <a href="<?php echo 'servicios.php' ?>#permanencia" data-ancla="permanencia"><img class="img-fluid" src="images/pci_medicion.png" style="margin-bottom: 15px"></a>
+                            </td>
+                            <td rowspan="2" align="center" width="33%">
+                                <img class="img-fluid" src="images/pci_centro.png">
+                            </td>
+                            <td width="33%" align="right" valign="top">
+                                <a href="<?php echo 'servicios.php' ?>#permanencia" data-ancla="permanencia"><img class="img-fluid" src="images/pci_sistema.png" style="margin-bottom: 15px"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <a href="<?php echo 'servicios.php'?>#evaluacion" data-ancla="evaluacion"><img class="img-fluid" src="images/pci_desarrollo.png"></a>
+                            </td>
+                            <td align="right" valign="top">
+                                <a href="<?php echo 'servicios.php' ?>#desempeno" data-ancla="desempeno"><img class="img-fluid" src="images/pci_potenciacion.png"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td align="center" valign="top">
+                                <a href="<?php echo 'servicios.php' ?>#permanencia" data-ancla="permanencia"><img class="img-fluid" src="images/pci_generacion.png"></a>
+                            </td>
+                            <td>&nbsp;</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="b5_landing">
+        <h2>Todos nuestros servicios se ofrecen en</h2>
+        <h2>Plataformas electrónicas</h2>
+        <h2>On line / offline</h2>
+        <h2>Autoadministrables</h2>
+    </section>
+    <section class="b6_landing">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="block1">
+                        <h4>Evaluación</h4>
+                        <p>Elige entre una gran variedad.</p>
+                    </div>
+                    <div id="img1" class="container_image" style="display: none;">
+                        <img class="arrow" src="images/flecha.png">
+                        <img class="img-fluid" src="images/modelo_mapco.png" alt="Modelo MAPCO" title="Modelo MAPCO">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="block2">
+                        <h4>Diagnóstico</h4>
+                        <p>Presentados en diversos formatos.</p>
+                    </div>
+                     <div id="img2" class="container_image" style="display: none;">
+                        <img class="arrow" src="images/flecha.png">
+                        <img class="img-fluid" src="images/grafia_eppa.png" alt="Gráfica EPPA" title="Gráfica EPPA" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="block4">
+                        <h5>Herramientas de análisis y planeación</h5>
+                        <p>Contamos con 18 herramientas.</p>
+                    </div>
+                    <div id="img4" class="container_image" style="display: none;">
+                        <img class="arrow" src="images/flecha.png">
+                        <img class="img-fluid" src="images/tabla1_diagnostico.png" style="margin-bottom:1rem;" alt="Tabla de diagnóstico" title="Tabla de diagnóstico" />
+                        <img class="img-fluid" src="images/tabla2_diagnostico.png" alt="Tabla de diagnóstico" title="Tabla de diagnóstico" />
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="block3">
+                        <h4>Entrenamiento</h4>
+                        <p>Para potenciar el aprendizaje.</p>
+                    </div>
+                    <div id="img3" class="container_image" style="display: none;">
+                        <img class="arrow" src="images/flecha.png">
+                        <img class="img-fluid" src="images/logos_ppc_dp_inteliklass_dc.png" alt="Logos PPC,DP,DC e Inteliklass" title="Logos PPC,DP,DC e Inteliklass" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="b7_landing">
+        <div class="container"><img class="img-fluid" src="images/titulo_porque_lexium.png" alt="¿Porqué LEXIUM?" title="¿Porqué LEXIUM?" /> </div>
+    </section>
+    <section class="b8_landing">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="<?php echo 'servicios.php'?>">
+                        <img class="img-fluid" src="images/empodera_al_docente.png"  alt="Empodera al docente" title="Empodera al docente" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="<?php echo 'servicios.php'?>">
+                        <img class="img-fluid" src="images/mejora_la_permanencia_de_los_alumnos.png" alt="Mejora la permanencia de los alumnos" title="Mejora la permanencia de los alumnos" />
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="<?php echo 'servicios.php'?>">
+                        <img class="img-fluid" src="images/brinda_rumbo_a_la_estrategia_pedagogica.png" alt="Brinda rumbo a la estrategia pedagógica" title="Brinda rumbo a la estrategia pedagógica" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="b1_landing_subSection">
+        Somos accesibles
+    </section>
+    <section class="b9_landing">
+        <div class="container">
+            <ul>
+                <li>Somos “La Empresa del Aprendizaje”.</li>
+                <li>25 años de experiencia y más de 5 millones de personas evaluadas.</li>
+                <li>Somos sello de calidad y estadística de referencia con presencia en 6 países.</li>
+                <li>Soluciones para todos los niveles educativos, docentes y administrativos.</li>
+                <li>Evaluación con Diagnóstico inmediato y Entrenamiento de alto impacto.</li>
+                <li>Alcances que ninguna otra propuesta del mercado tiene.</li>
+                <li>Confidencialidad y Autonomía de la información.</li>
+                <li>Combinamos con cualquier infraestructura, contenido y certificaciones.</li>
+            </ul>
+        </div>
+    </section>
+    <section class="b7_landing">
+        <div class="container">
+            <h2><i>Somos el “Aquí y Ahora” para tu institución.</i></h2>
+            <a class="btn btn-lg btn-primary my-2 mar-right" href="<?php echo 'contacto.php'?>">Ponte en contacto</a>
+        </div>
+    </section>
+
+<!-- INICIA Modal MAPCO -->
+<div class="modal" id="MAPCOcircular">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal body -->
+            <div class="modal-body" style="text-align: center;">
+                <img class="img-fluid" src="images/mapco_circular.png" alt="Modelo Pedagógico MAPCO" />
+            </div>
+        </div>
+    </div>
+</div>
+<!-- TERMINA Modal MAPCO -->
+<!-- INICIA Modal MAPCO -->
+<div class="modal" id="MAPCOmodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal body -->
+            <div class="modal-body" style="text-align:center;">
+                <h3>EVALUACIÓN</h3>
+                <img class="img-fluid" src="images/modelo_mapco.png" alt="Modelo Pedagógico MAPCO" />
+            </div>
+        </div>
+    </div>
+</div>
+<!-- TERMINA Modal MAPCO -->
+<!-- INICIA Modal EPPA -->
+<div class="modal" id="EPPAmodal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!-- Modal body -->
+            <div class="modal-body" style="text-align:center;">
+                <h3>Ejemplo de un diagnóstico de habilidades intlectuales</h3>
+                <img class="img-fluid" src="images/grafia_eppa.png" alt="Gráfica EPPA" title="Gráfica EPPA" />
+            </div>
+        </div>
+    </div>
+</div>
+<!-- TERMINA Modal EPPA -->
+<!-- INICIA Modal DPPA -->
+<div class="modal" id="DPPAmodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal body -->
+            <div class="modal-body" style="text-align:center;">
+                <h3>Herramientas contenidas</h3>
+                <img class="img-fluid tabla1" src="images/tabla1_diagnostico.png" style="margin-bottom:1rem;" alt="Tabla de diagnóstico" title="Tabla de diagnóstico" />
+                <img class="img-fluid tabla1" src="images/tabla2_diagnostico.png" alt="Tabla de diagnóstico" title="Tabla de diagnóstico"  />
+            </div>
+        </div>
+    </div>
+</div>
+<!-- TERMINA Modal DPPA -->
+<!-- INICIA Modal DPPA -->
+<div class="modal" id="modulosmodal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <!-- Modal body -->
+            <div class="modal-body" style="text-align:center;">
+                <h3>Ejemplo de módulos de entrenamiento</h3><br/>
+                <img class="img-fluid" src="images/imagen_modulos_terminados.png" alt="Módulos Terminados" title="Módulos Terminados" />
+            </div>
+        </div>
+    </div>
+</div>
+<!-- TERMINA Modal DPPA -->
+<!-- INICIA Modal DP -->
+<div class="modal" id="DPmodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal body -->
+            <div class="modal-body">
+                <iframe width="100%" height="320" src="https://www.youtube.com/embed/0_i209SJvx0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- TERMINA Modal DP -->
+
+<script type="text/javascript">
+
+
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      $(".block1").click(function(){
+            var prop = $("#img1").css("display");
+            if(prop=="block"){
+                $("#img1").css("display", "none");
+            }else{
+                $("#img1").css("display", "block");
+            }
+        });
+        $(".block2").click(function(){
+           var prop2 = $("#img2").css("display");
+            if(prop2=="block"){
+                $("#img2").css("display", "none");
+            }else{
+                $("#img2").css("display", "block");
+            }
+        });
+        $(".block3").click(function(){
+            var prop3 = $("#img3").css("display");
+            if(prop3=="block"){
+                $("#img3").css("display", "none");
+            }else{
+                $("#img3").css("display", "block");
+            }
+        });
+         $(".block4").click(function(){
+            var prop4 = $("#img4").css("display");
+            if(prop4=="block"){
+                $("#img4").css("display", "none");
+            }else{
+                $("#img4").css("display", "block");
+            }
+        });
+}else{
+      $(document).ready(function(){
+
+        $(".block1").hover(function(){
+            $("#img1").css("display", "block");
+            }, function(){
+            $("#img1").css("display", "none");
+        });
+        $(".block2").hover(function(){
+            $("#img2").css("display", "block");
+            }, function(){
+            $("#img2").css("display", "none");
+        });
+        $(".block3").hover(function(){
+            $("#img3").css("display", "block");
+            }, function(){
+            $("#img3").css("display", "none");
+        });
+        $(".block4").hover(function(){
+            $("#img4").css("display", "block");
+            }, function(){
+            $("#img4").css("display", "none");
+        });
+    });
+}
+
+
+</script>
+<footer>
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-md-2">
+        <p>
+            <img class="img-fluid" src="images/logo_lexium_azul.png">
+        </p>
+        <small><a class="text-muted privacy_advise" href="<?php echo 'politicas.php'?>">Aviso de Privacidad<br/>&copy; 2018-2019</a></small>
+      </div>
+      <div class="col-md-10">
+          <div class="row">
+              <div class="col-sm-2 col-6">
+                <a class="text-muted" href="<?php echo 'index.php'?>">Inicio</a>
+              </div>
+              <div class="col-sm-2 col-6">
+                <a class="text-muted" href="<?php echo 'servicios.php'?>">Servicios</a>
+              </div>
+              <div class="col-sm-2 col-6">
+                <a class="text-muted" href="<?php echo 'filosofia.php'?>">Filosofía</a>
+              </div>
+              <div class="col-sm-2 col-6">
+                <a class="text-muted" href="<?php echo 'contacto.php'?>">Contacto</a>
+              </div>
+              <div class="col-sm-2 col-6">
+                <a class="text-muted" href="<?php echo 'confianza.php'?>">Confianza</a>
+              </div>
+              <div class="col-sm-2 col-6">
+                <a class="text-muted" href="<?php echo 'valores.php'?>">Valores</a>
+              </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+<div class="modal" tabindex="-1" role="dialog" id="mPromocion" style="padding-right:0!important; ">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close close_promo" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="images/close_button.png"></span>
+        </button>
+        <a href="<?php echo 'contacto.php'?>"><img class="img-fluid" src="images/banner_promocion.jpg"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <!--<script>window.jQuery || document.write('<script src="./js/vendor/jquery-slim.min.js"><\/script>')</script>-->
+
+    <!--<script src="./js/vendor/holder.min.js"></script>-->
+    <script type="text/javascript" src="bower_components/toastr/toastr.min.js"></script>
+     <script>
+
+
+
+        $(document).ready(function(){
+            <?php if(isset($category) and $category =='matematicas'){ ?>
+                $('#matematicas').trigger('click');
+            <?php }?>
+            <?php if(isset($section) and $section =='ingreso'){ ?>
+                $('html, body').animate({
+                     scrollTop: $(".down").offset().top
+                 }, 1500);
+            <?php }?>
+        });
+        /*window.onscroll = function() {myFunction()};
+        function myFunction() {
+            if (document.body.scrollTop > 650 || document.documentElement.scrollTop > 750) {
+                $("nav").removeClass('navbar-blue');
+                $("nav").addClass('navbar-green');
+                $("div.dropdown-menu").removeClass('sub-menu-bg-blue');
+                $("div.dropdown-menu").addClass('sub-menu-bg-green');
+            } else {
+                $("nav").removeClass('navbar-green');
+                $("nav").addClass('navbar-blue');
+                $("div.dropdown-menu").removeClass('sub-menu-bg-green');
+                $("div.dropdown-menu").addClass('sub-menu-bg-blue');
+            }
+        }*/
+
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": false,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        };
+
+        if($("#g-recaptcha-1").length > 0){
+            var recaptcha1;
+            var myCallBack = function() {
+
+              recaptcha1 = grecaptcha.render('g-recaptcha-1', {
+                'sitekey' : '6LdTJDIUAAAAANMULGs2qCBk2g-uLhJRwvd7ztfe',
+                'theme' : 'light'
+              });
+            };
+        }
+    </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127267171-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127267171-1');
+</script>
+
+    <!--<script type='text/javascript'>
+        (function() {
+        var s = document.createElement('script');s.type='text/javascript';s.async=true;s.id='lsInitScript';
+        s.src='https://livesupporti.com/Scripts/clientAsync.js?acc=49de2a57-e849-418e-9b84-373be3fdffb7&skin=Modern';
+        var scr=document.getElementsByTagName('script')[0];scr.parentNode.appendChild(s, scr);
+        })();
+    </script>-->
+
+<?php
+$pagina_previa = $_SERVER['HTTP_REFERER'];
+include 'registro_visitas.php';
+?>
+  </body>
+</html>
+
