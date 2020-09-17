@@ -63,7 +63,7 @@
             <div class="container logo_noMovile">
                 <div class="row">
                     <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
-                        <h1 class="prox-nov-reg mb-4">Somos tu mejor<br/>opción para atraer<br/>y retener alumnado.</h1>
+                        <h1 class="prox-nov-reg mb-4">Somos tu mejor<br/>opción para atraer<br/>y retener alumnos.</h1>
                         <h3 class="py-2 prox-nov-lt mb-4">Dirigido a Preparatorias y <br/>Universidades.</h3>
                         <h1 class="prox-nov-reg"><img src="images/sip/logo_sip.png" class="img-fluid"></h1>
                     </div>
@@ -84,7 +84,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                            <h3 class="mb-5 text-left">Descubre las posibilidades que brinda esta propuesta para la admisión, selección, acompañamiento, tutoraje, reporte y desarrollo de cada alumno que ingresa en tu institución.</h3>
+                            <h3 class="mb-5 text-left">Descubre las posibilidades que brinda esta propuesta para la admisión, selección, acompañamiento, tutoraje y desarrollo de cada alumno que ingresa en tu institución.</h3>
                             <section class="b9_landing pb-5 post">
                                 <img src="images/sip/modelo-sip-movil.png " class="img-fluid web_image" alt="Modelo SIP" title="Modelo SIP">
                                 <div class="circle">
@@ -333,6 +333,7 @@
                     <div class="col-6 col-sm-6 col-md-3"><img class="img-fluid" src="images/sip/UC.png"></div>
                     <div class="col-6 col-sm-6 col-md-3"><img class="img-fluid" src="images/sip/Prepa_Ibero.png" ></div>
                     <div class="col-6 col-sm-6 col-md-3"><img class="img-fluid" src="images/sip/Universidad_Durango_Santander.png"></div>
+                    <div class="col-6 col-sm-6 col-md-3"><img class="img-fluid" src="images/Insight/OAK.png"></div>
                 </div>
             </div>
         </section>
