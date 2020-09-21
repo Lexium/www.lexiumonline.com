@@ -83,8 +83,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
-                            <h3 class="mb-5">Esta innovadora propuesta tiene como objetivo crear un vínculo entre la institución y el futuro alumno.</h3>
-                            <h3 class="mb-5">Insight es un test sencillo, rápido y efectivo para lograr la mayor captación de alumnos.</h3>
+                            <h3 class="mb-4">Esta innovadora propuesta tiene como objetivo crear un vínculo entre la institución y el futuro alumno.</h3>
+                            <h3 class="mb-5"><strong>Insight</strong> es un test sencillo, rápido y efectivo para lograr la mayor captación de alumnos.</h3>
                             <section class="row">
                                 <div class="col-lg-5 text-center">
                                     <img src="images/Insight/ipad.jpg" class="img-fluid">
