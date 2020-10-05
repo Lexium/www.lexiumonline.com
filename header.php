@@ -3,14 +3,14 @@
 <html lang="en">
   <head>
 
-<!-- Global site tag (gtag.js) - Google Ads: 784291087 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-784291087"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127267171-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'AW-784291087');
+  gtag('config', 'UA-127267171-1');
 </script>
 
 <meta charset="utf-8">
