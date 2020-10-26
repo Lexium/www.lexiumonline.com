@@ -1,6 +1,6 @@
 <?php include 'lang/idioma.php';?>
 <!doctype html>
-<html lang="en">
+<html lang="<?php lang('folder');?>">
   <head>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -13,10 +13,35 @@
   gtag('config', 'UA-127267171-1');
 </script>
 
+<!-- Global site tag (gtag.js) - Google Ads: 784291087 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-784291087"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-784291087');
+</script>
+<style type="text/css">
+       .guiaheader:lang(en){ display: none;}
+       .guiaheader{ margin-left: 2%;font-weight: bold;background-color: #f68c20; color: #fff!important;padding: 0.8% 5%; border-radius: 25%; }
+       .guiaheader:hover{ background-color:#fff!important; color: #f68c20!important;  }
+</style>
+
 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="<?php lang('index_001');?>">
     <meta name="author" content="">
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="<?php lang('TITULO_SITIO');?>">
+    <meta itemprop="description" content="<?php lang('index_001');?>">
+    <meta itemprop="image" content="http://www.lexiumonline.com/images/avatar_header.png">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://www.lexiumonline.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<?php lang('TITULO_SITIO');?>">
+    <meta property="og:description" content="<?php lang('index_001');?>">
+    <meta property="og:image" content="http://www.lexiumonline.com/images/avatar_header.png">
     <link rel="icon" href="./favicon.ico">
     <title><?php lang('TITULO_SITIO');?></title>
     <!-- Bootstrap core CSS -->
@@ -33,7 +58,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-blue">
-      <a class="navbar-brand" href="<?php echo 'index.php' ?>"><img src="images/logo_lexium.png" class="img-fluid"></a>
+      <a class="navbar-brand" href="<?php echo 'index.php' ?>"><img src="images/logo_lexium.png" class="img-fluid" alt="Lexium Logo" title="Lexium Logo"></a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -50,7 +75,9 @@
               <div class="dropdown-menu sub-menu-bg-blue" aria-labelledby="dropdown01">
                 <a class="dropdown-item" href="<?php echo 'skillmap.php'?>">» <?php lang('Skill Map');?></a>
                 <ul>
-                  <li><a href="evaluacion.php"><?php lang('Evaluaciones');?></a></li>
+                  <li><a href="evaluacion.php"><?php lang('Evaluaciones');?></a>
+                      <a class="guiaheader" target="_blank" href="pdf/guia_lexium_skill_map.pdf" title="descarga la Guia Lexium Skill Map">Guía</a>
+                      </li>
                   <li><a href="diagnostico.php"><?php lang('Diagnóstico');?></a></li>
                   <li><a href="herramientas.php"><?php lang('Herramientas');?></a></li>
                 </ul>
@@ -61,7 +88,9 @@
                 </ul>
                 <a class="dropdown-item" href="<?php echo 'sip.php'?>">» <?php lang('Sistema_de_Ingreso');?></a>
                 <ul>
-                  <li><a href="<?php echo 'sip.php'?>"><?php lang('Admisión');?></a></li>
+                  <li><a href="<?php echo 'sip.php'?>"><?php lang('Admisión');?></a> 
+                      <a class="guiaheader" target="_blank" href="pdf/guia_lexium_exa_admision.pdf" title="descarga la EVALUACIÓN INGRESO/ ADMISIÓN">Guía</a>
+                  </li>
                   <li><a href="<?php echo 'sip.php'?>"><?php lang('Guía vocacional');?></a></li>
                   <li><a href="<?php echo 'sip.php'?>"><?php lang('Pronóstico de permanencia');?></a></li>
                   <li><a href="<?php echo 'sip.php'?>"><?php lang('Riesgo de abandono');?></a></li>

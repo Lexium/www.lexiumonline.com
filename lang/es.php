@@ -111,9 +111,14 @@ function lang($variable)
     $lang['index_064']      = 'Haz clic y selecciona el paquete que necesites.';
     $lang['index_065']      = '¡No te quedes fuera!';
     $lang['index_066']      = 'Ir a Lexium Lite';
+    $lang['index_067']      = 'Impulsa el potencial';
+    $lang['index_068']      = 'Incrementa la captación y retención.';
+    $lang['index_069']      = 'Mejora la oferta académica';
+    $lang['index_070']      = 'Fortalece el prestigio de tu institución';
+    $lang['index_071']      = 'Aumenta las posibilidades de prosperar y ser feliz';
 
 
-//  Nosotroa
+//  Nosotros
     $lang['us_001']         = 'Lexium en números';
     $lang['us_002']         = 'Te presentamos algunos datos interesantes sobre nosotros';
     $lang['us_003']         = 'años en el mercado';
@@ -262,7 +267,7 @@ function lang($variable)
     $lang['dia_011']   =  'Comparativo';
     $lang['dia_012']   =  'Compra los resultados obtenidos en dos aplicaciones consecutivas.';
 
-//  Diagnóstico
+//  Herramientas
 
     $lang['TOOL_001']   =  'Herramientas';
     $lang['TOOL_002']   =  'Propicia y crea  ambientes de aprendizaje efectivos con apoyo de las herramientas de análisis y planeación.';

@@ -2,7 +2,7 @@
 function lang($variable)
 {
 
-    $lang['folder']                 = 'es';
+    $lang['folder']                 = 'en';
 
 //	ENCABEZADO
     $lang['TITULO_SITIO']           = 'LEXIUM';
@@ -104,8 +104,19 @@ function lang($variable)
     $lang['index_059']      = 'We are waiting for you';
     $lang['index_060']      = 'Let’s create more success stories together.';
     $lang['index_061']      = 'Lexium la empresa del aprendizaje';
+    $lang['index_062']      = 'Ya conoces';
+    $lang['index_063']      = 'Lexium Lite permite que una persona o grupo pequeño tenga fácil acceso a nuestras evaluaciones y diagnósticos, sin necesidad de hacerlo a través de una institución educativa.';
+    $lang['index_064']      = 'Haz clic y selecciona el paquete que necesites.';
+    $lang['index_065']      = '¡No te quedes fuera!';
+    $lang['index_066']      = 'Ir a Lexium Lite';
+    $lang['index_067']      = 'Enhance the potential';
+    $lang['index_068']      = 'Increase information uptake and retention';
+    $lang['index_069']      = 'Improve your academic offer';
+    $lang['index_070']      = 'Strengthen the prestige of your institution';
+    $lang['index_071']      = 'Increase the possibilities of prospering and being happy';
 
-//  Nosotroa
+
+//  Nosotros
     $lang['us_001']         = 'Lexium in numbers';
     $lang['us_002']         = 'Take a closer look at Lexium through these interesting facts.';
     $lang['us_003']         = 'years in the market';
@@ -251,7 +262,7 @@ function lang($variable)
     $lang['dia_011']   =  'Comparative';
     $lang['dia_012']   =  'Compare various results obtained in one single place.';
 
-//  Diagnóstico
+//  Herramientas
 
     $lang['TOOL_001']   =  'Tools';
     $lang['TOOL_002']   =  'Foster and create effective learning environments with the support of analysis and planning tools.';

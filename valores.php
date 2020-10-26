@@ -23,12 +23,12 @@
     </div>
 
     <div class="row text-center">
-        <div class="col-sm-6 col-md-3 mb-4">
+        <!-- <div class="col-sm-6 col-md-3 mb-4">
             <img class="img-fluid"  class="img-fluid" src="images/fundaciones/fundacion-JMA.jpg" alt="Fundación JMA" title="Fundación JMA"/>
         </div>
         <div class="col-sm-6 col-md-3 mb-4">
             <img class="img-fluid"  class="img-fluid" src="images/fundaciones/guadalupano.jpg" alt="Instituto Guadalupano" title="Instituto Guadalupano"/>
-        </div>
+        </div> -->
         <div class="col-sm-6 col-md-3 mb-4">
             <img class="img-fluid"  class="img-fluid" src="images/fundaciones/albergue-los-pinos.jpg" alt="Albergue los Pinos" title="Albergue los Pinos"/>
         </div>

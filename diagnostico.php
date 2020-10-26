@@ -10,7 +10,7 @@ include 'header.php' ?>
                     <p><?php lang('dia_014');?></p>
                 </div>
                 <div class="col-md-4 col-lg-6">
-                    <img src="images/diagnostico/avatar_header.png" alt="Avatar Header" title="Avatar Header" class="img-fluid" />
+                    <img src="images/diagnostico/diagnostico.png" alt="<?php lang('dia_013');?>" title="<?php lang('dia_013');?>" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -20,20 +20,20 @@ include 'header.php' ?>
             <h3 class="my-5"><?php lang('dia_015');?></h3>
             <div class="row">
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/diagnostico/individual_icon.png" alt="individual_icon" title="individual_icon">
+                    <img class="img-fluid" src="images/diagnostico/individual_icon.png" alt="<?php lang('dia_001');?>" title="<?php lang('dia_001');?>">
                     <h5><?php lang('dia_001');?></h5>
                     <p class="description"><?php lang('dia_002');?></p>
                     <a href="#!" class="btn btn-warning" data-toggle="modal" data-target="#individual"><?php lang('CONOCE_MAS');?></a>
                 </div>
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/diagnostico/ppa_icon.png" alt="ppa_icon" title="ppa_icon">
+                    <img class="img-fluid" src="images/diagnostico/ppa_icon.png" alt="<?php lang('dia_003');?>" title="<?php lang('dia_003');?>">
                     <h5><?php lang('dia_003');?></h5>
                     <p class="description"><?php lang('dia_004');?></p>
                     <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#PPA"><?php lang('CONOCE_MAS');?></a>
 
                 </div>
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/diagnostico/personalizado_icon.png" alt="personalizado_icon" title="personalizado_icon">
+                    <img class="img-fluid" src="images/diagnostico/personalizado_icon.png" alt="<?php lang('dia_005');?>" title="<?php lang('dia_005');?>">
                     <h5><?php lang('dia_005');?></h5>
                     <p class="description"><?php lang('dia_006');?></p>
                     <a href="#!" class="btn btn-warning" data-toggle="modal" data-target="#personalizado"><?php lang('CONOCE_MAS');?></a>
@@ -42,20 +42,20 @@ include 'header.php' ?>
 
 
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/diagnostico/grupal_icon.png" alt="grupal_icon" title="grupal_icon">
+                    <img class="img-fluid" src="images/diagnostico/grupal_icon.png" alt="<?php lang('dia_007');?>" title="<?php lang('dia_007');?>">
                     <h5><?php lang('dia_007');?></h5>
                     <p class="description"><?php lang('dia_008');?></p>
                     <a href="#!" class="btn btn-warning" data-toggle="modal" data-target="#grupal"><?php lang('CONOCE_MAS');?></a>
                 </div>
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/diagnostico/institucional_icon.png" alt="institucional_icon" title="institucional_icon">
+                    <img class="img-fluid" src="images/diagnostico/institucional_icon.png" alt="<?php lang('dia_009');?>" title="<?php lang('dia_009');?>">
                     <h5><?php lang('dia_009');?></h5>
                     <p class="description"><?php lang('dia_010');?></p>
                     <a href="#!" class="btn btn-warning" data-toggle="modal" data-target="#institucional"><?php lang('CONOCE_MAS');?></a>
 
                 </div>
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/diagnostico/comparativo_icon.png" alt="comparativo_icon" title="comparativo_icon">
+                    <img class="img-fluid" src="images/diagnostico/comparativo_icon.png" alt="<?php lang('dia_011');?>" title="<?php lang('dia_011');?>">
                     <h5><?php lang('dia_011');?></h5>
                     <p class="description"><?php lang('dia_012');?></p>
                     <a href="#!" class="btn btn-warning" data-toggle="modal" data-target="#comparativo"><?php lang('CONOCE_MAS');?></a>

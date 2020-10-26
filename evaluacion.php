@@ -10,7 +10,7 @@ include 'header.php' ?>
                     <p><?php lang('eva_002');?></p>
                 </div>
                 <div class="col-md-4 col-lg-6">
-                    <img src="images/evaluacion/avatar_header.png" alt="Avatar Header" title="Avatar Header" class="img-fluid" />
+                    <img src="images/evaluacion/evaluacion.png" alt="<?php lang('eva_001');?>" title="<?php lang('eva_001');?>" class="img-fluid" />
                 </div>
             </div>
         </div>

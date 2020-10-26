@@ -22,7 +22,7 @@
                     </form>
                 </div>
                 <div class="col-md-4 col-lg-6">
-                    <img src="images/avatar_header.png" class="img-fluid" />
+                    <img src="images/impulsa_el_potencial.png" class="img-fluid" alt="<?php lang('index_067');?>" title="<?php lang('index_067');?>" />
                 </div>
             </div>
         </div>
@@ -170,7 +170,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <img class="img-fluid" src="images/avatar2.png">
+                    <img class="img-fluid" src="images/exploring_learning_for_better_people.png" alt="Exploring learning for better people" title="Exploring learning for better people">
                 </div>
                 <div class="col-md-8">
                     <div class="text">
@@ -256,7 +256,7 @@
                     <a href="https://lexiumlite.zohocommerce.com/" class="btn btn-primary"><?php lang('index_066');?></a>
                 </div>
                 <div class="col-lg-4">
-                    <img class="img-fluid" src="images/mono_lexium_lite.png">
+                    <img class="img-fluid" src="images/mono_lexium_lite.png" alt="Lexium Lite" title="Lexium Lite">
                 </div>
             </div>
         </div>
@@ -266,19 +266,19 @@
             <h2 class="mb-3"><?php lang('index_011');?></h2>
             <div class="row text-center">
                 <div class="col-md-3">
-                    <img class="img-fluid" src="images/incrementa_icon.png" alt="Incrementa" title="Incrementa">
+                    <img class="img-fluid" src="images/incrementa_icon.png" alt="<?php lang('index_068');?>" title="<?php lang('index_068');?>">
                     <p class="my-3"><?php lang('index_012');?></p>
                 </div>
                 <div class="col-md-3">
-                    <img class="img-fluid" src="images/mejora_icon.png" alt="Mejora" title="Mejora">
+                    <img class="img-fluid" src="images/mejora_icon.png" alt="<?php lang('index_069');?>" title="<?php lang('index_069');?>">
                     <p class="my-3"><?php lang('index_013');?></p>
                 </div>
                 <div class="col-md-3">
-                    <img class="img-fluid" src="images/fortalece_icon.png" alt="Incrementa" title="Incrementa">
+                    <img class="img-fluid" src="images/fortalece_icon.png" alt="<?php lang('index_070');?>" title="<?php lang('index_070');?>">
                     <p class="my-3"><?php lang('index_014');?></p>
                 </div>
                 <div class="col-md-3">
-                    <img class="img-fluid" src="images/prosperar_icon.png" alt="Prospera" title="Prospera">
+                    <img class="img-fluid" src="images/prosperar_icon.png" alt="<?php lang('index_071');?>" title="<?php lang('index_071');?>">
                     <p class="my-3"><?php lang('index_015');?></p>
                 </div>
             </div>

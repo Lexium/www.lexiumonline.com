@@ -11,7 +11,7 @@ include 'header.php' ?>
                     <p><?php lang('SIP_003');?></p>
                 </div>
                 <div class="col-md-4 col-lg-6">
-                    <img src="images/sip/avatar_header.png" alt="Avatar Header" title="Avatar Header" class="img-fluid" />
+                    <img src="images/sip/sistema_de_ingreso_y_permanencia.png" alt="<?php lang('SIP_001');?>" title="<?php lang('SIP_001');?>" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -22,17 +22,17 @@ include 'header.php' ?>
             <h3 class="mb-5"><?php lang('SIP_003');?></h3>
             <div class="row">
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/sip/admision_icon.png" alt="admision_icon" title="admision_icon">
+                    <img class="img-fluid" src="images/sip/admision_icon.png" alt="<?php lang('SIP_005');?>" title="<?php lang('SIP_005');?>">
                     <h5><?php lang('SIP_005');?></h5>
                     <p class="description"><?php lang('SIP_006');?></p>
                 </div>
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/sip/guia_icon.png" alt="guia_icon" title="guia_icon">
+                    <img class="img-fluid" src="images/sip/guia_icon.png" alt="<?php lang('SIP_007');?>" title="<?php lang('SIP_007');?>">
                     <h5><?php lang('SIP_007');?></h5>
                     <p class="description"><?php lang('SIP_008');?></p>
                 </div>
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/sip/permanencia_icon.png" alt="permanencia_icon" title="permanencia_icon">
+                    <img class="img-fluid" src="images/sip/permanencia_icon.png" alt="<?php lang('SIP_009');?>" title="<?php lang('SIP_009');?>">
                     <h5><?php lang('SIP_009');?></h5>
                     <p class="description"><?php lang('SIP_010');?></p>
 
@@ -40,12 +40,12 @@ include 'header.php' ?>
 
 
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/sip/abandono_icon.png" alt="abandono_icon" title="abandono_icon">
+                    <img class="img-fluid" src="images/sip/abandono_icon.png" alt="<?php lang('SIP_011');?>" title="<?php lang('SIP_011');?>">
                     <h5><?php lang('SIP_011');?></h5>
                     <p class="description"><?php lang('SIP_012');?></p>
                 </div>
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/sip/becas_icon.png" alt="becas_icon" title="becas_icon">
+                    <img class="img-fluid" src="images/sip/becas_icon.png" alt="<?php lang('SIP_013');?>" title="<?php lang('SIP_013');?>">
                     <h5><?php lang('SIP_013');?></h5>
                     <p class="description"><?php lang('SIP_014');?></p>
                 </div>

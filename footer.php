@@ -1,3 +1,22 @@
+        <style type="text/css">
+               /*BOTON GUIA*/
+
+              .guia:lang(en){
+                  display: none;
+              }
+
+               .guia{
+                   position: absolute;
+                   right: 8%;
+                   top: 16%;
+                   background: #fff;
+                   border-radius: 20%;
+                   color: #f78d20;
+                   padding: 2% 5%;
+               }
+        </style>
+
+
         <footer>
             <div class="container">
                 <div class="text-center">
@@ -11,7 +30,9 @@
                       <div class="col-lg-6">
                         <a href="<?php echo 'skillmap.php'?>">» <?php lang('Skill Map');?></a></a>
                         <ul>
-                          <li><a href="evaluacion.php"><?php lang('Evaluaciones');?></a></li>
+                          <li style="float: left;">
+                            <a href="evaluacion.php"><?php lang('Evaluaciones');?></a>
+                            <a target="_blank" class="guia" href="pdf/guia_lexium_exa_admision.pdf" title="descarga la EVALUACIÓN INGRESO/ ADMISIÓN">Guía</a>
                           <li><a href="diagnostico.php"><?php lang('Diagnóstico');?></a></li>
                           <li><a href="herramientas.php"><?php lang('Herramientas');?></a></li>
                         </ul>
@@ -19,7 +40,8 @@
                       <div class="col-lg-6">
                         <a href="<?php echo 'skillmt.php'?>">» <?php lang('Skill Map & Training');?></a>
                         <ul>
-                          <li><a href="<?php echo 'skillmap.php'?>"><?php lang('Skill Map');?></a></li>
+                          <li><a href="<?php echo 'skillmap.php'?>"><?php lang('Skill Map');?></a>
+                            <a target="_blank" class="guia" href="pdf/guia_lexium_skill_map.pdf" title="descarga la Guia Lexium Skill Map">Guía</a></li>
                           <li><a href="skillmt.php"><?php lang('Entrenamiento');?></a></li>
                         </ul>
                       </div>

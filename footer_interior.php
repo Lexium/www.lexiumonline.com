@@ -98,7 +98,7 @@
                 <a href="https://lexiumlite.zohocommerce.com/" class="btn btn-primary"><?php lang('index_066');?></a>
             </div>
             <div class="col-lg-4">
-                <img class="img-fluid" src="images/mono_lexium_lite.png">
+                <img class="img-fluid" src="images/mono_lexium_lite.png" alt="Lexium Lite" title="Lexium Lite">
             </div>
         </div>
     </div>

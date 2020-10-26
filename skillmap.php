@@ -10,7 +10,7 @@ include 'header.php' ?>
                     <p><?php lang('skillmap_002');?></p>
                 </div>
                 <div class="col-md-4 col-lg-6">
-                    <img src="images/skillmap/avatar_header.png" alt="Avatar Header" title="Avatar Header" class="img-fluid" />
+                    <img src="images/skillmap/skillmap.png" alt="Skill Map" title="Skill Map" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -20,20 +20,20 @@ include 'header.php' ?>
             <h3 class="py-5"><?php lang('skillmap_003');?></h3>
             <div class="row">
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/skillmap/evaluacion_icon.png" alt="Evaluación" title="Evaluación">
+                    <img class="img-fluid" src="images/skillmap/evaluacion_icon.png" alt="<?php lang('skillmap_004');?>" title="<?php lang('skillmap_004');?>">
                     <h5><?php lang('skillmap_004');?></h5>
                     <p class="description"><?php lang('skillmap_005');?></p>
                     <a href="evaluacion.php" class="btn btn-warning"><?php lang('CONOCE_MAS');?></a>
                 </div>
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/skillmap/diagnostico_icon.png" alt="Diagnóstico" title="Evaluación">
+                    <img class="img-fluid" src="images/skillmap/diagnostico_icon.png" alt="<?php lang('skillmap_006');?>" title="<?php lang('skillmap_006');?>">
                     <h5><?php lang('skillmap_006');?></h5>
                     <p class="description"><?php lang('skillmap_007');?></p>
                     <a href="diagnostico.php" class="btn btn-warning"><?php lang('CONOCE_MAS');?></a>
 
                 </div>
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/skillmap/herramientas_icon.png" alt="Herramientas" title="Herramientas">
+                    <img class="img-fluid" src="images/skillmap/herramientas_icon.png" alt="<?php lang('skillmap_008');?>" title="<?php lang('skillmap_008');?>">
                     <h5><?php lang('skillmap_008');?></h5>
                     <p class="description"><?php lang('skillmap_009');?></p>
                     <a href="herramientas.php" class="btn btn-warning"><?php lang('CONOCE_MAS');?></a>

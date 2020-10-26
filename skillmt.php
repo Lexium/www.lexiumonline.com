@@ -10,7 +10,7 @@ include 'header.php' ?>
                     <p><?php lang('SMT_002');?></p>
                 </div>
                 <div class="col-md-4 col-lg-6">
-                    <img src="images/skillmt/avatar_header.png" alt="Avatar Header" title="Avatar Header" class="img-fluid" />
+                    <img src="images/skillmt/skillmapandtraining.png" alt="Skill Map & Training" title="Skill Map & Training" class="img-fluid" />
                 </div>
             </div>
         </div>
@@ -20,32 +20,32 @@ include 'header.php' ?>
             <h3 class="py-5"><?php lang('SMT_003');?></h3>
             <div class="row">
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/skillmap/evaluacion_icon.png" alt="Evaluación" title="Evaluación">
+                    <img class="img-fluid" src="images/skillmap/evaluacion_icon.png" alt="<?php lang('SMT_004');?>" title="<?php lang('SMT_004');?>">
                     <h5><?php lang('SMT_004');?></h5>
                     <p class="description"><?php lang('SMT_005');?></p>
                     <a href="evaluacion.php" class="btn btn-warning"><?php lang('CONOCE_MAS');?></a>
                 </div>
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/skillmap/diagnostico_icon.png" alt="Diagnóstico" title="Evaluación">
+                    <img class="img-fluid" src="images/skillmap/diagnostico_icon.png" alt="<?php lang('SMT_006');?>" title="<?php lang('SMT_006');?>">
                     <h5><?php lang('SMT_006');?></h5>
                     <p class="description"><?php lang('SMT_007');?></p>
                     <a href="diagnostico.php" class="btn btn-warning"><?php lang('CONOCE_MAS');?></a>
                 </div>
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/skillmap/herramientas_icon.png" alt="Herramientas" title="Herramientas">
+                    <img class="img-fluid" src="images/skillmap/herramientas_icon.png" alt="<?php lang('SMT_008');?>" title="<?php lang('SMT_008');?>">
                     <h5><?php lang('SMT_008');?></h5>
                     <p class="description"><?php lang('SMT_009');?></p>
                     <a href="herramientas.php" class="btn btn-warning"><?php lang('CONOCE_MAS');?></a>
                 </div>
                 <a href="#!" name="trainig" id="trainig"></a>
                 <div class="col-sm-12 mb-5">
-                    <img class="img-fluid" src="images/skillmt/entrenamientos_icon.png" alt="entrenamientos_icon" title="entrenamientos_icon">
+                    <img class="img-fluid" src="images/skillmt/entrenamientos_icon.png" alt="<?php lang('SMT_010');?>" title="<?php lang('SMT_010');?>">
                     <h5><?php lang('SMT_010');?></h5>
                     <hr class="line" />
                 </div>
                 <div class="col-sm-4">
                     <a href="#!" data-toggle="modal" data-target="#DP" title="<?php lang('VER_VIDEO');?>">
-                      <img class="img-fluid" src="images/skillmt/dp_icon.png" alt="dp_icon" title="Ver video de Programa de Desarrollo Personal">
+                      <img class="img-fluid" src="images/skillmt/dp_icon.png" alt="<?php lang('SMT_011');?>" title="<?php lang('SMT_011');?>">
                     </a>
                     <h5><?php lang('SMT_011');?></h5>
                     <p class="description"><?php lang('SMT_012');?></p>
@@ -53,7 +53,7 @@ include 'header.php' ?>
                 </div>
                 <div class="col-sm-4">
                     <a href="#!" data-toggle="modal" data-target="#DC" title="<?php lang('VER_VIDEO');?>">
-                      <img class="img-fluid" src="images/skillmt/dc_icon.png" alt="dc_icon" title="Ver video de Desarrollo de Competencias Docentes">
+                      <img class="img-fluid" src="images/skillmt/dc_icon.png" alt="<?php lang('SMT_013');?>" title="<?php lang('SMT_013');?>">
                     </a>
                     <h5><?php lang('SMT_013');?></h5>
                     <p class="description"><?php lang('SMT_014');?></p>
@@ -61,14 +61,14 @@ include 'header.php' ?>
                 </div>
                 <div class="col-sm-4">
                     <a href="#!" data-toggle="modal" data-target="#PPC">
-                      <img class="img-fluid" src="images/skillmt/ppc_icon.png" alt="ppc_icon" title="ppc_icon">
+                      <img class="img-fluid" src="images/skillmt/ppc_icon.png" alt="<?php lang('SMT_015');?>" title="<?php lang('SMT_015');?>">
                     </a>
                     <h5><?php lang('SMT_015');?></h5>
                     <p class="description"><?php lang('SMT_016');?></p>
                     <a href="#!" data-toggle="modal" data-target="#PPC" title="<?php lang('VER_VIDEO');?>" class="btn btn-warning"><?php lang('VER_VIDEO');?></a>
                 </div>
                 <div class="col-sm-4">
-                    <img class="img-fluid" src="images/skillmt/offline_icon.png" alt="offline_icon" title="Programa de Habilidades de Aprendizaje Ofﬂine">
+                    <img class="img-fluid" src="images/skillmt/offline_icon.png" alt="<?php lang('SMT_017');?>" title="<?php lang('SMT_017');?>">
                     <!--<a href="#!" data-toggle="modal" data-target="#Offline">
                       <img class="img-fluid" src="images/skillmt/offline_icon.png" alt="offline_icon" title="offline_icon">
                     </a>-->
@@ -76,7 +76,7 @@ include 'header.php' ?>
                     <p class="description"><?php lang('SMT_018');?></p>
                 </div>
                 <div class="col-sm-4">
-                    <a href="#!" data-toggle="modal" data-target="#OP" title="<?php lang('VER_VIDEO');?>"><img class="img-fluid" src="images/skillmt/op_icon.png" alt="op_icon" title="Ver video de Orientación Profesional"></a>
+                    <a href="#!" data-toggle="modal" data-target="#OP" title="<?php lang('VER_VIDEO');?>"><img class="img-fluid" src="images/skillmt/op_icon.png" alt="<?php lang('SMT_019');?>" title="<?php lang('SMT_019');?>"></a>
                     <h5><?php lang('SMT_019');?></h5>
                     <p class="description"><?php lang('SMT_020');?></p>
                     <a href="#!" data-toggle="modal" data-target="#OP" title="<?php lang('VER_VIDEO');?>" class="btn btn-warning"><?php lang('VER_VIDEO');?></a>
