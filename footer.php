@@ -5,7 +5,7 @@
                   display: none;
               }
 
-               .guia{
+              .guia{
                    position: absolute;
                    right: 8%;
                    top: 16%;
@@ -14,6 +14,26 @@
                    color: #f78d20;
                    padding: 2% 5%;
                }
+
+              .guia2:lang(en){
+                  display: none;
+              }
+              .guia2{
+                   position: absolute;
+                   right: 54.6%;
+                   background: #fff;
+                   border-radius: 20%;
+                   color: #f78d20;
+                   padding: 1% 2.6%;
+                   top: -5%;
+               }
+
+              @media (max-width: 900px) {
+                  .guia2{
+                    right: 5.1%;
+                    padding: 2.4% 5.3%;
+                  }
+              }
         </style>
 
 
@@ -32,7 +52,7 @@
                         <ul>
                           <li style="float: left;">
                             <a href="evaluacion.php"><?php lang('Evaluaciones');?></a>
-                            <a target="_blank" class="guia" href="pdf/guia_lexium_exa_admision.pdf" title="descarga la EVALUACIÓN INGRESO/ ADMISIÓN">Guía</a>
+                            <a target="_blank" class="guia" href="pdf/guia_lexium_skill_map.pdf" title="descarga la Guia Lexium Skill Map">Guía</a>
                           <li><a href="diagnostico.php"><?php lang('Diagnóstico');?></a></li>
                           <li><a href="herramientas.php"><?php lang('Herramientas');?></a></li>
                         </ul>
@@ -40,15 +60,16 @@
                       <div class="col-lg-6">
                         <a href="<?php echo 'skillmt.php'?>">» <?php lang('Skill Map & Training');?></a>
                         <ul>
-                          <li><a href="<?php echo 'skillmap.php'?>"><?php lang('Skill Map');?></a>
-                            <a target="_blank" class="guia" href="pdf/guia_lexium_skill_map.pdf" title="descarga la Guia Lexium Skill Map">Guía</a></li>
+                          <li><a href="<?php echo 'skillmap.php'?>"><?php lang('Skill Map');?></a></li>
                           <li><a href="skillmt.php"><?php lang('Entrenamiento');?></a></li>
                         </ul>
                       </div>
                     </div>
                     <a href="<?php echo 'sip.php'?>">» <?php lang('Sistema de ingreso y permanencia');?></a>
-                    <ul>
-                      <li><a href="<?php echo 'sip.php'?>"><?php lang('Admisión');?></a></li>
+                    <ul style="position: relative;">
+                      <li><a href="<?php echo 'sip.php'?>"><?php lang('Admisión');?></a>
+                          <a target="_blank" class="guia2" href="pdf/guia_lexium_exa_admision.pdf" title="descarga la EVALUACIÓN INGRESO/ ADMISIÓN">Guía</a>
+                      </li>
                       <li><a href="<?php echo 'sip.php'?>"><?php lang('Guía vocacional');?></a></li>
                       <li><a href="<?php echo 'sip.php'?>"><?php lang('Pronóstico de permanencia');?></a></li>
                       <li><a href="<?php echo 'sip.php'?>"><?php lang('Riesgo de abandono');?></a></li>
