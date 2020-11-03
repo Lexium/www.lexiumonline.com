@@ -246,11 +246,11 @@
         </div>
     </section>
 
- <!--    <section style="background: #f5f7fb">
+    <section style="background: #f5f7fb">
         <?php
-          //require('alianzas.php');
+          require('alianzas.php');
         ?>
-    </section> -->
+    </section> 
 
     
     <section class="b10_landing">
