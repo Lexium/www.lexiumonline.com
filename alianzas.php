@@ -1,4 +1,7 @@
 <style type="text/css">
+     p{
+        text-align: justify;
+     }
      .container{
           padding: 5% 1%;
      }
@@ -136,7 +139,7 @@
 
           <div class="row">
             <div class="col-md-4 tarjeta">
-                <img class="card-img-top" style="width: 50%; display: block; margin: 0 auto;" src="images/alianzas/<?php lang('alianza20');?>"alt="<?php lang('alianza19');?>">
+                <img class="card-img-top" src="images/alianzas/<?php lang('alianza20');?>"alt="<?php lang('alianza19');?>">
                 <p class="card-text"><?php lang('alianza21');?></p>
             </div>
 
@@ -194,7 +197,7 @@
           </div>
           <div class="row">
                <div class="col-sm-4" style="width: 33.3%">
-                    <img style="width: 50%; display: block; margin: 0 auto;"  class="card-img-top" src="images/alianzas/<?php lang('alianza20');?>"alt="<?php lang('alianza19');?>">
+                    <img class="card-img-top" src="images/alianzas/<?php lang('alianza20');?>"alt="<?php lang('alianza19');?>">
                </div>
                <div class="col-sm-4" style="width: 33.3%">
                     <a href="http://www.riosdetinta.com/">
