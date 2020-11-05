@@ -1,12 +1,10 @@
 <style type="text/css">
-     p{
-        text-align: justify;
-     }
+    
      .container{
           padding: 5% 1%;
      }
      .carousel-item{
-        background-color: #f5f7fb!important;
+        background-color: #fff!important;
      }
 
      .tarjeta{
@@ -15,7 +13,7 @@
 
      .tarjeta a{
        text-decoration: none;
-       color: #888;
+       color: #000;
      }
 
      .card{
@@ -24,7 +22,7 @@
      }
 
      .card-text{
-        padding-top: 15%;
+        padding-top: 5%;
      }
 
      .carousel-indicators li{
@@ -49,7 +47,7 @@
 </style>
 
 <div class="container">
-      <h1 style="text-align: center;">Alianzas estratégicas de Lexium</h1>
+      <h1 style="text-align: center;">Alianzas Estratégicas</h1>
       <!--Carousel Wrapper-->
     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
@@ -61,17 +59,6 @@
       </ol>
       <!--/.Indicators-->
       
-      <!--Controls-->
-      <div class="controls-top" style="text-align: center;">
-        <a class="btn-floating" href="#multi-item-example" data-slide="prev">
-            <img src="images/alianzas/back.png">
-        </a>
-        <a class="btn-floating" href="#multi-item-example" data-slide="next">
-           <img src="images/alianzas/next.png">
-        </a>
-      </div>
-      <!--/.Controls-->
-
 
       <!--Slides-->
       <div class="carousel-inner" role="listbox">
@@ -80,26 +67,24 @@
         <div class="carousel-item active">
 
           <div class="row">
-            <div class="col-md-4 tarjeta">
+            <div class="col-md-1"></div>
+            <div class="col-md-5 tarjeta">
                 <a href="https://red-larousse.com.mx/" target="_blank">
                    <img class="card-img-top" src="images/alianzas/<?php lang('alianza02');?>"alt="<?php lang('alianza01');?>">
                    <p class="card-text"><?php lang('alianza03');?></p>
                 </a>
             </div>
 
-            <div class="col-md-4 clearfix d-none d-md-block tarjeta">
-                 <a href="http://sea.anahuac.mx/" target="_blank">
-                    <img class="card-img-top" src="images/alianzas/<?php lang('alianza05');?>"alt="<?php lang('alianza04');?>">
-                    <p class="card-text"><?php lang('alianza06');?></p>
+            <div class="col-md-5 clearfix d-none d-md-block tarjeta">
+                 <a href="https://www.potentor.com.mx/" target="_blank">
+                    <img class="card-img-top" src="images/alianzas/<?php lang('alianza14');?>"alt="<?php lang('alianza13');?>">
+                    <p class="card-text"><?php lang('alianza15');?></p>
                  </a>
             </div>
+            <div class="col-md-1"></div>
 
-            <div class="col-md-4 clearfix d-none d-md-block tarjeta">
-                 <a href="http://www.e-libro.mx/" target="_blank">
-                    <img class="card-img-top" src="images/alianzas/<?php lang('alianza08');?>"alt="<?php lang('alianza07');?>">
-                    <p class="card-text"><?php lang('alianza09');?></p>
-                 </a>
-            </div>
+
+            
           </div>
 
         </div>
@@ -109,6 +94,21 @@
         <div class="carousel-item">
 
           <div class="row">
+
+            <div class="col-md-4 clearfix d-none d-md-block tarjeta">
+                 <a href="http://sea.anahuac.mx/" target="_blank">
+                    <img class="card-img-top" src="images/alianzas/<?php lang('alianza05');?>"alt="<?php lang('alianza04');?>">
+                    <p class="card-text"><?php lang('alianza06');?></p>
+                 </a>
+            </div>
+            
+            <div class="col-md-4 clearfix d-none d-md-block tarjeta">
+                 <a href="https://www.eduk2.org/" target="_blank">
+                    <img class="card-img-top" src="images/alianzas/<?php lang('alianza17');?>"alt="<?php lang('alianza16');?>">
+                    <p class="card-text"><?php lang('alianza18');?></p>
+                 </a>
+            </div>
+
             <div class="col-md-4 tarjeta">
                  <a href="https://www.caceca.org/" target="_blank">
                     <img class="card-img-top" src="images/alianzas/<?php lang('alianza11');?>"alt="<?php lang('alianza10');?>">
@@ -116,19 +116,6 @@
                  </a>
             </div>
 
-            <div class="col-md-4 clearfix d-none d-md-block tarjeta">
-                 <a href="https://www.potentor.com.mx/" target="_blank">
-                    <img class="card-img-top" src="images/alianzas/<?php lang('alianza14');?>"alt="<?php lang('alianza13');?>">
-                    <p class="card-text"><?php lang('alianza15');?></p>
-                 </a>
-            </div>
-
-            <div class="col-md-4 clearfix d-none d-md-block tarjeta">
-                 <a href="https://www.eduk2.org/" target="_blank">
-                    <img class="card-img-top" src="images/alianzas/<?php lang('alianza17');?>"alt="<?php lang('alianza16');?>">
-                    <p class="card-text"><?php lang('alianza18');?></p>
-                 </a>
-            </div>
           </div>
 
         </div>
@@ -138,9 +125,17 @@
         <div class="carousel-item">
 
           <div class="row">
+
+            <div class="col-md-4 clearfix d-none d-md-block tarjeta">
+                 <a href="http://www.e-libro.mx/" target="_blank">
+                    <img class="card-img-top" src="images/alianzas/<?php lang('alianza08');?>"alt="<?php lang('alianza07');?>">
+                    <p class="card-text"><?php lang('alianza09');?></p>
+                 </a>
+            </div>
+
             <div class="col-md-4 tarjeta">
                 <img class="card-img-top" src="images/alianzas/<?php lang('alianza20');?>"alt="<?php lang('alianza19');?>">
-                <p class="card-text"><?php lang('alianza21');?></p>
+                <p style="color: #000;" class="card-text"><?php lang('alianza21');?></p>
             </div>
 
             <div class="col-md-4 clearfix d-none d-md-block tarjeta">
@@ -149,6 +144,7 @@
                     <p class="card-text"><?php lang('alianza24');?></p>
                  </a>
             </div>
+
           </div>
 
         </div>

@@ -445,25 +445,25 @@ function lang($variable)
     $lang['alianza03']           ='Con Lexium:  Ofrece a las instituciones educativas un valor agregado contundente incorporando a su actual propuesta de excelentes contenidos y equipamiento, un mapeo de habilidades con herramientas de análisis, planeación pedagógica y rutas personalizadas de desarrollo para cada alumno. ';
     $lang['alianza04']           = 'Servicios Educativos Anáhuac';
     $lang['alianza05']           = 'anahuac.png';
-    $lang['alianza06']           ='<strong>SEA (Servicios Educativos Anáhuac)</strong> con Lexium:  Agrega a sus servicios de consultoría información cuantitativa y cualitativa sobre las habilidades de aprendizaje de alumnos y docentes.';
+    $lang['alianza06']           ='Con Lexium:  Agrega a sus servicios de consultoría información cuantitativa y cualitativa sobre las habilidades de aprendizaje de alumnos y docentes.';
     $lang['alianza07']           = 'E-libro';
     $lang['alianza08']           = 'e-libro-logo.png';
-    $lang['alianza09']           = 'con Lexium:  Complementa su biblioteca digital en el nivel medio superior con un producto Lexium llamado CxC (Curriculum por competencias) que constituye un producto integral para el nivel básico.';
+    $lang['alianza09']           = 'Con Lexium:  Complementa su biblioteca digital en el nivel medio superior con un producto Lexium llamado CxC (Curriculum por competencias) que constituye un producto integral para el nivel básico.';
     $lang['alianza10']           = 'CACECA';
     $lang['alianza11']           = 'caceca.png';
-    $lang['alianza12']           = 'con Lexium:  Enriquece su diagnóstico de procesos académicos y certificaciones dirigido a docentes y administrativos de preparatorias y universidades, con la inclusión de un mapeo de habilidades y ruta de desarrollo personalizado del factor humano.';
+    $lang['alianza12']           = 'Con Lexium:  Enriquece su diagnóstico de procesos académicos y certificaciones dirigido a docentes y administrativos de preparatorias y universidades, con la inclusión de un mapeo de habilidades y ruta de desarrollo personalizado del factor humano.';
     $lang['alianza13']           = 'Potentor';
     $lang['alianza14']           = 'potentor.png';
-    $lang['alianza15']           = 'Lexium le genera una poderosa minería de datos sobre las habilidades de aprendizaje de las personas de cualquier edad y nivel académico en México, y es la base estadística y científica de su psicometría.';
+    $lang['alianza15']           = 'Con Lexium le genera una poderosa minería de datos sobre las habilidades de aprendizaje de las personas de cualquier edad y nivel académico en México, y es la base estadística y científica de su psicometría.';
     $lang['alianza16']           = 'Eduk2';
     $lang['alianza17']           = 'eduk2.png';
-    $lang['alianza18']           = 'con Lexium:   complementa su propuesta de posicionamiento de marca de sus colegios clientes con un mapeo de habilidades de alumnos, profesores y padres de familia que impulsa la captación y retención de más alumnos.';
+    $lang['alianza18']           = 'Con Lexium:   complementa su propuesta de posicionamiento de marca de sus colegios clientes con un mapeo de habilidades de alumnos, profesores y padres de familia que impulsa la captación y retención de más alumnos.';
     $lang['alianza19']           = 'Altus';
     $lang['alianza20']           = 'altus.png';
-    $lang['alianza21']           = 'Face software y Editorial Multimedia Educativa con Lexium: Complementa sus programas, contenidos y soluciones digitales al ofrecerlos combinados con la plataforma integral de Lexium para potenciar el proceso enseñanza- aprendizaje.';
+    $lang['alianza21']           = 'Con Lexium: Complementa sus programas, contenidos y soluciones digitales al ofrecerlos combinados con la plataforma integral de Lexium para potenciar el proceso enseñanza- aprendizaje.';
     $lang['alianza22']           = 'Rios de tinta';
     $lang['alianza23']           = 'rios-detinta.png';
-    $lang['alianza24']           = 'con Lexium:   Complementa sus contenidos curriculares con la plataforma de habilidades de aprendizaje, ofreciendo un producto digital más robusto.';
+    $lang['alianza24']           = 'Con Lexium:   Complementa sus contenidos curriculares con la plataforma de habilidades de aprendizaje, ofreciendo un producto digital más robusto.';
 
 
 /*

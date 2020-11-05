@@ -246,13 +246,6 @@
         </div>
     </section>
 
-    <section style="background: #f5f7fb">
-        <?php
-          require('alianzas.php');
-        ?>
-    </section> 
-
-    
     <section class="b10_landing">
         <div class="container">
             <div class="row">
@@ -292,6 +285,19 @@
             </div>
         </div>
     </section>
+
+        <style type="text/css">
+              .alianzasLexium:lang(en){
+                  display: none;
+              }
+    </style>
+
+    <section class="alianzasLexium">
+        <?php
+          require('alianzas.php');
+        ?>
+    </section> 
+
     <section class="b6_landing bg_blue py-5">
         <div class="container">
             <h4><?php lang('index_016');?></h4>

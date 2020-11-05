@@ -246,7 +246,13 @@
         </div>
     </section>
 
- <!--    <section style="background: #f5f7fb">
+    <style type="text/css">
+              .alianzasLexium:lang(en){
+                  display: none;
+              }
+    </style>
+
+ <!--    <section class="alianzasLexium">
         <?php
           //require('alianzas.php');
         ?>
