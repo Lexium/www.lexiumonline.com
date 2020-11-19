@@ -2,20 +2,20 @@
     <h4 class="mb-5 text-center">Te presentamos algunos datos interesantes sobre nosotros</h4>
     <div class="row text-center">
         <div class="col-6 col-md-4 col-lg-3">
-            <h2 class="timer count-title count-number display-2 ym" data-to="30" data-speed="1500"></h2>
+            <h2 class="timer count-title count-number display-3 ym" data-to="30" data-speed="1500">30</h2>
             <p class="count-text">años en el mercado</p>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
-            <h2 class="timer count-title count-number display-2 ea" data-to="5" data-speed="1500"></h2>
-            <span class="display-2 ea">M</span>
+            <h2 class="timer count-title count-number display-3 ea" data-to="5" data-speed="1500">5</h2>
+            <span class="display-3 ea">M</span>
             <p class="count-text ">evaluaciones aplicadas</p>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
-            <h2 class="timer count-title count-number display-2 paises" data-to="6" data-speed="1500"></h2>
+            <h2 class="timer count-title count-number display-3 paises" data-to="6" data-speed="1500">6</h2>
             <p class="count-text ">países</p>
         </div>
         <div class="col-6 col-md-4 col-lg-3">
-            <h2 class="timer count-title count-number display-2 ia" data-to="1000" data-speed="1500"></h2>
+            <h2 class="timer count-title count-number display-3 ia" data-to="1000" data-speed="1500">1,000</h2>
             <p class="count-text ">Instituciones educativas</p>
         </div>
 
@@ -23,19 +23,25 @@
 </section>
 
 <section class="better w-100 h-100 py-4">
-        <div id="better1">
-             <div id="scene">
-                 <div class="w-75 bettext">
-                     <h3>Lexium. Exploring learning for better people.</h3>
-                     <p>Porque queremos detonar historias de éxito, en LEXIUM llevamos casi 30 años explorando la forma en la que aprenden las personas.</p>
-                 </div>
-                 <div class="better-layer" data-depth="0.2"><img  src="./resources/images/parallax-mouse/layer1.png"></div>
-             </div>
-        </div>
-
-        <div id="better2">
+         <div class="container better-content">
+              <div class="row">
+               <div class="col-md-8" id="better1">
+                    <div id="scene">
+                        <div class="bettext">
+                            <h3>Lexium. Exploring learning for better people.</h3>
+                            <p>Porque queremos detonar historias de éxito, en LEXIUM llevamos casi 30 años explorando la forma en la que aprenden las personas.</p>
+                        </div>
+                        <div class="better-layer" data-depth="0.2" style="width: 600px;"><img  src="./resources/images/parallax-mouse/better-bg-01.png"></div>
+                        <div class="better-layer" data-depth="3.2"><img  src="./resources/images/parallax-mouse/better-bg-02.png"></div>
+                        <div class="better-layer" data-depth="0.45"><img  src="./resources/images/parallax-mouse/better-bg-03.png"></div>
+                    </div> 
+                    
+               </div>
+               <div class="col-md-4" id="better2">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/yIaVef2lomU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-        </div>
+               </div>
+              </div>
+         </div>
 </section>
 
     

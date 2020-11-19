@@ -13,7 +13,7 @@
 	   	         <div class="col-md-6">
                  <div class="skillmap">
                  	  <h3>Skill Map</h3>
-                 	  <div class="container uno">
+                 	  <div class="skill-content container">
                  	  	  <div class="row">
                  	  	   <div class="col-md-2" >
                                 <div class="containerm">
@@ -21,7 +21,7 @@
                                     <div class="effect-1"></div>
                                     <div class="effect-2"></div>
                                     <div class="content">
-                                      <div class="exercise"><p style="margin: 50%;">1</p></div>
+                                      <div class="exercise"><p>01</p></div>
                                     </div>
                                   </div>
                                 </div>
@@ -32,7 +32,7 @@
                  	  	   </div>
                  	  	  </div>
                  	  </div>
-                 	  <div class="container dos">
+                 	  <div class="skill-content container">
                  	  	  <div class="row">
                  	  	     <div class="col-md-2">
                                   <div class="containerm">
@@ -40,7 +40,7 @@
                                     <div class="effect-1"></div>
                                     <div class="effect-2"></div>
                                     <div class="content">
-                                      <div class="exercise"><p style="margin: 50%;">2</p></div>
+                                      <div class="exercise"><p>02</p></div>
                                     </div>
                                   </div>
                                 </div>
@@ -51,7 +51,7 @@
                  	  	     </div>
                  	  	  </div>
                  	  </div>
-                 	  <div class="container tres">
+                 	  <div class="skill-content container">
                  	  	  <div class="row">
                  	  	     <div class="col-md-2">
                                   <div class="containerm">
@@ -59,7 +59,7 @@
                                     <div class="effect-1"></div>
                                     <div class="effect-2"></div>
                                     <div class="content">
-                                      <div class="exercise"><p style="margin: 50%;">3</p></div>
+                                      <div class="exercise"><p>03</p></div>
                                     </div>
                                   </div>
                                 </div>
@@ -75,7 +75,7 @@
 	   	    <div class="col-md-6">
 	   	    	<div class="skillmaptraining">
 	   	    		  <h3>Skill Map & Training</h3>
-	   	    		   <div class="container uno">
+	   	    		   <div class="skill-content container">
                  	  	  <div class="row">
                  	  	   <div class="col-md-2 col-sm-2">
                                 <div class="containerm">
@@ -83,7 +83,7 @@
                                     <div class="effect-1"></div>
                                     <div class="effect-2"></div>
                                     <div class="content">
-                                      <div class="exercise"><p style="margin: 50%;">1</p></div>
+                                      <div class="exercise"><p>01</p></div>
                                     </div>
                                   </div>
                                 </div>
@@ -94,7 +94,7 @@
                  	  	   </div>
                  	  	  </div>
                  	  </div>
-                 	  <div class="container dos">
+                 	  <div class="skill-content container">
                  	  	  <div class="row">
                  	  	     <div class="col-md-2">
                                   <div class="containerm">
@@ -102,7 +102,7 @@
                                     <div class="effect-1"></div>
                                     <div class="effect-2"></div>
                                     <div class="content">
-                                      <div class="exercise"><p style="margin: 50%;">2</p></div>
+                                      <div class="exercise"><p>02</p></div>
                                     </div>
                                   </div>
                                 </div>

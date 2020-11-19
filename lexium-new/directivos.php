@@ -4,7 +4,7 @@
             <h1>Conoce a nuestro equipo directivo</h1>
             <div class="row">
                 <div class="col-md-3"></div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="card">
                         <div class="card-body">
                              <a href="https://www.linkedin.com/in/jos%C3%A9-vargas-barrera-b4384757/" target="_blank">
@@ -15,7 +15,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-6">
                     <div class="card">
                         <div class="card-body">
                              <a href="https://www.linkedin.com/in/laura-elizondo-williams-40b5b4a3/" target="_blank">
@@ -29,7 +29,7 @@
                 <div class="col-md-3"></div>
             </div>
             <div class="row text-center">
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-3 col-6">
                     <div class="card">
                         <div class="card-body">
                              <a href="https://www.linkedin.com/in/adela-garc%C3%ADa-41343949/" target="_blank"><img class="img-fluid mb-4" src="./resources/images/directivos/adela.png" alt="Adela García" title="Adela García">
@@ -40,7 +40,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-3 col-6">
                     <div class="card">
                         <div class="card-body">
                              <a href="https://www.linkedin.com/in/eloy-marroqu%C3%ADn-vazquez-3038515a/" target="_blank">
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-3 col-6">
                     <div class="card">
                         <div class="card-body">
                              <a href="https://www.linkedin.com/in/alma-delia-garza-capetillo-5128172a/" target="_blank">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-3 col-6">
                     <div class="card">
                         <div class="card-body">
                              <a href="" target="_blank">

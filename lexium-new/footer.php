@@ -23,7 +23,7 @@
 
 		 <div class="row menuses">
 		 	 
-		 	  <div class="col-md-2">
+		 	  <div class="col-md-2 col-4">
 		 	  	   <h5>K-9</h5>
 		 	  	   <ul>
                        <li><a  href="#">Skill Map</a></li>
@@ -34,7 +34,7 @@
                        <li><a  href="#">Entrenamiento</a></li>
                    </ul>
 		 	  </div> 
-		 	  <div class="col-md-3">
+		 	  <div class="col-md-3 col-4">
 		 	  	   <h5>Preparatoria y Universidades</h5>
 		 	  	   <ul>
                        <li><a href="#">Skill Map</a></li>
@@ -45,7 +45,7 @@
                        <li><a href="#">Sistema de ingreso y permanencia</a></li>
                    </ul>
 		 	  </div> 
-		 	  <div class="col-md-3">
+		 	  <div class="col-md-3 col-4">
 		 	  	   <h5>Consultor / ORientador / Psciopedagogo</h5>
 		 	  	   <ul>
                        <li><a  href="#">Skill Map</a></li>
@@ -56,7 +56,8 @@
                        <li><a  href="#">Entrenamiento</a></li>
                    </ul>
 		 	  </div> 
-		 	  <div class="col-md-2">
+		 	  <div class="div-bottom" style=""></div>
+		 	  <div class="col-md-2 col-6">
 		 	  	   <h5>Casos de Èxito</h5>
 		 	  	   <ul>
                        <li><a  href="#">Clientes</a></li>
@@ -64,7 +65,7 @@
                        <li><a  href="#">Apoyo Social</a></li>
                    </ul>
 		 	  </div> 
-		 	  <div class="col-md-2">
+		 	  <div class="col-md-2 col-6">
 		 	  	   <h5>Más</h5>
 		 	  	   <ul>
                        <li><a  href="#">Nosotros</a></li>

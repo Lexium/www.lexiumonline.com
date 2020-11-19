@@ -47,7 +47,7 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Contacto</a>
       </li>
-      <a class="nav-link" href="#"><img class="w-100" src="./resources/images/lexium-lite.png"></a>
+      <a class="nav-link imgmenu" href="#"><img class="w-100" src="./resources/images/lexium-lite.png"></a>
     </ul>
   </div>
 </nav>

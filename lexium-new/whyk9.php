@@ -1,8 +1,15 @@
-<section class="container-fluid" style="margin-top: 7%;">
+<section class="container" style="margin-top: 1%; margin-bottom: 2%;">
 	     <div class="row">
 	     	  <div class="col-md-6 whyimg"id="whyimg">
 	     	  	   <div class="layerd" style="z-index: 12" id="img0" data-depth="0.0"><img src="./resources/adolescentes-que-estudian.png"></div>
-	     	  	   <div class="layerd" style="z-index: 8" data-depth="0.82"><img src="./resources/images/parallax-mouse/layer22.png"></div>
+	     	  	   <!-- <div class="layerd" style="z-index: 8" data-depth="0.82"><img src="./resources/images/parallax-mouse/layer22.png"></div> -->
+               <div class="layerd" style="z-index: 8" data-depth="0.82"><img src="./resources/images/parallax-mouse/why-bg-01.png"></div>
+               <div class="layerd" style="z-index: 8" data-depth="2.82"><img src="./resources/images/parallax-mouse/why-bg-02.png"></div>
+               <div class="layerd" style="z-index: 8" data-depth="1.42"><img src="./resources/images/parallax-mouse/why-bg-03.png"></div>
+               <div class="layerd" style="z-index: 8" data-depth="0.22"><img src="./resources/images/parallax-mouse/why-bg-04.png"></div>
+               <div class="layerd" style="z-index: 8" data-depth="3.22"><img src="./resources/images/parallax-mouse/why-bg-05.png"></div>
+               <div class="layerd" style="z-index: 8" data-depth="5.02"><img src="./resources/images/parallax-mouse/why-bg-06.png"></div>
+               <div class="layerd" style="z-index: 8" data-depth="4.52"><img src="./resources/images/parallax-mouse/why-bg-07.png"></div>
 	     	  </div>
 
 	     	  <script type="text/javascript">
@@ -26,10 +33,10 @@
                                                 </div>
                                            </div>
                                       </div>
-                             </div>
+                           </div>
                             
 	     	  	   	    	     <div class="w-100 p-3 whytxt">
-	     	  	   	    	     	  <h6 style="font-family: 'HarmoniaSansW01-Bold'; color: #23215b; font-size: 1.3em;">Incrementa la </br> captación y retención</h6>
+	     	  	   	    	     	    <h6 style="font-family: 'HarmoniaSansW01-Bold'; color: #23215b; font-size: 1.3em;">Incrementa la </br> captación y retención</h6>
 	     	  	   	    	     </div>
 	     	  	   	    	</div>
 	     	  	   	    </div>
@@ -70,11 +77,11 @@
                                                 </div>
                                            </div>
                                       </div>
-                                 </div>
+                         </div>
                             
-	     	  	   	    	     <div class="w-100 p-3 whytxt">
+	     	  	   	    	   <div class="w-100 p-3 whytxt">
 	     	  	   	    	     	  <h6 style="font-family: 'HarmoniaSansW01-Bold'; color: #23215b; font-size: 1.3em;">Mejorala oferta </br> acádemica</h6>
-	     	  	   	    	     </div>
+	     	  	   	    	   </div>
 	     	  	   	    	 </div>
 	     	  	   	    </div>
 	     	  	   	    <div class="col-md-6">
@@ -91,11 +98,11 @@
                                                 </div>
                                            </div>
                                       </div>
-                                 </div>
+                         </div>
                             
-	     	  	   	    	     <div class="w-100 p-3 whytxt">
+	     	  	   	    	   <div class="w-100 p-3 whytxt">
 	     	  	   	    	     	  <h6 style="font-family: 'HarmoniaSansW01-Bold'; color: #23215b; font-size: 1.3em;">Aumenta la posibilidad </br>de prosperar y ser féliz</h6>
-	     	  	   	    	     </div>
+	     	  	   	    	   </div>
 	     	  	   	    	 </div>
 	     	  	   	    </div>
 	     	  	   </div>

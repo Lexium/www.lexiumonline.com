@@ -26,15 +26,15 @@
           <source src="resources/bg.mp4" type="video/mp4">
         </video>
         <div class="container h-100  d-flex align-items-center justify-content-center ">
-          <div class="h-50 w-50 text-center selectbox">
+          <div class="h-70 w-100 text-center selectbox">
             <div class="texbox w-100 h-75">
-              <h4 class="display-5" style="margin-bottom: 1.5em;">Selecciona la opción deseada:</h4>
-              <a type="button" href="k9.php" class="w-75 btn btn-primary"> Institución educativa (K-9) </a>
-              <a type="button" href="preparatoria.php" class="w-75 btn btn-primary"> Preparatoria / Universidad </a>
-              <a type="button" href="consultor.php" class="w-75 btn btn-primary"> Consultor/ Orientador/ Psicopedagogo </a>
-            </div>
-            <div class="imgbox"> 
-                 <img src="resources/images/logo_lexium_azul_160.png">
+                 <h4 class="display-5" style="margin-bottom: 1.5em;">Selecciona la opción deseada:</h4>
+                 <a type="button" href="k9.php" class="w-75 btn btn-primary"> Institución educativa (K-9) </a>
+                 <a type="button" href="preparatoria.php" class="w-75 btn btn-primary"> Preparatoria / Universidad </a>
+                 <a type="button" href="consultor.php" class="w-75 btn btn-primary"> Consultor/ Orientador/ Psicopedagogo </a>
+                 <div class="imgbox"> 
+                    <img src="resources/images/logo_lexium_azul_160.png">
+                 </div>
             </div>
           </div>
         </div>
