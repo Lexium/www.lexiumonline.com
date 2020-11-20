@@ -46,6 +46,9 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 
 /* Menu header*/
+.menusoluciones{
+  width: 700px!important;
+}
 .nav-item{
   margin: 0 1.3em 0 1.3em;
 }
@@ -63,29 +66,30 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
    font-family: 'HarmoniaSansW01-Regular'!important;
 }
 
+@media (max-width: 768px) {
+  .menusoluciones{ text-align: left!important; max-width: 350px!important; }
+}
+
 /*Fin del header*/
 
 
 
-/* PRINCIPAL SLIDER*/  
-/*#myCarousel*/
+/* PRINCIPAL Banner*/  
+.banner-principal h5{ color: #faaf11; font-family: 'HarmoniaSansW01-Regular'; font-size: 2.5em; margin-bottom: 0px!important; }
+.banner-principal h4{ color: #fff; font-family: 'HarmoniaSansW01-Bold'; font-size: 2.5em;  margin-bottom:15px; }
+.banner-principal p{ font-family: 'HarmoniaSansW01-Regular'!important; font-size:18px; margin-bottom:15px; color:#f5f5f5; }
+.banner-principal a{background:#faaf11; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; }
+.banner-principal a:hover{background:#394fa2; text-decoration:none;  }
 
-.carousel-inner{ overflow: hidden!important; }
-#myCarousel .carousel-item .mask { position: absolute; top: 0; left:0; height:100%; width: 100%; background-attachment: fixed;}
-#myCarousel h4{ font-family: 'HarmoniaSansW01-Bold'!important; font-size:40px; margin-bottom:15px; color:#FFF; line-height:100%;letter-spacing:0.5px; font-weight:400;}
-#myCarousel p{ font-family: 'HarmoniaSansW01-Regular'!important; font-size:18px; margin-bottom:15px; color:#d5d5d5;}
-#myCarousel .carousel-item a{background:#faaf11; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; }
-#myCarousel .carousel-item a:hover{background:#394fa2; text-decoration:none;  }
-#myCarousel .carousel-item h4{-webkit-animation-name:fadeInLeft; animation-name:fadeInLeft;} 
-#myCarousel .carousel-item p{-webkit-animation-name:slideInRight; animation-name:slideInRight;} 
-#myCarousel .carousel-item a{-webkit-animation-name:fadeInUp; animation-name:fadeInUp;}
-#myCarousel .carousel-item .mask img{-webkit-animation-name:slideInRight; animation-name:slideInRight; display:block; height:auto; max-width:100%;}
-#myCarousel h4, #myCarousel p, #myCarousel a, #myCarousel .carousel-item .mask img{-webkit-animation-duration: 1s; animation-duration: 1.2s; -webkit-animation-fill-mode: both; animation-fill-mode: both;}
-.order-2{ text-align: left!important;}
-#myCarousel .container {max-width: 1283px;  }
-#myCarousel .carousel-item{height:100%; min-height:550px; }
-.carousel-item { position: relative; display: none; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; transition: -webkit-transform .6s ease; transition: transform .6s ease; transition: transform .6s ease,-webkit-transform .6s ease; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-perspective: 1000px; perspective: 1000px;}
-.carousel-fade .carousel-item { opacity: 0; -webkit-transition-duration: .6s; transition-duration: .6s; -webkit-transition-property: opacity; transition-property: opacity}
+.banner-principal h5{-webkit-animation-name:fadeInUp; animation-name:fadeInUp;}
+.banner-principal h4{-webkit-animation-name:fadeInLeft; animation-name:fadeInLeft;}
+.banner-principal p {-webkit-animation-name:slideInRight; animation-name:slideInRight;}
+.banner-principal a {-webkit-animation-name:fadeInUp; animation-name:fadeInUp;}
+.banner-principal img{-webkit-animation-name:slideInRight; animation-name:slideInRight;}
+.banner-principal h4, .banner-principal p, .banner-principal a, .banner-principal h5, .banner-principal img{-webkit-animation-duration: 1s; 
+  animation-duration: 1.2s; 
+  -webkit-animation-fill-mode: both; 
+  animation-fill-mode: both;}
 
 @-webkit-keyframes fadeInLeft {
   from {
@@ -118,6 +122,37 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
+}         
+
+@-webkit-keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
 }
 
 @-webkit-keyframes fadeInUp {
@@ -153,46 +188,13 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
   animation-name: fadeInUp;
 }
 
-@-webkit-keyframes slideInRight {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
+          /* propiedades de las olas que van detras del slider */
 
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-.slideInRight {
-  -webkit-animation-name: slideInRight;
-  animation-name: slideInRight;
-}
-
-           /* propiedades de las olas que van detras del slider */
 @media (max-width: 768px) {
-  .solicitar-demo{ max-height: 285px; }
-  .carousel{ max-height: 285px;}
-  #myCarousel h5 { font-size: 1.5em!important; }
-  #myCarousel h4 { font-size: 30px!important; }
-  #myCarousel p { font-size: 14px!important; }
-  #myCarousel .carousel-item a { padding: 10px 20px!important;}
   .layer{ visibility: hidden!important; }
+  .banner-container{ top: -25px!important; }
+  .banner-principal h4{ font-size: 1.4em!important; }
+  .banner-principal p{ font-size: 14px!important; }
 }
 
           /* Fin propiedades de las olas que van detras del slider */
@@ -211,7 +213,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .better{ background-color: #c2e8f6; overflow: hidden;}
 .better-content{ max-width: 1480px; position: relative; margin: 0 auto;}
 .better-layer{width: 180%;}
-.bettext{ padding: 9% 0%; color: #23215b; font-family: 'HarmoniaSansW01-Bold';  margin: 0 auto;}
+.bettext{ padding: 9% 0%; color: #23215b; font-family: 'HarmoniaSansW01-Bold';  margin: 0 auto;     z-index: 4000;}
 .bettext p{font-size: 1.4em; font-family: 'HarmoniaSansW01-Regular'!important;}
 .layer img{ width: 100%!important; }
 #img2{margin-left: 50px;}
@@ -295,14 +297,14 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 @media (max-width: 768px) {
     .exercise p{font-size: 1.4em;}
-    .exercise2{ margin:25% 25%!important; }
+    .exercise2{ margin:14% 16%!important; }
     .smcontnt{ margin-left: 20%!important; } 
 }
 /* FIN DE SOLUCIONES*/
 
 
 /* Testimonios*/
-.testimonio {background-color: #c1e8f7;text-align: center; position: relative; overflow: hidden;}   
+.testimonio {background-color: #faf4ea;;text-align: center; position: relative; overflow: hidden; height: 420px;}   
 .testimonio  h1{ color: #23215b; z-index: 6; margin-bottom: 3%; font-family: 'HarmoniaSansW01-Bold';}
 .testimonio  h3{ color: #f9a817; z-index: 6; padding-top: 5%; font-family: 'HarmoniaSansW01-Bold'; }
 .testimonio  span{ color: #23215b; z-index: 6; padding-top: 5%; font-family: 'HarmoniaSansW01-regular'; font-size: 1.5em; height: 20%;}
@@ -335,8 +337,26 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 /*FOOTER*/
 
-.div-bottom{ border-bottom: 2px solid #fff; height: 10px; margin-bottom: 15px;  width:100%; display: none;}
+  footer{
+    background-color: #1f61dc;
+    width: 100%;
+    padding-top: 4%; 
+  }
 
+  footer h1, footer h5{
+    font-family: 'HarmoniaSansW01-Bold'!important; color: white;
+  }
+
+  .formulario{ border-bottom: 2px solid #fff; }
+
+  .menuses{ margin-top: 2%;  }
+
+  .menuses ul{ list-style: none; padding-left: 0px;}
+
+  .menuses ul li a{ color: white; font-family: 'HarmoniaSansW01-Regular'; }
+
+  .div-bottom{ border-bottom: 2px solid #fff; height: 10px; margin-bottom: 15px;  width:100%; display: none;}
+  .strongetxt{ font-family: 'HarmoniaSansW01-Bold'!important; }
 @media (max-width: 768px) {
    .div-bottom{ display: block;}
 }

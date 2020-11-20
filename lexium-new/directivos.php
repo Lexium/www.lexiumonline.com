@@ -92,7 +92,7 @@
     <style type="text/css">
 /* DIRECTIVOS*/
 
-.directv{ background-color: #faf4ea; overflow: hidden;}
+.directv{ background-color: #c1e8f7; overflow: hidden;}
 .layerd img{ width: 90%; }
 .card{ border: none!important; background-color: transparent!important; }
 .directivos h1{ color: #23215b; z-index: 6; margin-bottom: 3%; font-family: 'HarmoniaSansW01-Bold'!important}

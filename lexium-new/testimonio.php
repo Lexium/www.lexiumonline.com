@@ -6,10 +6,12 @@
           
 
           <div class="col-md-12" style="position: absolute; top: 0;">
+             <div style="max-width: 600px!important; margin: 0 auto;">
                <h3>Testimonios</h3>
                <h1>¿Qué dicen nuestros clientes?</h1>
                <span>Lexium ha transformado el aprendizaje del instituto, nos ha dado un banico de oportunidades que antes no se tenían, de poder ir siempre más allá, de crear aprendizajes nuevos y llevar a los alumnos a otro nivel</span>
                <p class="autor">Mónica Espinosa</p> <p class="escuela"> Instituto Juárez Lincoln</p>
+             </div>
           </div>
         </div>
     </div> 
@@ -26,4 +28,6 @@
  <script type="text/javascript">
              var scene = document.getElementById('test-bg');
              var parallax = new Parallax(scene);
-          </script>
+  </script>
+
+  

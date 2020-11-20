@@ -1,20 +1,24 @@
 <section class="container py-5 about_us">
-    <h4 class="mb-5 text-center">Te presentamos algunos datos interesantes sobre nosotros</h4>
-    <div class="row text-center">
-        <div class="col-6 col-md-4 col-lg-3">
+    <h4 class="mb-5 text-center">La confianza se refleja en nuestra trayectoria
+</h4>
+    <div class="row text-center" style="margin: 0 auto!important; max-width: 700px;">
+        <div class="col-12 col-md-6 col-lg-6">
             <h2 class="timer count-title count-number display-3 ym" data-to="30" data-speed="1500">30</h2>
             <p class="count-text">años en el mercado</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-6">
             <h2 class="timer count-title count-number display-3 ea" data-to="5" data-speed="1500">5</h2>
             <span class="display-3 ea">M</span>
             <p class="count-text ">evaluaciones aplicadas</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3">
+    </div>
+
+    <div class="row text-center" style="margin: 0 auto!important; max-width: 700px;">
+        <div class="col-12 col-md-6 col-lg-6">
             <h2 class="timer count-title count-number display-3 paises" data-to="6" data-speed="1500">6</h2>
             <p class="count-text ">países</p>
         </div>
-        <div class="col-6 col-md-4 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-6">
             <h2 class="timer count-title count-number display-3 ia" data-to="1000" data-speed="1500">1,000</h2>
             <p class="count-text ">Instituciones educativas</p>
         </div>

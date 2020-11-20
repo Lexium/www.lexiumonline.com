@@ -33,6 +33,7 @@
 
 
 @media (max-width: 768px) {
+   .principal-slider{max-height: 600px!important;}
    .bottomwave{ height: 290%!important;}
 }
   /* Fin propiedades de las olas que van detras del slider */
@@ -53,26 +54,25 @@
             <div class="layer" id="img6" style="z-index: 3000; " data-depth="1.70"><img src="./resources/images/parallax-mouse/bg-wave-06.png"></div>
             <div class="layer" id="img7" style="z-index: 3000; " data-depth="1.50"><img src="./resources/images/parallax-mouse/bg-wave-07.png"></div>
     </div>
-    <div class="h-50 w-100 text-center solicitar-demo" style="z-index: 4000">
-                <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-                 <div class="carousel-inner">
-                   <div class="carousel-item active">
-                     <div class="mask flex-center">
-                       <div class="container">
-                         <div class="row align-items-center">
-                           <div class="col-md-5 col-8 order-md-1 order-2">
-                             <h5 style="color: #faaf11; font-family: 'HarmoniaSansW01-Bold'; font-size: 2.5em; margin-bottom: 0px!important;">K-9</h5>
-                             <h4>Impulsa el potencial de tu institución re-imaginando el aprendiaje.</h4>
-                             <p>Bienvenido a Lexium la plataforma de tecnología de aprendizaje mas innovadora del mercado.</p>
-                             <a href="#">Solicitar Demo</a> </div>
-                           <div class="col-md-7 col-4 order-md-2 order-1"><img src="./resources/k9kids.png" class="mx-auto" alt="slide"></div>
-                         </div>
-                       </div>
-                     </div>
-                   </div>
-                 </div>
-                </div>
-                <!--slide end-->            
+          
+    <div class="container banner-container">
+          <div class="row">
+               <div class="col-md-7 col-8 order-md-1 order-2 "> 
+                    <div class="banner-principal">
+                         <h5>K-9</h5>
+                         <h4>Impulsa el potencial de tu institución re-imaginando el aprendizaje.</h4>
+                         <p>Bienvenido a Lexium la plataforma de tecnología de aprendizaje mas innovadora del mercado.</p>
+                         <a href="#">Solicitar Demo</a> 
+                    </div>
+               </div>
+               <div class="col-md-5 col-4 order-md-2 order-1">
+                    <div class="banner-principal">
+                         <img src="./resources/k9kids.png" class="mx-auto" alt="slide" width="100%">
+                    </div>
+               </div>
+               
+          </div>
+          
     </div>
 </section>
     <script type="text/javascript">

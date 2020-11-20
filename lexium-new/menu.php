@@ -20,16 +20,52 @@
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Soluciones
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="z-index: 10001">
-          <a class="dropdown-item" href="#">Skill Map</a>
-          <a class="dropdown-item item2" href="#">Evaluaciòn</a>
-          <a class="dropdown-item item2" href="#">Diagnóstico</a>
-          <a class="dropdown-item item2" href="#">Herramientas</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Skill MT</a>
-          <a class="dropdown-item item2" href="#">Entrenamiento</a>
-
+        <div class="dropdown-menu menusoluciones" aria-labelledby="navbarDropdown">
+             <div class="container">
+                  <div class="row">
+                       <div class="col-md-4 col-12" style="text-align: center">
+                            <a href="" style="color: #56c896!important">k-9</a>
+                            <a class="dropdown-item" href="#">Skill Map</a>
+                            <a class="dropdown-item item2" href="#">Evaluaciòn</a>
+                            <a class="dropdown-item item2" href="#">Diagnóstico</a>
+                            <a class="dropdown-item item2" href="#">Herramientas</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Skill MT</a>
+                            <a class="dropdown-item item2" href="#">Entrenamiento</a>
+                       </div>
+                       <div class="col-md-4 col-12" style="text-align: center">
+                            <a href="" style="color: #9d71b8!important">Preparatoria / Universidad</a>
+                            <a class="dropdown-item" href="#">Skill Map</a>
+                            <a class="dropdown-item item2" href="#">Evaluaciòn</a>
+                            <a class="dropdown-item item2" href="#">Diagnóstico</a>
+                            <a class="dropdown-item item2" href="#">Herramientas</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Skill MT</a>
+                            <a class="dropdown-item item2" href="#">Entrenamiento</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Captación</a>
+                            <a class="dropdown-item item2" href="#">Test rápido para</br> captar alumnos</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Sistema de ingreso </br>y permanencia</a>
+                            <a class="dropdown-item item2" href="#">Admisión</a>
+                            <a class="dropdown-item item2" href="#">Guía Vocacional</a>
+                            <a class="dropdown-item item2" href="#">Pronóstico de</br>permanencia</a>
+                            <a class="dropdown-item item2" href="#">Riesgo de abandono</a>
+                       </div>
+                       <div class="col-md-4 col-12" style="text-align: center">
+                            <a href="" style="color: #ec0b8d!important">Consultor/Orientador/</br>Psicopedagogo</a>
+                            <a class="dropdown-item" href="#">Skill Map</a>
+                            <a class="dropdown-item item2" href="#">Evaluaciòn</a>
+                            <a class="dropdown-item item2" href="#">Diagnóstico</a>
+                            <a class="dropdown-item item2" href="#">Herramientas</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Skill MT</a>
+                            <a class="dropdown-item item2" href="#">Entrenamiento</a>
+                       </div>
+                  </div>
+             </div>
         </div>
+
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

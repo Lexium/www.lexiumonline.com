@@ -22,40 +22,47 @@
 		 </div>
 
 		 <div class="row menuses">
-		 	 
-		 	  <div class="col-md-2 col-4">
-		 	  	   <h5>K-9</h5>
-		 	  	   <ul>
-                       <li><a  href="#">Skill Map</a></li>
-                       <li><a  href="#">Evaluaciòn</a></li>
-                       <li><a  href="#">Diagnóstico</a></li>
-                       <li><a  href="#">Herramientas</a></li>
-                       <li><a  href="#">Skill MT</a></li>
-                       <li><a  href="#">Entrenamiento</a></li>
-                   </ul>
-		 	  </div> 
 		 	  <div class="col-md-3 col-4">
 		 	  	   <h5>Preparatoria y Universidades</h5>
 		 	  	   <ul>
-                       <li><a href="#">Skill Map</a></li>
-                       <li><a href="#">Evaluaciòn</a></li>
-                       <li><a href="#">Diagnóstico</a></li>
-                       <li><a href="#">Herramientas</a></li>
-                       <li><a href="#">Skill MT</a></li>
-                       <li><a href="#">Sistema de ingreso y permanencia</a></li>
+                       <li><a class="strongetxt" href="#">Skill Map</a></li>
+                       <li><a class="" href="#">Evaluaciòn</a></li>
+                       <li><a class="" href="#">Diagnóstico</a></li>
+                       <li><a class="" href="#">Herramientas</a></li>
+                       <li><a class="strongetxt" href="#">Skill MT</a></li>
+                       <li><a class="" href="#">Entrenamiento</a></li>
+                       <li><a class="strongetxt" href="#">Captación</a></li>
+                       <li><a class="" href="#">Test rápido para</br> captar alumnos</a></li>
+                       <li><a class="strongetxt" href="#">Sistema de ingreso </br>y permanencia</a></li>
+                       <li><a class="" href="#">Admisión</a></li>
+                       <li><a class="" href="#">Guía Vocacional</a></li>
+                       <li><a class="" href="#">Pronóstico de</br>permanencia</a></li>
+                       <li><a class="" href="#">Riesgo de abandono</a></li>
                    </ul>
 		 	  </div> 
 		 	  <div class="col-md-3 col-4">
 		 	  	   <h5>Consultor / ORientador / Psciopedagogo</h5>
 		 	  	   <ul>
-                       <li><a  href="#">Skill Map</a></li>
+                       <li><a class="strongetxt"  href="#">Skill Map</a></li>
                        <li><a  href="#">Evaluaciòn</a></li>
                        <li><a  href="#">Diagnóstico</a></li>
                        <li><a  href="#">Herramientas</a></li>
-                       <li><a  href="#">Skill MT</a></li>
+                       <li><a class="strongetxt"  href="#">Skill MT</a></li>
                        <li><a  href="#">Entrenamiento</a></li>
                    </ul>
 		 	  </div> 
+		 	  <div class="col-md-2 col-4">
+		 	  	   <h5>K-9</h5>
+		 	  	   <ul>
+                       <li><a class="strongetxt"  href="#">Skill Map</a></li>
+                       <li><a  href="#">Evaluaciòn</a></li>
+                       <li><a  href="#">Diagnóstico</a></li>
+                       <li><a  href="#">Herramientas</a></li>
+                       <li><a class="strongetxt"  href="#">Skill MT</a></li>
+                       <li><a  href="#">Entrenamiento</a></li>
+                   </ul>
+		 	  </div> 
+		 	  
 		 	  <div class="div-bottom" style=""></div>
 		 	  <div class="col-md-2 col-6">
 		 	  	   <h5>Casos de Èxito</h5>
@@ -78,25 +85,3 @@
 		 </div>
 	</div>
 </footer>
-
-
-
-<style type="text/css">
-	footer{
-		background-color: #1f61dc;
-		width: 100%;
-		padding-top: 4%; 
-	}
-
-	footer h1, footer h5{
-		font-family: 'HarmoniaSansW01-Bold'!important; color: white;
-	}
-
-	.formulario{ border-bottom: 2px solid #fff; }
-
-	.menuses{ margin-top: 2%; text-align: center; }
-
-	.menuses ul{ list-style: none; padding-left: 0px;}
-
-	.menuses ul li a{ color: white; font-family: 'HarmoniaSansW01-Regular'!important; }
-</style>

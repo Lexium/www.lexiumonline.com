@@ -9,8 +9,8 @@
              <div style="max-width: 600px!important; margin: 0 auto;">
                <h3>Testimonios</h3>
                <h1>¿Qué dicen nuestros clientes?</h1>
-               <span>Nos apoyamos en Lexium para captar, admitir y asegurar la permanencia de nuestros alumnos en la institución. </span>
-               <p class="autor">Francisco Rosillo </p> <p class="escuela"> UPAEP</p>
+               <span>Lexium me apoya para avanzar más rápido y con mejores estrategias con cada persona que está a mi cargo.</span>
+               <p class="autor">Rosalinda Rodríguez  </p> <p class="escuela">Psicopedagoga</p>
              </div>
           </div>
         </div>
