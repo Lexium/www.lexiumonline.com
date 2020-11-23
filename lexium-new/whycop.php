@@ -1,6 +1,43 @@
+<section class="doyouknow">
+         <div class="container">
+              <div class="doyoufont">
+                   <h3>¿Ya conoces Lexium lite?</h3>
+                   <h5>Lexium Lite permite que una persona o grupo pequeño tenga fácil acceso a nuestras evaluaciones y diagnósticos, sin necesidad de hacerlo a través de una institución educativa.</h5>
+             
+                   <div class="row">
+                        <div class="col-md-3">
+                             <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/kl.png">
+                             <a class="btn btn-success" href="">Comprar Ahora</a>
+                        </div>
+                        <div class="col-md-3">
+                             <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/pbl.png">
+                             <a class="btn btn-success" href="">Comprar Ahora</a>
+                        </div>
+                        <div class="col-md-3">
+                             <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/pbal.png">
+                             <a class="btn btn-success" href="">Comprar Ahora</a>
+                        </div>
+                        <div class="col-md-3">
+                             <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/jl.png">
+                             <a class="btn btn-success" href="">Comprar Ahora</a>
+                        </div>                   
+                   </div>
+              </div>
+         </div>
+
+</section>
+
+<style type="text/css">
+  .doyouknow{ background-color: #FAF4EA; padding: 5% 0; }
+     .doyoufont {text-align: center; margin: 0 auto; max-width: 980px; color: #23215b;}
+     .doyoufont h3{ font-family: 'HarmoniaSansW01-Bold' }
+     .doyoufont h5{ font-family: 'HarmoniaSansW01-Regular'; margin-bottom: 4% }
+</style>
+
+
 <section class="container" style="margin-top: 1%; margin-bottom: 2%;">
        <div class="row">
-          <div class="col-md-6 whyimg"id="whyimg">
+          <div class="col-md-6 whyimg mt-5 p-3"id="whyimg">
                <div class="layerd" style="z-index: 12" id="img0" data-depth="0.0"><img src="./resources/psicopedagogos-que-estudian.png"></div>
                <!-- <div class="layerd" style="z-index: 8" data-depth="0.82"><img src="./resources/images/parallax-mouse/layer22.png"></div> -->
                <div class="layerd" style="z-index: 8" data-depth="0.82"><img src="./resources/images/parallax-mouse/why-bg-01.png"></div>

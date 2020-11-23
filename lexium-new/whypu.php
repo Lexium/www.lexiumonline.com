@@ -1,6 +1,6 @@
 <section class="container" style="margin-top: 1%; margin-bottom: 2%;">
        <div class="row">
-          <div class="col-md-6 whyimg"id="whyimg">
+          <div class="col-md-6 whyimg mt-5 p-3"id="whyimg">
                <div class="layerd" style="z-index: 12" id="img0" data-depth="0.0"><img src="./resources/universitarios-que-estudian.png"></div>
                <!-- <div class="layerd" style="z-index: 8" data-depth="0.82"><img src="./resources/images/parallax-mouse/layer22.png"></div> -->
                <div class="layerd" style="z-index: 8" data-depth="0.82"><img src="./resources/images/parallax-mouse/why-bg-01.png"></div>

@@ -25,7 +25,7 @@
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
           <source src="resources/bg.mp4" type="video/mp4">
         </video>
-        <div class="container h-100  d-flex align-items-center justify-content-center ">
+        <div class="container2 h-100  d-flex align-items-center justify-content-center ">
           <div class="h-70 w-100 text-center selectbox">
             <div class="texbox w-100 h-75">
                  <h4 class="display-5" style="margin-bottom: 1.5em;">Selecciona la opción deseada:</h4>
