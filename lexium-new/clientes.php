@@ -1,6 +1,6 @@
 <?php include('header.php');
       include('menu.php'); ?>
-<section class="text-center" style="background-color: #23215b; color: white; padding: 5%; font-family:'HarmoniaSansW01-Bold'; ">
+<section class="text-center titulocontenido">
     <h1>Algunos de nuestros clientes</h1>
 </section>
 <div class="container py-5 college">

@@ -2,13 +2,7 @@
 <?php include('header.php');?>
 <?php include('menu.php'); ?>
 
-<style type="text/css">
-      .b2_map h2,.b2_map h5{ color: #38c3f0; font-family: 'HarmoniaSansW01-Bold'; }
-      .b2_map p, .b2_map input, .b2_map a, .b2_map span{ font-family: 'HarmoniaSansW01-Regular'; }
-      .b2_map a{ color: #f68c20 }
-      .b2_map button{ background-color: #38c3f0; border: #38c3f0;}
-</style>
-      <section class="text-center" style="background-color: #23215b; color: white; padding: 5%; font-family:'HarmoniaSansW01-Bold'; ">
+      <section class="text-center titulocontenido">
          <h1>Contacto</h1>
       </section>
       <section class="b2_map">

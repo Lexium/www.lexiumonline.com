@@ -37,7 +37,7 @@
 </script>
 
 
-<section class="text-center" style="background-color: #23215b; color: white; padding: 5%; font-family:'HarmoniaSansW01-Bold'; ">
+<section class="text-center titulocontenido">
     <h1>Testimonios</h1>
 </section>
 
@@ -47,11 +47,5 @@
     <div class="row us_customers" id="mostrarVideos"></div>
 
 </div>
-
-<style type="text/css">
-     .us_customers h5{ font-family: 'HarmoniaSansW01-Bold'!important; color: #009aff; }
-     .us_customers h6{ font-family: 'HarmoniaSansW01-Regular'!important; }
-
-</style>
 
 <?php include('footer.php'); ?>
