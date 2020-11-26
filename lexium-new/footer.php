@@ -80,8 +80,17 @@
                        <li><a  href="#">Contacto</a></li>
                    </ul>
 		 	  </div> 
-		 
-
 		 </div>
+
+     <div class="row privacidad">
+          <div class="col-md-12">
+                <div class="privacy_advise text-center">
+                    Copyright © 2019-2020 Lexium All Rights Reserved.
+                   <br/><a href="politicas.php">Aviso de Privacidad</a>
+                </div>
+          </div>
+     </div>
 	</div>
 </footer>
+
+

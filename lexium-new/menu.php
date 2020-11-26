@@ -83,7 +83,7 @@
       <li class="nav-item">
         <a class="nav-link" href="contacto.php">Contacto</a>
       </li>
-      <a class="nav-link imgmenu" href="#"><img class="w-100" src="./resources/images/lexium-lite.png"></a>
+      <a class="nav-link imgmenu" href="https://lexiumlite.zohocommerce.com/"><img class="w-100" src="./resources/images/lexium-lite.png"></a>
     </ul>
   </div>
 </nav>

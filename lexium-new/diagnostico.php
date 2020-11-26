@@ -212,4 +212,5 @@
 <?php include('solicitar_demo.php'); ?>
 <?php include('otrosclientes.php'); ?>
 <?php include('lite.php'); ?> 
+<?php include('nuestroblog.php'); ?>
 <?php include('footer.php'); ?>
