@@ -26,7 +26,7 @@
 		 	  	   <h5>Preparatoria y Universidades</h5>
 		 	  	   <ul>
                        <li><a class="strongetxt" href="#">Skill Map</a></li>
-                       <li><a class="" href="#">Evaluaciòn</a></li>
+                       <li><a class="" href="#">Evaluación</a></li>
                        <li><a class="" href="#">Diagnóstico</a></li>
                        <li><a class="" href="#">Herramientas</a></li>
                        <li><a class="strongetxt" href="#">Skill MT</a></li>
@@ -41,10 +41,10 @@
                    </ul>
 		 	  </div> 
 		 	  <div class="col-md-3 col-4">
-		 	  	   <h5>Consultor / ORientador / Psciopedagogo</h5>
+		 	  	   <h5>Consultor / Orientador / Psciopedagogo</h5>
 		 	  	   <ul>
                        <li><a class="strongetxt"  href="#">Skill Map</a></li>
-                       <li><a  href="#">Evaluaciòn</a></li>
+                       <li><a  href="#">Evaluación</a></li>
                        <li><a  href="#">Diagnóstico</a></li>
                        <li><a  href="#">Herramientas</a></li>
                        <li><a class="strongetxt"  href="#">Skill MT</a></li>
@@ -55,7 +55,7 @@
 		 	  	   <h5>K-9</h5>
 		 	  	   <ul>
                        <li><a class="strongetxt"  href="#">Skill Map</a></li>
-                       <li><a  href="#">Evaluaciòn</a></li>
+                       <li><a  href="#">Evaluación</a></li>
                        <li><a  href="#">Diagnóstico</a></li>
                        <li><a  href="#">Herramientas</a></li>
                        <li><a class="strongetxt"  href="#">Skill MT</a></li>
@@ -65,7 +65,7 @@
 		 	  
 		 	  <div class="div-bottom" style=""></div>
 		 	  <div class="col-md-2 col-6">
-		 	  	   <h5>Casos de Èxito</h5>
+		 	  	   <h5>Casos de Éxito</h5>
 		 	  	   <ul>
                        <li><a  href="#">Clientes</a></li>
                        <li><a  href="#">Testimonio</a></li>
