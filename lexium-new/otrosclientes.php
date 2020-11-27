@@ -66,7 +66,7 @@
                                               <div class="otrosclientes"> 
                                                    <img class="img-fluid" src="./resources/images/skillmap/evaluacion.png"> 
                                                    <h3>Captación</h3>
-                                                   <span>Elige entre más de 20 evaluaciones que permiten mapear el perﬁl de aprendizaje de los alumnos y de la comunidad educativa.</span>
+                                                   <span>Capta alumnos con la ayuda de una evaluación breve y eficaz que identifica las preferencias de aprendizaje y vocacionales en 20 minutos.</span></br>
                                                    <a  href="captacion.php.php">Vermás</a>
                                               </div>
                                         </div>
@@ -75,7 +75,7 @@
                                               <div class="otrosclientes"> 
                                                    <img class="img-fluid" src="./resources/images/skillmap/evaluacion.png"> 
                                                    <h3>Sistema de ingreso y permanencia</h3>
-                                                   <span>Elige entre más de 20 evaluaciones que permiten mapear el perﬁl de aprendizaje de los alumnos y de la comunidad educativa.</span>
+                                                   <span>Descubre las increíbles posibilidades que brinda esta innovadora propuesta para admisión, selección, acompañamiento, tutoraje y desarrollo de cada alumno que ingresa en tu institución.</span></br>
                                                    <a  href="sip.php">Vermás</a>
                                               </div>
                                         </div>
