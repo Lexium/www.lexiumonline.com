@@ -2,7 +2,7 @@
      <div class="w-100" id="solucionesk9">
                  <div class="solutxt">
                        <h3>Soluciones</h3>
-                       <p>Lexium es una plataforma que ayuda a instituciones educativas a mapear y potencia las habilidades de aprendizaje.</p>
+                       <p>Lexium es una plataforma que ayuda a instituciones educativas a mapear y potenciar las habilidades de aprendizaje.</p>
                  </div>
                  <div class="img-bg" data-depth=".05"><img src="./resources/images/parallax-mouse/layer4.png"></div>
                  <div class="img-circle-2" data-depth=".30"><img src="./resources/images/parallax-mouse/10.png"></div>
@@ -29,7 +29,7 @@
                                 </div>
                            </div>
                          <div class="col-md-10 smcontnt">
-                              <h5>Evaluacion</h5>
+                              <h5>Evaluación</h5>
                               <p>Elige entre +20 evaluaciones que permiten mapear el perfil de aprendizaje de los alumnos y la comunidad educativa.</p>
                          </div>
                         </div>

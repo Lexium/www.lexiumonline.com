@@ -2,7 +2,7 @@
 	   <div class="w-100" id="solucionesk9">
                  <div class="solutxt">
                        <h3>Soluciones</h3>
-                       <p>Lexium es una plataforma que ayuda a instituciones educativas a mapear y potencia las habilidades de aprendizaje.</p>
+                       <p>Lexium es una plataforma que ayuda a instituciones educativas a mapear y potenciar las habilidades de aprendizaje.</p>
                  </div>
                  <div class="img-bg" data-depth=".05"><img src="./resources/images/parallax-mouse/layer4.png"></div>
                  <div class="img-circle-2" data-depth=".30"><img src="./resources/images/parallax-mouse/10.png"></div>
@@ -29,7 +29,7 @@
                                 </div>
                            </div>
                  	  	   <div class="col-md-10 smcontnt">
-                 	  	   	    <h5>Evaluacion</h5>
+                 	  	   	    <h5>Evaluación</h5>
                  	  	   	    <p>Elige entre +20 evaluaciones que permiten mapear el perfil de aprendizaje de los alumnos y la comunidad educativa.</p>
                  	  	   </div>
                  	  	  </div>
@@ -51,7 +51,7 @@
                              </div>
                  	  	     <div class="col-md-10 smcontnt">
                  	  	   	    <h5>Diagnóstico</h5>
-                 	  	   	    <p>Apóyate en una plataforma diagn´stica que contiene el DNA de las habilidades de aprendizaje con las que cuenta tu comunidad educativa.</p>
+                 	  	   	    <p>Apóyate en una plataforma diagnóstica que contiene el DNA de las habilidades de aprendizaje con las que cuenta tu comunidad educativa.</p>
                  	  	     </div>
                  	  	  </div>
                  	  </div>
@@ -72,7 +72,7 @@
                              </div>
                  	  	     <div class="col-md-10 smcontnt">
                  	  	   	    <h5>Herramientas</h5>
-                 	  	   	    <p>Propicia y crea ambientes de aprendizaje efectivos con apoyo de las herramientas de analisis y planeacion.</p>
+                 	  	   	    <p>Propicia y crea ambientes de aprendizaje efectivos con apoyo de las herramientas de análisis y planeación.</p>
                  	  	     </div>
                  	  	  </div>
                  	  </div>
@@ -98,7 +98,7 @@
                            </div>
                  	  	   <div class="col-md-10 col-sm-10 smcontnt">
                  	  	   	    <h5>Skill Map</h5>
-                 	  	   	    <p>Mapea las habilidades clave de los alumos y conoce su perfil y potencial de aprendizaje para que puedas gestionar mejor los procesos de enseñanza y aprendizaje y de esta forma incrementar el éxito de tu proyecto educativo.</p>
+                 	  	   	    <p>Mapea las habilidades clave de los alumnos y conoce su perfil y potencial de aprendizaje para que puedas gestionar mejor los procesos de enseñanza aprendizaje y de esta forma incrementar el éxito de tu proyecto educativo.</p>
                  	  	   </div>
                  	  	  </div>
                  	  </div>

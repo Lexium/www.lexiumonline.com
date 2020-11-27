@@ -61,7 +61,7 @@
                     <div class="banner-principal">
                          <h5>Preparatoria y Universidad</h5>
                          <h4>Impulsa el potencial de tu institución re-imaginando el aprendizaje.</h4>
-                         <p>Bienvenido a Lexium la plataforma de tecnología de aprendizaje mas innovadora del mercado.</p>
+                         <p>Bienvenido a Lexium la plataforma de tecnología de aprendizaje más innovadora del mercado.</p>
                          <a href="#">Solicitar Demo</a> 
                     </div>
                </div>

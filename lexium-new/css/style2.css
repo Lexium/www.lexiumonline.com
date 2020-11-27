@@ -13,6 +13,7 @@ p, span,{
 
 /*Ventana de inicio*/
 .gral{position: relative; background-color: black; height: 100vh; min-height: 25rem;width: 100%;overflow: hidden;}
+
 video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;width: auto;height: auto;z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -21,13 +22,14 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 }
 
 .container2{position: relative; z-index: 2}
-.overlay { position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: black; opacity: 0.7; z-index: 1;}
-.selectbox{background-color: white;border-radius: 5%; min-height: 420px; max-width: 600px;}
-.texbox{padding: 3em!important;}
-.texbox > .btn{ margin-bottom: 2em;}
-.imgbox{margin-bottom: 2em;}
-.display-5{margin-bottom: 1.5em;font-family: 'HarmoniaSansW01-Bold'!important;}
 
+.overlay { position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: black; opacity: 0.7; z-index: 1;}
+
+.selectbox{background-color: white;border-radius: 5%; min-height: 420px; max-width: 600px;}
+
+.texbox{padding: 3em!important;}
+
+.texbox > .btn{ margin-bottom: 2em;}
 
 
 @media (max-width: 992px) {
@@ -77,7 +79,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 
 /* PRINCIPAL Banner*/  
-.banner-principal h5{ color: #faaf11; font-family: 'HarmoniaSansW01-Bold'; font-size: 2.5em; margin-bottom: 0px!important; }
+.banner-principal h5{ color: #faaf11; font-family: 'HarmoniaSansW01-Regular'; font-size: 2.5em; margin-bottom: 0px!important; }
 .banner-principal h4{ color: #fff; font-family: 'HarmoniaSansW01-Bold'; font-size: 2.5em;  margin-bottom:15px; }
 .banner-principal p{ font-family: 'HarmoniaSansW01-Regular'!important; font-size:18px; margin-bottom:15px; color:#f5f5f5; }
 .banner-principal a{background:#faaf11; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; }
@@ -204,8 +206,8 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 /* DATAS */
 
-.about_us h2, .about_us span, .about_us h4 { font-family: 'HarmoniaSansW01-Bold'!important; font-weight: 300;}
-.about_us p{ font-size: 1.2em!important; }
+.about_us h2, .about_us span { font-family: 'HarmoniaSansW01-Bold'!important; font-weight: 300;}
+.about_us p{ font-size: 1.5em!important; }
 
 .ym{ color: #faaf11; }
 .ea{display: inline-block; color: #ec008b;}
@@ -237,13 +239,13 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .solutxt h3{ margin-top: 2%; color: #4fbfe6; font-size: 2.5em; font-family: 'HarmoniaSansW01-Bold'; }
 .solutxt p{ font-size: 1.2em; font-family: 'HarmoniaSansW01-Regular';}
 .skill-content{min-width: 330px; max-width: 540px;}
-.skillmap h3{ background-color: #d5e5fc; color: #3b5bdb; padding: 3% 3% 3% 3%; text-align: center; margin-top: 12%; font-family: 'HarmoniaSansW01-Bold'; margin-bottom: 5%;}
-.skillmaptraining h3{ background-color: #feefcf; color: #f9a817; padding: 3% 3% 3% 3%; text-align: center; margin-top: 12%; font-family: 'HarmoniaSansW01-Bold'; margin-bottom: 5%;}
-.smcontnt{text-align: left;padding: 0 9%;}
+.skillmap h3{ background-color: #d5e5fc; color: #3b5bdb; padding: 3% 3% 3% 3%; text-align: center; margin-top: 12%;}
+.skillmaptraining h3{ background-color: #feefcf; color: #f9a817; padding: 3% 3% 3% 3%; text-align: center; margin-top: 12%;}
+.smcontnt{text-align: justify;padding: 0 9%;}
 .smcontnt h5{ color: #23215b; font-family: 'HarmoniaSansW01-Bold'; }
 .smcontnt p{ color: #23215b; font-family: 'HarmoniaSansW01-Regular'; }
 
-.img-bg img{width: 100%;}
+.img-bg img{width: 190%;}
 .img-circle-2{ animation-duration: 3s; animation-name: slidein;}
 .img-circle-3{ animation-duration: 5s; animation-name: slidein;}
 
@@ -381,7 +383,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .contsgral h1{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; margin-bottom: 3%; }
 .datasgral{ margin-bottom: 3%; margin-top: 3%; }
 .datasgral h5{text-align: left;}
-.datasgral p{text-align: left; color: #23215b; font-family: 'HarmoniaSansW01-Regular';}
+.datasgral p{text-align: left;}
 .datasgral a{float: left; background: #009aff; border: #009aff; width:60%;}
 .line{width: 100%; margin-bottom: 3px; border-bottom: 0.1em solid #23285e; display: none;}
 .orderdata3{ order: 1; }
@@ -425,7 +427,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .b9_landing .circle ul{ padding-left: 20px;}
 .b9_landing .circle ul li{ list-style-type: none;}
 .b9_landing .circle div{ position: absolute; z-index: 1; top: 0; font-size: 25px; font-weight: 600; width:200px;}
-.b9_landing .circle div a{ color: #23215b; font-family: 'HarmoniaSansW01-Regular';}
+.b9_landing .circle div a{ color: #23215b; font-family: 'HarmoniaSansW01-Bold';}
 .b9_landing .circle div a:hover{ text-decoration: none;}
 .b9_landing .circle div a span{ font-size: 12px; display: inline-block; color: #ffffff; background:#646f85;}
 .b9_landing .mobile_image{ display: block; margin:auto;}

@@ -1,7 +1,44 @@
+<section class="doyouknow">
+         <div class="container">
+              <div class="doyoufont">
+                   <h3>¿Ya conoces Lexium lite?</h3>
+                   <h5>Lexium Lite permite que una persona o grupo pequeño tenga fácil acceso a nuestras evaluaciones y diagnósticos, sin necesidad de hacerlo a través de una institución educativa.</h5>
+             
+                   <div class="row">
+                        <div class="col-md-3">
+                             <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/kl.png">
+                             <a class="btn btn-success" href="">Comprar Ahora</a>
+                        </div>
+                        <div class="col-md-3">
+                             <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/pbl.png">
+                             <a class="btn btn-success" href="">Comprar Ahora</a>
+                        </div>
+                        <div class="col-md-3">
+                             <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/pbal.png">
+                             <a class="btn btn-success" href="">Comprar Ahora</a>
+                        </div>
+                        <div class="col-md-3">
+                             <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/jl.png">
+                             <a class="btn btn-success" href="">Comprar Ahora</a>
+                        </div>                   
+                   </div>
+              </div>
+         </div>
+
+</section>
+
+<style type="text/css">
+  .doyouknow{ background-color: #FAF4EA; padding: 5% 0; }
+     .doyoufont {text-align: center; margin: 0 auto; max-width: 980px; color: #23215b;}
+     .doyoufont h3{ font-family: 'HarmoniaSansW01-Bold' }
+     .doyoufont h5{ font-family: 'HarmoniaSansW01-Regular'; margin-bottom: 4% }
+</style>
+
+
 <section class="container" style="margin-top: 1%; margin-bottom: 2%;">
        <div class="row">
           <div class="col-md-6 whyimg mt-5 p-3"id="whyimg">
-               <div class="layerd" style="z-index: 12" id="img0" data-depth="0.0"><img src="./resources/universitarios-que-estudian.png"></div>
+               <div class="layerd" style="z-index: 12" id="img0" data-depth="0.0"><img src="./resources/psicopedagogos-que-estudian.png"></div>
                <!-- <div class="layerd" style="z-index: 8" data-depth="0.82"><img src="./resources/images/parallax-mouse/layer22.png"></div> -->
                <div class="layerd" style="z-index: 8" data-depth="0.82"><img src="./resources/images/parallax-mouse/why-bg-01.png"></div>
                <div class="layerd" style="z-index: 8" data-depth="2.82"><img src="./resources/images/parallax-mouse/why-bg-02.png"></div>
@@ -17,7 +54,7 @@
              var parallax = new Parallax(scene);
           </script>
           <div class="col-md-6 why6">
-               <h3 >¿Por qué Lexium?</h3>
+               <h3 >¿Cómo Lexium apoya mi departamento/servicio?</h3>
                <div class="row">
                     <div class="col-md-6">
                       <div class="row">
@@ -36,7 +73,7 @@
                            </div>
                             
                            <div class="w-100 p-3 whytxt">
-                                <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 1.3em;">Incrementa la </br> captación y retención</h6>
+                                <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 0.9em;">Rapidez para identificar el potencial de aprendizaje de mis alumnos/clientes. </h6>
                            </div>
                       </div>
                     </div>
@@ -57,7 +94,7 @@
                            </div>
                             
                            <div class="w-100 p-3 whytxt">
-                              <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 1.3em;">Fortalece el prestigio </br> de tu institución</h6>
+                              <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 0.9em;">Eficacia en la propuesta de estrategias de desarrollo/enriquecimiento para cada caso. </h6>
                            </div>
                       </div>
                     </div>
@@ -80,7 +117,7 @@
                          </div>
                             
                          <div class="w-100 p-3 whytxt">
-                              <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 1.3em;">Mejorala oferta </br> acádemica</h6>
+                              <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 0.9em;">Acompañamiento eficaz y proactivo. </h6>
                          </div>
                        </div>
                     </div>
@@ -101,7 +138,7 @@
                          </div>
                             
                          <div class="w-100 p-3 whytxt">
-                              <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 1.3em;">Aumenta la posibilidad </br>de prosperar y ser féliz</h6>
+                              <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 0.9em;">Incremento en resultados positivos observables.</h6>
                          </div>
                        </div>
                     </div>
