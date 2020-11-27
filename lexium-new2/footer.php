@@ -41,7 +41,7 @@
                    </ul>
 		 	  </div> 
 		 	  <div class="col-md-3 col-4">
-		 	  	   <h5>Consultor / ORientador / Psciopedagogo</h5>
+		 	  	   <h5>Consultor / Orientador / Psciopedagogo</h5>
 		 	  	   <ul>
                        <li><a class="strongetxt"  href="#">Skill Map</a></li>
                        <li><a  href="#">Evaluación</a></li>
