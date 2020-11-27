@@ -1,12 +1,12 @@
 <?php include('header.php');?>
 <?php include('menu.php'); ?>
 <section class="text-center titulocontenido">
-    <h1>Sistema de Ingreso y Permanencia</h1>
-    <p>Descubre las increíbles posibilidades que brinda esta innovadora propuesta para admisión, selección, acompañamiento, tutoraje y desarrollo de cada alumno que ingresa en tu institución.</p>
+    <h1>Captación</h1>
+    <p>Capta alumnos con la ayuda de una evaluación breve y eficaz que identifica las preferencias de aprendizaje y vocacionales en 20 minutos.</p>
 </section>
 
 <section class="text-center contsgral py-5">
-	<h5>Sistema de Ingreso y Permanencia: tu mejor opción para atraer y retener alumnado.</h5>
+	<h5>Insight. Incrementa la captación de alumnos. </h5>
 	<a href="#!" data-toggle="modal" data-target="#SIP" title="Ver video" class="btn btn-primary">Ver video</a>
 
         <div class="container" style="margin-top: 4%;">
