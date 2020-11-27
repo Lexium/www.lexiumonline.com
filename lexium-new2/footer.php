@@ -2,7 +2,7 @@
 	<div class="container">
 		 <div class="row formulario">
 		 	  <div class="col-md-6">
-		 	  	  <h1>Descubre lo que Lexium puede hacerpor ti</h1>
+		 	  	  <h1>Descubre lo que Lexium puede hacer por ti</h1>
 		 	  </div>
 		 	  <div class="col-md-6">
 		 	  	   <form class="pt-5 pb-3 form" method="post" action="contacto.php">
@@ -35,7 +35,7 @@
                        <li><a class="" href="#">Test rápido para</br> captar alumnos</a></li>
                        <li><a class="strongetxt" href="#">Sistema de ingreso </br>y permanencia</a></li>
                        <li><a class="" href="#">Admisión</a></li>
-                       <li><a class="" href="#">Guía Vocacional</a></li>
+                       <li><a class="" href="#">Guía vocacional</a></li>
                        <li><a class="" href="#">Pronóstico de</br>permanencia</a></li>
                        <li><a class="" href="#">Riesgo de abandono</a></li>
                    </ul>

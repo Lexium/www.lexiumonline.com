@@ -80,7 +80,7 @@
                          </div>
                             
 	     	  	   	    	   <div class="w-100 p-3 whytxt">
-	     	  	   	    	     	  <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 1.3em;">Mejorala oferta </br> acádemica</h6>
+	     	  	   	    	     	  <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 1.3em;">Mejora la oferta </br> acádemica</h6>
 	     	  	   	    	   </div>
 	     	  	   	    	 </div>
 	     	  	   	    </div>
@@ -101,7 +101,7 @@
                          </div>
                             
 	     	  	   	    	   <div class="w-100 p-3 whytxt">
-	     	  	   	    	     	  <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 1.3em;">Aumenta la posibilidad </br>de prosperar y ser féliz</h6>
+	     	  	   	    	     	  <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 1.3em;">Aumenta la posibilidad </br>de prosperar y ser feliz</h6>
 	     	  	   	    	   </div>
 	     	  	   	    	 </div>
 	     	  	   	    </div>
