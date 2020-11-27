@@ -14,7 +14,7 @@
                             </div>
                             <div class="col-8" >
                                  <h2 class="timer count-title count-number" data-to="30" data-speed="1500"></h2>
-                                 <p class="count-text">años en el mercado</p>
+                                 <p class="count-text">Años en el mercado</p>
                             </div>
                        </div>
                   </div>
@@ -25,7 +25,7 @@
                              </div>
                              <div class="col-8">
                        <h2 class="timer count-title count-number" data-to="6" data-speed="1500"></h2>
-                       <p class="count-text">países</p>
+                       <p class="count-text">Países</p>
                        </div>
                        </div>
                   </div>
@@ -36,7 +36,7 @@
                              </div>
                              <div class="col-8">
                                   <h2 class="timer count-title count-number" data-to="1000" data-speed="1500"></h2>
-                                  <p class="count-text">+ clientes</p>
+                                  <p class="count-text">Clientes</p>
                              </div>
                        </div>      
                   </div>
@@ -48,7 +48,7 @@
                            <div class="col-8">
                                  <h2 class="timer count-title count-number data-inline" data-to="5" data-speed="1500"></h2>
                                  <span>M</span>
-                                 <p class="count-text" >evaluaciones aplicadas</p>
+                                 <p class="count-text" >Evaluaciones aplicadas</p>
                            </div>
                        </div>
                   </div>
@@ -61,7 +61,7 @@
                              <div class="col-8">
                                   <h2 class="timer count-title count-number data-inline" data-to="30" data-speed="1500"></h2>
                                   <span class="">M</span>
-                                  <p class="count-text ">visitas en nuestra plataformas</p>
+                                  <p class="count-text ">Visitas en nuestra plataformas</p>
                              </div>
                        </div>
                   </div>
@@ -73,7 +73,7 @@
                              <div class="col-8">
                                   <h2 class="timer count-title count-number data-inline" data-to="100" data-speed="1500"></h2>
                                   <span class="">K</span>
-                                  <p class="count-text ">entrenamientos</p>
+                                  <p class="count-text ">Entrenamientos</p>
                              </div>
                        </div>
                              </div>
@@ -84,7 +84,7 @@
                              </div>
                              <div class="col-8">           
                                   <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
-                                  <p class="count-text ">obras literarias y marcas registradas</p>
+                                  <p class="count-text ">Obras literarias y marcas registradas</p>
                              </div>
                         </div>
                   </div>
@@ -95,7 +95,7 @@
                              </div>
                              <div class="col-8"> 
                                   <h2 class="timer count-title count-number" data-to="6" data-speed="1500"></h2>
-                                  <p class="count-text ">plataformas desarrolladas</p>
+                                  <p class="count-text ">Plataformas desarrolladas</p>
                              </div>
                         </div>
                   </div>
