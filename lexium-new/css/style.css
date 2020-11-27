@@ -235,7 +235,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 .solutxt{ padding: 3% 3% 0% 3%; color: #23215b; text-align: center; z-index: 5500 }
 .solutxt h3{ margin-top: 2%; color: #4fbfe6; font-size: 2.5em; font-family: 'HarmoniaSansW01-Bold'; }
-.solutxt p{ font-size: 1.2em; font-family: 'HarmoniaSansW01-Regular';}
+.solutxt p{ font-size: 1.4em; font-family: 'HarmoniaSansW01-Regular';}
 .skill-content{min-width: 330px; max-width: 540px;}
 .skillmap h3{ background-color: #d5e5fc; color: #3b5bdb; padding: 3% 3% 3% 3%; text-align: center; margin-top: 12%; font-family: 'HarmoniaSansW01-Bold'; margin-bottom: 5%;}
 .skillmaptraining h3{ background-color: #feefcf; color: #f9a817; padding: 3% 3% 3% 3%; text-align: center; margin-top: 12%; font-family: 'HarmoniaSansW01-Bold'; margin-bottom: 5%;}
@@ -377,7 +377,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .titulocontenido h1{font-family:'HarmoniaSansW01-Bold';}
 .titulocontenido p{font-family:'HarmoniaSansW01-Regular'; max-width: 750px; margin: 0 auto;}
 .contsgral{margin: 0 9%;}
-.contsgral h5{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; margin-bottom: 3%; }
+.contsgral h5{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; margin-bottom: 3%; font-size: 1.4em; text-align: center; }
 .contsgral h1{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; margin-bottom: 3%; }
 .datasgral{ margin-bottom: 3%; margin-top: 3%; }
 .datasgral h5{text-align: left;}

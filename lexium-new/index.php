@@ -31,7 +31,7 @@
                  <div class="imgbox"> 
                     <img src="resources/images/logo_lexium_azul_160.png">
                  </div>
-                 <h5 class="display-5">Sonríe, haz encontrado la plataforma más eficiente para impulsar el aprendizaje</h5>
+                 <h5 class="display-5">Sonríe, has encontrado la plataforma más eficiente para impulsar el aprendizaje</h5>
                  <h5 class="display-5">Selecciona la opción deseada</h5>
                  <a type="button" href="k9.php" class="w-75 btn btn-primary"> Institución educativa (K-9) </a>
                  <a type="button" href="preparatoria.php" class="w-75 btn btn-primary"> Preparatoria / Universidad </a>

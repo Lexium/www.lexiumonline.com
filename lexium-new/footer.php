@@ -26,7 +26,7 @@
 		 	  	   <h5>Preparatoria y Universidades</h5>
 		 	  	   <ul>
                        <li><a class="strongetxt" href="#">Skill Map</a></li>
-                       <li><a class="" href="#">Evaluaciòn</a></li>
+                       <li><a class="" href="#">Evaluación</a></li>
                        <li><a class="" href="#">Diagnóstico</a></li>
                        <li><a class="" href="#">Herramientas</a></li>
                        <li><a class="strongetxt" href="#">Skill MT</a></li>
@@ -44,7 +44,7 @@
 		 	  	   <h5>Consultor / ORientador / Psciopedagogo</h5>
 		 	  	   <ul>
                        <li><a class="strongetxt"  href="#">Skill Map</a></li>
-                       <li><a  href="#">Evaluaciòn</a></li>
+                       <li><a  href="#">Evaluación</a></li>
                        <li><a  href="#">Diagnóstico</a></li>
                        <li><a  href="#">Herramientas</a></li>
                        <li><a class="strongetxt"  href="#">Skill MT</a></li>
@@ -55,7 +55,7 @@
 		 	  	   <h5>K-9</h5>
 		 	  	   <ul>
                        <li><a class="strongetxt"  href="#">Skill Map</a></li>
-                       <li><a  href="#">Evaluaciòn</a></li>
+                       <li><a  href="#">Evaluación</a></li>
                        <li><a  href="#">Diagnóstico</a></li>
                        <li><a  href="#">Herramientas</a></li>
                        <li><a class="strongetxt"  href="#">Skill MT</a></li>
