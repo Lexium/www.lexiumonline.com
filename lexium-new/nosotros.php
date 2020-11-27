@@ -111,7 +111,7 @@
         <div class="container">
              <img alt="Grupo Vareli" title="Grupo Vareli" src="./resources/images/logo_vareli.png">
              <span>
-                  <p>Lexium forma parte de Grupo Vareli.</br>Estas son algunas de las empresas del grupo: </p>
+                  <p style=" font-family: 'HarmoniaSansW01-Regular';">Lexium forma parte de Grupo Vareli.</br>Estas son algunas de las empresas del grupo: </p>
              </span>
              <div class="row">
                   <div class="col-md-1"></div>

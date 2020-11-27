@@ -31,7 +31,7 @@
                             <a class="dropdown-item item2" href="herramientas.php">Herramientas</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="skillmaptrainingk9.php">Skill MT</a>
-                            <a class="dropdown-item item2" href="#">Entrenamiento</a>
+                            <a class="dropdown-item item2" href="skillmaptrainingk9.php">Entrenamiento</a>
                        </div>
                        <div class="col-md-4 col-12" style="text-align: center">
                             <a href="" style="color: #9d71b8!important">Preparatoria / Universidad</a>
