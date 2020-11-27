@@ -73,7 +73,7 @@
                            </div>
                             
                            <div class="w-100 p-3 whytxt">
-                                <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 0.9em;">Rapidez para identificar el potencial de aprendizaje de mis alumnos/clientes. </h6>
+                                <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 1.3em;">Rapidez para identificar el potencial de aprendizaje de mis alumnos/clientes. </h6>
                            </div>
                       </div>
                     </div>
@@ -94,7 +94,7 @@
                            </div>
                             
                            <div class="w-100 p-3 whytxt">
-                              <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 0.9em;">Eficacia en la propuesta de estrategias de desarrollo/enriquecimiento para cada caso. </h6>
+                              <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 1.3em;">Eficacia en la propuesta de estrategias de desarrollo/enriquecimiento para cada caso. </h6>
                            </div>
                       </div>
                     </div>
@@ -117,7 +117,7 @@
                          </div>
                             
                          <div class="w-100 p-3 whytxt">
-                              <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 0.9em;">Acompañamiento eficaz y proactivo. </h6>
+                              <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 1.3em;">Acompañamiento eficaz y proactivo. </h6>
                          </div>
                        </div>
                     </div>
@@ -138,7 +138,7 @@
                          </div>
                             
                          <div class="w-100 p-3 whytxt">
-                              <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 0.9em;">Incremento en resultados positivos observables.</h6>
+                              <h6 style="font-family: 'HarmoniaSansW01-Regular'; color: #23215b; font-size: 1.3em;">Incremento en resultados positivos observables.</h6>
                          </div>
                        </div>
                     </div>

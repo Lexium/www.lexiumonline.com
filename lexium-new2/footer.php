@@ -85,7 +85,11 @@
      <div class="row privacidad">
           <div class="col-md-12">
                 <div class="privacy_advise text-center">
-                    Copyright © 2019-2020 Lexium All Rights Reserved.
+                    Copyright © <?php 
+                    $Year = date("Y");
+                    echo "$Year";
+                    echo "\n";
+                    ?> Lexium All Rights Reserved.
                    <br/><a href="politicas.php">Aviso de Privacidad</a>
                 </div>
           </div>
