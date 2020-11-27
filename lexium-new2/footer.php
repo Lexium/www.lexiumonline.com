@@ -65,11 +65,11 @@
 		 	  
 		 	  <div class="div-bottom" style=""></div>
 		 	  <div class="col-md-2 col-6">
-		 	  	   <h5>Casos de Èxito</h5>
+		 	  	   <h5>Casos de éxito</h5>
 		 	  	   <ul>
                        <li><a  href="#">Clientes</a></li>
                        <li><a  href="#">Testimonio</a></li>
-                       <li><a  href="#">Apoyo Social</a></li>
+                       <li><a  href="#">Apoyo social</a></li>
                    </ul>
 		 	  </div> 
 		 	  <div class="col-md-2 col-6">
