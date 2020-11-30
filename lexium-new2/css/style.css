@@ -389,7 +389,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
   .menuses ul{ list-style: none; padding-left: 0px;}
   .menuses ul li a{ color: white; font-family: 'HarmoniaSansW01-Regular'; }
   .div-bottom{ border-bottom: 2px solid #fff; height: 10px; margin-bottom: 15px;  width:100%; display: none;}
-  .strongetxt{ font-family: 'HarmoniaSansW01-Bold'!important; }
+  .strongetxt{ font-family: 'HarmoniaSansW01-Bold'!important;  border-bottom: 1px solid #fff;}
   .privacidad{ font-family: 'HarmoniaSansW01-Regular'; color: white; }
   .privacidad a{ font-family: 'HarmoniaSansW01-Regular'; color: white; margin-bottom: 3%;}
 

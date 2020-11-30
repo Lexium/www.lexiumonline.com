@@ -27,11 +27,11 @@
 		 	  	   <ul>
                        <li><a class="strongetxt"  href="skillmap.php">Skill Map</a></li>
                        <div class="line" style="border-bottom: 1px solid #fff;"></div>
-                       <li><a  href="#">Evaluación</a></li>
-                       <li><a  href="#">Diagnóstico</a></li>
-                       <li><a  href="#">Herramientas</a></li>
-                       <li><a class="strongetxt"  href="#">Skill MT</a></li>
-                       <li><a  href="#">Entrenamiento</a></li>
+                       <li><a  href="evaluacion.php">Evaluación</a></li>
+                       <li><a  href="diagnostico.php">Diagnóstico</a></li>
+                       <li><a  href="herramientas.php">Herramientas</a></li>
+                       <li><a class="strongetxt"  href="skillmaptrainingk9.php">Skill MT</a></li>
+                       <li><a  href="skillmaptrainingk9.php">Entrenamiento</a></li>
                    </ul>
 		 	  </div> 
         <div class="col-md-3 col-4">
@@ -40,27 +40,27 @@
                       <!--  <li><a class="strongetxt" href="skillmap.php">Skill Map</a></li>
                        <li><a class="" href="#">Evaluación</a></li>
                        <li><a class="" href="#">Diagnóstico</a></li>
-                       <li><a class="" href="#">Herramientas</a></li> 
-                       <li><a class="strongetxt" href="#">Skill MT</a></li>
-                       <li><a class="" href="#">Entrenamiento</a></li>-->
-                       <li><a class="strongetxt" href="#">Captación</a></li>
+                       <li><a class="" href="#">Herramientas</a></li> -->
+                       <li><a class="strongetxt" href="skillmaptrainingpu.php">Skill MT</a></li>
+                       <li><a class="" href="skillmaptrainingpu.php#trainig">Entrenamiento</a></li>
+                       <li><a class="strongetxt" href="captacion.php">Captación</a></li>
                        <li><a class="" href="#">Test rápido para</br> captar alumnos</a></li>
-                       <li><a class="strongetxt" href="#">Sistema de ingreso </br>y permanencia</a></li>
-                       <li><a class="" href="#">Admisión</a></li>
-                       <li><a class="" href="#">Guía vocacional</a></li>
-                       <li><a class="" href="#">Pronóstico de</br>permanencia</a></li>
-                       <li><a class="" href="#">Riesgo de abandono</a></li>
+                       <li><a class="strongetxt" href="sip.php">Sistema de ingreso </br>y permanencia</a></li>
+                       <li><a class="" href="sip.php#admision">Admisión</a></li>
+                       <li><a class="" href="sip.php#guia">Guía vocacional</a></li>
+                       <li><a class="" href="sip.php#pronostico">Pronóstico de</br>permanencia</a></li>
+                       <li><a class="" href="sip.php#riesgo">Riesgo de abandono</a></li>
                    </ul>
         </div> 
         <div class="col-md-3 col-4">
              <h5>Consultor / Orientador / Psciopedagogo</h5>
              <ul>
                        <li><a class="strongetxt"  href="skillmap.php">Skill Map</a></li>
-                       <li><a  href="#">Evaluación</a></li>
-                       <li><a  href="#">Diagnóstico</a></li>
-                       <li><a  href="#">Herramientas</a></li>
-                       <li><a class="strongetxt"  href="#">Skill MT</a></li>
-                       <li><a  href="#">Entrenamiento</a></li>
+                       <li><a  href="evaluacion.php">Evaluación</a></li>
+                       <li><a  href="diagnostico.php">Diagnóstico</a></li>
+                       <li><a  href="herramientas.php">Herramientas</a></li>
+                       <li><a class="strongetxt"  href="skillmaptrainingcop.php">Skill MT</a></li>
+                       <li><a  href="skillmaptrainingcop.php#trainig">Entrenamiento</a></li>
                    </ul>
         </div> 
 		 	  
@@ -68,18 +68,18 @@
 		 	  <div class="col-md-2 col-6">
 		 	  	   <h5>Casos de éxito</h5>
 		 	  	   <ul>
-                       <li><a  href="#">Clientes</a></li>
-                       <li><a  href="#">Testimonio</a></li>
-                       <li><a  href="#">Apoyo social</a></li>
+                       <li><a  href="clientes.php">Clientes</a></li>
+                       <li><a  href="testimoniales.php">Testimonio</a></li>
+                       <li><a  href="social.php">Apoyo social</a></li>
                    </ul>
 		 	  </div> 
 		 	  <div class="col-md-2 col-6">
 		 	  	   <h5>Más</h5>
 		 	  	   <ul>
-                       <li><a  href="#">Nosotros</a></li>
-                       <li><a  href="#">Blog</a></li>
-                       <li><a  href="#">Contacto</a></li>
-                   </ul>
+                <li><a  href="nosotros.php">Nosotros</a></li>
+                <li><a  href="http://blog.lexiumonline.com/">Blog</a></li>
+                <li><a  href="contacto.php">Contacto</a></li>
+             </ul>
 		 	  </div> 
 		 </div>
 

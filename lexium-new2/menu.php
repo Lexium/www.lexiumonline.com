@@ -73,7 +73,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="clientes.php">Clientes</a>
-          <a class="dropdown-item" href="testimoniales.php">Testimoniales</a>
+          <a class="dropdown-item" href="testimoniales.php">Testimonos</a>
           <a class="dropdown-item" href="social.php">Apoyo social</a>
         </div>
       </li>

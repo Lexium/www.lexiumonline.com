@@ -10,7 +10,7 @@
 	<a href="#!" data-toggle="modal" data-target="#SIP" title="Ver video" class="btn btn-primary">Ver video</a>
         <div class="container" style="margin-top: 4%;">
              <div class="row">
-            	 <div class="col-md-6 datasgral">
+            	 <div class="col-md-6 datasgral" id="admision">
 	   	    	 	  <div class="row">
 	   	    	 	        <div class="col-md-4 col-6">
                                  <img class="img-fluid" src="./resources/icons/sip/admision_icon.png" alt="Admisión" title="Admisión">
@@ -22,7 +22,7 @@
 	   	    	 	  </div>
 	   	    	 </div>
 <div class="line"></div>
-	   	    	 <div class="col-md-6 datasgral">
+	   	    	 <div class="col-md-6 datasgral" id="guia">
 	   	    	 	  <div class="row">
 	   	    	 	        <div class="col-md-4 col-6 orderdata3">
                                  <img class="img-fluid" src="./resources/icons/sip/guia_vocacional_icon.png" alt="Guía vocacional" title="Guía vocacional">
@@ -34,7 +34,7 @@
 	   	    	 	  </div>
 	   	    	 </div>
 <div class="line"></div>
-	   	    	 <div class="col-md-6 datasgral">
+	   	    	 <div class="col-md-6 datasgral" id="pronostico">
 	   	    	 	  <div class="row">
 	   	    	 	        <div class="col-md-4 col-6">
                                  <img class="img-fluid" src="./resources/icons/sip/pronostico_permanencia_icon.png" alt="Pronóstico de permanencia" title="Pronóstico de permanencia">
@@ -46,7 +46,7 @@
 	   	    	 	  </div>
 	   	    	 </div>
 
-	   	    	 <div class="col-md-6 datasgral">
+	   	    	 <div class="col-md-6 datasgral" id="riesgo">
 	   	    	 	  <div class="row">
 	   	    	 	        <div class="col-md-4 col-6 orderdata3">
                                  <img class="img-fluid" src="./resources/icons/herramientas/riesgo_abandono_icon.png" alt="Riesgo de abandono" title="Riesgo de abandono">
