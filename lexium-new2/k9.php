@@ -39,7 +39,7 @@
   /* Fin propiedades de las olas que van detras del slider */
 </style>
 
-<section class="principal-slider">
+<section class="principal-slider" id="k9">
     <div id="scene-slider">
             <div class="wave wave1"></div>
             <div class="wave wave2"></div>
