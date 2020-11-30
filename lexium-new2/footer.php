@@ -26,7 +26,6 @@
 		 	  	   <h5>K-9</h5>
 		 	  	   <ul>
                        <li><a class="strongetxt"  href="skillmap.php">Skill Map</a></li>
-                       <div class="line" style="border-bottom: 1px solid #fff;"></div>
                        <li><a  href="evaluacion.php">Evaluación</a></li>
                        <li><a  href="diagnostico.php">Diagnóstico</a></li>
                        <li><a  href="herramientas.php">Herramientas</a></li>
