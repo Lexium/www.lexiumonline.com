@@ -22,15 +22,27 @@
 		 </div>
 
 		 <div class="row menuses">
-		 	  <div class="col-md-3 col-4">
-		 	  	   <h5>Preparatoria y Universidades</h5>
+		 	  <div class="col-md-2 col-4">
+		 	  	   <h5>K-9</h5>
 		 	  	   <ul>
-                       <li><a class="strongetxt" href="#">Skill Map</a></li>
+                       <li><a class="strongetxt"  href="skillmap.php">Skill Map</a></li>
+                       <div class="line" style="border-bottom: 1px solid #fff;"></div>
+                       <li><a  href="#">Evaluación</a></li>
+                       <li><a  href="#">Diagnóstico</a></li>
+                       <li><a  href="#">Herramientas</a></li>
+                       <li><a class="strongetxt"  href="#">Skill MT</a></li>
+                       <li><a  href="#">Entrenamiento</a></li>
+                   </ul>
+		 	  </div> 
+        <div class="col-md-3 col-4">
+             <h5>Preparatoria y Universidades</h5>
+             <ul>
+                      <!--  <li><a class="strongetxt" href="skillmap.php">Skill Map</a></li>
                        <li><a class="" href="#">Evaluación</a></li>
                        <li><a class="" href="#">Diagnóstico</a></li>
-                       <li><a class="" href="#">Herramientas</a></li>
+                       <li><a class="" href="#">Herramientas</a></li> 
                        <li><a class="strongetxt" href="#">Skill MT</a></li>
-                       <li><a class="" href="#">Entrenamiento</a></li>
+                       <li><a class="" href="#">Entrenamiento</a></li>-->
                        <li><a class="strongetxt" href="#">Captación</a></li>
                        <li><a class="" href="#">Test rápido para</br> captar alumnos</a></li>
                        <li><a class="strongetxt" href="#">Sistema de ingreso </br>y permanencia</a></li>
@@ -39,29 +51,18 @@
                        <li><a class="" href="#">Pronóstico de</br>permanencia</a></li>
                        <li><a class="" href="#">Riesgo de abandono</a></li>
                    </ul>
-		 	  </div> 
-		 	  <div class="col-md-3 col-4">
-		 	  	   <h5>Consultor / Orientador / Psciopedagogo</h5>
-		 	  	   <ul>
-                       <li><a class="strongetxt"  href="#">Skill Map</a></li>
+        </div> 
+        <div class="col-md-3 col-4">
+             <h5>Consultor / Orientador / Psciopedagogo</h5>
+             <ul>
+                       <li><a class="strongetxt"  href="skillmap.php">Skill Map</a></li>
                        <li><a  href="#">Evaluación</a></li>
                        <li><a  href="#">Diagnóstico</a></li>
                        <li><a  href="#">Herramientas</a></li>
                        <li><a class="strongetxt"  href="#">Skill MT</a></li>
                        <li><a  href="#">Entrenamiento</a></li>
                    </ul>
-		 	  </div> 
-		 	  <div class="col-md-2 col-4">
-		 	  	   <h5>K-9</h5>
-		 	  	   <ul>
-                       <li><a class="strongetxt"  href="#">Skill Map</a></li>
-                       <li><a  href="#">Evaluación</a></li>
-                       <li><a  href="#">Diagnóstico</a></li>
-                       <li><a  href="#">Herramientas</a></li>
-                       <li><a class="strongetxt"  href="#">Skill MT</a></li>
-                       <li><a  href="#">Entrenamiento</a></li>
-                   </ul>
-		 	  </div> 
+        </div> 
 		 	  
 		 	  <div class="div-bottom" style=""></div>
 		 	  <div class="col-md-2 col-6">

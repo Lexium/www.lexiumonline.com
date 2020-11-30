@@ -2,7 +2,6 @@
      <div class="comillas " id="" style=""><img class="img-fluid" src="./resources/icons/comillas.png"></div>
      <div class="" id="test-bg">
           <div class="container" style="z-index: 18">
-                   <h3>Testimonios</h3>
                    <h1>¿Qué dicen nuestros clientes?</h1>
                    <!--Carousel Wrapper-->
                    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">

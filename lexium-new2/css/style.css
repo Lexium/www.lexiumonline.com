@@ -23,7 +23,7 @@ p, span,{
 
 /*Ventana de inicio*/
 .gral{position: relative; background-color: black; height: 100vh; min-height: 25rem;width: 100%;overflow: hidden;}
-video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;width: auto;height: auto;z-index: 0;
+video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;width: 100%;height: auto;z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -219,16 +219,17 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 /* FIN PRINCIPAL SLIDER*/ 
 
 /* DATAS */
-
-.about_us h2, .about_us span, .about_us h4 { font-family: 'HarmoniaSansW01-Bold'!important; font-weight: 300;}
+.about_us{padding-bottom: 0rem!important;}
+.about_us h2, .about_us span{ font-family: 'HarmoniaSansW01-Bold'!important; font-weight: 300; font-size: 2.5em!important;}
+.about_us h4 { font-family: 'HarmoniaSansW01-Bold'!important; font-weight: 300;}
 .about_us p{ font-size: 1.2em!important; }
 
-.ym{ color: #faaf11; }
+.ym{ color: #faaf11; display: inline-block; }
 .ea{display: inline-block; color: #ec008b;}
-.paises{color: #39c38d;}
-.ia{ color: #3b5bdb; }
+.paises{color: #39c38d; display: inline-block;}
+.ia{ color: #3b5bdb; display: inline-block; }
 
-.better{ background-color: #c2e8f6; overflow: hidden;}
+.better{ background-color: #c2e8f6; overflow: hidden; padding: 0px 6%;}
 .better-content{ max-width: 1480px; position: relative; margin: 0 auto;}
 .better-layer{width: 180%;}
 .bettext{ padding: 9% 0%; color: #23215b; font-family: 'HarmoniaSansW01-Bold';  margin: 0 auto;     z-index: 4000;}
@@ -323,7 +324,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 /* TESTIMONIOS SLIDER */
 .testimonio {background-color: #faf4ea;;text-align: center; position: relative; overflow: hidden; max-height: 600px!important;}   
-.testimonio  h1{ color: #23215b; z-index: 6; margin-bottom: 3%; font-family: 'HarmoniaSansW01-Bold';}
+.testimonio  h1{ color: #23215b; z-index: 6; margin: 4% 0 2% 0; font-family: 'HarmoniaSansW01-Bold';}
 .testimonio  h3{ color: #f9a817; z-index: 6; padding-top: 5%; font-family: 'HarmoniaSansW01-Bold'; }
 .testimonio  span{ color: #23215b; z-index: 6; padding-top: 5%; font-family: 'HarmoniaSansW01-regular'; font-size: 1.3em; height: 20%;}
 .comillas{position: absolute; margin:-10% 20%;}
@@ -337,10 +338,28 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 }
 /* FIN de TESTIMONIOS SLIDER */
 
+
+/* DIRECTIVOS*/
+
+.directv{ background-color: #c1e8f7; overflow: hidden;}
+.layerdtest img{ width: 130%!important; }
+.card{ border: none!important; background-color: transparent!important; }
+.directivos h1{ color: #23215b; z-index: 6; margin-bottom: 3%; font-family: 'HarmoniaSansW01-Bold'!important}
+.directivos h3{ color: #f9a817; z-index: 6; font-family: 'HarmoniaSansW01-Bold'!important }
+.card-body a{color: #23215b; text-decoration: none}
+.card-body h5{color: #23215b;font-family: 'HarmoniaSansW01-Bold'!important}
+.card-body p{color: #23215b;font-family: 'HarmoniaSansW01-Regular'!important}
+
+@media (max-width: 768px) { 
+     .layerd img{ display: none!important; }
+ }
+/* FIN DIRECTIVOS*/
+
 /* WHY*/
 .why6 h3{font-family: 'HarmoniaSansW01-Bold'; color: #23215b; font-size: 2.3em; text-align: center; margin: 5%;}
 .whytxt{margin-top: 20%; margin-left: 5%;}
 .excercise img{margin-left: -6px; margin-top: -6px;}
+.layerd img{ width: 90%; }
 
 @media (max-width: 768px) {
     .why6{ text-align: center; }
@@ -503,7 +522,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 /*CAROUSEL*/
 
      .carousel-item{background-color: transparent!important;}
-     .tarjeta{ padding: 3%;text-align: center;max-width: 600px!important; margin: 0 auto;}
+     .tarjeta{ padding: 0px 3% 3% 3%;text-align: center;max-width: 600px!important; margin: 0 auto;}
      .card{background-color: transparent!important;border: none!important;}
      .card-text{ padding-top: 15%;}
      .carousel-indicators li{ background-color: #27beef;}

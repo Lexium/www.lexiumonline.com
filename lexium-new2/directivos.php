@@ -1,6 +1,5 @@
     <section class="b7_landing pt-5 pb-3 directv" id="directv">
         <div class="container text-center directivos">
-            <h3>Equipo</h3>
             <h1>Conoce a nuestro equipo directivo</h1>
             <div class="row">
                 <div class="col-md-3"></div>
@@ -90,24 +89,5 @@
 
 
     <style type="text/css">
-/* DIRECTIVOS*/
 
-.directv{ background-color: #c1e8f7; overflow: hidden;}
-.layerd img{ width: 90%; }
-.card{ border: none!important; background-color: transparent!important; }
-.directivos h1{ color: #23215b; z-index: 6; margin-bottom: 3%; font-family: 'HarmoniaSansW01-Bold'!important}
-.directivos h3{ color: #f9a817; z-index: 6; font-family: 'HarmoniaSansW01-Bold'!important }
-.card-body a{color: #23215b; text-decoration: none}
-.card-body h5{color: #23215b;font-family: 'HarmoniaSansW01-Bold'!important}
-
-@media (max-width: 768px) { 
-     .layerd img{ display: none!important; }
- }
     </style>
-
-<!--     <script type="text/javascript">
-         var scene = document.getElementById('directv');
-         var parallax = new Parallax(scene);
-
-         relativeInput: true
-    </script> -->
