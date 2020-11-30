@@ -5,21 +5,21 @@
                    <h5>Lexium Lite permite que una persona o grupo pequeño tenga fácil acceso a nuestras evaluaciones y diagnósticos, sin necesidad de hacerlo a través de una institución educativa.</h5>
              
                    <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                              <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/kl.png">
-                             <a class="btn btn-success" href="">Comprar Ahora</a>
+                             <a class="btn btn-success" style="margin-bottom: 5%;" href="">Comprar Ahora</a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                              <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/pbl.png">
-                             <a class="btn btn-success" href="">Comprar Ahora</a>
+                             <a class="btn btn-success" style="margin-bottom: 5%;" href="">Comprar Ahora</a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                              <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/pbal.png">
-                             <a class="btn btn-success" href="">Comprar Ahora</a>
+                             <a class="btn btn-success" style="margin-bottom: 5%;" href="">Comprar Ahora</a>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                              <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/jl.png">
-                             <a class="btn btn-success" href="">Comprar Ahora</a>
+                             <a class="btn btn-success" style="margin-bottom: 5%;" href="">Comprar Ahora</a>
                         </div>                   
                    </div>
               </div>

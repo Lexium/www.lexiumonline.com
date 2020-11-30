@@ -78,6 +78,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 /* PRINCIPAL Banner*/  
 .banner-principal h5{ color: #faaf11; font-family: 'HarmoniaSansW01-Bold'; font-size: 2.5em; margin-bottom: 0px!important; }
+.bp-h5-2{ display: none; }
 .banner-principal h4{ color: #fff; font-family: 'HarmoniaSansW01-Bold'; font-size: 2.5em;  margin-bottom:15px; }
 .banner-principal p{ font-family: 'HarmoniaSansW01-Regular'!important; font-size:18px; margin-bottom:15px; color:#f5f5f5; }
 .banner-principal a{background:#faaf11; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; }
@@ -195,8 +196,13 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 @media (max-width: 768px) {
   .layer{ visibility: hidden!important; }
   .banner-container{ top: -25px!important; }
-  .banner-principal h4{ font-size: 1.4em!important; }
+  .banner-principal h5{ position: absolute; left: -33% }
+  .bp-h5-1{ display: none!important; }
+  .bp-h5-2{ display: block; left: -40%!important; font-size: 1em!important;}
+  .banner-principal h4{ font-size: 1.4em; }
   .banner-principal p{ font-size: 14px!important; }
+  .banner-principal a{ margin-bottom: 5%;}
+  .banner-principal img{ margin-top: 45%; }
 }
 
           /* Fin propiedades de las olas que van detras del slider */
