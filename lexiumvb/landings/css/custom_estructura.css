@@ -1,0 +1,317 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-weight: 300;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    color: #222222;
+}
+h1,h2,h3,h4,h5{
+    /*color:#27beef;
+    color:#f68c20;*/
+}
+h1{
+    font-weight: 800;
+}
+h2{
+    font-weight: 600;
+}
+
+.has-error{
+    font-size: small;
+    position: relative;
+    top: -20px;
+    text-align: center;
+    width: 100%;
+}
+
+#tooltip {
+background-color: #f68c20;
+color: black;
+padding: 5px 10px;
+border-radius: 4px;
+font-size: 13px;
+}
+
+#tooltip ol{
+	list-style-type: none;
+	padding-left: 0;
+	font-size: x-large;
+	font-weight: 600;
+}
+
+#tooltip ol li{
+    background-size: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 5px;
+}
+
+/*
+.prox-nov-reg
+{
+    font-family: proxima-nova, sans-serif;
+    font-style: bold;
+    font-weight: 400;
+}
+.prox-nov-bold
+{
+    font-family: proxima-nova, sans-serif;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.prox-nov-lt
+{
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+*/
+.custom-form-control{
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #222222;
+    outline: none;
+    height: 3rem;
+    line-height: 2rem;
+    width: 80%;
+    font-size: 16px;
+    margin: -15px 17px 20px;
+    padding: 0;
+    user-select: none;
+    z-index: 1;
+    border-radius: 0!important;
+    box-shadow: none;
+    color: #000;
+}
+
+.num_margen{
+ margin-top: -20px;
+ line-height: 1;
+ }
+
+
+
+.bg_gray{
+    background: #f5f7fb;
+}
+.header .right{
+    text-align: right;
+}
+.btn-warning{
+    background-color:#f68c20;
+    border-color:#f68c20;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-warning:hover{
+    background-color: #ee7001;
+    border-color:#ee7001;
+    color: #fff;
+}
+.p-5{
+    padding:5rem 3rem!important;
+}
+.banner{
+    background: #fff no-repeat center bottom;
+    background-size: cover;
+    min-height: 550px;
+    border-radius: 0!important;
+    margin-bottom:0;
+}
+.banner h1 {
+    font-size: 3.6rem;
+    color: #fff;
+}
+.banner h4{
+    color: #fff;
+}
+
+.banner .col-md-6{
+    position: relative;
+}
+.s1_landing{
+    position: relative;
+}
+.s1_landing ul{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: x-large;
+    font-weight: 600;
+}
+.s1_landing ul li{
+    background:url(../images/reinventando_la_forma_de_aprender/sec1-i1_.png) no-repeat center left;
+    background-size: 45px;
+    min-height: 45px;
+    padding-left: 55px;
+    padding-top: 5px;
+    margin-bottom: 1rem;
+}
+.s1_landing ul li:nth-child(2){
+    background-image: url(../images/reinventando_la_forma_de_aprender/sec1-i2_.png);
+}
+.s1_landing ul li:nth-child(3){
+    background-image: url(../images/reinventando_la_forma_de_aprender/sec1-i3_.png);
+}
+.s1_landing ul li:nth-child(4){
+    background-image: url(../images/reinventando_la_forma_de_aprender/sec1-i4_.png);
+}
+.s1_landing ul li:nth-child(5){
+    background-image: url(../images/reinventando_la_forma_de_aprender/sec1-i5_.png);
+}
+.s1_landing ul li:hover{
+    background-color: #fff2d8;
+}
+.s1_landing .form_continer{
+    background-color:#eaeaea;
+    padding:1rem;
+    width: 85%;
+    border-radius:1rem;
+    float: right;
+    position: relative;
+    top: -6rem;
+}
+.s1_landing .form_continer b{
+    font-weight: 600;
+    display: block;
+    margin-bottom:1rem;
+    text-align: center;
+}
+.s1_landing .form_continer .btn{
+   width: 200px;
+   margin-top: 1rem;
+}
+
+.s1_landing .form_continer .form-control{
+    position: relative;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #222222;
+    outline: none;
+    height: 3rem;
+    line-height: 2rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px;
+    padding: 0;
+    display: block;
+    user-select: none;
+    z-index: 1;
+    border-radius: 0!important;
+    box-shadow: none;
+    color: #000;
+}
+.s2_landing{
+    color: #f68c20;
+    font-size: 1.5rem;
+}
+.s2_landing h1{
+    color: #222;
+}
+.s2_landing h3{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.s2_landing p{
+    margin-bottom: 0;
+}
+.s3_landing ul{
+    padding-left: 0;
+    list-style-type: none;
+}
+.s3_landing ul li {
+    background: url(../images/reinventando_la_forma_de_aprender/small/incrementa_icon.png) no-repeat center left;
+    min-height: 91px;
+    padding-left: 115px;
+    padding-top: 5px;
+    margin-bottom: 1rem;
+    font-size: x-large;
+    line-height: initial;
+    font-weight: 800;
+}
+.s3_landing ul li:nth-child(2){
+    background-image: url(../images/reinventando_la_forma_de_aprender/small/mejora_icon.png);
+}
+.s3_landing ul li:nth-child(3){
+    background-image: url(../images/reinventando_la_forma_de_aprender/small/fortalece_icon.png);
+}
+.s3_landing ul li:nth-child(4){
+    background-image: url(../images/reinventando_la_forma_de_aprender/small/prosperar_icon.png);
+}
+.s3_landing .carousel p {
+    font-size: 1.5rem;
+}
+.s3_landing .carousel .name_container img{
+    width: 80px;
+    float: left;
+}
+.s3_landing .carousel .name_container .title {
+    float: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: #2c3038;
+}
+.s3_landing .carousel .name_container .title span {
+    display: block;
+    font-family: 'ProximaNovaA-Light', sans-serif;
+    color: #092f87;
+}
+.carousel .carousel-indicators{
+    position: inherit;
+
+}
+.carousel-indicators li{
+    background-color: #f68c20!important;
+}
+footer{
+    color: #fff;
+    background:#2c318d;
+}
+footer .right{
+    text-align: right;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+}
+@media (max-width: 992px){
+    .banner h1{
+        font-size: 2.7rem;
+        padding-right:0;
+    }
+    .s1_landing .form_continer{
+        width: 100%;
+        top: inherit;
+        margin-top: 2rem
+    }
+    .s1_landing .form_continer b{
+        font-size: x-large;
+        font-weight: 800;
+    }
+
+    .s3_landing ul{
+        margin-top: 3rem;
+    }
+
+}
+@media (max-width: 767px){
+    .banner h1{
+        font-size: 2.7rem;
+    }
+    .header .right{
+        text-align: left;
+        margin-top: 2rem;
+    }
+}
+@media (max-width: 576px){
+
+}
