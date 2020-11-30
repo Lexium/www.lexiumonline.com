@@ -28,7 +28,7 @@
                                                 <div class="effect-2"></div>
                                                 <div class="content">
                                                      <div class="exercise exercise2">
-                                                     	  <img  src="./resources/icons/abc.png">
+                                                     	  <img  src="./resources/icons/why/incrementa_icon.png">
                                                      </div>
                                                 </div>
                                            </div>
@@ -49,7 +49,7 @@
                                                 <div class="effect-2"></div>
                                                 <div class="content">
                                                      <div class="exercise exercise2">
-                                                     	  <img src="./resources/icons/pen.png">
+                                                     	  <img src="./resources/icons/why/fortalece_icon.png">
                                                      </div>
                                                 </div>
                                            </div>
@@ -72,7 +72,7 @@
                                                 <div class="effect-2"></div>
                                                 <div class="content">
                                                      <div class="exercise exercise2">
-                                                     	  <img src="./resources/icons/book.png">
+                                                     	  <img src="./resources/icons/why/mejora_icon.png">
                                                      </div>
                                                 </div>
                                            </div>
@@ -93,7 +93,7 @@
                                                 <div class="effect-2"></div>
                                                 <div class="content">
                                                      <div class="exercise exercise2">
-                                                     	  <img src="./resources/icons/pencils.png">
+                                                     	  <img src="./resources/icons/why/prosperar_icon.png">
                                                      </div>
                                                 </div>
                                            </div>

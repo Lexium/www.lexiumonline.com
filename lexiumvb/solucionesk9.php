@@ -22,7 +22,7 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <img  src="./resources/icons/abc.png">
+                                              <img  src="./resources/icons/soluciones/evaluaciones_icon.png">
                                          </div>
                                     </div>
                                   </div>
@@ -43,7 +43,7 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <img  src="./resources/icons/abc.png">
+                                              <img  src="./resources/icons/soluciones/diagnostico_icon.png">
                                          </div>
                                     </div>
                                   </div>
@@ -64,7 +64,7 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <img  src="./resources/icons/abc.png">
+                                              <img  src="./resources/icons/soluciones/herramientas_icon.png">
                                          </div>
                                     </div>
                                   </div>
@@ -90,7 +90,7 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <img  src="./resources/icons/abc.png">
+                                              <img  src="./resources/icons/soluciones/skill-map_icon.png">
                                          </div>
                                     </div>
                                   </div>
@@ -111,7 +111,7 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <img  src="./resources/icons/abc.png">
+                                              <img  src="./resources/icons/soluciones/entrenamiento_icon.png">
                                          </div>
                                     </div>
                                   </div>
