@@ -2,6 +2,17 @@ html, body{
   overflow-x: hidden!important;
   /*width: 101%;*/
 }
+
+/*@font-face {
+  font-family: "HarmoniaSansW01-Regular";
+  src: url("./resources/fonts/HarmoniaSansProCyr-Regular.woff2") format(‘woff2’);
+}
+
+@font-face {
+  font-family: "HarmoniaSansW01-Bold";
+  src: url("./resources/fonts/HarmoniaSansProCyr-Bold.woff2") format(‘woff2’);
+}*/
+
 h1, h2, h3, h4, h5, h6, {
 	font-family: 'HarmoniaSansW01-Bold';
 }
@@ -9,7 +20,6 @@ h1, h2, h3, h4, h5, h6, {
 p, span,{
   font-family: 'HarmoniaSansW01-Regular';
 }
-
 
 /*Ventana de inicio*/
 .gral{position: relative; background-color: black; height: 100vh; min-height: 25rem;width: 100%;overflow: hidden;}

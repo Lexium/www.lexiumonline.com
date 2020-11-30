@@ -67,7 +67,7 @@
                </div>
                <div class="col-md-5 col-4 order-md-2 order-1">
                     <div class="banner-principal">
-                         <img src="./resources/k9kids.png" class="mx-auto" alt="slide" width="100%">
+                         <img src="./resources/k9kids.png" class="mx-auto" alt="k9 Kids" title="k9 Kids" width="100%">
                     </div>
                </div>
                

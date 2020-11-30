@@ -29,17 +29,22 @@
           <div class="h-70 w-100 text-center selectbox">
             <div class="texbox w-100 h-75">
                  <div class="imgbox"> 
-                    <img src="resources/images/logo_lexium_azul_160.png">
+                    <img src="resources/images/logo_lexium_azul_160.png" alt="Lexium Logo" title="Lexium Logo">
                  </div>
                  <h5 class="display-5">Sonríe, has encontrado la plataforma más eficiente para impulsar el aprendizaje</h5>
                  <h5 class="display-5">Selecciona la opción deseada</h5>
-                 <a type="button" href="k9.php" class="w-75 btn btn-primary"> Institución educativa (K-9) </a>
-                 <a type="button" href="preparatoria.php" class="w-75 btn btn-primary"> Preparatoria / Universidad </a>
-                 <a type="button" href="consultor.php" class="w-75 btn btn-primary"> Consultor/ Orientador/ Psicopedagogo </a> 
+                 <a type="button" href="k9.php" class="w-75 btn btn-primary"  onclick="changeId()" id="k9"> Institución educativa (K-9) </a>
+                 <a type="button" href="preparatoria.php" class="w-75 btn btn-primary"  onclick="changeId()" id="pu"> Preparatoria / Universidad </a>
+                 <a type="button" href="consultor.php" class="w-75 btn btn-primary"  onclick="changeId()" id="cop"> Consultor/ Orientador/ Psicopedagogo </a> 
             </div>
           </div>
         </div>
     </div>
    
+   <script type="text/javascript">
+           function changeId() {
+                    alert("clic correcto");
+           }
+   </script>
 </body>
 </html>
