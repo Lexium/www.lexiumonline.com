@@ -1,5 +1,8 @@
-<?php include('header.php');?>
-<?php include('menu.php'); ?>
+<?php
+$archivo_previo = __FILE__;
+include 'header.php'; 
+include 'menu.php';
+?> 
 <section class="text-center titulocontenido">
     <h1>Skill Map & Training</h1>
     <p>Enriquece al SkillMap incorporando un entrenamiento modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje.</p>

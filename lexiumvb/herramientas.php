@@ -1,5 +1,8 @@
-<?php include('header.php');?>
-<?php include('menu.php'); ?>
+<?php
+$archivo_previo = __FILE__;
+include 'header.php'; 
+include 'menu.php';
+?> 
 <section class="text-center titulocontenido">
     <h1>Herramientas </h1>
     <p>Propicia y crea ambientes de aprendizaje efectivos con apoyo de las herramientas de análisis y planeación.</p>

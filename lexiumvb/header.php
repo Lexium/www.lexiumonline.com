@@ -14,7 +14,14 @@
     'testimoniales.php' => 'Testimonios | ',
     'social.php' => 'Apoyo Social | ',
     'contacto.php' => 'Contacto | ',
-    'skillmap.php' => 'Skill Map | '
+    'skillmap.php' => 'Skill Map | ',
+    'evaluacion.php' => 'Evaluaciones | ',
+    'diagnostico.php' => 'Diagnóstico',
+    'herramientas.php' => 'Herramientas | ',
+    'skillmaptrainingk9.php' => 'Skill Map & Training | ',
+    'skillmaptrainingpu.php' => 'Skill Map & Training | ',
+    'skillmaptrainingcop.php' => 'Skill Map & Training | ',
+    'captacion.php' => 'Captaciòn | ',
   );
 ?>
 <!DOCTYPE html>
