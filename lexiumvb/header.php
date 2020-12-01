@@ -29,27 +29,27 @@
     <!-- Google / Search Engine Tags -->
     <meta itemprop="name" content="LEXIUM">
     <meta itemprop="description" content="Impulsa el potencial de tu institución <span>Re-imaginando</span> el aprendizaje.">
-    <meta itemprop="image" content="http://www.lexiumonline.com/images/avatar_header.png">
+    <meta itemprop="image" content="//www.lexiumonline.com/images/avatar_header.png">
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="http://www.lexiumonline.com/">
+    <meta property="og:url" content="//www.lexiumonline.com/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="LEXIUM">
     <meta property="og:description" content="Impulsa el potencial de tu institución <span>Re-imaginando</span> el aprendizaje.">
-    <meta property="og:image" content="http://www.lexiumonline.com/images/avatar_header.png">
-    <link rel="icon" href="./resources/favicon.ico">
+    <meta property="og:image" content="//www.lexiumonline.com/images/avatar_header.png">
+    <link rel="icon" href="resources/favicon.ico">
     <title>LEXIUM</title>
 
      <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
      <!-- FONTS-->
-    <link href="//db.onlinewebfonts.com/c/0dd7edde115ef38e7def4b16e93b5884?family=HarmoniaSansW01-Regular" rel="stylesheet" type="text/css"/>
-    <link href="//db.onlinewebfonts.com/c/99f44be299d4608af6fbe99aa38ce446?family=HarmoniaSansW01-Bold" rel="stylesheet" type="text/css"/>
+   <!--  <link href="//db.onlinewebfonts.com/c/0dd7edde115ef38e7def4b16e93b5884?family=HarmoniaSansW01-Regular" rel="stylesheet" type="text/css"/>
+    <link href="//db.onlinewebfonts.com/c/99f44be299d4608af6fbe99aa38ce446?family=HarmoniaSansW01-Bold" rel="stylesheet" type="text/css"/> -->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-    <script src="js/conf.js"></script>
+    <script src="//code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <!-- <script src="js/conf.js"></script> -->
     
 	
 </head>
