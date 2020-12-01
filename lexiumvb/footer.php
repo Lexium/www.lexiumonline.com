@@ -37,9 +37,9 @@
              <h5>Preparatoria y Universidades</h5>
              <ul>
                        <li><a class="strongetxt" href="skillmap.php">Skill Map</a></li>
-                       <li><a class="" href="#">Evaluación</a></li>
-                       <li><a class="" href="#">Diagnóstico</a></li>
-                       <li><a class="" href="#">Herramientas</a></li>
+                       <li><a  href="evaluacion.php">Evaluación</a></li>
+                       <li><a  href="diagnostico.php">Diagnóstico</a></li>
+                       <li><a  href="herramientas.php">Herramientas</a></li>
                        <li><a class="strongetxt" href="skillmaptrainingpu.php">Skill MT</a></li>
                        <li><a class="" href="skillmaptrainingpu.php#trainig">Entrenamiento</a></li>
                        <li><a class="strongetxt" href="captacion.php">Captación</a></li>
