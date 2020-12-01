@@ -1,3 +1,22 @@
+<?php
+   $archivo_previo = strtr($archivo_previo, "/", "\\");
+  $ap_arr = explode("\\", $archivo_previo);
+  $archivo_previo = $ap_arr[count($ap_arr)-1];
+
+  $titulos = array(
+    'sip.php' => 'Sistema de Ingreso y Permanencia | ',
+    'index.php' => ' ',
+    'k9.php' => 'K9 | ',
+    'preparatoria.php' => 'Preparatoria y Universidad | ',
+    'consultor.php' => 'Consultor / Orientador / Psicopedagogo | ',
+    'nosotros.php' => 'Nosotros | ',
+    'clientes.php' => ' Clientes | ',
+    'testimoniales.php' => 'Testimonios | ',
+    'social.php' => 'Apoyo Social | ',
+    'contacto.php' => 'Contacto | ',
+    'skillmap.php' => 'Skill Map | '
+  );
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,7 +56,7 @@
     <meta property="og:description" content="Impulsa el potencial de tu institución <span>Re-imaginando</span> el aprendizaje.">
     <meta property="og:image" content="//www.lexiumonline.com/images/avatar_header.png">
     <link rel="icon" href="resources/favicon.ico">
-    <title>LEXIUM</title>
+    <title><?php echo $titulos[$archivo_previo];?>LEXIUM</title>
 
      <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">

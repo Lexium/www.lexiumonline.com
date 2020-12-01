@@ -1,6 +1,6 @@
-<?php  
-   require './header.php';
-?> 
+<?php
+$archivo_previo = __FILE__;
+include 'header.php' ?>
 <body>
 	  <div class="gral">
 	    <div class="overlay"></div>

@@ -1,5 +1,8 @@
-<?php include('header.php');?>
-<?php include('menu.php'); ?>
+<?php
+$archivo_previo = __FILE__;
+include 'header.php'; 
+include 'menu.php';
+?> 
 <section class="text-center titulocontenido">
     <h1>Skill Map</h1>
     <p>Mapea las habilidades clave de los alumnos y conoce su perﬁl y potencial de aprendizaje para que puedas gestionar mejor los procesos de enseñanza-aprendizaje y de esta forma incrementar el éxito de tu proyecto educativo.</p>

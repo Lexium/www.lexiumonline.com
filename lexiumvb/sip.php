@@ -1,4 +1,6 @@
-<?php include('header.php');?>
+<?php
+$archivo_previo = __FILE__;
+include 'header.php' ?>
 <?php include('menu.php'); ?>
 <section class="text-center titulocontenido">
     <h1>Sistema de Ingreso y Permanencia</h1>

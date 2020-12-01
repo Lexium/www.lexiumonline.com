@@ -1,5 +1,8 @@
-<?php include('header.php');
-      include('menu.php'); ?>
+<?php
+$archivo_previo = __FILE__;
+include 'header.php'; 
+include 'menu.php';
+?> 
 <script language="javascript" type="text/javascript">
     $(document).ready(function() {
 

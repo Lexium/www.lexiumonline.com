@@ -1,6 +1,7 @@
-<?php  
-   require './header.php';
-   require './menu.php';
+<?php
+$archivo_previo = __FILE__;
+include 'header.php'; 
+include 'menu.php';
 ?> 
 
 <style type="text/css">
