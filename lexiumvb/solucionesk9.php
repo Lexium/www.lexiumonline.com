@@ -22,7 +22,9 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <img  src="./resources/icons/soluciones/evaluaciones_icon.png">
+                                            <a href="Evaluacion.php">  
+                                               <img  src="./resources/icons/soluciones/evaluaciones_icon.png">
+                                            </a>
                                          </div>
                                     </div>
                                   </div>
@@ -43,7 +45,9 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <img  src="./resources/icons/soluciones/diagnostico_icon.png">
+                                              <a href="diagnostico.php">
+                                                 <img  src="./resources/icons/soluciones/diagnostico_icon.png">
+                                              </a> 
                                          </div>
                                     </div>
                                   </div>
@@ -64,7 +68,9 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <img  src="./resources/icons/soluciones/herramientas_icon.png">
+                                              <a href="herramientas.php">
+                                                <img  src="./resources/icons/soluciones/herramientas_icon.png">
+                                              </a>
                                          </div>
                                     </div>
                                   </div>
@@ -90,7 +96,9 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <img  src="./resources/icons/soluciones/skill-map_icon.png">
+                                              <a href="skillmap.php">
+                                                 <img  src="./resources/icons/soluciones/skill-map_icon.png">
+                                              </a>
                                          </div>
                                     </div>
                                   </div>
@@ -111,7 +119,9 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <img  src="./resources/icons/soluciones/entrenamiento_icon.png">
+                                              <a href="skillmaptrainingk9.php">
+                                                 <img  src="./resources/icons/soluciones/entrenamiento_icon.png">
+                                              </a>
                                          </div>
                                     </div>
                                   </div>
