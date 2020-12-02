@@ -11,7 +11,7 @@
                               <div class="carousel-item active">
                                    <div class="row">
                                         <div class="col-md-12 tarjeta">
-                                                   <span>Lexium ha transformado el aprendizaje del instituto, nos ha dado un abanico de oportunidades que antes no se tenían, de poder ir siempre más allá, de crear aprendizajes nuevos y llevar a los alumnos a otro nivel.</span>
+                                                   <span><strong>"</strong>Lexium ha transformado el aprendizaje del instituto, nos ha dado un abanico de oportunidades que antes no se tenían, de poder ir siempre más allá, de crear aprendizajes nuevos y llevar a los alumnos a otro nivel.<strong>"</strong></span>
                                                    <p class="autor">Mónica Espinosa - Instituto Juárez Lincoln</p>
                                         </div>
                                    </div>
@@ -22,7 +22,7 @@
                               <div class="carousel-item">
                                    <div class="row">
                                         <div class="col-md-12 tarjeta">
-                                                   <span>Lexium ha transformado el aprendizaje del instituto, nos ha dado un abanico de oportunidades que antes no se tenían, de poder ir siempre más allá, de crear aprendizajes nuevos y llevar a los alumnos a otro nivel.</span>
+                                                   <span><strong>"</strong>Lexium ha transformado el aprendizaje del instituto, nos ha dado un abanico de oportunidades que antes no se tenían, de poder ir siempre más allá, de crear aprendizajes nuevos y llevar a los alumnos a otro nivel.<strong>"</strong></span>
                                                    <p class="autor">Mónica Espinosa - Instituto Juárez Lincoln</p>
                                         </div>
                                    </div>
@@ -33,7 +33,7 @@
                               <div class="carousel-item">
                                    <div class="row">
                                         <div class="col-md-12 tarjeta">
-                                                   <span>Lexium ha transformado el aprendizaje del instituto, nos ha dado un abanico de oportunidades que antes no se tenían, de poder ir siempre más allá, de crear aprendizajes nuevos y llevar a los alumnos a otro nivel.</span>
+                                                   <span><strong>"</strong>Lexium ha transformado el aprendizaje del instituto, nos ha dado un abanico de oportunidades que antes no se tenían, de poder ir siempre más allá, de crear aprendizajes nuevos y llevar a los alumnos a otro nivel.<strong>"</strong></span>
                                                   <p class="autor">Mónica Espinosa - Instituto Juárez Lincoln</p>
                                         </div>
                                    </div>
