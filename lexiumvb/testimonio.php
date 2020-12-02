@@ -79,7 +79,6 @@
                    <!--/.Carousel Wrapper-->
          </div>
          <div class="" id="test-bg" style="position: absolute;top: 0;z-index: 0;">
-            <!--   <div class="comillas " id="" style="z-index: 0"><img class="img-fluid" src="./resources/icons/comillas.png"></div> -->
               <div class="layerdtest" data-depth="0.82"><img src="./resources/images/parallax-mouse/testimonio-bg-01.png"></div>
               <div class="layerdtest" data-depth="2.82"><img src="./resources/images/parallax-mouse/testimonio-bg-02.png"></div>
               <div class="layerdtest" data-depth="0.45"><img src="./resources/images/parallax-mouse/testimonio-bg-03.png"></div>

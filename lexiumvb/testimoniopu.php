@@ -1,7 +1,5 @@
 <section class="testimonio">
-     <div class="comillas " id="" style=""><img class="img-fluid" src="./resources/icons/comillas.png"></div>
-     <div class="" id="test-bg">
-          <div class="container" style="z-index: 18">
+         <div class="container">
                    <h1>¿Qué dicen nuestros clientes?</h1>
                    <!--Carousel Wrapper-->
                    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
@@ -90,16 +88,15 @@
                         <!--/.Slides-->
                    </div>
                    <!--/.Carousel Wrapper-->
-          </div>
-
-          
-               <div class="layerd" style="z-index: 8" data-depth="0.82"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-01.png"></div>
-               <div class="layerd" style="z-index: 8" data-depth="2.82"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-02.png"></div>
-               <div class="layerd" style="z-index: 8" data-depth="0.45"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-03.png"></div>
-               <div class="layerd" style="z-index: 8" data-depth="1.90"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-04.png"></div>
-               <div class="layerd" style="z-index: 8" data-depth="0.15"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-05.png"></div>
-               <div class="layerd" style="z-index: 8" data-depth="0.15"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-06.png"></div>
-     </div> 
+         </div>
+         <div class="" id="test-bg" style="position: absolute;top: 0;z-index: 0;">    
+               <div class="layerd" data-depth="0.82"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-01.png"></div>
+               <div class="layerd" data-depth="2.82"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-02.png"></div>
+               <div class="layerd" data-depth="0.45"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-03.png"></div>
+               <div class="layerd" data-depth="1.90"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-04.png"></div>
+               <div class="layerd" data-depth="0.15"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-05.png"></div>
+               <div class="layerd" data-depth="0.15"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-06.png"></div>
+         </div> 
 </section>
 
  <script type="text/javascript">

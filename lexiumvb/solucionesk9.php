@@ -1,5 +1,5 @@
 <section class="solucionesk9" >
-	   <div class="w-100" id="solucionesk9">
+	     <div class="w-100" id="solucionesk9">
                  <div class="solutxt">
                        <h3>Soluciones</h3>
                        <p>Lexium es una plataforma que ayuda a instituciones educativas a mapear y potenciar las habilidades de aprendizaje.</p>
@@ -9,7 +9,7 @@
                  <div class="img-circle-3" data-depth=".70"><img src="./resources/images/parallax-mouse/10-1.png"></div>
        </div>
        <div class="container">
-	   	       <div class="row">
+	   	      <div class="row">
 	   	         <div class="col-md-6">
                  <div class="skillmap">
                  	  <h3>Skill Map</h3>
@@ -84,7 +84,7 @@
                  	  </div>
                  </div>
 	   	         </div>
-	   	    <div class="col-md-6">
+	   	         <div class="col-md-6">
 	   	    	<div class="skillmaptraining">
 	   	    		  <h3>Skill Map & Training</h3>
 	   	    		   <div class="skill-content container">
@@ -134,9 +134,9 @@
                  	  	  </div>
                  	  </div>
 	   	    	</div>
-	   	    </div>
-             </div>
-	   </div>
+	   	         </div>
+            </div>
+	     </div>
 	   
        
 </section>
