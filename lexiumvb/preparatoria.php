@@ -59,16 +59,16 @@ include 'menu.php';
     <div class="container banner-container">
           <div class="row">
                <div class="col-md-7 col-8 order-md-1 order-2 "> 
-                    <div class="banner-principal">
+                    <div class="banner-principal" style="margin-top: -25px;">
                          <h5 class="bp-h5-1">Preparatoria y Universidad</h5>
                          <h5 class="bp-h5-2">Preparatoria y </br>Universidad</h5>
-                         <h4>Impulsa el potencial de tu institución re-imaginando el aprendizaje.</h4>
-                         <p>Bienvenido a Lexium la plataforma de tecnología de aprendizaje más innovadora del mercado.</p>
+                         <h4>Fortalece la oferta académica optimizando la CAPTACIÓN  y mejorando la ADMISIÓN,  el INGRESO y la PERMANENCIA.</h4>
+                         <p>bienvenido a Lexium la plataforma de tecnología de aprendizaje más innovadora del mercado.</p>
                          <a href="#">Solicitar Demo</a> 
                     </div>
                </div>
                <div class="col-md-5 col-4 order-md-2 order-1">
-                    <div class="banner-principal">
+                    <div class="banner-principal" style="width: 120%; margin-top: -60px;">
                          <img src="./resources/pu.png" class="mx-auto" alt="slide" width="100%">
                     </div>
                </div>

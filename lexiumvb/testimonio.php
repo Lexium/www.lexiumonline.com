@@ -11,8 +11,8 @@
                               <div class="carousel-item active">
                                    <div class="row">
                                         <div class="col-md-12 tarjeta">
-                                                   <span><strong>"</strong>Lexium ha transformado el aprendizaje del instituto, nos ha dado un abanico de oportunidades que antes no se tenían, de poder ir siempre más allá, de crear aprendizajes nuevos y llevar a los alumnos a otro nivel.<strong>"</strong></span>
-                                                   <p class="autor">Mónica Espinosa - Instituto Juárez Lincoln</p>
+                                                   <span><strong>"</strong>LEXIUM nos ha brindado seguridad, ya que nos permite tener un rumbo claro de hacia dónde vamos y cómo, y nos ha brindado honestidad y profesionalismo en la relación del día a día con su personal.<strong>"</strong></span>
+                                                   <p class="autor">Victor Domínguez / Coordinador del Departamento Psicopedagógico de los Planteles Azteca</p>
                                         </div>
                                    </div>
                               </div>
@@ -22,8 +22,8 @@
                               <div class="carousel-item">
                                    <div class="row">
                                         <div class="col-md-12 tarjeta">
-                                                   <span><strong>"</strong>Lexium ha transformado el aprendizaje del instituto, nos ha dado un abanico de oportunidades que antes no se tenían, de poder ir siempre más allá, de crear aprendizajes nuevos y llevar a los alumnos a otro nivel.<strong>"</strong></span>
-                                                   <p class="autor">Mónica Espinosa - Instituto Juárez Lincoln</p>
+                                                   <span><strong>"</strong>Lexium plataforma valiosa para el crecimiento continuo y aprendizaje significativo en el desarrollo integral de nuestros estudiantes, grupo e institución.<strong>"</strong></span>
+                                                   <p class="autor">Colegio El Camino - Martha O. Ramírez Moreno / Psicóloga Preescolar y Primaria</p>
                                         </div>
                                    </div>
                               </div>
@@ -33,12 +33,46 @@
                               <div class="carousel-item">
                                    <div class="row">
                                         <div class="col-md-12 tarjeta">
-                                                   <span><strong>"</strong>Lexium ha transformado el aprendizaje del instituto, nos ha dado un abanico de oportunidades que antes no se tenían, de poder ir siempre más allá, de crear aprendizajes nuevos y llevar a los alumnos a otro nivel.<strong>"</strong></span>
-                                                  <p class="autor">Mónica Espinosa - Instituto Juárez Lincoln</p>
+                                                   <span><strong>"</strong>Lexium es una herramienta útil porque brinda un desglose muy completo del desarrollo de habilidades del alumno, así como sus áreas de oportunidad.  Brinda a los maestros los medios adecuados para acompañar a los alumnos y reforzar áreas que lo requieran.</br> 
+                                                   El servicio otorgado por parte del personal de apoyo es eficiente y oportuno.<strong>"</strong></span>
+                                                  <p class="autor">Andes International School San Luis Potosí - Gabriela Incháustegui Peimbert / Subdirección</p>
                                         </div>
                                    </div>
                               </div>
                               <!--/.Third slide-->
+
+                              <!--Four slide-->
+                              <div class="carousel-item">
+                                   <div class="row">
+                                        <div class="col-md-12 tarjeta">
+                                                   <span><strong>"</strong>Lexium nos permite contar con una "radiografía del aprendizaje" de cada alumno y, con esta riqueza, proyectar estrategias, metas y trabajo.<strong>"</strong></span>
+                                                   <p class="autor">Highlands San Salvador - Selene Saravia</p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <!--/.Four slide-->
+
+                              <!--Five slide-->
+                              <div class="carousel-item">
+                                   <div class="row">
+                                        <div class="col-md-12 tarjeta">
+                                                   <span><strong>"</strong> Lexium es muy útil  principalmente para que las Titulares cuenten con  un perfil  de las habilidades intelectuales y socioemocionales indispensables para llevar a cabo acciones que permitan establecer las estrategias pedagógicas necesarias para lograr un buen desempeño académico, además   nos da los perfiles necesarios para planear estrategias  que nos ayuden a prevenir cualquier situación de riesgo que las alumnas puedan tener a lo largo del ciclo escolar.<strong>"</strong></span>
+                                                  <p class="autor">Preparatoria Colegio Francés del Pedregal - Elizabeth González M. / Dirección </p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <!--/.Five slide-->
+
+                              <!--Six slide-->
+                              <div class="carousel-item">
+                                   <div class="row">
+                                        <div class="col-md-12 tarjeta">
+                                                   <span><strong>"</strong>Lexium como herramienta nos brinda información de nuestras alumnas, que nos ayuda a llegar a nuestros objetivos de personalización, por medio de planes de acción y seguimiento<strong>"</strong></span>
+                                                  <p class="autor">Liceo De Monterrey - Patricia Gallegos / coordinadora del departamento psicopedagógico</p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <!--/.Six slide-->
                         </div>
                         <!--/.Slides-->
                    </div>
