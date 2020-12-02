@@ -22,7 +22,7 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                            <a href="Evaluacion.php">  
+                                            <a href="evaluacion.php">  
                                                <img  src="./resources/icons/soluciones/evaluaciones_icon.png">
                                             </a>
                                          </div>
