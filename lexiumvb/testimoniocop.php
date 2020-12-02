@@ -22,8 +22,8 @@
                                    <div class="row">
                                         <div class="col-md-12 tarjeta">
                                               <div style=""> 
-                                                   <span>Lexium me apoya para avanzar más rápido y con mejores estrategias con cada persona que está a mi cargo.</span>
-                                                   <p class="autor">Rosalinda Rodríguez </p> <p class="escuela">Psicopedagoga</p>
+                                                   <span>Lexium ha sido y sigue siendo un pilar fundamental para Árbol del Conocimiento pues nos permite dar a nuestros clientes, mediante sus herramientas de evaluación y entrenamiento, un alto nivel de confiabilidad, objetividad y estructura en los servicios psicoeducativos que ofrecemos; gracias a esto, logramos la meta de posicionarnos como una institución ética, profesional, de calidad humana y tecnológica.     Profundamente agradecida.</span>
+                                                   <p class="autor">Árbol del Conocimiento - Ivonne Jaubert / dirección.</p>
                                               </div>
                                         </div>
                                    </div>
@@ -35,8 +35,8 @@
                                    <div class="row">
                                         <div class="col-md-12 tarjeta">
                                               <div style=""> 
-                                                   <span>Lexium me apoya para avanzar más rápido y con mejores estrategias con cada persona que está a mi cargo.</span>
-                                                   <p class="autor">Rosalinda Rodríguez </p> <p class="escuela">Psicopedagoga</p>
+                                                   <span>Lexium nos brinda una plataforma con ejercicios ágiles y eficaces para implementar actividades de desarrollo cognitivo y del pensamiento en los jóvenes, de una manera sencilla y didáctica por medio de videos, tutoriales y materiales de consulta con los cuales los estudiantes aprenden y mejorar sus fortalezas y conocimientos.</span>
+                                                   <p class="autor">Fundación Tarahumara - David Tapia Velázquez / Coordinador del Semestre Adaptativo.</p>
                                               </div>
                                         </div>
                                    </div>
@@ -48,13 +48,39 @@
                                    <div class="row">
                                         <div class="col-md-12 tarjeta">
                                               <div style=""> 
-                                                   <span>Lexium me apoya para avanzar más rápido y con mejores estrategias con cada persona que está a mi cargo.</span>
-                                                   <p class="autor">Rosalinda Rodríguez </p> <p class="escuela">Psicopedagoga</p>
+                                                   <span>Es para nosotros un gusto  comenzar junto a LEXIUM,  este viaje de aprendizajes  y fortalezas para nuestros niños,  esta plataforma nos representa  un amplio abanico de oportunidades; potencializando sus habilidades cognitivas y socioemocionales, on el objetivo de brindarles  herramientas para un futuro mejor.</br>Mil gracias LEXIUM¡¡¡</span>
+                                                   <p class="autor"> Fundación Dr. Jose María Álvarez - Perla Longinos García / Coordinación  del  Depto. Psicopedagogía.</p>
                                               </div>
                                         </div>
                                    </div>
                               </div>
                               <!--/.Third slide-->
+
+                              <!--Four slide-->
+                              <div class="carousel-item">
+                                   <div class="row">
+                                        <div class="col-md-12 tarjeta">
+                                              <div style=""> 
+                                                   <span>Mas que una plataforma LEXIUM ha sido una oportunidad para descubrir el potencial cognitivo, emocional y social    de los niños y adolescentes que atendemos y que nos permite plantear alternativas de atención  para   impulsar y  fortalecer el aprendizaje. </br>¡Gracias LEXIUM!</span>
+                                                   <p class="autor">Fundación Clara Moreno y Miramón, para la Fundación - Cristina Pérez coordinadora del  área de Psicología y Educación.</p>
+                                              </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <!--/.Four slide-->
+
+                              <!--Five slide-->
+                              <div class="carousel-item">
+                                   <div class="row">
+                                        <div class="col-md-12 tarjeta">
+                                              <div style=""> 
+                                                   <span>Lexium se ha tomado el tiempo en ofrecer capacitación en las áreas de atención no solo diagnóstica sino en temas vitales en el desarrollo de habilidades intelectuales y emocionales.</span>
+                                                   <p class="autor">Colegio Victoria, Teziutlán Puebla. - Mtra. Mónica Marín Díaz / Dirección de Desarrollo Humano.</p>
+                                              </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <!--/.Five slide-->
                         </div>
                         <!--/.Slides-->
                    </div>
