@@ -31,7 +31,7 @@
                                 </div>
                            </div>
                  	  	   <div class="col-md-10 smcontnt">
-                 	  	   	    <h5>Evaluación</h5>
+                 	  	   	    <a href="evaluacion.php"><h5>Evaluación</h5></a>
                  	  	   	    <p>Elige entre +20 evaluaciones que permiten mapear el perfil de aprendizaje de los alumnos y la comunidad educativa.</p>
                  	  	   </div>
                  	  	  </div>
@@ -54,7 +54,7 @@
                                 </div>
                              </div>
                  	  	     <div class="col-md-10 smcontnt">
-                 	  	   	    <h5>Diagnóstico</h5>
+                 	  	   	    <a href="diagnostico.php"><h5>Diagnóstico</h5></a>
                  	  	   	    <p>Apóyate en una plataforma diagnóstica que contiene el DNA de las habilidades de aprendizaje con las que cuenta tu comunidad educativa.</p>
                  	  	     </div>
                  	  	  </div>
@@ -77,7 +77,7 @@
                                 </div>
                              </div>
                  	  	     <div class="col-md-10 smcontnt">
-                 	  	   	    <h5>Herramientas</h5>
+                 	  	   	    <a href="herramientas.php"><h5>Herramientas</h5></a>
                  	  	   	    <p>Propicia y crea ambientes de aprendizaje efectivos con apoyo de las herramientas de análisis y planeación.</p>
                  	  	     </div>
                  	  	  </div>
@@ -105,7 +105,7 @@
                                 </div>
                            </div>
                  	  	   <div class="col-md-10 col-sm-10 smcontnt">
-                 	  	   	    <h5>Skill Map</h5>
+                 	  	   	    <a href="skillmap.php"><h5>Skill Map</h5></a>
                  	  	   	    <p>Mapea las habilidades clave de los alumnos y conoce su perfil y potencial de aprendizaje para que puedas gestionar mejor los procesos de enseñanza aprendizaje y de esta forma incrementar el éxito de tu proyecto educativo.</p>
                  	  	   </div>
                  	  	  </div>
@@ -128,7 +128,7 @@
                                 </div>
                              </div>
                  	  	     <div class="col-md-10 smcontnt">
-                 	  	   	    <h5>Entrenamiento</h5>
+                 	  	   	    <a href="skillmaptrainingk9.php"><h5>Entrenamiento</h5></a>
                  	  	   	    <p>Enriquece al SkillMap incorporando un entrenamiento modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje.</p>
                  	  	     </div>
                  	  	  </div>

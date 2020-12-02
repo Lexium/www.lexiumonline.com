@@ -166,7 +166,7 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <a href="captacion.php">
+                                              <a href="sip.php">
                                                  <img  src="resources/icons/soluciones/permanencia.png">
                                               </a>
                                          </div>
@@ -175,7 +175,7 @@
                                 </div>
                              </div>
                            <div class="col-md-10 smcontnt">
-                              <h5>Permanencia</h5>
+                              <a href="sip.php"><h5>Permanencia</h5></a>
                               <p>SIP es una innovadora propuesta para apoyar la permanencia de cada alumno a través de mapear y enriquecer sus habilidades de aprendizaje y también identificando los riesgos de abandono.</p>
                            </div>
                         </div>
