@@ -9,7 +9,7 @@
                              <a href="https://www.linkedin.com/in/jos%C3%A9-vargas-barrera-b4384757/" target="_blank">
                                 <img class="img-fluid my-4" src="./resources/images/directivos/joseVargas.png" alt="José Vargas Barrera" title="José Vargas Barrera">
                                 <h5 class="mb-3">José Vargas Barrera</h5>
-                                <p>Socio fundador y CEO de Lexium</p>
+                                <p>Socio fundador / CEO</p>
                              </a>
                         </div>
                     </div>
@@ -19,7 +19,7 @@
                         <div class="card-body">
                              <a href="https://www.linkedin.com/in/laura-elizondo-williams-40b5b4a3/" target="_blank">
                                 <img class="img-fluid my-4" src="./resources/images/directivos/laura.png" alt="Laura Elizondo" title="Laura Elizondo">
-                                <h5 class="mb-3">Laura Elizondo</h5>
+                                <h5 class="mb-3">Laura Elizondo Williams</h5>
                                 <p>Socia fundadora y Directora de innovación de Lexium</p>
                              </a>
                         </div>

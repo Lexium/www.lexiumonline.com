@@ -1,5 +1,5 @@
 <section class="testimonio">
-         <div class="container">
+         <div class="container" style="max-width: 1298px;">
                    
                    <!--Carousel Wrapper-->
                    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" style="z-index: 22" data-interval="5000">
