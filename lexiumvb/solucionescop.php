@@ -119,7 +119,9 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <img  src="./resources/icons/abc.png">
+                                             <a href="#">
+                                                 <img  src="resources/icons/soluciones/op_icon.png">
+                                              </a>
                                          </div>
                                     </div>
                                   </div>
