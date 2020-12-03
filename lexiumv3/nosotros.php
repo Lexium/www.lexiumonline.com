@@ -6,8 +6,9 @@ include 'menu.php';
 
 <section class="text-center titulocontenido">
     <h1>Nosotros</h1>
+    <p>Propicia y crea ambientes de aprendizaje efectivos con apoyo de las herramientas de análisis y planeación.</p>
 </section>
-<section>
+<section style="margin-bottom: 3%;">
        <div class="container py-5 about_us">
             <div class="row text-center">
                   <div class="col-6 col-md-4 col-lg-3">
@@ -15,7 +16,8 @@ include 'menu.php';
                             <div class="col-4">
                                  <img alt="años en el mercado" title="años en el mercado" src="./resources/icons/about/30_anos_icon.png">
                             </div>
-                            <div class="col-8" >
+                            <div class="col-8 pt-3">
+                                 <span class="display-3">+</span>
                                  <h2 class="timer count-title count-number" data-to="30" data-speed="1500"></h2>
                                  <p class="count-text">Años en el mercado</p>
                             </div>
@@ -26,7 +28,7 @@ include 'menu.php';
                              <div class="col-4">
                                   <img alt="países" title="países" src="./resources/icons/about/paises_icon.png">
                              </div>
-                             <div class="col-8">
+                             <div class="col-8 pt-3">
                        <h2 class="timer count-title count-number" data-to="6" data-speed="1500"></h2>
                        <p class="count-text">Países</p>
                        </div>
@@ -35,9 +37,10 @@ include 'menu.php';
                   <div class="col-6 col-md-4 col-lg-3">
                        <div class="row data">
                              <div class="col-4">
-                                  <img alt="+ clientes" title="+ clientes" src="./resources/icons/about/clientes_icon.png">
+                                  <img alt="+ clientes" title="+ clientes" style="width: 140%; margin-left: -11%;"src="./resources/icons/about/clientes_icon.png">
                              </div>
-                             <div class="col-8">
+                             <div class="col-8 pt-3">
+                                  <span class="display-3">+</span>
                                   <h2 class="timer count-title count-number" data-to="1000" data-speed="1500"></h2>
                                   <p class="count-text">Clientes</p>
                              </div>
@@ -46,12 +49,13 @@ include 'menu.php';
                   <div class="col-6 col-md-4 col-lg-3">
                        <div class="row data">
                            <div class="col-4">
-                                <img alt="evaluaciones aplicadas" title="evaluaciones aplicadas" src="./resources/icons/about/evaluaciones_aplicadas_icon.png">
+                                <img alt="evaluaciones aplicadas" title="evaluaciones aplicadas" style="width: 140%; margin-left: -11%;" src="./resources/icons/about/evaluaciones_aplicadas_icon.png">
                            </div>
-                           <div class="col-8">
-                                 <h2 class="timer count-title count-number data-inline" data-to="5" data-speed="1500"></h2>
-                                 <span>M</span>
-                                 <p class="count-text" >Evaluaciones aplicadas</p>
+                           <div class="col-8 pt-3">
+                                <span class="display-3">+</span>
+                                <h2 class="timer count-title count-number data-inline" data-to="5" data-speed="1500"></h2>
+                                <span>M</span>
+                                <p class="count-text" >Evaluaciones aplicadas</p>
                            </div>
                        </div>
                   </div>
@@ -61,7 +65,8 @@ include 'menu.php';
                              <div class="col-4">
                                   <img alt="visitas en nuestra plataformas" title="visitas en nuestra plataformas" src="./resources/icons/about/visitas_plataforma_icon.png">
                              </div>
-                             <div class="col-8">
+                             <div class="col-8 pt-3">
+                                  <span class="display-3">+</span>
                                   <h2 class="timer count-title count-number data-inline" data-to="30" data-speed="1500"></h2>
                                   <span class="">M</span>
                                   <p class="count-text ">Visitas en nuestra plataformas</p>
@@ -73,7 +78,8 @@ include 'menu.php';
                              <div class="col-4">
                                   <img alt="entrenamientos" title="entrenamientos" src="./resources/icons/about/entrenamientos_icon.png">
                              </div>
-                             <div class="col-8">
+                             <div class="col-8 pt-3">
+                                  <span class="display-3">+</span>
                                   <h2 class="timer count-title count-number data-inline" data-to="100" data-speed="1500"></h2>
                                   <span class="">K</span>
                                   <p class="count-text ">Entrenamientos</p>
@@ -85,7 +91,7 @@ include 'menu.php';
                              <div class="col-4">
                                   <img alt="obras literarias y marcas registradas" title="obras literarias y marcas registradas" src="./resources/icons/about/obras_literarias_icon.png">
                              </div>
-                             <div class="col-8">           
+                             <div class="col-8 pt-3">           
                                   <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
                                   <p class="count-text ">Obras literarias y marcas registradas</p>
                              </div>
@@ -96,7 +102,7 @@ include 'menu.php';
                              <div class="col-4">
                                   <img alt="plataformas desarrolladas" title="plataformas desarrolladas" src="./resources/icons/about/plataformas_desarrolladas_icon.png">
                              </div>
-                             <div class="col-8"> 
+                             <div class="col-8 pt-3"> 
                                   <h2 class="timer count-title count-number" data-to="6" data-speed="1500"></h2>
                                   <p class="count-text ">Plataformas desarrolladas</p>
                              </div>
@@ -106,15 +112,17 @@ include 'menu.php';
        </div>
 </section>
 
-<div class="video videoabout pb-5">
-    <iframe src="https://player.vimeo.com/video/345543171?title=0&byline=0" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<section style="background-color: #c2e8f6;">
+<div class="video videoabout pb-5 pt-5">
+    <iframe src="https://player.vimeo.com/video/345543171?title=0&byline=0" width="70%" height="320" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
+</section>
 
 <section class="grupoVareli">
         <div class="container">
              <img alt="Grupo Vareli" title="Grupo Vareli" src="./resources/images/logo_vareli.png">
              <span>
-                  <p style=" font-family: 'HarmoniaSansW01-Regular';">Lexium forma parte de Grupo Vareli.</br>Estas son algunas de las empresas del grupo: </p>
+                  <p style=" font-family: 'HarmoniaSansW01-Regular';">Lexium forma parte de Grupo Vareli, Éstas son algunas de las empresas del grupo: </p>
              </span>
              <div class="row">
                   <div class="col-md-1"></div>
