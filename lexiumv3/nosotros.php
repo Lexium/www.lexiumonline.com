@@ -112,7 +112,7 @@ include 'menu.php';
        </div>
 </section>
 
-<section style="background-color: #c2e8f6;">
+<section style="background-color: #c2e8f6; text-align: center;">
 <div class="video videoabout pb-5 pt-5">
     <iframe src="https://player.vimeo.com/video/345543171?title=0&byline=0" width="70%" height="320" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </div>
