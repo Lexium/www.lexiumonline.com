@@ -5,7 +5,7 @@ include 'menu.php';
 ?> 
 
 <section class="text-center titulocontenido">
-    <h3>Te presentamos algunos datos interesantes sobre nosotros a través de:</h3>
+    <h3>Te presentamos algunos datos interesantes sobre nosotros</h3>
 </section>
 <section style="margin-bottom: 3%;">
        <div class="container py-5 about_us">
