@@ -2,7 +2,7 @@
          <div class="container">
                    
                    <!--Carousel Wrapper-->
-                   <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" style="z-index: 22">
+                   <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" style="z-index: 22" data-interval="5000">
                         <h1>¿Qué dicen nuestros clientes?</h1>
                         <!--Slides-->
                         <div class="carousel-inner" role="listbox">
