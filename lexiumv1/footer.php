@@ -21,7 +21,42 @@
 		 	  </div>
 		 </div>
 
-		 <div class="row menuses">
+     <div class="row menuses">
+          <div class="col-md-6">
+               <h3>Soluciones</h3>
+               <div class="row">
+                    <div class="col-md-6">
+                         <ul>
+                             <li><a class="strongetxt" href="skillmap.php">Skill Map</a></li>
+                             <li><a  href="evaluacion.php">Evaluación</a></li>
+                             <li><a  href="diagnostico.php">Diagnóstico</a></li>
+                             <li><a  href="herramientas.php">Herramientas</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-md-6">Skill Training
+
+                    </div>
+               </div>
+          </div>
+          <div class="col-md-3">
+               <h3>Niveles</h3>
+               <ul>
+                  <li><a  href="k9.php.php">K9</a></li>
+                  <li><a  href="preparatoria.php">Preparatoria / Universidad</a></li>
+                  <li><a  href="consultor.php">Consultor / orientador / psicopedagogo</a></li>
+               </ul>
+          </div>
+          <div class="col-md-3">
+               <h3>Más</h3>
+               <ul>
+                  <li><a  href="nosotros.php">Nosotros</a></li>
+                  <li><a  href="http://blog.lexiumonline.com/">Blog</a></li>
+                  <li><a  href="contacto.php">Contacto</a></li>
+               </ul>
+          </div>
+     </div>
+
+		 <!-- <div class="row menuses">
 		 	  <div class="col-md-2 col-4">
 		 	  	   <h5>K-9</h5>
 		 	  	   <ul>
@@ -80,7 +115,7 @@
                 <li><a  href="contacto.php">Contacto</a></li>
              </ul>
 		 	  </div> 
-		 </div>
+		 </div> -->
 
      <div class="row privacidad">
           <div class="col-md-12">

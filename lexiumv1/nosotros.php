@@ -5,8 +5,7 @@ include 'menu.php';
 ?> 
 
 <section class="text-center titulocontenido">
-    <h1>Nosotros</h1>
-    <p>Propicia y crea ambientes de aprendizaje efectivos con apoyo de las herramientas de análisis y planeación.</p>
+    <h3>Te presentamos algunos datos interesantes sobre nosotros a través de:</h3>
 </section>
 <section style="margin-bottom: 3%;">
        <div class="container py-5 about_us">

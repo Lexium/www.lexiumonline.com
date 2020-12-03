@@ -383,9 +383,18 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
   footer h1, footer h5{
     font-family: 'HarmoniaSansW01-Bold'!important; color: white;
   }
+
+  footer h3{
+    font-family: 'HarmoniaSansW01-Bold';
+    background: #f5f7fb;
+    color: #1f61dc;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: .25rem;
+    text-align: center;}
   footer h5{width: auto;height: 55px;}
 
-  .formulario{ border-bottom: 2px solid #fff; }
+  /*.formulario{ border-bottom: 2px solid #fff; }*/
   .menuses{ margin-top: 2%;  }
   .menuses ul{ list-style: none; padding-left: 0px;}
   .menuses ul li a{ color: white; font-family: 'HarmoniaSansW01-Regular'; }
