@@ -2,30 +2,30 @@
         <div class="container text-center directivos">
             <h1>Conoce a nuestro equipo directivo</h1>
             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-3 col-6">
+                <div class="col-md-2"></div>
+                <div class="col-md-4 col-6">
                     <div class="card">
                         <div class="card-body">
                              <a href="https://www.linkedin.com/in/jos%C3%A9-vargas-barrera-b4384757/" target="_blank">
                                 <img class="img-fluid my-4" src="./resources/images/directivos/joseVargas.png" alt="José Vargas Barrera" title="José Vargas Barrera">
                                 <h5 class="mb-3">José Vargas Barrera</h5>
-                                <p>Socio fundador / CEO</p>
+                                <p>Socio fundador Lexium </br> CEO  de Grupo Vareli</p>
                              </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-6">
+                <div class="col-md-4 col-6">
                     <div class="card">
                         <div class="card-body">
                              <a href="https://www.linkedin.com/in/laura-elizondo-williams-40b5b4a3/" target="_blank">
                                 <img class="img-fluid my-4" src="./resources/images/directivos/laura.png" alt="Laura Elizondo" title="Laura Elizondo">
                                 <h5 class="mb-3">Laura Elizondo Williams</h5>
-                                <p>Socia fundadora y Directora de innovación de Lexium</p>
+                                <p>Socia fundadora Lexium</br> Directora de innovación de Lexium</p>
                              </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-md-2"></div>
             </div>
             <div class="row text-center">
                 <div class="col-sm-6 col-md-3 col-6">
