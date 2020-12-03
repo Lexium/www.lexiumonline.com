@@ -523,7 +523,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 /*CAROUSEL*/
 
      .carousel-item{background-color: transparent!important;}
-     .tarjeta{ padding: 0px 3% 3% 3%;text-align: center;max-width: 600px!important; margin: 0 auto;}
+     .tarjeta{ padding: 0px 3% 3% 3%;text-align: justify; margin: 0 auto;}
      .card{background-color: transparent!important;border: none!important;}
      .card-text{ padding-top: 15%;}
      .carousel-indicators li{ background-color: #27beef;}

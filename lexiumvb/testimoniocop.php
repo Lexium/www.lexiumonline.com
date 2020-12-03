@@ -1,9 +1,9 @@
 <section class="testimonio">
          <div class="container">
-                   <h1>¿Qué dicen nuestros clientes?</h1>
+                   
                    <!--Carousel Wrapper-->
                    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="5000" style="z-index: 22">
-
+                        <h1>¿Qué dicen nuestros clientes?</h1>
                         <!--Slides-->
                         <div class="carousel-inner" role="listbox">
 
@@ -77,12 +77,12 @@
                    <!--/.Carousel Wrapper-->
          </div>
          <div class="" id="test-bg" style="position: absolute;top: 0;z-index: 0;">
-               <div class="layerd" data-depth="0.82"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-01.png"></div>
-               <div class="layerd" data-depth="2.82"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-02.png"></div>
-               <div class="layerd" data-depth="0.45"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-03.png"></div>
-               <div class="layerd" data-depth="1.90"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-04.png"></div>
-               <div class="layerd" data-depth="0.15"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-05.png"></div>
-               <div class="layerd" data-depth="0.15"><img class="img-fluid" src="./resources/images/parallax-mouse/testimonio-bg-06.png"></div>
+              <div class="layerdtest" data-depth="0.82"><img src="./resources/images/parallax-mouse/testimonio-bg-01.png"></div>
+              <div class="layerdtest" data-depth="2.82"><img src="./resources/images/parallax-mouse/testimonio-bg-02.png"></div>
+              <div class="layerdtest" data-depth="0.45"><img src="./resources/images/parallax-mouse/testimonio-bg-03.png"></div>
+              <div class="layerdtest" data-depth="1.90"><img src="./resources/images/parallax-mouse/testimonio-bg-04.png"></div>
+              <div class="layerdtest" data-depth="1.15"><img src="./resources/images/parallax-mouse/testimonio-bg-05.png"></div>
+              <div class="layerdtest" data-depth="0.85"><img src="./resources/images/parallax-mouse/testimonio-bg-06.png"></div>
          </div> 
 </section>
 
