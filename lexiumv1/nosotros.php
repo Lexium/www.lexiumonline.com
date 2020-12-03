@@ -122,7 +122,7 @@ include 'menu.php';
         <div class="container">
              <img alt="Grupo Vareli" title="Grupo Vareli" src="./resources/images/logo_vareli.png">
              <span>
-                  <p style=" font-family: 'HarmoniaSansW01-Regular';">Lexium forma parte de Grupo Vareli, Éstas son algunas de las empresas del grupo: </p>
+                  <p style=" font-family: 'HarmoniaSansW01-Regular';">Lexium forma parte de Grupo Vareli, éstas son algunas de las empresas del grupo: </p>
              </span>
              <div class="row">
                   <div class="col-md-1"></div>
