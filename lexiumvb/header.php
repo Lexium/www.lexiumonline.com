@@ -23,6 +23,19 @@
     'skillmaptrainingcop.php' => 'Skill Map & Training | ',
     'captacion.php' => 'Captaciòn | ',
   );
+
+    session_start();
+  if(in_array($archivo_previo, array('k9.php', 'preparatoria.php', 'consultor.php')))
+  {
+    $_SESSION['link_inicio'] = $archivo_previo;
+  }
+  else
+  {
+    if(!isset($_SESSION['link_inicio']))
+    {
+      $_SESSION['link_inicio'] = 'preparatoria.php';
+    }
+  }
 ?>
 <!DOCTYPE html>
 <html>
@@ -76,6 +89,6 @@
     <script src="//cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="js/conf.js"></script>
-    
+    <script src="https://www.google.com/recaptcha/api.js?onload=myCallBack&render=explicit" async defer></script>
 	
 </head>

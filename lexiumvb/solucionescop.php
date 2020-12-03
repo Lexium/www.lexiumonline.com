@@ -55,7 +55,7 @@
                              </div>
                            <div class="col-md-10 smcontnt">
                               <h5>Diagnóstico</h5>
-                              <p>Apóyate en una plataforma diagn´stica que contiene el DNA de las habilidades de aprendizaje con las que cuenta tu comunidad educativa.</p>
+                              <p>Apóyate en una plataforma diagnóstica que contiene el DNA de las habilidades de aprendizaje con las que cuenta tu comunidad educativa.</p>
                            </div>
                         </div>
                     </div>

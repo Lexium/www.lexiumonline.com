@@ -63,7 +63,7 @@ include 'menu.php';
                          <h5>K-9</h5>
                          <h4>Impulsa el potencial de tu institución re-imaginando el aprendizaje.</h4>
                          <p>Bienvenido a Lexium la plataforma de tecnología de aprendizaje más innovadora del mercado.</p>
-                         <a href="#">Solicitar Demo</a> 
+                         <a href="contacto.php">Solicitar Demo</a> 
                     </div>
                </div>
                <div class="col-md-5 col-4 order-md-2 order-1">

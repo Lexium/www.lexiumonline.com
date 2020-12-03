@@ -35,7 +35,7 @@ if($_POST && $_POST['completo'] == 1 && $_POST['validacion'] == date("d")){
 
 		$body.= "<p>Contacto: ".$params_email['name']."</p>";
 		$body.= "<p>E-mail: ".$params_email['email']."</p>";
-		$body.= "<p>Tele&acute;fono: ".$params_email['phone']."</p>";
+		$body.= "<p>Tel&eacute;fono: ".$params_email['phone']."</p>";
 
 		$body.= "<p>&nbsp;</p>";
 
