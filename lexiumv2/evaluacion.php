@@ -6,7 +6,7 @@ include 'menu.php';
 
 <section class="text-center titulocontenido">
     <h1>Evaluaciones</h1>
-    <p>Elige entre más de 20 evaluaciones que permiten mapear el perﬁl de aprendizaje de los alumnos y de la comunidad educativa.</p>
+    <p>Un modelo probado, casi 30 años de experiencia y miles de evaluaciones aplicadas nos hacen líderes en el mercado.</p>
 </section>
 
     <section class="pt-5 principal_container conteval contsgral">
@@ -19,6 +19,4 @@ include 'menu.php';
 
 <?php include('solicitar_demo.php'); ?>
 <?php include('otrosclientes.php'); ?>
-<?php include('lite.php'); ?> 
-<?php include('nuestroblog.php'); ?>
 <?php include('footer.php'); ?>

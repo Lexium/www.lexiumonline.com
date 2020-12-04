@@ -396,7 +396,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
   /*.formulario{ border-bottom: 2px solid #fff; }*/
   .menuses{ margin-top: 2%;  }
-  .menuses ul{ list-style: none;}
+  .menuses ul{ list-style: none; padding-left: 20px;}
   .menuses ul li a{ color: white; font-family: 'HarmoniaSansW01-Regular'; }
   .div-bottom{ border-bottom: 2px solid #fff; height: 10px; margin-bottom: 15px;  width:100%; display: none;}
   .strongetxt{ font-family: 'HarmoniaSansW01-Bold'!important;  border-bottom: 1px solid #fff;}
@@ -422,7 +422,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .titulocontenido h1{font-family:'HarmoniaSansW01-Bold';}
 .titulocontenido p{font-family:'HarmoniaSansW01-Regular'; margin: 0 auto;}
 .contsgral{margin: 0 9%;}
-.contsgral h5{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; margin-bottom: 3%; font-size: 1.4em; text-align: center; }
+.contsgral h5{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; margin-bottom: 3%; font-size: 1.2em; text-align: center; }
 .contsgral h1{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; margin-bottom: 3%; }
 .datasgral{ margin-bottom: 3%; margin-top: 3%; }
 .datasgral h5{text-align: left;}
@@ -547,7 +547,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 /*OTROSCLIENTESTAMBIENVIERON*/
 
 .otrosclientes{ border-radius: 3%;border-bottom: 1px solid #23215b; color: #23215b; padding: 2% 10%;  height: 360px; box-shadow: 4px 8px 14px rgba(35, 33, 91, 0.4);  }
-.otrosclientes img{width: 100px}
+.otrosclientes img{width: 100px; display: block; margin: 0 auto; padding: 5% 0 5% 0;}
 .otrosclientes h3{font-size: 1.5em; text-align: center;}
 .otrosclientes span{text-align: justify; font-size: 0.8em;}
 .otrosclientes a{margin-top: 5%; margin-bottom: 5%;}
