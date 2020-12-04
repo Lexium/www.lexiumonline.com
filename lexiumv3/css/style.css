@@ -422,7 +422,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .titulocontenido h1{font-family:'HarmoniaSansW01-Bold';}
 .titulocontenido p{font-family:'HarmoniaSansW01-Regular'; margin: 0 auto;}
 .contsgral{margin: 0 9%;}
-.contsgral h5{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; margin-bottom: 3%; font-size: 1.2em; text-align: center; }
+.contsgral h5{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; margin-bottom: 3%; font-size: 1.2em!important; text-align: center; }
 .contsgral h1{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; margin-bottom: 3%; }
 .datasgral{ margin-bottom: 3%; margin-top: 3%; }
 .datasgral h5{text-align: left;}
