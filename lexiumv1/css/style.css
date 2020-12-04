@@ -418,7 +418,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 
 /* Estilos Generales. */
-.titulocontenido{background-color: #23215b; color: white; padding: 5%;}
+.titulocontenido{background-color: #23215b; color: white; padding: 2.3%;}
 .titulocontenido h1{font-family:'HarmoniaSansW01-Bold';}
 .titulocontenido p{font-family:'HarmoniaSansW01-Regular'; margin: 0 auto;}
 .contsgral{margin: 0 9%;}
