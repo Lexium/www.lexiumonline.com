@@ -70,68 +70,7 @@
           </div>
      </div>
 
-		 <!-- <div class="row menuses">
-		 	  <div class="col-md-2 col-4">
-		 	  	   <h5>K-9</h5>
-		 	  	   <ul>
-                       <li><a class="strongetxt"  href="skillmap.php">Skill Map</a></li>
-                       <li><a  href="evaluacion.php">Evaluación</a></li>
-                       <li><a  href="diagnostico.php">Diagnóstico</a></li>
-                       <li><a  href="herramientas.php">Herramientas</a></li>
-                       <li><a class="strongetxt"  href="skillmaptrainingk9.php">Skill MT</a></li>
-                       <li><a  href="skillmaptrainingk9.php">Entrenamiento</a></li>
-                   </ul>
-		 	  </div> 
-        <div class="col-md-3 col-4">
-             <h5>Preparatoria y Universidades</h5>
-             <ul>
-                       <li><a class="strongetxt" href="skillmap.php">Skill Map</a></li>
-                       <li><a  href="evaluacion.php">Evaluación</a></li>
-                       <li><a  href="diagnostico.php">Diagnóstico</a></li>
-                       <li><a  href="herramientas.php">Herramientas</a></li>
-                       <li><a class="strongetxt" href="skillmaptrainingpu.php">Skill MT</a></li>
-                       <li><a class="" href="skillmaptrainingpu.php#trainig">Entrenamiento</a></li>
-                       <li><a class="strongetxt" href="captacion.php">Captación</a></li>
-                       <li><a class="" href="#">Test rápido para</br> captar alumnos</a></li>
-                       <li><a class="strongetxt" href="sip.php">Sistema de ingreso </br>y permanencia</a></li>
-                       <li><a class="" href="sip.php#admision">Admisión</a></li>
-                       <li><a class="" href="sip.php#guia">Guía vocacional</a></li>
-                       <li><a class="" href="sip.php#pronostico">Pronóstico de</br>permanencia</a></li>
-                       <li><a class="" href="sip.php#riesgo">Riesgo de abandono</a></li>
-                   </ul>
-        </div> 
-        <div class="col-md-3 col-4">
-             <h5>Consultor / Orientador / Psciopedagogo</h5>
-             <ul>
-                       <li><a class="strongetxt"  href="skillmap.php">Skill Map</a></li>
-                       <li><a  href="evaluacion.php">Evaluación</a></li>
-                       <li><a  href="diagnostico.php">Diagnóstico</a></li>
-                       <li><a  href="herramientas.php">Herramientas</a></li>
-                       <li><a class="strongetxt"  href="skillmaptrainingcop.php">Skill MT</a></li>
-                       <li><a  href="skillmaptrainingcop.php#trainig">Entrenamiento</a></li>
-                   </ul>
-        </div> 
-		 	  
-		 	  <div class="div-bottom" style=""></div>
-		 	  <div class="col-md-2 col-6">
-		 	  	   <h5>Casos de éxito</h5>
-		 	  	   <ul>
-                       <li><a  href="clientes.php">Clientes</a></li>
-                       <li><a  href="testimoniales.php">Testimonio</a></li>
-                       <li><a  href="social.php">Apoyo social</a></li>
-                   </ul>
-		 	  </div> 
-		 	  <div class="col-md-2 col-6">
-		 	  	   <h5>Más</h5>
-		 	  	   <ul>
-                <li><a  href="nosotros.php">Nosotros</a></li>
-                <li><a  href="http://blog.lexiumonline.com/">Blog</a></li>
-                <li><a  href="contacto.php">Contacto</a></li>
-             </ul>
-		 	  </div> 
-		 </div> -->
-
-     <div class="row privacidad">
+	   <div class="row privacidad">
           <div class="col-md-12">
                 <div class="privacy_advise text-center">
                     Copyright © <?php 
