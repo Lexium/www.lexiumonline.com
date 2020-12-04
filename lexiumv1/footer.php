@@ -33,8 +33,27 @@
                              <li><a  href="herramientas.php">Herramientas</a></li>
                          </ul>
                     </div>
-                    <div class="col-md-6">Skill Training
-
+                    <div class="col-md-6">
+                         <ul style="    margin-left: 20%;">
+                            <li><a class="strongetxt"  href="">Skill Training</a></li>
+                            <li><a href="skillmaptraining.php">Skill Map</a></li>
+                            <li><a class="" href="skillmaptrainingpu.php#trainig">Entrenamiento</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-md-12">
+                         <div class="row">
+                              <div class="col-md-3"></div>
+                              <div class="col-md-6">
+                                   <ul>
+                                       <li><a class="strongetxt"  href="">Captación/ Ingreso / Permanencia</a></li>
+                                       <li><a href="">Test de captación</a></li>
+                                       <li><a href="">Admisión</a></li>
+                                       <li><a href="">Sistema de ingreso y permanencia</a></li>
+                                       <li><a href="">Orientación Profesional</a></li>
+                                   </ul>
+                              </div>
+                              <div class="col-md-3"></div>
+                         </div>
                     </div>
                </div>
           </div>
@@ -48,7 +67,7 @@
           </div>
           <div class="col-md-3">
                <h3>Más</h3>
-               <ul>
+               <ul style=" padding-left: 35%;">
                   <li><a  href="nosotros.php">Nosotros</a></li>
                   <li><a  href="http://blog.lexiumonline.com/">Blog</a></li>
                   <li><a  href="contacto.php">Contacto</a></li>
