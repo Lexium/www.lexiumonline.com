@@ -287,6 +287,30 @@ mación tecnológica.</p>
                 <p><small>35 minutos, aprox.</small></p>
             </div>
         </div>
+         <div class="row">
+            <div class="col-md-3 d-flex align-items-center">
+                <div>
+                    <h4>BIENESTAR</h4>
+                    <b></b>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <p>Bien Estar es una autoevaluación compuesta por 41 afirmaciones que invita a la persona a reflexionar sobre las con- ductas, actitudes y/o hábitos que tiene instalados y que le permiten una constante construcción de tres habilidades indispensables para lograr este estado de bienestar: autoimagen positiva, optimismo y manejo de emociones.</p>
+                <p><small>20 minutos, aprox.</small></p>
+            </div>
+        </div>
+         <div class="row">
+            <div class="col-md-3 d-flex align-items-center">
+                <div>
+                    <h4>VALORES DE INTEGRIDAD</h4>
+                    <b></b>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <p>Valores de Integridad es una auto evaluación para identificar las actitudes y conductas que una persona presenta y que se traducen en un grado de dominio de las cuatro habilidades relacionadas con el concepto de integridad: Rectitud, Honestidad, Justicia y Veracidad.</p>
+                <p><small>30 minutos, aprox.</small></p>
+            </div>
+        </div>
       </div>
     </div>
   </div>

@@ -9,7 +9,7 @@ include 'menu.php';
 </section>
 
 <section class="text-center contsgral py-5">
-	<h5>Porque el hacer es tan importante como el saber.</br>Las herramientas se convertirán en tu aliado estratégico </br>y guía imprescindible en tu quehacer educativo.</h5>
+	<h5>Porque el hacer es tan importante como el saber, las herramientas se convertirán en tu aliado estratégico y guía imprescindible en tu quehacer educativo.</h5>
 	<div class="line"></div>
         <div class="container">
              <div class="row">
@@ -85,7 +85,7 @@ include 'menu.php';
 	   	    	 	        </div>
 	   	    	 	        <div class="col-md-8 col-6 orderdata4">
                                  <h5>Mesas de trabajo</h5>
-                                 <p>Compra los resultados obtenidos en dos aplicaciones consecutivas.</p>
+                                 <p>Para organizar las actividades y formar los equipos tomando en cuenta las diferentes habilidades de aprendizaje de las personas.</p>
 	   	    	 	        </div>
 	   	    	 	  </div>
 	   	    	 </div>
@@ -216,5 +216,4 @@ include 'menu.php';
 <?php include('solicitar_demo.php'); ?>
 <?php include('otrosclientes.php'); ?>
 <?php include('lite.php'); ?> 
-<?php include('nuestroblog.php'); ?>
 <?php include('footer.php'); ?>
