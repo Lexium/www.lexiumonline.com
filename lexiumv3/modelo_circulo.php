@@ -103,6 +103,29 @@
                 <p><small>60 minutos, aprox.</small></p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-3 d-flex align-items-center">
+                <div>
+                    <h4>INSIGHT</h4>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <p>Insight es una evaluación que te invita a profundizar sobre las prioridades hacia los cuales diriges tu vida y también sobre los estilos y las preferencias de aprendizaje que tienes actualmente y que habrán de apoyarte para lograr lo que te propongas.</p>
+                <p><small>25 minutos, aprox.</small></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 d-flex align-items-center">
+                <div>
+                    <h4>MIT</h4>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <p>MIT, Manejo de Información Tecnológica, es una evaluación objetiva, de precisión, con respuestas cuantitativas cuyo objetivo principal es medir el nivel de conocimientos y la habilidad para comprender, juzgar y aplicar infor-
+mación tecnológica.</p>
+                <p><small>40 minutos, aprox.</small></p>
+            </div>
+        </div>
       </div>
 
     </div>
