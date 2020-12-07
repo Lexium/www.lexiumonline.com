@@ -1,6 +1,6 @@
 
 <section class="text-center contsgral py-5">
-     <h1>Otros clientes también vieron:</h1> 
+     <h1>Otros clientes también vieron</h1> 
                       <!--Carousel Wrapper-->
                    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
                         <!--Slides-->

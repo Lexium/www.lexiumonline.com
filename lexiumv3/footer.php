@@ -33,18 +33,19 @@
                              <li><a  href="herramientas.php">Herramientas</a></li>
                          </ul>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                          <ul>
                             <li><a class="strongetxt"  href="">Skill Training</a></li>
-                            <li><a href="#">Entrenamiento Skill T</a></li>
-                            <li><a class="" href="skillmaptrainingpu.php#trainig">PPC</a></li>
-                            <li><a href="#">Programa de Desarrollo Docente</a></li>
-                            <li><a href="#">Programa OP</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#DP" title="Ver video">Entrenamiento Skill T</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#DP" title="Ver video">Offline</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#DP" title="Ver video">DC</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#DP" title="Ver video">PPC</a></li>
+                            <li><a href="#" data-toggle="modal" data-target="#DP" title="Ver video">OP</a></li>
                          </ul>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                          <ul>
-                             <li><a class="strongetxt"  href="">Captación/ Ingreso / Permanencia</a></li>
+                             <li><a class="strongetxt"  href="sip.php">Captación/ Ingreso / Permanencia</a></li>
                              <li><a href="">Test de captación</a></li>
                              <li><a href="">Admisión</a></li>
                              <li><a href="">Sistema de ingreso y permanencia</a></li>
@@ -83,6 +84,23 @@
           </div>
      </div>
 	</div>
-</footer>
 
+</footer>
+<!-- Modal Video -->
+<div class="modal fade" id="DP" tabindex="-1" role="dialog" aria-labelledby="individualLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="individualLabel">Programa de Desarrollo Personal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <iframe src="https://player.vimeo.com/video/365836245?title=0&byline=0" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Termina Modal Video -->
 

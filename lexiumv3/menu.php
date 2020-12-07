@@ -30,8 +30,8 @@
                             <a class="dropdown-item item2" href="diagnostico.php">Diagnóstico</a>
                             <a class="dropdown-item item2" href="herramientas.php">Herramientas</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="skillmaptrainingk9.php">Skill MT</a>
-                            <a class="dropdown-item item2" href="skillmaptrainingk9.php">Entrenamiento</a>
+                            <a class="dropdown-item" href="skillmaptrainingpu.php#trainig">Skill MT</a>
+                            <a class="dropdown-item item2" href="skillmaptrainingpu.php#trainig">Entrenamiento</a>
                        </div>
                        <div class="col-md-4 col-12" style="text-align: center">
                             <a href="" style="color: #9d71b8!important">Preparatoria / Universidad</a>
@@ -59,8 +59,8 @@
                             <a class="dropdown-item item2" href="diagnostico.php">Diagnóstico</a>
                             <a class="dropdown-item item2" href="herramientas.php">Herramientas</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="skillmaptrainingcop.php">Skill MT</a>
-                            <a class="dropdown-item item2" href="skillmaptrainingcop.php">Entrenamiento</a>
+                            <a class="dropdown-item" href="skillmaptrainingpu.php#trainig">Skill MT</a>
+                            <a class="dropdown-item item2" href="skillmaptrainingpu.php#trainig">Entrenamiento</a>
                        </div>
                   </div>
             

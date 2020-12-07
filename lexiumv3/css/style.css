@@ -422,21 +422,23 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .titulocontenido h1{font-family:'HarmoniaSansW01-Bold';}
 .titulocontenido p{font-family:'HarmoniaSansW01-Regular'; margin: 0 auto;}
 .contsgral{margin: 0 9%;}
-.contsgral h5{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; margin-bottom: 3%; font-size: 1.2em!important; text-align: center; }
+.contsgral h5{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; font-size: 1.2em!important; text-align: center; }
 .contsgral h1{ font-family: 'HarmoniaSansW01-Bold'; color: #23215b; margin-bottom: 3%; }
-.datasgral{ margin-bottom: 3%; margin-top: 3%; }
+.datasgral{ margin-bottom: 5%;}
 .datasgral h5{text-align: left;}
-.datasgral p{text-align: left; color: #23215b; font-family: 'HarmoniaSansW01-Regular';}
-.datasgral a{float: left; background: #009aff; border: #009aff; width:60%;}
+.datasgral p{text-align: left; color: #23215b; font-family: 'HarmoniaSansW01-Regular'; height: 105px;}
+.datasgral a{float: left; background: #009aff; border: #009aff; width:30%;}
 .line{width: 100%; margin-bottom: 3px; border-bottom: 0.1em solid #23285e; display: none;}
 .orderdata3{ order: 1; }
 .orderdata4{ order: 2; }
 
 @media (max-width: 995px) {
       .contsgral h5{font-size: 1.1em; text-align: center;}
-      .line{display: block;}
+      .line{display: block; margin-bottom: 3%;}
       .orderdata3{ order: 2; }
       .orderdata4{ order: 1; }
+      .datasgral p{ height: auto; }
+      .datasgral a{ width: 100%;}
 }
 
 /*NOSOTROS*/
