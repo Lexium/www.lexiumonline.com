@@ -552,6 +552,6 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .otrosclientes img{width: 100px; display: block; margin: 0 auto; padding: 5% 0 5% 0;}
 .otrosclientes h3{font-size: 1.5em; text-align: center;}
 .otrosclientes span{text-align: justify; font-size: 0.8em;}
-.otrosclientes a{margin-top: 5%; margin-bottom: 5%;}
+.otrosclientes a{color: #23215b; text-decoration: none;}
 
 

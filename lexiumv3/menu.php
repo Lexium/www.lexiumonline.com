@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="index.php">
-      <img src="./resources/images/logo_lexium_azul_160.png">
+      <img alt="Regresa al Menu de Selección" title="Regresa al Menu de Selección" src="./resources/images/logo_lexium_azul_160.png">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
             
                   <div class="row">
                        <div class="col-md-4 col-12" style="text-align: center">
-                            <a href="" style="color: #56c896!important">k-9</a>
+                            <a href="k9.php" style="color: #56c896!important">k-9</a>
                             <a class="dropdown-item" href="skillmap.php">Skill Map</a>
                             <a class="dropdown-item item2" href="evaluacion.php">Evaluación</a>
                             <a class="dropdown-item item2" href="diagnostico.php">Diagnóstico</a>
@@ -34,7 +34,7 @@
                             <a class="dropdown-item item2" href="skillmaptrainingpu.php#trainig">Entrenamiento</a>
                        </div>
                        <div class="col-md-4 col-12" style="text-align: center">
-                            <a href="" style="color: #9d71b8!important">Preparatoria / Universidad</a>
+                            <a href="preparatoria.php" style="color: #9d71b8!important">Preparatoria / Universidad</a>
                             <a class="dropdown-item" href="skillmap.php">Skill Map</a>
                             <a class="dropdown-item item2" href="evaluacion.php">Evaluación</a>
                             <a class="dropdown-item item2" href="diagnostico.php">Diagnóstico</a>
@@ -53,7 +53,7 @@
                             <a class="dropdown-item item2" href="sip.php">Riesgo de abandono</a>
                        </div>
                        <div class="col-md-4 col-12" style="text-align: center">
-                            <a href="" style="color: #ec0b8d!important">Consultor/Orientador/</br>Psicopedagogo</a>
+                            <a href="consultor.php" style="color: #ec0b8d!important">Consultor/Orientador/</br>Psicopedagogo</a>
                             <a class="dropdown-item" href="skillmap.php">Skill Map</a>
                             <a class="dropdown-item item2" href="evaluacion.php">Evaluación</a>
                             <a class="dropdown-item item2" href="diagnostico.php">Diagnóstico</a>
