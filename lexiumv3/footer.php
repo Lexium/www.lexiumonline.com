@@ -84,5 +84,76 @@
           </div>
      </div>
 	</div>
+
+  <!-- Modal Video -->
+<div class="modal fade" id="DP" tabindex="-1" role="dialog" aria-labelledby="individualLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="individualLabel">Programa de Desarrollo Personal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <iframe src="https://player.vimeo.com/video/365836245?title=0&byline=0" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Termina Modal Video -->
+<!-- Modal Video -->
+<div class="modal fade" id="DC" tabindex="-1" role="dialog" aria-labelledby="individualLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="individualLabel">Desarrollo de competencias docentes</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://player.vimeo.com/video/379313906?title=0&byline=0" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Termina Modal Video -->
+<!-- Modal Video -->
+<div class="modal fade" id="PPC" tabindex="-1" role="dialog" aria-labelledby="individualLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="individualLabel">Programa Potenciador de Competencias</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+            <iframe src="https://player.vimeo.com/video/380284937?title=0&byline=0" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="OP" tabindex="-1" role="dialog" aria-labelledby="individualLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="individualLabel">Orientación Profesional</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+            <iframe width="100%" height="360" src="https://www.youtube.com/embed/6jjhP1-qSuY?controls=0&amp;start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Termina Modal Video -->
 </footer>
 
