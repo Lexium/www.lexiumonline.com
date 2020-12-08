@@ -85,6 +85,7 @@ include 'menu.php';
                                  <h5>Programa de Orientación Profesional</h5>
                                  <p>Obtén grandes beneficios para tus alumnos en autoconocimiento, automotivación y autodirección al trabajar con esta propuesta de OP única y original que ha sido probada por cientos de jóvenes.</p>
                                  <a href="#!" data-toggle="modal" data-target="#OP" title="Ver video" class="btn btn-primary">Ver video</a>
+                                  <a style="margin-left: 3%;" href="#!" title="Comprar Paquete" class="btn btn-primary">Comprar</a>
 	   	    	 	             </div>
 	   	    	 	       </div>
 	   	    	    </div>

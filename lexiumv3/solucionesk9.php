@@ -128,7 +128,7 @@
                                 </div>
                              </div>
                  	  	     <div class="col-md-10 smcontnt">
-                 	  	   	    <a href="skillmaptrainingpu.php"><h5>Entrenamiento</h5></a>
+                 	  	   	    <a href="skillmaptrainingpu.php"><h5>Skill Training</h5></a>
                  	  	   	    <p>Enriquece al SkillMap incorporando un entrenamiento modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje.</p>
                  	  	     </div>
                  	  	  </div>

@@ -14,7 +14,7 @@
                             </div>
                             <div class="col-auto">
                                 <input type="hidden" name="completo" value="0">
-                                <button type="submit" class="btn btn-success mb-4" style="margin-top:0">Solicitar Demo</button>
+                                <a type="submit" href="contaco.php" class="btn btn-success mb-4" style="margin-top:0">Solicitar Demo</a>
                             </div>
                         </div>
                     </form>
@@ -25,7 +25,7 @@
           <div class="col-md-8">
                <h3>Soluciones</h3>
                <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                          <ul>
                              <li><a class="strongetxt" href="skillmap.php">Skill Map</a></li>
                              <li><a  href="evaluacion.php">Evaluación</a></li>
@@ -35,7 +35,7 @@
                     </div>
                     <div class="col-md-4">
                          <ul>
-                            <li><a class="strongetxt"  href="">Skill Training</a></li>
+                            <li><a class="strongetxt"  href="skillmaptrainingpu.php">Skill Training</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#DP" title="Ver video">Entrenamiento Skill T</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#Offline" title="Ver video">Offline</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#DC" title="Ver video">DC</a></li>
@@ -43,10 +43,10 @@
                             <li><a href="#" data-toggle="modal" data-target="#OP" title="Ver video">OP</a></li>
                          </ul>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                          <ul>
                              <li><a class="strongetxt"  href="sip.php">Captación/ Ingreso / Permanencia</a></li>
-                             <li><a href="">Test de captación</a></li>
+                             <li><a href="captacion.php">Test de captación</a></li>
                              <li><a href="">Admisión</a></li>
                              <li><a href="">Sistema de ingreso y permanencia</a></li>
                          </ul>

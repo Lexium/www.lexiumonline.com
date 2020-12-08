@@ -22,7 +22,7 @@
                                             </div>
                                             <div class="col-md-3 tarjeta">
                                                   <div class="otrosclientes"> 
-                                                       <a href="evaluacion.php">
+                                                       <a href="diagnostico.php">
                                                           <img class="img-fluid" src="./resources/icons/otros/diagnostico.png"> 
                                                           <h3>Diagnóstico</h3>
                                                        </a>
@@ -32,7 +32,7 @@
                                             </div>
                                             <div class="col-md-3 tarjeta">
                                                   <div class="otrosclientes"> 
-                                                       <a href="evaluacion.php">
+                                                       <a href="herramientas.php">
                                                           <img class="img-fluid" src="./resources/icons/otros/herramientas.png"> 
                                                           <h3>Herramientas</h3>
                                                        </a>
@@ -41,7 +41,7 @@
                                             </div>
                                             <div class="col-md-3 tarjeta">
                                                   <div class="otrosclientes"> 
-                                                        <a href="evaluacion.php">
+                                                        <a href="skillmaptrainingpu.php">
                                                            <img class="img-fluid" src="./resources/icons/otros/entrenamiento.png"> 
                                                            <h3>Entrenamiento</h3>
                                                        </a>
@@ -68,7 +68,7 @@
 
                                         <div class="col-md-3 tarjeta">
                                               <div class="otrosclientes"> 
-                                                   <a  href=".php">
+                                                   <a  href="#">
                                                        <img class="img-fluid" alt="Admisión" title="Admisión" src="resources/icons/otros/admision.png"> 
                                                        <h3>Admisión</h3>
                                                    </a>
