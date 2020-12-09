@@ -20,7 +20,7 @@ include 'menu.php';
 	   	    	     	        <div class="col-md-8 col-6">
                                      <h5>Individual</h5>
                                      <p>Gráfica que muestra el perfil de cada persona en relación a la evaluación aplicada.</p>
-                                     <a href="#!" data-toggle="modal" data-target="#individual" class="btn btn-primary" href="evaluacion.php">Conoce más</a>
+                                     <a href="#!" data-toggle="modal" data-target="#individual" class="btn btn-primary" href="evaluacion.php">Ver más</a>
 	   	    	     	        </div>
 	   	    	     	  </div>
 	   	    	     </div>
@@ -33,7 +33,7 @@ include 'menu.php';
                           <div class="col-md-8 col-6 orderdata4">
                                      <h5>Grupal</h5>
                                      <p>Empodera al docente con una tabla que muestra las habilidades de aprendizaje de cada alumno y, por consecuencia, del grupo completo.</p>
-                                     <a href="#!" data-toggle="modal" data-target="#grupal" class="btn btn-primary" href="evaluacion.php">Conoce más</a>
+                                     <a href="#!" data-toggle="modal" data-target="#grupal" class="btn btn-primary" href="evaluacion.php">Ver más</a>
                           </div>
                     </div>
                  </div>
@@ -46,7 +46,7 @@ include 'menu.php';
                          <div class="col-md-8 col-6">
                                      <h5>Institucional</h5>
                                      <p>Obtén un reporte ejecutivo del nivel de desarrollo de las habilidades de aprendizaje de toda tu comunidad educativa.</p>
-                                     <a href="#!" data-toggle="modal" data-target="#institucional" class="btn btn-primary" href="evaluacion.php">Conoce más</a>
+                                     <a href="#!" data-toggle="modal" data-target="#institucional" class="btn btn-primary" href="evaluacion.php">Ver más</a>
                          </div>
                    </div>
                 </div>
@@ -59,7 +59,7 @@ include 'menu.php';
                          <div class="col-md-8 col-6 orderdata4">
                                     <h5>Comparativo</h5>
                                     <p>Compara los resultados obtenidos en dos aplicaciones consecutivas.</p>
-                                    <a href="#!" data-toggle="modal" data-target="#comparativo" class="btn btn-primary" href="evaluacion.php">Conoce más</a>
+                                    <a href="#!" data-toggle="modal" data-target="#comparativo" class="btn btn-primary" href="evaluacion.php">Ver más</a>
                          </div>
                    </div>
                 </div>
@@ -72,7 +72,7 @@ include 'menu.php';
                          <div class="col-md-8 col-6 orderdata4">
                                     <h5>Completo</h5>
                                     <p>Consulta fácilmente el perfil y potencial de aprendizaje de cada persona.</p>
-                                    <a href="#!" data-toggle="modal" data-target="#PPA" class="btn btn-primary" href="evaluacion.php">Conoce más</a>
+                                    <a href="#!" data-toggle="modal" data-target="#PPA" class="btn btn-primary" href="evaluacion.php">Ver más</a>
                          </div>
                    </div>
                 </div>
@@ -85,7 +85,7 @@ include 'menu.php';
                          <div class="col-md-8 col-6">
                                     <h5>Personalizado</h5>
                                     <p>involucra a cada evaluado en un proceso de autoconocimiento y desarrollo intencionado.</p>
-                                    <a href="#!" data-toggle="modal" data-target="#personalizado" class="btn btn-primary" href="evaluacion.php">Conoce más</a>
+                                    <a href="#!" data-toggle="modal" data-target="#personalizado" class="btn btn-primary" href="evaluacion.php">Ver más</a>
                          </div>
                    </div>
                 </div>
