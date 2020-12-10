@@ -8,7 +8,7 @@ include 'header.php' ?>
 </section>
 
 <section class="text-center contsgral py-5">
-	<h5>Sistema de Ingreso y Permanencia: tu mejor opción para atraer y retener alumnado.</h5>
+	<h5>Tu mejor opción para atraer y retener alumnado.</h5>
 	<a href="#!" data-toggle="modal" data-target="#SIP" title="Ver video" class="btn btn-primary">Ver video</a>
         <div class="container" style="margin-top: 4%;">
              <div class="row">
@@ -76,7 +76,7 @@ include 'header.php' ?>
         </button>
       </div>
       <div class="modal-body">
-          <iframe src="https://player.vimeo.com/video/365836245?title=0&byline=0" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+         <iframe width="100%" height="360" src="https://www.youtube.com/embed/McOLQRZHFKw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>

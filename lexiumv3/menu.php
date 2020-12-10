@@ -45,9 +45,11 @@
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="captacion.php">Captación</a>
                             <a class="dropdown-item item2" href="captacion.php">Test rápido para</br> captar alumnos</a>
+                             <div class="dropdown-divider"></div>
+                             <a class="dropdown-item" href="admision.php">Admisión</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="sip.php">Sistema de ingreso </br>y permanencia</a>
-                            <a class="dropdown-item item2" href="sip.php">Admisión</a>
+                            <a class="dropdown-item item2" href="sip.php">Ingreso</a>
                             <a class="dropdown-item item2" href="sip.php">Guía vocacional</a>
                             <a class="dropdown-item item2" href="sip.php">Pronóstico de</br>permanencia</a>
                             <a class="dropdown-item item2" href="sip.php">Riesgo de abandono</a>

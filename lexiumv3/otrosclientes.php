@@ -68,7 +68,7 @@
 
                                         <div class="col-md-3 tarjeta">
                                               <div class="otrosclientes"> 
-                                                   <a  href="#">
+                                                   <a  href="admision.php">
                                                        <img class="img-fluid" alt="Admisión" title="Admisión" src="resources/icons/otros/admision.png"> 
                                                        <h3>Admisión</h3>
                                                    </a>
@@ -82,7 +82,7 @@
                                                        <img class="img-fluid" alt="Sistema de Ingreso y Permanencia" title="Sistema de Ingreso y Permanencia" src="resources/icons/otros/sip.png"> 
                                                        <h3>SIP</h3>
                                                    </a>
-                                                   <span>innovadora propuesta para apoyar la permanencia de cada alumno a través de mapear y enriquecer sus habilidades de aprendizaje y también identificando los riesgos de abandono.</span>
+                                                   <span>Descubre las increíbles posibilidades que brinda esta innovadora propuesta para admisión, selección, acompañamiento, tutoraje y desarrollo de cada alumno que ingresa en tu institución.</span>
                                               </div>
                                         </div>
 

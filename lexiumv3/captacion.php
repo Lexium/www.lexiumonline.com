@@ -9,7 +9,7 @@ include 'menu.php';
 </section>
 
 <section class="text-center contsgral py-5">
-	<h5><img class="img-fluid" style="width: 15%" src="resources/images/insight_logo.png" /> &nbsp; Incrementa la captación de alumnos. </h5>
+	<h5>Incrementa la captación de alumnos. </h5>
 	<a href="#!" data-toggle="modal" data-target="#capta" title="Ver video" class="btn btn-primary">Ver más</a>
 
         <div class="container" style="margin-top: 4%;">

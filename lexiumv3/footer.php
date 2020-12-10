@@ -46,9 +46,9 @@
                     <div class="col-md-5">
                          <ul>
                              <li><a class="strongetxt"  href="sip.php">Captación/ Ingreso / Permanencia</a></li>
-                             <li><a href="captacion.php">Test de captación</a></li>
-                             <li><a href="">Admisión</a></li>
-                             <li><a href="">Sistema de ingreso y permanencia</a></li>
+                             <li><a href="captacion.php">Captación</a></li>
+                             <li><a href="admision.php">Admisión</a></li>
+                             <li><a href="sip.php">Sistema de ingreso y permanencia</a></li>
                          </ul>
                     </div>
                </div>
