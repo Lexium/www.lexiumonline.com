@@ -22,6 +22,7 @@
     'skillmaptrainingpu.php' => 'Skill Map & Training | ',
     'skillmaptrainingcop.php' => 'Skill Map & Training | ',
     'captacion.php' => 'Captaciòn | ',
+    'admision.php' => 'Admisión | ',
   );
 
     session_start();
