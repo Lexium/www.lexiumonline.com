@@ -40,7 +40,7 @@
                             <li><a href="#" data-toggle="modal" data-target="#Offline" title="Ver video">Offline</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#DC" title="Ver video">DC</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#PPC" title="Ver video">PPC</a></li>
-                            <li><a href="#" data-toggle="modal" data-target="#OP" title="Ver video">OP</a></li>
+                            <li><a href="op.php">OP</a></li>
                          </ul>
                     </div>
                     <div class="col-md-5">
@@ -150,7 +150,6 @@
       <div class="modal-body">
             <iframe width="100%" height="360" src="https://www.youtube.com/embed/6jjhP1-qSuY?controls=0&amp;start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-
     </div>
   </div>
 </div>

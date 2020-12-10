@@ -88,7 +88,7 @@
 
                                         <div class="col-md-3 tarjeta">
                                              <div class="otrosclientes">
-                                                  <a href="#">
+                                                  <a href="op.php">
                                                      <img class="img-fluid" alt="Orientación Profesional" title="Orientación Profesional" src="resources/icons/otros/op.png">
                                                      <h3>OP</h3>
                                                   </a>

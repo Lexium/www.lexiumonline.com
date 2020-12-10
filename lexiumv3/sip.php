@@ -23,7 +23,7 @@ include 'header.php' ?>
 	   	    	 	        </div>
 	   	    	 	  </div>
 	   	    	 </div>
-<div class="line"></div>
+                 <div class="line"></div>
 	   	    	 <div class="col-md-6 datasgral" id="guia">
 	   	    	 	  <div class="row">
 	   	    	 	        <div class="col-md-4 col-6 orderdata3">
@@ -35,7 +35,7 @@ include 'header.php' ?>
 	   	    	 	        </div>
 	   	    	 	  </div>
 	   	    	 </div>
-<div class="line"></div>
+                 <div class="line"></div>
 	   	    	 <div class="col-md-6 datasgral" id="pronostico">
 	   	    	 	  <div class="row">
 	   	    	 	        <div class="col-md-4 col-6">
@@ -47,7 +47,7 @@ include 'header.php' ?>
 	   	    	 	        </div>
 	   	    	 	  </div>
 	   	    	 </div>
-
+                 <div class="line"></div>
 	   	    	 <div class="col-md-6 datasgral" id="riesgo">
 	   	    	 	  <div class="row">
 	   	    	 	        <div class="col-md-4 col-6 orderdata3">
@@ -60,7 +60,6 @@ include 'header.php' ?>
 	   	    	 	  </div>
 	   	    	 </div>
              </div>
-
         </div>
 </section>
 

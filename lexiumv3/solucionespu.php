@@ -189,7 +189,7 @@
                                     <div class="effect-2"></div>
                                     <div class="content">
                                          <div class="exercise exercise2">
-                                              <a href="#" data-toggle="modal" data-target="#OP" title="Ver video">
+                                              <a href="op.php">
                                                  <img  src="resources/icons/soluciones/op_icon.png">
                                               </a>
                                          </div>
@@ -198,7 +198,7 @@
                                 </div>
                              </div>
                            <div class="col-md-10 smcontnt">
-                              <a href="#" data-toggle="modal" data-target="#OP" title="Ver video"><h5>Orientación Profesional</h5></a>
+                              <a href="op.php"><h5>Orientación Profesional</h5></a>
                               <p>Programa que cuenta con una batería de evaluaciones más diversas herramientas que dirigen a la persona a una decisión muy acertada.</p>
                            </div>
                         </div>

@@ -58,7 +58,7 @@ include 'menu.php';
 	   	    	 <div class="col-md-3">
 	   	    	 </div>
 	   	    </div>
-	   </div>
+	 </div>
 </section>
 
 <?php include('solicitar_demo.php'); ?>
