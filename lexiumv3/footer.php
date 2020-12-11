@@ -153,6 +153,27 @@
     </div>
   </div>
 </div>
-<!-- Termina Modal Video -->
+<!-- Termina Modal Video --><!-- Modal Video -->
+<div class="modal fade" id="Offline" tabindex="-1" role="dialog" aria-labelledby="individualLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="individualLabel">Orientación Profesional</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <img class="img-fluid" src="resources/images/offline/offline_1.png" />
+          <img class="img-fluid" src="resources/images/offline/offline_2.png" />
+          <img class="img-fluid" src="resources/images/offline/offline_3.png" />
+          <img class="img-fluid" src="resources/images/offline/offline_4.png" />
+          <img class="img-fluid" src="resources/images/offline/offline_5.png" />
+          <img class="img-fluid" src="resources/images/offline/offline_6.png" />
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Termina Modal Video -->-
 </footer>
 
