@@ -40,6 +40,9 @@ include 'menu.php';
     if (id == "institucion") {
         $("#gradoaca").show();
     }
+    if (id !== "institucion") {
+        $("#gradoaca").hide();
+    }
   }
 </script>
                   <div id="gradoaca" class="form-group" style="display: none;">
