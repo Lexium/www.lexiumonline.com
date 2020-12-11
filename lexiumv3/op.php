@@ -6,7 +6,7 @@ include 'menu.php';
 
 <section class="text-center titulocontenido">
     <h1>Orientación Profesional</h1>
-    <p>Programa que cuenta con una batería de evaluaciones ,más diversas herramientas que dirigen a la persona a una decisión muy acertada.</p>
+    <p>Programa que cuenta con una batería de evaluaciones, más diversas herramientas que dirigen a la persona a una decisión muy acertada.</p>
 </section>
 
 <section class="text-center contsgral py-5">
@@ -65,7 +65,7 @@ include 'menu.php';
                  <div class="col-md-12 pt-5" style="text-align: center;">
                  	  <h5>Además <img style="width: 10%;" class="img-fluid" src="resources/images/op/lexium_op_1.png" alt="Orientación Profesional" title="Orientación Profesional"> permite a cualquier persona tener acceso a un increíble programa de Orientación Profesional en formato electrónico y a distancia.</h5>
 
-                 	  <a href=""><img style="width: 40%;" class="img-fluid" src="resources/images/op/lexium_op_1.png" alt="Orientación Profesional" title="Orientación Profesional"></a>
+                 	  <a href="https://opbylexium.zohocommerce.com/"><img style="width: 40%;" class="img-fluid" src="resources/images/op/lexium_op_1.png" alt="Orientación Profesional" title="Orientación Profesional"></a>
                  </div>
              </div>
         </div>

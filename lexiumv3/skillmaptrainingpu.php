@@ -44,7 +44,7 @@ include 'menu.php';
                           <div class="col-md-8 col-6 orderdata4">
                                      <h5>Offline Programa de habilidades de aprendizaje</h5>
                                      <p>Construye la inteligencia emocional, las habilidades lectoras y las habilidades cognitivas en propuesta grupal y presencial.</p>
-                                     <a href="#!" data-toggle="modal" data-target="#Offline" title="Ver video" class="btn btn-primary">Ver video</a>
+                                     <a href="#!" data-toggle="modal" data-target="#Offline" title="Ver video" class="btn btn-primary">Ver màs</a>
                           </div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@ include 'menu.php';
     </div>
   </div>
 </div>
-
+<!-- Modal Video -->
 <div class="modal fade" id="OP" tabindex="-1" role="dialog" aria-labelledby="individualLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
@@ -157,7 +157,29 @@ include 'menu.php';
       <div class="modal-body">
             <iframe width="100%" height="360" src="https://www.youtube.com/embed/6jjhP1-qSuY?controls=0&amp;start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
+    </div>
+  </div>
+</div>
+<!-- Termina Modal Video -->
 
+<!-- Modal Video -->
+<div class="modal fade" id="Offline" tabindex="-1" role="dialog" aria-labelledby="individualLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="individualLabel">Orientación Profesional</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <img class="img-fluid" src="resources/images/offline/offline_1.png" />
+          <img class="img-fluid" src="resources/images/offline/offline_2.png" />
+          <img class="img-fluid" src="resources/images/offline/offline_3.png" />
+          <img class="img-fluid" src="resources/images/offline/offline_4.png" />
+          <img class="img-fluid" src="resources/images/offline/offline_5.png" />
+          <img class="img-fluid" src="resources/images/offline/offline_6.png" />
+      </div>
     </div>
   </div>
 </div>

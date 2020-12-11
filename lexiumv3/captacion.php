@@ -40,7 +40,6 @@ include 'menu.php';
           <img class="img-fluid" src="resources/images/captacion/insight_6.png" />
           <img class="img-fluid" src="resources/images/captacion/insight_7.png" />
           <img class="img-fluid" src="resources/images/captacion/insight_8.png" />
-
       </div>
     </div>
   </div>

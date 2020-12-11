@@ -119,7 +119,7 @@ include 'menu.php';
 
 <section class="grupoVareli">
         <div class="container">
-             <img alt="Grupo Vareli" title="Grupo Vareli" src="./resources/images/logo_vareli.png">
+             <a href="https://www.grupovareli.com/spanish/" target="_blank"><img alt="Grupo Vareli" title="Grupo Vareli" src="./resources/images/logo_vareli.png"></a>
              <span>
                   <p style=" font-family: 'HarmoniaSansW01-Regular';">Lexium forma parte de Grupo Vareli, éstas son algunas de las empresas del grupo: </p>
              </span>
