@@ -63,7 +63,7 @@ include 'menu.php';
                          <h5 class="bp-h5-1">Preparatoria y Universidad</h5>
                          <h5 class="bp-h5-2">Preparatoria y </br>Universidad</h5>
                          <h4>Fortalece la oferta académica optimizando la CAPTACIÓN  y mejorando la ADMISIÓN,  el INGRESO y la PERMANENCIA.</h4>
-                         <p>bienvenido a Lexium la plataforma de tecnología de aprendizaje más innovadora del mercado.</p>
+                         <p>Bienvenido a Lexium la plataforma de tecnología de aprendizaje más innovadora del mercado.</p>
                          <a href="contacto.php">Solicitar Demo</a> 
                     </div>
                </div>

@@ -13,7 +13,7 @@
                                             <div class="col-md-3 tarjeta">
                                                   <div class="otrosclientes">
                                                         <a href="evaluacion.php">
-                                                           <img class="img-fluid" src="./resources/icons/otros/evaluacion.png"> 
+                                                           <img alt="Evaluación" title="Evaluación" class="img-fluid" src="./resources/icons/otros/evaluacion.png"> 
                                                            <h3>Evaluación</h3>
                                                          </a>
                                                            <span>Elige entre más de 20 evaluaciones para mapear el perfil de aprendizaje de los alumnos y de la comunidad educativa.</span>
@@ -23,7 +23,7 @@
                                             <div class="col-md-3 tarjeta">
                                                   <div class="otrosclientes"> 
                                                        <a href="diagnostico.php">
-                                                          <img class="img-fluid" src="./resources/icons/otros/diagnostico.png"> 
+                                                          <img alt="Diagnóstico" title="Diagnóstico" class="img-fluid" src="./resources/icons/otros/diagnostico.png"> 
                                                           <h3>Diagnóstico</h3>
                                                        </a>
                                                        <span>Apóyate en una plataforma diagnóstica que contiene el DNA de las habilidades de aprendizaje con las que cuenta tu comunidad educativa.</span>
@@ -33,7 +33,7 @@
                                             <div class="col-md-3 tarjeta">
                                                   <div class="otrosclientes"> 
                                                        <a href="herramientas.php">
-                                                          <img class="img-fluid" src="./resources/icons/otros/herramientas.png"> 
+                                                          <img alt="Herramientas" title="Herramientas" class="img-fluid" src="./resources/icons/otros/herramientas.png"> 
                                                           <h3>Herramientas</h3>
                                                        </a>
                                                        <span>Propicia y crea ambientes de aprendizaje efectivos con apoyo de las herramientas de análisis y planeación.</span>
@@ -42,7 +42,7 @@
                                             <div class="col-md-3 tarjeta">
                                                   <div class="otrosclientes"> 
                                                         <a href="skillmaptrainingpu.php">
-                                                           <img class="img-fluid" src="./resources/icons/otros/entrenamiento.png"> 
+                                                           <img alt="Entrenamiento" title="Entrenamiento" class="img-fluid" src="./resources/icons/otros/entrenamiento.png"> 
                                                            <h3>Entrenamiento</h3>
                                                        </a>
                                                        <span>Enriquece al SkillMap incorporando un entrenamiento modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje.</span>
@@ -92,7 +92,7 @@
                                                      <img class="img-fluid" alt="Orientación Profesional" title="Orientación Profesional" src="resources/icons/otros/op.png">
                                                      <h3>OP</h3>
                                                   </a>
-                                                  <span>Programa que cuenta con una batería de evaluaciones más diversas herramientas que dirigen a la persona a una decisión muy acertada.</span>
+                                                  <span>Programa que cuenta con una batería de evaluaciones y con diversas herramientas que dirigen a la persona a una decisión muy acertada.</span>
                                              </div>
                                         </div>
 

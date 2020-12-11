@@ -70,7 +70,7 @@ include 'menu.php';
                                     <img class="img-fluid" src="./resources/icons/diagnostico/ppa_icon.png" alt="Perﬁl y Potencial de Aprendizaje" title="Perﬁl y Potencial de Aprendizaje">
                          </div>
                          <div class="col-md-8 col-6 orderdata4">
-                                    <h5>Completo</h5>
+                                    <h5>Diagnóstico ejecutivo</h5>
                                     <p>Consulta fácilmente el perfil y potencial de aprendizaje de cada persona.</p>
                                     <a href="#!" data-toggle="modal" data-target="#PPA" class="btn btn-primary" href="evaluacion.php">Ver más</a>
                          </div>

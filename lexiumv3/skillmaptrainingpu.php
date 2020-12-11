@@ -5,7 +5,7 @@ include 'menu.php';
 ?> 
 <section class="text-center titulocontenido">
     <h1>Skill Training</h1>
-    <p>Enriquece al Skill Map incorporando entrenamiento electrónico, modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje.</p>
+    <p>Enriquece a Skill Map incorporando entrenamiento electrónico, modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje.</p>
 </section>
 
 <section class="text-center contsgral py-5">
@@ -70,7 +70,7 @@ include 'menu.php';
                            </div>
                            <div class="col-md-8 col-6 orderdata4">
                                  <h5>Programa Potenciador de Competencias</h5>
-                                 <p>PPotencia en los alumnos de preparatoria y universidad las competencias personales, interpersonales, de aprendizaje y de manejo de información.</p>
+                                 <p>Potencia en los alumnos de preparatoria y universidad las competencias personales, interpersonales, de aprendizaje y de manejo de información.</p>
                                  <a href="#!" data-toggle="modal" data-target="#PPC" title="Ver video" class="btn btn-primary">Ver video</a>
                            </div>
                      </div>
@@ -85,7 +85,7 @@ include 'menu.php';
                                  <h5>Programa de Orientación Profesional</h5>
                                  <p>Obtén grandes beneficios para tus alumnos en autoconocimiento, automotivación y autodirección al trabajar con esta propuesta de OP única y original que ha sido probada por cientos de jóvenes.</p>
                                  <a href="#!" data-toggle="modal" data-target="#OP" title="Ver video" class="btn btn-primary">Ver video</a>
-                                  <a style="margin-left: 3%;" href="https://opbylexium.zohocommerce.com/" title="Comprar Paquete" class="btn btn-primary">Comprar</a>
+                                  <a style="margin-left: 3%;" href="https://opbylexium.zohocommerce.com/" title="Comprar Paquete" target="_blank" class="btn btn-primary">Comprar</a>
 	   	    	 	             </div>
 	   	    	 	       </div>
 	   	    	    </div>

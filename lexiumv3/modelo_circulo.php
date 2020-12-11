@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <p>Evaluación que permite determinar si se tienen instaladas las habilidades y los hábitos para establecer y trabajar en lograr los propósitos de vida que conlleven al éxito y a la prosperidad. Se evalúan habilidades como, autoimagen positiva, optimismo y otras., hábitos importantes como la consistencia, persistencia, prudencia y cooperación y habilidades intelectuales como el seguimiento de instrucciones, planeación, entre otras.</p>
+                <p>Evaluación que permite determinar si se tienen instaladas las habilidades y los hábitos para establecer y trabajar en lograr los propósitos de vida que conlleven al éxito y a la prosperidad. Se evalúan habilidades como autoimagen positiva, optimismo y otros hábitos importantes como la consistencia, persistencia, prudencia y cooperación y habilidades intelectuales como el seguimiento de instrucciones, planeación, entre otras.</p>
                 <p><small>60 minutos, aprox.</small></p>
             </div>
         </div>
@@ -295,7 +295,7 @@ mación tecnológica.</p>
                 </div>
             </div>
             <div class="col-md-9">
-                <p>Bien Estar es una autoevaluación compuesta por 41 afirmaciones que invita a la persona a reflexionar sobre las con- ductas, actitudes y/o hábitos que tiene instalados y que le permiten una constante construcción de tres habilidades indispensables para lograr este estado de bienestar: autoimagen positiva, optimismo y manejo de emociones.</p>
+                <p>Bienestar es una autoevaluación compuesta por 41 afirmaciones que invita a la persona a reflexionar sobre las conductas, actitudes y/o hábitos que tiene instalados y que le permiten una constante construcción de tres habilidades indispensables para lograr este estado de bienestar: autoimagen positiva, optimismo y manejo de emociones.</p>
                 <p><small>20 minutos, aprox.</small></p>
             </div>
         </div>
@@ -307,7 +307,7 @@ mación tecnológica.</p>
                 </div>
             </div>
             <div class="col-md-9">
-                <p>Valores de Integridad es una auto evaluación para identificar las actitudes y conductas que una persona presenta y que se traducen en un grado de dominio de las cuatro habilidades relacionadas con el concepto de integridad: Rectitud, Honestidad, Justicia y Veracidad.</p>
+                <p>Valores de Integridad es una autoevaluación para identificar las actitudes y conductas que una persona presenta y que se traducen en un grado de dominio de las cuatro habilidades relacionadas con el concepto de integridad: Rectitud, Honestidad, Justicia y Veracidad.</p>
                 <p><small>30 minutos, aprox.</small></p>
             </div>
         </div>

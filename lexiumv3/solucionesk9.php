@@ -23,7 +23,7 @@
                                     <div class="content">
                                          <div class="exercise exercise2">
                                             <a href="evaluacion.php">  
-                                               <img  src="./resources/icons/soluciones/evaluaciones_icon.png">
+                                               <img alt="Evaluación" title="Evaluación"  src="./resources/icons/soluciones/evaluaciones_icon.png">
                                             </a>
                                          </div>
                                     </div>
@@ -46,7 +46,7 @@
                                     <div class="content">
                                          <div class="exercise exercise2">
                                               <a href="diagnostico.php">
-                                                 <img  src="./resources/icons/soluciones/diagnostico_icon.png">
+                                                 <img alt="Diagnóstico" title="Diagnóstico"  src="./resources/icons/soluciones/diagnostico_icon.png">
                                               </a> 
                                          </div>
                                     </div>
@@ -69,7 +69,7 @@
                                     <div class="content">
                                          <div class="exercise exercise2">
                                               <a href="herramientas.php">
-                                                <img  src="./resources/icons/soluciones/herramientas_icon.png">
+                                                <img  alt="Herramientas" title="Herramientas" src="./resources/icons/soluciones/herramientas_icon.png">
                                               </a>
                                          </div>
                                     </div>
@@ -97,7 +97,7 @@
                                     <div class="content">
                                          <div class="exercise exercise2">
                                               <a href="skillmap.php">
-                                                 <img  src="./resources/icons/soluciones/skill-map_icon.png">
+                                                 <img alt="Skill Map" title="Skill Map" src="./resources/icons/soluciones/skill-map_icon.png">
                                               </a>
                                          </div>
                                     </div>
@@ -120,7 +120,7 @@
                                     <div class="content">
                                          <div class="exercise exercise2">
                                               <a href="skillmaptrainingk9.php">
-                                                 <img  src="./resources/icons/soluciones/entrenamiento_icon.png">
+                                                 <img  alt="Skill Training" title="Skill Training" src="./resources/icons/soluciones/entrenamiento_icon.png">
                                               </a>
                                          </div>
                                     </div>
@@ -129,7 +129,7 @@
                              </div>
                  	  	     <div class="col-md-10 smcontnt">
                  	  	   	    <a href="skillmaptrainingpu.php"><h5>Skill Training</h5></a>
-                 	  	   	    <p>Enriquece al SkillMap incorporando un entrenamiento modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje.</p>
+                 	  	   	    <p>Enriquece a SkillMap incorporando un entrenamiento modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje.</p>
                  	  	     </div>
                  	  	  </div>
                  	  </div>

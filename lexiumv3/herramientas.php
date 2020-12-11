@@ -138,7 +138,7 @@ include 'menu.php';
 	   	    	 	        </div>
 	   	    	 	        <div class="col-md-8 col-6 orderdata4">
                                  <h5>Pronóstico de permanencia</h5>
-                                 <p>Para identiﬁcar las fortalezas y áreas de oportunidad de cada alumno en relación con lo que se espera de el en la institución, porque prevenir y actuar a tiempo es importante.</p>
+                                 <p>Para identiﬁcar las fortalezas y áreas de oportunidad de cada alumno en relación con lo que se espera de él en la institución, porque prevenir y actuar a tiempo es importante.</p>
 	   	    	 	        </div>
 	   	    	 	  </div>
 	   	    	 </div>
@@ -179,7 +179,7 @@ include 'menu.php';
 	   	    	 	        </div>
 	   	    	 	        <div class="col-md-8 col-6">
                                  <h5>Retos de aprendizaje</h5>
-                                 <p>Cuando se requiere una eﬁcaz herramienta para fomentar el autodesarrollo generar evidencias de aprendizaje de cada alumno.</p>
+                                 <p>Cuando se requiere una eﬁcaz herramienta para fomentar el autodesarrollo y generar evidencias de aprendizaje de cada alumno.</p>
 	   	    	 	        </div>
 	   	    	 	  </div>
 	   	    	 </div>

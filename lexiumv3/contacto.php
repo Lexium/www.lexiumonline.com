@@ -25,15 +25,32 @@ include 'menu.php';
           							<i><?php echo $has_error['name'] ?></i>
           						</span>
           						<?php endif; ?>
-                    <!--<div class="form-group col-md-6">
-                      <input type="text" name="lastname" class="form-control" placeholder="Apellidos" value="<?php echo (isset($_POST ['lastname']) ? $_POST['lastname'] : ''); ?>">
-					  <?php if (array_key_exists('lastname', $has_error)): ?>
-						<span class="text-danger has-error">
-							<i><?php echo $has_error['lastname'] ?></i>
-						</span>
-					  <?php endif; ?>
-                    </div>-->
                   </div>
+
+                  <div class="form-group">
+                       <label for="tipo"><p style="font-size: 1rem;">Quieres saber más sobre Lexium para:</p></label>
+                       <select class="form-control" id="tipo" name="tipo" onChange="mostrar(this.value);">
+                         <option value="personal">Ti en lo personal.</option>
+                         <option value="institucion">Una institución educativa</option>
+                         <option value="psicopedagogo">Un consultorio psicopedagogo</option>
+                       </select>
+                  </div>
+<script type="text/javascript">
+  function mostrar(id) {
+    if (id == "institucion") {
+        $("#gradoaca").show();
+    }
+  }
+</script>
+                  <div id="gradoaca" class="form-group" style="display: none;">
+                         <input type="radio" id="Educación básica" name="tipo" value="Educación básica">
+                         <label for="Educación básica">Educación básica</label><br>
+                         <input type="radio" id="Preparatoria" name="tipo" value="Preparatoria">
+                         <label for="Preparatoria">Preparatoria</label><br>
+                         <input type="radio" id="Universidad" name="tipo" value="Universidad">
+                         <label for="Universidad">Universidad</label>
+                  </div>
+<!-- 
                   <div class="form-group">
                     <textarea class="form-control" name="message" rows="5" placeholder="Describe lo que necesitas o estás buscando, seguro te podemos apoyar."><?php echo (isset($_POST ['message']) ? $_POST['message'] : ''); ?></textarea>
                     <?php if (array_key_exists('message', $has_error)): ?>
@@ -41,14 +58,15 @@ include 'menu.php';
                         <i><?php echo $has_error['message'] ?></i>
                       </span>
                     <?php endif; ?>
-                  </div>
+                  </div> -->
+
           <div class="form-group">
             <p>En dónde te encontramos</p>
           </div>
 				  <div class="form-row">
 
   					<div class="form-group col-md-6">
-  					  <input type="email" name="email" class="form-control" placeholder="Email" value="<?php echo (isset($_POST ['email']) ? $_POST['email'] : ''); ?>">
+  					  <input type="email" name="email" class="form-control" placeholder="Correo" value="<?php echo (isset($_POST ['email']) ? $_POST['email'] : ''); ?>">
             <?php if (array_key_exists('email', $has_error)): ?>
               <span class="text-danger has-error">
                 <i><?php echo $has_error['email'] ?></i>
@@ -56,7 +74,7 @@ include 'menu.php';
             <?php endif; ?>
   					</div>
   					<div class="form-group col-md-6">
-  					  <input type="text" name="phone" class="form-control" placeholder="(LADA) + Teléfono" value="<?php echo (isset($_POST ['phone']) ? $_POST['phone'] : ''); ?>" required="" minlength="9" onkeypress="return valida(event)">
+  					  <input type="text" name="phone" class="form-control" placeholder="Teléfono" value="<?php echo (isset($_POST ['phone']) ? $_POST['phone'] : ''); ?>" required="" maxlength="10" onkeypress="phoneno()">
   					  <?php if (array_key_exists('phone', $has_error)): ?>
   					  <?php endif; ?>
   					</div>
@@ -101,19 +119,20 @@ include 'menu.php';
 
 <?php $varLocation = 'https://www.lexiumonline.com/gracias.php'; ?>
 <script type="text/javascript">
-function valida(e){
-    tecla = (document.all) ? e.keyCode : e.which;
+  
+      function phoneno(){   
+      $('#phone').keypress(function(e) { 
+       var a = []; 
+       var k = e.which; 
 
-    //Tecla de retroceso para borrar, siempre la permite
-    if (tecla==8){
-        return true;
-    }
+       for (i = 48; i < 58; i++) 
+        a.push(i); 
 
-    // Patron de entrada, en este caso solo acepta numeros
-    patron =/[0-9]/;
-    tecla_final = String.fromCharCode(tecla);
-    return patron.test(tecla_final);
-}
+       if (!(a.indexOf(k)>=0)) 
+        e.preventDefault(); 
+      }); 
+     } 
+
 </script>
 
 <script type="text/javascript">

@@ -31,11 +31,6 @@ include 'menu.php';
             </a>
         </div>
         <div class="col-sm-6 col-md-3 mb-4">
-            <a href="https://ieu.edu.mx/" target="new" border="0">
-                <img class="img-fluid" src="./resources/images/colegios/IEU.jpg" alt="IEU Universidad" title="IEU Universidad">
-            </a>
-        </div>
-        <div class="col-sm-6 col-md-3 mb-4">
             <a href="https://www.semperaltius.edu.mx/" target="new" border="0">
                 <img class="img-fluid" src="./resources/images/colegios/legion.jpg" alt="Red de Colegios" title="Red de Colegios">
             </a>

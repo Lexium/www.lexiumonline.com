@@ -99,7 +99,7 @@
                              </div>
                            <div class="col-md-10 smcontnt">
                               <a href="skillmaptrainingpu.php#training"><h5>Skill Training</h5></a>
-                              <p>Enriquece al SkillMap incorporando un entrenamiento modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje. </p>
+                              <p>Enriquece a SkillMap incorporando un entrenamiento modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje. </p>
                            </div>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
                              </div>
                            <div class="col-md-10 smcontnt">
                               <a href="op.php"><h5>Orientación Profesional</h5></a>
-                              <p>Programa que cuenta con una batería de evaluaciones más diversas herramientas que dirigen a la persona a una decisión muy acertada.</p>
+                              <p>Programa que cuenta con una batería de evaluaciones y con diversas herramientas que dirigen a la persona a una decisión muy acertada.</p>
                            </div>
                         </div>
                     </div>

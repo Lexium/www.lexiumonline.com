@@ -1,7 +1,7 @@
 <section class="container" style="margin-top: 1%; margin-bottom: 2%;">
 	     <div class="row">
 	     	  <div class="col-md-6 whyimg mt-5 p-3"id="whyimg">
-	     	  	   <div class="layerd" style="z-index: 12" id="img0" data-depth="0.0"><img src="./resources/adolescentes-que-estudian.png"></div>
+	     	  	   <div class="layerd" style="z-index: 12" id="img0" data-depth="0.0"><img alt="¿Por que Lexium?" title="¿Por que Lexium?" src="./resources/adolescentes-que-estudian.png"></div>
 	     	  	   <!-- <div class="layerd" style="z-index: 8" data-depth="0.82"><img src="./resources/images/parallax-mouse/layer22.png"></div> -->
                <div class="layerd" style="z-index: 8" data-depth="0.82"><img src="./resources/images/parallax-mouse/why-bg-01.png"></div>
                <div class="layerd" style="z-index: 8" data-depth="2.82"><img src="./resources/images/parallax-mouse/why-bg-02.png"></div>
@@ -28,7 +28,7 @@
                                                 <div class="effect-2"></div>
                                                 <div class="content">
                                                      <div class="exercise exercise2">
-                                                     	  <img  src="./resources/icons/why/incrementa_icon.png">
+                                                     	  <img alt="Incrementa la captación y retención." title="Incrementa la captación y retención."  src="./resources/icons/why/incrementa_icon.png">
                                                      </div>
                                                 </div>
                                            </div>
@@ -49,7 +49,7 @@
                                                 <div class="effect-2"></div>
                                                 <div class="content">
                                                      <div class="exercise exercise2">
-                                                     	  <img src="./resources/icons/why/fortalece_icon.png">
+                                                     	  <img alt="Fortalece el prestigio de tu institución." title="Fortalece el prestigio de tu institución." src="./resources/icons/why/fortalece_icon.png">
                                                      </div>
                                                 </div>
                                            </div>
@@ -72,7 +72,7 @@
                                                 <div class="effect-2"></div>
                                                 <div class="content">
                                                      <div class="exercise exercise2">
-                                                     	  <img src="./resources/icons/why/mejora_icon.png">
+                                                     	  <img alt="Mejora la oferta académica." title="Mejora la oferta académica." src="./resources/icons/why/mejora_icon.png">
                                                      </div>
                                                 </div>
                                            </div>
@@ -93,7 +93,7 @@
                                                 <div class="effect-2"></div>
                                                 <div class="content">
                                                      <div class="exercise exercise2">
-                                                     	  <img src="./resources/icons/why/prosperar_icon.png">
+                                                     	  <img alt="Aumenta la posibilidad prosperar y ser feliz." title="Aumenta la posibilidad prosperar y ser feliz." src="./resources/icons/why/prosperar_icon.png">
                                                      </div>
                                                 </div>
                                            </div>

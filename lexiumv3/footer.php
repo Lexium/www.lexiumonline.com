@@ -14,7 +14,7 @@
                             </div>
                             <div class="col-auto">
                                 <input type="hidden" name="completo" value="0">
-                                <a type="submit" href="contaco.php" class="btn btn-success mb-4" style="margin-top:0">Solicitar Demo</a>
+                                <a type="submit" href="contacto.php" class="btn btn-success mb-4" style="margin-top:0">Solicitar Demo</a>
                             </div>
                         </div>
                     </form>
@@ -174,6 +174,6 @@
     </div>
   </div>
 </div>
-<!-- Termina Modal Video -->-
+<!-- Termina Modal Video -->
 </footer>
 

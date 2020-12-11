@@ -26,18 +26,18 @@
     'op.php' => 'Orientación Profesional |'
   );
 
-    session_start();
-  if(in_array($archivo_previo, array('k9.php', 'preparatoria.php', 'consultor.php')))
-  {
-    $_SESSION['link_inicio'] = $archivo_previo;
-  }
-  else
-  {
-    if(!isset($_SESSION['link_inicio']))
-    {
-      $_SESSION['link_inicio'] = 'preparatoria.php';
-    }
-  }
+  //   session_start();
+  // if(in_array($archivo_previo, array('k9.php', 'preparatoria.php', 'consultor.php')))
+  // {
+  //   $_SESSION['link_inicio'] = $archivo_previo;
+  // }
+  // else
+  // {
+  //   if(!isset($_SESSION['link_inicio']))
+  //   {
+  //     $_SESSION['link_inicio'] = 'preparatoria.php';
+  //   }
+  // }
 ?>
 <!DOCTYPE html>
 <html>

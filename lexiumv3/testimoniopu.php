@@ -4,6 +4,16 @@
                    <!--Carousel Wrapper-->
                    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" data-interval="5000" style="z-index: 22">
                         <h1>¿Qué dicen nuestros clientes?</h1>
+                         <!--Indicators-->
+                        <ol class="carousel-indicators">
+                            <li title="1" data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                            <li title="2" data-target="#multi-item-example" data-slide-to="1"></li>
+                            <li title="3" data-target="#multi-item-example" data-slide-to="2"></li>
+                            <li title="4" data-target="#multi-item-example" data-slide-to="3"></li>
+                            <li title="5" data-target="#multi-item-example" data-slide-to="4"></li>
+                            <li title="6" data-target="#multi-item-example" data-slide-to="5"></li>
+                        </ol>
+                        <!--/.Indicators-->
                         <!--Slides-->
                         <div class="carousel-inner" role="listbox">
 
