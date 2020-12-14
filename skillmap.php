@@ -1,48 +1,67 @@
 <?php
-$archivo_previo = '4';
-include 'header.php' ?>
-<div class="skillMap generic_page">
-    <section class="b1_landing jumbotron post">
-        <div class="x-space">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-8 col-lg-6">
-                    <h1><?php lang('skillmap_001');?></h1>
-                    <p><?php lang('skillmap_002');?></p>
-                </div>
-                <div class="col-md-4 col-lg-6">
-                    <img src="images/skillmap/skillmap.png" alt="Skill Map" title="Skill Map" class="img-fluid" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="mt-5">
-        <div class="container principal_container">
-            <h3 class="py-5"><?php lang('skillmap_003');?></h3>
-            <div class="row">
-                <div class="col-sm-4">
-                    <img class="img-fluid" src="images/skillmap/evaluacion_icon.png" alt="<?php lang('skillmap_004');?>" title="<?php lang('skillmap_004');?>">
-                    <h5><?php lang('skillmap_004');?></h5>
-                    <p class="description"><?php lang('skillmap_005');?></p>
-                    <a href="evaluacion.php" class="btn btn-warning"><?php lang('CONOCE_MAS');?></a>
-                </div>
-                <div class="col-sm-4">
-                    <img class="img-fluid" src="images/skillmap/diagnostico_icon.png" alt="<?php lang('skillmap_006');?>" title="<?php lang('skillmap_006');?>">
-                    <h5><?php lang('skillmap_006');?></h5>
-                    <p class="description"><?php lang('skillmap_007');?></p>
-                    <a href="diagnostico.php" class="btn btn-warning"><?php lang('CONOCE_MAS');?></a>
+$archivo_previo = __FILE__;
+include 'header.php'; 
+include 'menu.php';
+?> 
+<section class="text-center titulocontenido">
+    <h1>Skill Map</h1>
+    <p>Skill Map la propuesta que necesitas para impulsar la creación de ambientes de aprendizaje efectivos.</p>
+</section>
 
-                </div>
-                <div class="col-sm-4">
-                    <img class="img-fluid" src="images/skillmap/herramientas_icon.png" alt="<?php lang('skillmap_008');?>" title="<?php lang('skillmap_008');?>">
-                    <h5><?php lang('skillmap_008');?></h5>
-                    <p class="description"><?php lang('skillmap_009');?></p>
-                    <a href="herramientas.php" class="btn btn-warning"><?php lang('CONOCE_MAS');?></a>
+<section class="text-center contsgral py-5">
+	   <h5>Mapea las habilidades clave de los alumnos y conoce su perﬁl y potencial de aprendizaje para que puedas gestionar mejor los procesos de enseñanza-aprendizaje y de esta forma incrementar el éxito de tu proyecto educativo.</h5>
+	   <div class="line"></div>
+     <div class="container py-5">
+	   	    <div class="row">
+	   	    	 <div class="col-md-6 datasgral">
+	   	    	 	  <div class="row">
+	   	    	 	        <div class="col-md-4 col-6">
+                                 <img class="img-fluid" alt="Evaluación" title="Evaluación" src="./resources/icons/otros/evaluacion.png">
+	   	    	 	        </div>
+	   	    	 	        <div class="col-md-8 col-6">
+                                 <h5>Evaluación</h5>
+                                 <p>Elige entre más de 20 evaluaciones que permiten mapear el perﬁl de aprendizaje de los alumnos y de la comunidad educativa.</p>
+                                 <a class="btn btn-primary" href="evaluacion.php">Ver más</a>
+	   	    	 	        </div>
+	   	    	 	  </div>
+	   	    	 </div>
+                  <div class="line"></div>
+	   	    	 <div class="col-md-6 datasgral">
+	   	    	 	  <div class="row">
+	   	    	 	        <div class="col-md-4 col-6 orderdata3">
+                                 <img class="img-fluid" alt="Diagnóstico" title="Diagnóstico" src="./resources/icons/otros/diagnostico.png">
+	   	    	 	        </div>
+	   	    	 	        <div class="col-md-8 col-6 orderdata4">
+                                 <h5>Diagnóstico</h5>
+                                 <p>Apóyate en una plataforma diagnóstica que contiene el DNA de las habilidades de aprendizaje con las que cuenta tu comunidad educativa.</p>
+                                 <a class="btn btn-primary" href="diagnostico.php">Ver más</a>
+	   	    	 	        </div>
+	   	    	 	  </div>
+	   	    	 </div>
+                 <div class="line"></div>
+	   	    </div>
+	   	    <div class="row">
+	   	    	 <div class="col-md-3">
+	   	    	 </div>
+	   	    	 <div class="col-md-6 datasgral">
+	   	    	 	  <div class="row">
+	   	    	 	        <div class="col-md-4 col-6">
+                                 <img class="img-fluid" alt="Herramientas" title="Herramientas" src="./resources/icons/otros/herramientas.png">
+	   	    	 	        </div>
+	   	    	 	        <div class="col-md-8 col-6">
+                                 <h5>Herramientas</h5>
+                                 <p>Propicia y crea ambientes de aprendizaje efectivos con apoyo de las herramientas de análisis y planeación.</p>
+                                 <a class="btn btn-primary" href="herramientas.php">Ver más</a>
+	   	    	 	        </div>
+	   	    	 	  </div>
+	   	    	 </div>
+	   	    	 <div class="col-md-3">
+	   	    	 </div>
+	   	    </div>
+	 </div>
+</section>
 
-                </div>
-            </div>
-        </div>
-
-    </section>
-</div>
-<?php include 'footer_interior.php' ?>
-<?php include 'footer.php' ?>
+<?php include('solicitar_demo.php'); ?>
+<?php include('otrosclientes.php'); ?>
+<?php include('lite.php'); ?>
+<?php include('footer.php'); ?>

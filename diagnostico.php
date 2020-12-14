@@ -1,84 +1,111 @@
 <?php
-$archivo_previo = 1;
-include 'header.php' ?>
-<div class="skillMap generic_page">
-    <section class="b1_landing jumbotron post">
-        <div class="x-space">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-8 col-lg-6">
-                    <h1><?php lang('dia_013');?></h1>
-                    <p><?php lang('dia_014');?></p>
-                </div>
-                <div class="col-md-4 col-lg-6">
-                    <img src="images/diagnostico/diagnostico.png" alt="<?php lang('dia_013');?>" title="<?php lang('dia_013');?>" class="img-fluid" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="pt-5 principal_container">
+$archivo_previo = __FILE__;
+include 'header.php'; 
+include 'menu.php';
+?> 
+<section class="text-center titulocontenido">
+    <h1>Diagnóstico</h1>
+    <p>Apóyate en una plataforma diagnóstica que contiene el DNA de las habilidades de aprendizaje con las que cuenta tu comunidad educativa.</p>
+</section>
+
+<section class="text-center contsgral py-5">
+	<h5>6 tipos de diagnósticos contenidos en una poderosa plataforma electrónica que te asombrará</h5>
         <div class="container">
-            <h3 class="my-5"><?php lang('dia_015');?></h3>
             <div class="row">
-                <div class="col-sm-4">
-                    <img class="img-fluid" src="images/diagnostico/individual_icon.png" alt="<?php lang('dia_001');?>" title="<?php lang('dia_001');?>">
-                    <h5><?php lang('dia_001');?></h5>
-                    <p class="description"><?php lang('dia_002');?></p>
-                    <a href="#!" class="btn btn-warning" data-toggle="modal" data-target="#individual"><?php lang('CONOCE_MAS');?></a>
+                 <div class="col-md-6 datasgral">
+	   	    	     	  <div class="row">
+	   	    	     	        <div class="col-md-4 col-6">
+                                     <img class="img-fluid" src="./resources/icons/diagnostico/individual_icon.png" alt="Individual" title="Individual">
+	   	    	     	        </div>
+	   	    	     	        <div class="col-md-8 col-6">
+                                     <h5>Individual</h5>
+                                     <p>Gráfica que muestra el perfil de cada persona en relación a la evaluación aplicada.</p>
+                                     <a href="#!" data-toggle="modal" data-target="#individual" class="btn btn-primary" href="evaluacion.php">Ver más</a>
+	   	    	     	        </div>
+	   	    	     	  </div>
+	   	    	     </div>
+                 <div class="line"></div>
+                 <div class="col-md-6 datasgral">
+                    <div class="row">
+                          <div class="col-md-4 col-6 orderdata3">
+                                     <img class="img-fluid" src="./resources/icons/diagnostico/grupal_icon.png" alt="Grupal" title="Grupal">
+                          </div>
+                          <div class="col-md-8 col-6 orderdata4">
+                                     <h5>Grupal</h5>
+                                     <p>Empodera al docente con una tabla que muestra las habilidades de aprendizaje de cada alumno y, por consecuencia, del grupo completo.</p>
+                                     <a href="#!" data-toggle="modal" data-target="#grupal" class="btn btn-primary" href="evaluacion.php">Ver más</a>
+                          </div>
+                    </div>
+                 </div>
+                 <div class="line"></div>
+                 <div class="col-md-6 datasgral">
+                   <div class="row">
+                         <div class="col-md-4 col-6">
+                                     <img class="img-fluid" src="./resources/icons/diagnostico/institucional_icon.png" alt="Institucional" title="Institucional">
+                         </div>
+                         <div class="col-md-8 col-6">
+                                     <h5>Institucional</h5>
+                                     <p>Obtén un reporte ejecutivo del nivel de desarrollo de las habilidades de aprendizaje de toda tu comunidad educativa.</p>
+                                     <a href="#!" data-toggle="modal" data-target="#institucional" class="btn btn-primary" href="evaluacion.php">Ver más</a>
+                         </div>
+                   </div>
                 </div>
-                <div class="col-sm-4">
-                    <img class="img-fluid" src="images/diagnostico/ppa_icon.png" alt="<?php lang('dia_003');?>" title="<?php lang('dia_003');?>">
-                    <h5><?php lang('dia_003');?></h5>
-                    <p class="description"><?php lang('dia_004');?></p>
-                    <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#PPA"><?php lang('CONOCE_MAS');?></a>
-
+                <div class="line"></div>
+                <div class="col-md-6 datasgral">
+                   <div class="row">
+                         <div class="col-md-4 col-6 orderdata3">
+                                     <img class="img-fluid" src="./resources/icons/diagnostico/comparativo_icon.png" alt="Comparativo" title="Comparativo">
+                         </div>
+                         <div class="col-md-8 col-6 orderdata4">
+                                    <h5>Comparativo</h5>
+                                    <p>Compara los resultados obtenidos en dos aplicaciones consecutivas.</p>
+                                    <a href="#!" data-toggle="modal" data-target="#comparativo" class="btn btn-primary" href="evaluacion.php">Ver más</a>
+                         </div>
+                   </div>
                 </div>
-                <div class="col-sm-4">
-                    <img class="img-fluid" src="images/diagnostico/personalizado_icon.png" alt="<?php lang('dia_005');?>" title="<?php lang('dia_005');?>">
-                    <h5><?php lang('dia_005');?></h5>
-                    <p class="description"><?php lang('dia_006');?></p>
-                    <a href="#!" class="btn btn-warning" data-toggle="modal" data-target="#personalizado"><?php lang('CONOCE_MAS');?></a>
-
+                <div class="line"></div>
+                <div class="col-md-6 datasgral">
+                   <div class="row">
+                         <div class="col-md-4 col-6 orderdata3">
+                                    <img class="img-fluid" src="./resources/icons/diagnostico/ppa_icon.png" alt="Perﬁl y Potencial de Aprendizaje" title="Perﬁl y Potencial de Aprendizaje">
+                         </div>
+                         <div class="col-md-8 col-6 orderdata4">
+                                    <h5>Diagnóstico ejecutivo</h5>
+                                    <p>Consulta fácilmente el perfil y potencial de aprendizaje de cada persona.</p>
+                                    <a href="#!" data-toggle="modal" data-target="#PPA" class="btn btn-primary" href="evaluacion.php">Ver más</a>
+                         </div>
+                   </div>
                 </div>
-
-
-                <div class="col-sm-4">
-                    <img class="img-fluid" src="images/diagnostico/grupal_icon.png" alt="<?php lang('dia_007');?>" title="<?php lang('dia_007');?>">
-                    <h5><?php lang('dia_007');?></h5>
-                    <p class="description"><?php lang('dia_008');?></p>
-                    <a href="#!" class="btn btn-warning" data-toggle="modal" data-target="#grupal"><?php lang('CONOCE_MAS');?></a>
-                </div>
-                <div class="col-sm-4">
-                    <img class="img-fluid" src="images/diagnostico/institucional_icon.png" alt="<?php lang('dia_009');?>" title="<?php lang('dia_009');?>">
-                    <h5><?php lang('dia_009');?></h5>
-                    <p class="description"><?php lang('dia_010');?></p>
-                    <a href="#!" class="btn btn-warning" data-toggle="modal" data-target="#institucional"><?php lang('CONOCE_MAS');?></a>
-
-                </div>
-                <div class="col-sm-4">
-                    <img class="img-fluid" src="images/diagnostico/comparativo_icon.png" alt="<?php lang('dia_011');?>" title="<?php lang('dia_011');?>">
-                    <h5><?php lang('dia_011');?></h5>
-                    <p class="description"><?php lang('dia_012');?></p>
-                    <a href="#!" class="btn btn-warning" data-toggle="modal" data-target="#comparativo"><?php lang('CONOCE_MAS');?></a>
-
+                <div class="line"></div>
+                <div class="col-md-6 datasgral">
+                   <div class="row">
+                         <div class="col-md-4 col-6">
+                                    <img class="img-fluid" src="./resources/icons/diagnostico/personalizado_icon.png" alt="Personalizado" title="Personalizado">
+                         </div>
+                         <div class="col-md-8 col-6">
+                                    <h5>Personalizado</h5>
+                                    <p>involucra a cada evaluado en un proceso de autoconocimiento y desarrollo intencionado.</p>
+                                    <a href="#!" data-toggle="modal" data-target="#personalizado" class="btn btn-primary" href="evaluacion.php">Ver más</a>
+                         </div>
+                   </div>
                 </div>
             </div>
         </div>
+</section>
 
-    </section>
-</div>
 
 <!-- Modal Individual -->
 <div class="modal fade" id="individual" tabindex="-1" role="dialog" aria-labelledby="individualLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="individualLabel"><?php lang('dia_001');?></h5>
+        <h5 class="modal-title" id="individualLabel">Individual</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-            <img class="img-fluid" src="images/diagnostico_individual.png" alt="Individual" title="Individual">
+            <img class="img-fluid" src="./resources/images/diagnostico/diagnostico_individual.jpg" alt="Individual" title="Individual">
       </div>
 
     </div>
@@ -91,13 +118,13 @@ include 'header.php' ?>
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="ppaLabel"><?php lang('dia_003');?></h5>
+        <h5 class="modal-title" id="ppaLabel">Perﬁl y Potencial de Aprendizaje</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img class="img-fluid" src="images/diagnostico_ppa.png" alt="Perﬁl y Potencial de Aprendizaje" title="Perﬁl y Potencial de Aprendizaje">
+        <img class="img-fluid" src="./resources/images/diagnostico/diagnostico_ppa.png" alt="Perﬁl y Potencial de Aprendizaje" title="Perﬁl y Potencial de Aprendizaje">
       </div>
 
     </div>
@@ -110,13 +137,13 @@ include 'header.php' ?>
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="personalizadoLabel"><?php lang('dia_005');?></h5>
+        <h5 class="modal-title" id="personalizadoLabel">Personalizado</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img class="img-fluid" src="images/diagnostico_personalizado.png" alt="Personalizado" title="Personalizado">
+        <img class="img-fluid" src="./resources/images/diagnostico/diagnostico_personalizado.png" alt="Personalizado" title="Personalizado">
       </div>
     </div>
   </div>
@@ -128,13 +155,13 @@ include 'header.php' ?>
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="GrupalLabel"><?php lang('dia_007');?></h5>
+        <h5 class="modal-title" id="GrupalLabel">Grupal</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img class="img-fluid" src="images/diagnostico_grupal.png" alt="Grupal" title="Grupal">
+        <img class="img-fluid" src="./resources/images/diagnostico/diagnostico_grupal.png" alt="Grupal" title="Grupal">
       </div>
 
     </div>
@@ -147,13 +174,13 @@ include 'header.php' ?>
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="InstitucionalLabel"><?php lang('dia_009');?></h5>
+        <h5 class="modal-title" id="InstitucionalLabel">Institucional</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img class="img-fluid" src="images/diagnostico_institucional.png" alt="Institucional" title="Institucional">
+        <img class="img-fluid" src="./resources/images/diagnostico/diagnostico_institucional.png" alt="Institucional" title="Institucional">
       </div>
 
     </div>
@@ -166,13 +193,13 @@ include 'header.php' ?>
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="ComparativoLabel"><?php lang('dia_011');?></h5>
+        <h5 class="modal-title" id="ComparativoLabel">Comparativo</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img class="img-fluid" src="images/diagnostico_comparativo.png" alt="Comparativo" title="Comparativo">
+        <img class="img-fluid" src="./resources/images/diagnostico/diagnostico_comparativo.png" alt="Comparativo" title="Comparativo">
       </div>
 
     </div>
@@ -180,5 +207,6 @@ include 'header.php' ?>
 </div>
 <!-- Termina Modal Comparativo -->
 
-<?php include 'footer_interior.php' ?>
-<?php include 'footer.php' ?>
+<?php include('solicitar_demo.php'); ?>
+<?php include('otrosclientes.php'); ?>
+<?php include('footer.php'); ?>

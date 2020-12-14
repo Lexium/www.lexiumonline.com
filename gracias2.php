@@ -1,11 +1,12 @@
 <?php include('email_contacto.php'); ?>
 <?php include('header.php'); ?>
+<?php include('menu.php'); ?>
 <!-- Event snippet for Seguimiento de Conversiones conversion page -->
 <script>
   gtag('event', 'conversion', {'send_to': 'AW-784291087/Ku67CNj3m94BEI-q_fUC'});
 </script>
     <div class="talent_map demo">
-       <section class="sub-header d-flex align-items-center justify-content-center">
+       <section class="text-center titulocontenido">
         <h1>¡Envío exitoso!</h1>
       </section>
       <section class="container text-center py-5">

@@ -1,13 +1,15 @@
 <?php include('email_contacto.php'); ?>
 <?php include('header.php'); ?>
+<?php include('menu.php'); ?>
+
     <div class="talent_map demo">
-      <section class="sub-header d-flex align-items-center justify-content-center">
-        <h1><?php lang('THN_001');?></h1>
+      <section class="text-center titulocontenido">
+        <h1>¡Envío exitoso!</h1>
       </section>
       <section class="container text-center py-5">
         <div class="alert alert-success" role="alert">
-          <h4><?php lang('THN_002');?></h4>
-          <p><?php lang('THN_003');?></p>
+          <h4>Gracias por tu interés, tu información se ha enviado con éxito.</h4>
+          <p>En breve nosotros te contactaremos para dar seguimiento a tu solicitud.</p>
         </div>
       </section>
     </div>

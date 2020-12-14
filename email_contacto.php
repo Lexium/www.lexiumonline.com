@@ -26,22 +26,39 @@ if($_POST && $_POST['completo'] == 1 && $_POST['validacion'] == date("d")){
 		if(ENVIRONMENT == "DEVELOPMENT"){
 			$options['recipients']= $config['email_testing'];
 		}
-
-        $body = "";
+        $body = "<table>";
         if ($params_email['Plataforma'] !== '')
         {
-        	$body.= "<p>Plataforma: ".$params_email['Plataforma']."</p>";
+        	$body.= "<tr><td><b>Plataforma</b></td><td>".$params_email['Plataforma']."</td></tr>";
         }
+		$body.= "<tr><td><b>Tipo de contacto</b></td><td>".$params_email['tipo']."</td></tr>";
+		$body.= "<tr><td><b>Contacto</b></td><td>".$params_email['name']."</td></tr>";
+		$body.= "<tr><td><b>E-mail</b></td><td>".$params_email['email']."</td></tr>";
+		$body.= "<tr><td><b>Tel&eacute;fono</b></td><td>".$params_email['phone']."</td></tr>";
+		if (isset($params_email['institucion']) && strlen($params_email['institucion']) > 0 )
+		{
+			$body.= "<tr><td><b>Instituci&oacute;n</b></td><td>".$params_email['institucion']."</td></tr>";
+		}
 
-		$body.= "<p>Contacto: ".$params_email['name']."</p>";
-		$body.= "<p>E-mail: ".$params_email['email']."</p>";
-		$body.= "<p>Tele&acute;fono: ".$params_email['phone']."</p>";
+		if (isset($params_email['alumnos']) && strlen($params_email['alumnos']) > 0 )
+		{
+			$body.= "<tr><td><b>Cantidad de Alumnos</b></td><td>".$params_email['alumnos']."</td></tr>";
+		}
+		if (isset($params_email['niveles']) && count($params_email['niveles']) > 0)
+		{
+			$body.= "<tr><td><b>Niveles Escolares</b></td><td>". implode(',', $params_email['niveles']) ."</td></tr>";
+		}
 
-		$body.= "<p>&nbsp;</p>";
+		if (isset($params_email['puesto']) && strlen($params_email['puesto']) > 0 )
+		{
+			$body.= "<tr><td><b>Puesto</b></td><td>".$params_email['puesto']."</td></tr>";
+		}
+        
+
+		$body.= "</table><hr>";
 
         $body.= $params_email['message'];
         $mensaje = '<html><head><title>Notificaciones</title></head><body>[[tracking_beacon]] '. $body .'</body></html>';
-
 
 		$madmimi= new MadMimi();
 		$transaction_id = $madmimi->SendHTML($options, $mensaje);
@@ -64,6 +81,7 @@ if($_POST && $_POST['completo'] == 1 && $_POST['validacion'] == date("d")){
 	if(isset($_POST['message']) && trim($_POST['message'])==""){
 		$has_error['message']= "Mensaje es requerido";
 	}
+
 	if(isset($_POST['g-recaptcha-response']) && trim($_POST['g-recaptcha-response'])==""){
 		$has_error['g-recaptcha-response']= "Por favor, confirma que no eres un robot";
 
@@ -76,8 +94,6 @@ if($_POST && $_POST['completo'] == 1 && $_POST['validacion'] == date("d")){
             $has_error['g-recaptcha-response']= "Por favor, confirma que no eres un robot";
         }
 	}
-
-
 
 
 	if(count($has_error)<=0){

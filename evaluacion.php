@@ -1,26 +1,22 @@
 <?php
-$archivo_previo = 0;
-include 'header.php' ?>
-<div class="tools generic_page">
-    <section class="b1_landing jumbotron post">
-        <div class="x-space">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-8 col-lg-6">
-                    <h1><?php lang('eva_001');?></h1>
-                    <p><?php lang('eva_002');?></p>
-                </div>
-                <div class="col-md-4 col-lg-6">
-                    <img src="images/evaluacion/evaluacion.png" alt="<?php lang('eva_001');?>" title="<?php lang('eva_001');?>" class="img-fluid" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="pt-5 principal_container">
+$archivo_previo = __FILE__;
+include 'header.php'; 
+include 'menu.php';
+?> 
+
+<section class="text-center titulocontenido">
+    <h1>Evaluaciones</h1>
+    <p>Elige entre más de 20 evaluaciones para mapear el perfil de aprendizaje de los alumnos y de la comunidad educativa.</p>
+</section>
+
+    <section class="pt-5 principal_container conteval contsgral">
         <div class="container">
-            <h3 class="my-5"><?php lang('eva_003');?></h3>
+            <h5 class="my-5">Un modelo probado, casi 30 años de experiencia y miles de evaluaciones aplicadas nos hacen líderes en el mercado.</h5>
+            <div class="line"></div>
             <?php include 'modelo_circulo.php' ?>
         </div>
     </section>
-</div>
-<?php include 'footer_interior.php' ?>
-<?php include 'footer.php' ?>
+
+<?php include('solicitar_demo.php'); ?>
+<?php include('otrosclientes.php'); ?>
+<?php include('footer.php'); ?>
