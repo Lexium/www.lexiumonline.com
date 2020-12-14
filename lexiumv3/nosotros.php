@@ -121,44 +121,63 @@ include 'menu.php';
 <div class="container directivos">
       <h1 style="text-align: center;">Alianzas Estratégicas</h1>
       <!--Carousel Wrapper-->
-      <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" style="height: 430px;">
+      <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" style="height: 340px;">
 
       <!--Indicators-->
       <ol class="carousel-indicators">
         <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+        <li title="2" data-target="#multi-item-example" data-slide-to="1"></li>
+        <li title="3" data-target="#multi-item-example" data-slide-to="2"></li>
       </ol>
       <!--/.Indicators-->
       
       <!--Slides-->
-      <div class="carousel-inner" role="listbox" style="height: 360px">
+      <div class="carousel-inner" role="listbox" style="height: 320px">
 
         <!--First slide-->
         <div class="carousel-item active">
-
              <div class="row">  
-                  <div class="col-md-4 tarjeta2">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-6 tarjeta2">
                       <a href="https://red-larousse.com.mx/" target="_blank">
-                         <img class="card-img-top" src="resources/images/alianzas/red-larousse.png" alt="Red-Larousse" title="Red-Larousse">
-                         <p class="card-text">Con Lexium: Ofrece a las instituciones educativas un valor agregado contundente incorporando a su actual propuesta de excelentes contenidos y equipamiento, un mapeo de habilidades con herramientas de análisis, planeación pedagógica y rutas personalizadas de desarrollo para cada alumno.</p>
+                         <img class="card-img-top img-fluid" style="width: 50%; display: block; margin: 0 auto;" src="resources/images/alianzas/red-larousse.png" alt="Red-Larousse" title="Red-Larousse">
+                         <p class="card-text" style="padding-top: 5%!important">Con Lexium: Ofrece a las instituciones educativas un valor agregado contundente incorporando a su actual propuesta de excelentes contenidos y equipamiento, un mapeo de habilidades con herramientas de análisis, planeación pedagógica y rutas personalizadas de desarrollo para cada alumno.</p>
                       </a>
                   </div>
-
-                  <div class="col-md-4 clearfix d-none d-md-block tarjeta2">
-                       <a href="https://www.potentor.com.mx/" target="_blank">
-                          <img class="card-img-top" src="resources/images/alianzas/potentor.png" alt="Potentor" title="Potentor">
-                          <p class="card-text">Con Lexium le genera una poderosa minería de datos sobre las habilidades de aprendizaje de las personas de cualquier edad y nivel académico en México, y es la base estadística y científica de su psicometría.</p>
-                       </a>
-                  </div>
-            
-                  <div class="col-md-4 clearfix d-none d-md-block tarjeta2">
-                       <a href="http://sea.anahuac.mx/" target="_blank">
-                          <img class="card-img-top" src="resources/images/alianzas/anahuac.png" alt="Anahuac" title="Anahuac">
-                          <p class="card-text">Con Lexium: Agrega a sus servicios de consultoría información cuantitativa y cualitativa sobre las habilidades de aprendizaje de alumnos y docentes.</p>
-                       </a>
-                  </div>
+                  <div class="col-md-3"></div>
              </div>
         </div>
         <!--/.First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+             <div class="row">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-6 clearfix d-none d-md-block tarjeta2">
+                       <a href="https://www.potentor.com.mx/" target="_blank">
+                          <img class="card-img-top img-fluid" style="width: 50%; display: block; margin: 0 auto;" src="resources/images/alianzas/potentor.png" alt="Potentor" title="Potentor">
+                          <p class="card-text" style="padding-top: 5%!important">Con Lexium le genera una poderosa minería de datos sobre las habilidades de aprendizaje de las personas de cualquier edad y nivel académico en México, y es la base estadística y científica de su psicometría.</p>
+                       </a>
+                  </div>
+                  <div class="col-md-3"></div>
+             </div>
+        </div>
+        <!--Second slide-->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+             <div class="row">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-6 clearfix d-none d-md-block tarjeta2">
+                       <a href="http://sea.anahuac.mx/" target="_blank">
+                          <img class="card-img-top img-fluid" style="width: 50%; display: block; margin: 0 auto;" src="resources/images/alianzas/anahuac.png" alt="Anahuac" title="Anahuac">
+                          <p class="card-text" style="padding-top: 5%!important">Con Lexium: Agrega a sus servicios de consultoría información cuantitativa y cualitativa sobre las habilidades de aprendizaje de alumnos y docentes.</p>
+                       </a>
+                  </div>
+                  <div class="col-md-3"></div>
+             </div>
+        </div>
+        <!--Third slide-->
       </div>
       <!--/.Slides-->
 

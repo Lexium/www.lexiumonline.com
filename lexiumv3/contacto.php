@@ -42,7 +42,10 @@ include 'menu.php';
                   </div>
 
                   <div id="ingresoadmision2" style="display: none; margin-bottom: 2%;">
-                       <a href="pdf/guia_lexium_exa_admision.pdf">Esto es lo que debes saber</a>
+                       <p>Descarga la
+                          <a target="_blank" class="guia3" href="pdf/guia_lexium_exa_admision.pdf" title="descarga la EVALUACIÓN INGRESO/ ADMISIÓN">Guía</a> de admisión
+
+                       </p>
                   </div>
 
                   <div id="gradoaca" class="form-group" style="display: none;">

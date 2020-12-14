@@ -28,7 +28,10 @@
                     <div class="col-md-3">
                          <ul>
                              <li><a class="strongetxt" href="skillmap.php">Skill Map</a></li>
-                             <li><a  href="evaluacion.php">Evaluación</a></li>
+                             <li>
+                                 <a  href="evaluacion.php">Evaluación</a>
+                                 <a target="_blank" class="guia" href="pdf/guia_lexium_skill_map.pdf" title="descarga la Guia Lexium Skill Map">Guía</a>
+                             </li>
                              <li><a  href="diagnostico.php">Diagnóstico</a></li>
                              <li><a  href="herramientas.php">Herramientas</a></li>
                          </ul>
@@ -47,7 +50,10 @@
                          <ul>
                              <li><a class="strongetxt"  href="sip.php">Captación/ Ingreso / Permanencia</a></li>
                              <li><a href="captacion.php">Captación</a></li>
-                             <li><a href="admision.php">Admisión</a></li>
+                             <li>
+                                <a href="admision.php">Admisión</a>
+                                <a target="_blank" class="guia2" href="pdf/guia_lexium_exa_admision.pdf" title="descarga la EVALUACIÓN INGRESO/ ADMISIÓN">Guía</a>
+                              </li>
                              <li><a href="sip.php">Sistema de ingreso y permanencia</a></li>
                          </ul>
                     </div>
@@ -176,4 +182,3 @@
 </div>
 <!-- Termina Modal Video -->
 </footer>
-
