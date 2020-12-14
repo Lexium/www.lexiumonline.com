@@ -34,7 +34,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .overlay { position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: black; opacity: 0.7; z-index: 1;}
 .selectbox{background-color: white;border-radius: 5%; min-height: 420px; max-width: 600px;}
 .texbox{padding: 3em!important;}
-.texbox > .btn{ margin-bottom: 2em;}
+.texbox > .btn{ margin-bottom: 2.2em;font-family: 'HarmoniaSansW01-Bold';}
 .imgbox{margin-bottom: 2em;}
 .display-5{margin-bottom: 1.5em;font-family: 'HarmoniaSansW01-Bold'!important;}
 
@@ -91,7 +91,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .bp-h5-2{ display: none; }
 .banner-principal h4{ color: #fff; font-family: 'HarmoniaSansW01-Bold'; font-size: 2.5em;  margin-bottom:15px; }
 .banner-principal p{ font-family: 'HarmoniaSansW01-Regular'!important; font-size:18px; margin-bottom:15px; color:#f5f5f5; }
-.banner-principal a{background:#faaf11; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; }
+.banner-principal a{background:#faaf11; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; font-family: 'HarmoniaSansW01-Regular'; }
 .banner-principal a:hover{background:#394fa2; text-decoration:none;  }
 
 .banner-principal h5{-webkit-animation-name:fadeInUp; animation-name:fadeInUp;}
@@ -209,10 +209,11 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
   .banner-principal h5{ position: absolute; left: -33% }
   .bp-h5-1{ display: none!important; }
   .bp-h5-2{ display: block; left: -40%!important; font-size: 1em!important;}
-  .banner-principal h4{ font-size: 1.4em; }
+  .banner-principal h4{ font-size: 1.4em!important; }
   .banner-principal p{ font-size: 14px!important; }
   .banner-principal a{ margin-bottom: 5%;}
   .banner-principal img{ margin-top: 45%; }
+  .banner-consultor img{ margin-top: 90%!important }
 }
 
           /* Fin propiedades de las olas que van detras del slider */
@@ -222,7 +223,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .about_us{padding-bottom: 0rem!important;}
 .about_us h2, .about_us span{ font-family: 'HarmoniaSansW01-Bold'!important; font-weight: 300; font-size: 2.5em!important;}
 .about_us h4 { font-family: 'HarmoniaSansW01-Bold'!important; font-weight: 300;}
-.about_us p{ font-size: 1.2em!important; }
+.about_us p{ font-size: 1.2em!important; font-family: 'HarmoniaSansW01-Regular';}
 
 .ym{ color: #faaf11; display: inline-block; }
 .ea{display: inline-block; color: #ec008b;}
@@ -328,7 +329,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .testimonio  h3{ color: #f9a817; z-index: 6; padding-top: 5%; font-family: 'HarmoniaSansW01-Bold'; }
 .testimonio  span{ color: #23215b; z-index: 6; padding-top: 5%; font-family: 'HarmoniaSansW01-regular'; font-size: 1.3em; height: 20%;}
 .comillas{position: absolute; margin:-10% 20%;}
-.autor{ color: #23215b; font-family: 'HarmoniaSansW01-Regular'; font-size: 1.2em; margin-top: 20px!important; }
+.autor{ color: #23215b; font-family: 'HarmoniaSansW01-Bold'; font-size: 1.2em; margin-top: 20px!important; }
 .escuela{ color: #23215b; font-family: 'HarmoniaSansW01-Bold'; font-size: 1.2em; }
 
 
@@ -427,7 +428,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .datasgral{ margin-bottom: 5%;}
 .datasgral h5{text-align: left;}
 .datasgral p{text-align: left; color: #23215b; font-family: 'HarmoniaSansW01-Regular'; height: 105px;}
-.datasgral a{float: left; background: #009aff; border: #009aff; width:30%;}
+.datasgral a{float: left; background: #009aff; border: #009aff; width:30%; font-family: 'HarmoniaSansW01-Bold';}
 .line{width: 100%; margin-bottom: 3px; border-bottom: 0.1em solid #23285e; display: none;}
 .orderdata3{ order: 1; }
 .orderdata4{ order: 2; }
@@ -491,7 +492,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .b9_landing .circle div:nth-child(7) a span{ background:#799900;}
 .modal-content{ font-family: 'HarmoniaSansW01-Regular'!important; }
 .modal_circulo h5{ margin: 0!important;}
-.modal_circulo h4{ display: block; clear: both; margin-bottom: 0;}
+.modal_circulo h4{ display: block; clear: both; margin-bottom: 0; font-size: 1rem!important;}
 .modal_circulo small,.modal_circulo b{ color: #000; display: block;}
 .modal_circulo small{ padding-left:25px;}
 .modal_circulo .row{ border-bottom: 1px solid #27beef; margin-bottom: 1rem;}
@@ -532,9 +533,9 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 
 /*CAROUSEL*/
-
+     .innerdisplay{ height: 410px; }
      .carousel-item{background-color: transparent; height: 250px;}
-     .tarjeta{ padding: 0px 3% 3% 3%;text-align: justify; margin: 0 auto;}
+     .tarjeta{ padding: 0px 3% 3% 3%;text-align: center; margin: 0 auto;}
      .card{background-color: transparent!important;border: none!important;}
      .card-text{ padding-top: 15%;}
      .carousel-indicators li{ background-color: #27beef;}
@@ -550,8 +551,19 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 .otrosclientes{ border-radius: 3%;border-bottom: 1px solid #23215b; color: #23215b; padding: 2% 10%;  height: 360px; box-shadow: 4px 8px 14px rgba(35, 33, 91, 0.4);  }
 .otrosclientes img{width: 100px; display: block; margin: 0 auto; padding: 5% 0 5% 0;}
-.otrosclientes h3{font-size: 1.5em; text-align: center;}
-.otrosclientes span{text-align: justify; font-size: 0.8em;}
+.otrosclientes h3{font-size: 1.5em; text-align: center; font-family: 'HarmoniaSansW01-Bold';}
+.otrosclientes span{text-align: justify; font-size: 0.8em; font-family: 'HarmoniaSansW01-Regular'}
 .otrosclientes a{color: #23215b; text-decoration: none;}
 
+@media (max-width: 1020px) { 
+     .otrosclientes{ height: 410px; }
+     .otrosclientes h3{font-size: 1em; }
+     .otrosclientes span{font-size: 0.7em;}
+ }
 
+ @media (max-width: 750px) {
+     .innerdisplay{ height: 1580px; } 
+     .otrosclientes{ height: 360px!important; }
+     .otrosclientes h3{font-size: 1.8em; }
+     .otrosclientes span{font-size: 1em;}
+ }

@@ -7,19 +7,19 @@
                    <div class="row">
                         <div class="col-md-3 col-6">
                              <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/kl.png">
-                             <a class="btn btn-success" style="margin-bottom: 5%;" target="_blank" href="https://lexiumlite.zohocommerce.com/products/kinder-lite/2237759000000142520">Comprar Ahora</a>
+                             <a class="btn btn-success" style="margin-bottom: 5%; font-family: 'HarmoniaSansW01-Bold';" target="_blank" href="https://lexiumlite.zohocommerce.com/products/kinder-lite/2237759000000142520">Comprar Ahora</a>
                         </div>
                         <div class="col-md-3 col-6">
                              <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/pbl.png">
-                             <a class="btn btn-success" style="margin-bottom: 5%;" target="_blank" href="https://lexiumlite.zohocommerce.com/products/primaria-baja-lite/2237759000000142484">Comprar Ahora</a>
+                             <a class="btn btn-success" style="margin-bottom: 5%; font-family: 'HarmoniaSansW01-Bold';" target="_blank" href="https://lexiumlite.zohocommerce.com/products/primaria-baja-lite/2237759000000142484">Comprar Ahora</a>
                         </div>
                         <div class="col-md-3 col-6">
                              <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/pbal.png">
-                             <a class="btn btn-success" style="margin-bottom: 5%;" target="_blank" href="https://lexiumlite.zohocommerce.com/products/primaria-alta-lite/2237759000000142404">Comprar Ahora</a>
+                             <a class="btn btn-success" style="margin-bottom: 5%; font-family: 'HarmoniaSansW01-Bold';" target="_blank" href="https://lexiumlite.zohocommerce.com/products/primaria-alta-lite/2237759000000142404">Comprar Ahora</a>
                         </div>
                         <div class="col-md-3 col-6">
                              <img style="width: 100%; margin-bottom: 9%" src="./resources/images/lexiumlite/jl.png">
-                             <a class="btn btn-success" style="margin-bottom: 5%;" target="_blank" href="https://lexiumlite.zohocommerce.com/products/j%C3%B3venes-lite/2237759000000142368">Comprar Ahora</a>
+                             <a class="btn btn-success" style="margin-bottom: 5%; font-family: 'HarmoniaSansW01-Bold';" target="_blank" href="https://lexiumlite.zohocommerce.com/products/j%C3%B3venes-lite/2237759000000142368">Comprar Ahora</a>
                         </div>                   
                    </div>
               </div>

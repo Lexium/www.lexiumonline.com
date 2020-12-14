@@ -117,7 +117,57 @@ include 'menu.php';
 </div>
 </section>
 
-<section class="grupoVareli">
+<section id="carouselalianzas">
+<div class="container directivos">
+      <h1 style="text-align: center;">Alianzas Estratégicas</h1>
+      <!--Carousel Wrapper-->
+      <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel" style="height: 430px;">
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+      </ol>
+      <!--/.Indicators-->
+      
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox" style="height: 360px">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+
+             <div class="row">  
+                  <div class="col-md-4 tarjeta2">
+                      <a href="https://red-larousse.com.mx/" target="_blank">
+                         <img class="card-img-top" src="resources/images/alianzas/red-larousse.png" alt="Red-Larousse" title="Red-Larousse">
+                         <p class="card-text">Con Lexium: Ofrece a las instituciones educativas un valor agregado contundente incorporando a su actual propuesta de excelentes contenidos y equipamiento, un mapeo de habilidades con herramientas de análisis, planeación pedagógica y rutas personalizadas de desarrollo para cada alumno.</p>
+                      </a>
+                  </div>
+
+                  <div class="col-md-4 clearfix d-none d-md-block tarjeta2">
+                       <a href="https://www.potentor.com.mx/" target="_blank">
+                          <img class="card-img-top" src="resources/images/alianzas/potentor.png" alt="Potentor" title="Potentor">
+                          <p class="card-text">Con Lexium le genera una poderosa minería de datos sobre las habilidades de aprendizaje de las personas de cualquier edad y nivel académico en México, y es la base estadística y científica de su psicometría.</p>
+                       </a>
+                  </div>
+            
+                  <div class="col-md-4 clearfix d-none d-md-block tarjeta2">
+                       <a href="http://sea.anahuac.mx/" target="_blank">
+                          <img class="card-img-top" src="resources/images/alianzas/anahuac.png" alt="Anahuac" title="Anahuac">
+                          <p class="card-text">Con Lexium: Agrega a sus servicios de consultoría información cuantitativa y cualitativa sobre las habilidades de aprendizaje de alumnos y docentes.</p>
+                       </a>
+                  </div>
+             </div>
+        </div>
+        <!--/.First slide-->
+      </div>
+      <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+</div>
+</section>
+
+<section class="grupoVareli mt-5">
         <div class="container">
              <a href="https://www.grupovareli.com/spanish/" target="_blank"><img alt="Grupo Vareli" title="Grupo Vareli" src="./resources/images/logo_vareli.png"></a>
              <span>
@@ -146,7 +196,10 @@ include 'menu.php';
 </section>
 
 
-
+<style type="text/css">
+     .tarjeta2 a{ color: #23215b; font-family: 'HarmoniaSansW01-Regular'; }
+     .tarjeta2 a:hover{ text-decoration: none; }
+</style>
 
 <script type="text/javascript">
     $(document).ready(function ($) {

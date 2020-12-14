@@ -18,5 +18,5 @@
     <style type="text/css">
          .lite{ background-color: #ff6b21; padding-top: 2%; padding-bottom: 2%;}
          .lexlite h4{ font-family: 'HarmoniaSansW01-Regular'; color: white; text-align: center; font-size: 1.2em; }
-         .lexlite a{margin: 0 auto; display: block; width: 15%;}
+         .lexlite a{margin: 0 auto; display: block; width: 15%; font-family: 'HarmoniaSansW01-Bold';}
     </style>

@@ -68,7 +68,7 @@ include 'menu.php';
                     </div>
                </div>
                <div class="col-md-5 col-4 order-md-2 order-1">
-                     <div class="banner-principal" style="width: 120%; margin-top: -60px;">
+                     <div class="banner-principal banner-consultor" style="width: 150%; margin-top: -160px;">
                          <img src="./resources/cop.png" class="mx-auto" alt="slide" width="100%">
                     </div>
                </div>

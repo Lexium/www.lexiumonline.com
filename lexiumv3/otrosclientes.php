@@ -4,7 +4,7 @@
                       <!--Carousel Wrapper-->
                    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
                         <!--Slides-->
-                        <div class="carousel-inner" role="listbox">
+                        <div class="carousel-inner innerdisplay" role="listbox">
 
                               <!--First slide-->
                               <div class="carousel-item active">
