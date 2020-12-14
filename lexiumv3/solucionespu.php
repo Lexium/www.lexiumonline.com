@@ -15,20 +15,20 @@
                     <h3>Skill Map</h3>
                     <div class="skill-content container">
                         <div class="row">
-                         <div class="col-md-2" style="z-index: -1" >
-                              <div class="containerm">
-                                   <div class="product">
-                                         <div class="effect-1"></div>
-                                         <div class="effect-2"></div>
-                                         <div class="content">
-                                              <div class="exercise exercise2">
-                                                   <a href="evaluacion.php">  
-                                                      <img  src="./resources/icons/soluciones/evaluaciones_icon.png">
-                                                   </a>
-                                              </div>
+                         <div class="col-md-2" >
+                                <div class="containerm">
+                                  <div class="product">
+                                    <div class="effect-1"></div>
+                                    <div class="effect-2"></div>
+                                    <div class="content">
+                                         <div class="exercise exercise2">
+                                            <a href="evaluacion.php">  
+                                               <img alt="Evaluación" title="Evaluación"  src="resources/icons/soluciones/evaluaciones_icon.png">
+                                            </a>
                                          </div>
-                                   </div>
-                              </div>
+                                    </div>
+                                  </div>
+                                </div>
                          </div>
                          <div class="col-md-10 smcontnt">
                               <a href="evaluacion.php"><h5>Evaluación</h5></a>
@@ -38,7 +38,7 @@
                     </div>
                     <div class="skill-content container">
                         <div class="row">
-                           <div class="col-md-2" style="z-index: -1">
+                           <div class="col-md-2">
                                   <div class="containerm">
                                   <div class="product">
                                     <div class="effect-1"></div>
@@ -61,7 +61,7 @@
                     </div>
                     <div class="skill-content container">
                         <div class="row">
-                           <div class="col-md-2" style="z-index: -1">
+                           <div class="col-md-2">
                                   <div class="containerm">
                                   <div class="product">
                                     <div class="effect-1"></div>
@@ -84,7 +84,7 @@
                     </div>
                     <div class="skill-content container">
                         <div class="row">
-                           <div class="col-md-2" style="z-index: -1">
+                           <div class="col-md-2">
                                   <div class="containerm">
                                   <div class="product">
                                     <div class="effect-1"></div>
@@ -99,7 +99,7 @@
                              </div>
                            <div class="col-md-10 smcontnt">
                               <a href="skillmaptrainingpu.php#training"><h5>Skill Training</h5></a>
-                              <p>Enriquece a SkillMap incorporando un entrenamiento modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje. </p>
+                              <p>Enriquece a Skill Map incorporando un entrenamiento modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje. </p>
                            </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                  </div>   
                     <div class="skill-content container">
                         <div class="row">
-                         <div class="col-md-2 col-sm-2" style="z-index: -1">
+                         <div class="col-md-2 col-sm-2">
                                 <div class="containerm">
                                   <div class="product">
                                     <div class="effect-1"></div>
@@ -136,7 +136,7 @@
                     </div>
                     <div class="skill-content container">
                         <div class="row">
-                           <div class="col-md-2" style="z-index: -1">
+                           <div class="col-md-2">
                                   <div class="containerm">
                                   <div class="product">
                                     <div class="effect-1"></div>
@@ -159,7 +159,7 @@
                     </div>
                     <div class="skill-content container">
                         <div class="row">
-                           <div class="col-md-2" style="z-index: -1">
+                           <div class="col-md-2">
                                   <div class="containerm">
                                   <div class="product">
                                     <div class="effect-1"></div>
@@ -182,7 +182,7 @@
                     </div>
                     <div class="skill-content container">
                         <div class="row">
-                           <div class="col-md-2" style="z-index: -1">
+                           <div class="col-md-2">
                                   <div class="containerm">
                                   <div class="product">
                                     <div class="effect-1"></div>

@@ -31,29 +31,54 @@ include 'menu.php';
                        <label for="tipo"><p style="font-size: 1rem;">Quieres saber más sobre Lexium para:</p></label>
                        <select class="form-control" id="tipo" name="tipo" onChange="mostrar(this.value);">
                          <option value="personal">Ti en lo personal.</option>
+                         <option value="ingresoadmision">Prepararte para ingreso / admisión</option>
                          <option value="institucion">Una institución educativa</option>
                          <option value="psicopedagogo">Un consultorio psicopedagogo</option>
                        </select>
                   </div>
-<script type="text/javascript">
-  function mostrar(id) {
-    if (id == "institucion") {
-        $("#gradoaca").show();
-    }
-    if (id !== "institucion") {
-        $("#gradoaca").hide();
-    }
-  }
-</script>
-                  <div id="gradoaca" class="form-group" style="display: none;">
-                         <input type="radio" id="Educación básica" name="tipo" value="Educación básica">
-                         <label for="Educación básica">Educación básica</label><br>
-                         <input type="radio" id="Preparatoria" name="tipo" value="Preparatoria">
-                         <label for="Preparatoria">Preparatoria</label><br>
-                         <input type="radio" id="Universidad" name="tipo" value="Universidad">
-                         <label for="Universidad">Universidad</label>
+
+                  <div id="personal2" style="display: none;">
+                       <p>¡No esperes más!  Súmate a las miles de personas que se apoyan en Lexium para su desarrollo personal, estamos listos para apoyarte, <a href="https://lexiumlite.zohocommerce.com/">haz clic aquí</a></p>
                   </div>
-<!-- 
+
+                  <div id="ingresoadmision2" style="display: none; margin-bottom: 2%;">
+                       <a href="pdf/guia_lexium_exa_admision.pdf">Esto es lo que debes saber</a>
+                  </div>
+
+                  <div id="gradoaca" class="form-group" style="display: none;">
+                       <p>¡No esperes más!   Agenda un demo con uno de nuestros ejecutivos.</p>
+                          <div class="form-group">
+                               <input type="text" name="institucion" class="form-control" placeholder="Institución" value="<?php echo (isset($_POST ['institucion']) ? $_POST['institucion'] : ''); ?>">
+                          </div>
+                         </br>
+                          <div class="form-group">
+                         <input type="text" name="alumnos" class="form-control" placeholder="Cantidad de alumnos" value="<?php echo (isset($_POST ['alumnos']) ? $_POST['alumnos'] : ''); ?>">
+                         </div>
+                         </br>
+                         <div class="row">
+                              <div class="col-md-6">
+                                   <p>Niveles Escolares</p>
+                              </div>
+                              <div class="col-md-6">
+                                   <input type="checkbox" id="Educacion_basica" name="niveles" value="Educación básica">
+                                   <label for="Educación básica">Básica</label><br>
+                                   <input type="checkbox" id="Preparatoria" name="niveles" value="Preparatoria">
+                                   <label for="Preparatoria">Media Superior</label><br>
+                                   <input type="checkbox" id="Universidad" name="niveles" value="Universidad">
+                                   <label for="Universidad">Superior</label>
+                              </div>
+                         </div> 
+                         </br>  
+                         <input type="text" name="puesto" class="form-control" placeholder="Puesto" value="<?php echo (isset($_POST ['puesto']) ? $_POST['puesto'] : ''); ?>">
+                         </br>
+                  </div>
+
+                  <div id="consultorio" style="display: none;">
+                       <p>No esperes más!  Súmate a los profesionistas que se apoyan en Lexium para eficientizar su consulta privada, orientación y/o acompañamiento, estamos listos para apoyarte, <a href="https://lexiumlite.zohocommerce.com/">haz clic aquí</a></p>
+                  </div>
+
+                  
+
                   <div class="form-group">
                     <textarea class="form-control" name="message" rows="5" placeholder="Describe lo que necesitas o estás buscando, seguro te podemos apoyar."><?php echo (isset($_POST ['message']) ? $_POST['message'] : ''); ?></textarea>
                     <?php if (array_key_exists('message', $has_error)): ?>
@@ -61,7 +86,7 @@ include 'menu.php';
                         <i><?php echo $has_error['message'] ?></i>
                       </span>
                     <?php endif; ?>
-                  </div> -->
+                  </div>
 
           <div class="form-group">
             <p>En dónde te encontramos</p>
@@ -122,7 +147,38 @@ include 'menu.php';
 
 <?php $varLocation = 'https://www.lexiumonline.com/gracias.php'; ?>
 <script type="text/javascript">
-  
+  function mostrar(id) {
+    if (id == "personal") {
+        $("#personal2").show();
+    }
+    if (id !== "personal") {
+        $("#personal2").hide();
+    }
+
+    if (id == "ingresoadmision") {
+        $("#ingresoadmision2").show();
+    }
+    if (id !== "ingresoadmision") {
+        $("#ingresoadmision2").hide();
+    }
+
+    if (id == "institucion") {
+        $("#gradoaca").show();
+    }
+    if (id !== "institucion") {
+        $("#gradoaca").hide();
+    }
+
+    if (id == "psicopedagogo") {
+        $("#consultorio").show();
+    }
+    if (id !== "psicopedagogo") {
+        $("#consultorio").hide();
+    }
+  }
+</script>
+
+<script type="text/javascript">
       function phoneno(){   
       $('#phone').keypress(function(e) { 
        var a = []; 
@@ -135,7 +191,6 @@ include 'menu.php';
         e.preventDefault(); 
       }); 
      } 
-
 </script>
 
 <script type="text/javascript">

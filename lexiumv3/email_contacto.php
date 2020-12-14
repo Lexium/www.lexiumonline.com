@@ -32,10 +32,15 @@ if($_POST && $_POST['completo'] == 1 && $_POST['validacion'] == date("d")){
         {
         	$body.= "<p>Plataforma: ".$params_email['Plataforma']."</p>";
         }
-
+		$body.= "<p>Tipo de contacto: ".$params_email['tipo']."</p>";
 		$body.= "<p>Contacto: ".$params_email['name']."</p>";
 		$body.= "<p>E-mail: ".$params_email['email']."</p>";
 		$body.= "<p>Tel&eacute;fono: ".$params_email['phone']."</p>";
+		$body.= "<p>Instituci&oacute;n: ".$params_email['institucion']."</p>";
+		$body.= "<p>Cantidad de Alumnos: ".$params_email['alumnos']."</p>";
+		$body.= "<p>Niveles Escolares: ".$params_email['niveles']."</p>";
+		$body.= "<p>Puesto: ".$params_email['puesto']."</p>";
+        
 
 		$body.= "<p>&nbsp;</p>";
 

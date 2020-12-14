@@ -1,6 +1,7 @@
 <?php include('email_contacto.php'); ?>
 <?php include('header.php'); ?>
 <?php include('menu.php'); ?>
+
     <div class="talent_map demo">
       <section class="text-center titulocontenido">
         <h1>¡Envío exitoso!</h1>
