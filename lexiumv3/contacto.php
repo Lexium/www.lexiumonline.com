@@ -19,7 +19,7 @@ include 'menu.php';
                 <form action="contacto.php" method="POST" role="form" autocomplete="off" id="myForm">
                 <input type="hidden" value="-1" name="validacion" id="validacion">
                   <div class="form-group">
-          						<input type="text" name="name" class="form-control" placeholder="Nombre" value="<?php echo (isset($_POST ['name']) ? $_POST['name'] : ''); ?>">
+          						<input type="text" name="name" class="form-control" placeholder="Nombre" value="<?php echo (isset($_POST ['name']) ? $_POST['name'] : ''); ?>" required>
           						<?php if (array_key_exists('name', $has_error)): ?>
           						<span class="text-danger has-error">
           							<i><?php echo $has_error['name'] ?></i>
@@ -37,7 +37,7 @@ include 'menu.php';
                        </select>
                   </div>
 
-                  <div id="personal2" style="display: none;">
+                  <div id="personal2">
                        <p>¡No esperes más!  Súmate a las miles de personas que se apoyan en Lexium para su desarrollo personal, estamos listos para apoyarte, <a href="https://lexiumlite.zohocommerce.com/">haz clic aquí</a></p>
                   </div>
 
@@ -60,11 +60,11 @@ include 'menu.php';
                                    <p>Niveles Escolares</p>
                               </div>
                               <div class="col-md-6">
-                                   <input type="checkbox" id="Educacion_basica" name="niveles" value="Educación básica">
+                                   <input type="checkbox" id="Educacion_basica" name="niveles[]" value="Educación básica">
                                    <label for="Educación básica">Básica</label><br>
-                                   <input type="checkbox" id="Preparatoria" name="niveles" value="Preparatoria">
+                                   <input type="checkbox" id="Preparatoria" name="niveles[]" value="Preparatoria">
                                    <label for="Preparatoria">Media Superior</label><br>
-                                   <input type="checkbox" id="Universidad" name="niveles" value="Universidad">
+                                   <input type="checkbox" id="Universidad" name="niveles[]" value="Universidad">
                                    <label for="Universidad">Superior</label>
                               </div>
                          </div> 
@@ -94,7 +94,7 @@ include 'menu.php';
 				  <div class="form-row">
 
   					<div class="form-group col-md-6">
-  					  <input type="email" name="email" class="form-control" placeholder="Correo" value="<?php echo (isset($_POST ['email']) ? $_POST['email'] : ''); ?>">
+  					  <input type="email" name="email" class="form-control" placeholder="Correo" value="<?php echo (isset($_POST ['email']) ? $_POST['email'] : ''); ?>" required>
             <?php if (array_key_exists('email', $has_error)): ?>
               <span class="text-danger has-error">
                 <i><?php echo $has_error['email'] ?></i>
@@ -177,7 +177,6 @@ include 'menu.php';
     }
   }
 </script>
-
 <script type="text/javascript">
       function phoneno(){   
       $('#phone').keypress(function(e) { 
@@ -207,6 +206,7 @@ include 'menu.php';
 				toastr["error"]("Ocurrió un error.", "Tu mensaje no pudo ser enviado");
                 $('#myForm').trigger("reset");
 		<?php endif;?>
+
 	});
 
   if($("#g-recaptcha-1").length > 0){
@@ -220,4 +220,5 @@ include 'menu.php';
           };
         }
 </script>
+
 <?php include('footer.php'); ?>
