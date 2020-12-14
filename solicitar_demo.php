@@ -28,7 +28,7 @@
                                   </div>
                                   <div class="col-md-4 col-12">
                                       <input type="hidden" name="completo" value="0">
-                                      <a type="submit" class="btn btn-warning mb-4" style="width:60%;    font-family: 'HarmoniaSansW01-Bold'; ">Solicitar demo</a>
+                                      <a type="submit" href="contacto.php" class="btn btn-warning mb-4" style="width:60%;    font-family: 'HarmoniaSansW01-Bold'; ">Solicitar demo</a>
                                   </div>
                              </div>
                        </form>
