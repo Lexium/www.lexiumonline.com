@@ -1,0 +1,13 @@
+Redirect 301 /es/contacto https://www.lexiumonline.com/contacto.php
+Redirect 301 /es https://www.lexiumonline.com
+Redirect 301 /es/ https://www.lexiumonline.com
+Redirect 301 /servicios.php https://www.lexiumonline.com/preparatoria.php
+Redirect 301 /skillmt.php https://www.lexiumonline.com/skillmaptrainingpu.php
+Redirect 301 /confianza.php https://www.lexiumonline.com/clientes.php
+Redirect 301 /nuestros_clientes_opinan.php https://www.lexiumonline.com/testimoniales.php
+Redirect 301 /valores.php https://www.lexiumonline.com/nosotros.php
+Redirect 301 /filosofia.php https://www.lexiumonline.com/nosotros.php
+Redirect 301 /quienes_somos.php https://www.lexiumonline.com/nosotros.php
+
+
+
