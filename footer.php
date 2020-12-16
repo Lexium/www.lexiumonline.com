@@ -14,7 +14,7 @@
                             </div>
                             <div class="col-auto">
                                 <input type="hidden" name="completo" value="0">
-                                <a type="submit" href="contacto.php" class="btn btn-success mb-4" style="margin-top:0">Solicitar Demo</a>
+                                <button type="submit" class="btn btn-success mb-4" style="margin-top:0">Solicitar Demo</button>
                             </div>
                         </div>
                     </form>
