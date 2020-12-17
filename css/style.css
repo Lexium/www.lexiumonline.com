@@ -41,9 +41,16 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 
 @media (max-width: 992px) {
-  .selectbox{
-    height: 75%!important;
-  }
+  .selectbox{ height: 75%!important;}
+  .banner-principal h5 { font-size: 1.7em!important; }
+  .banner-principal h4 { font-size: 1.7em!important; }
+  .banner-consultor h4 { font-size: 1.5em; }
+  .banner-principal a { padding: 10px 15px; }
+  .banner-principal img { width: 130%; }
+  .lexlite a { width: 25%!important; }
+  footer h3 { font-size: 1.5rem; }
+  .menuses ul { padding-left: 0px!important; }
+  .guia2 {right: 50%!important;top: 40%!important;padding: 0.75% 2.5%!important; }
 }
 
 @media (max-width: 768px) {
@@ -87,13 +94,13 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 
 /* PRINCIPAL Banner*/  
-.banner-principal h5{ color: #faaf11; font-family: 'HarmoniaSansW01-Bold'; font-size: 2.5em; margin-bottom: 0px!important; }
+.banner-principal h5{ color: #faaf11; font-family: 'HarmoniaSansW01-Bold'; font-size: 2.5em; margin-bottom: 0px; }
 .bp-h5-2{ display: none; }
 .banner-principal h4{ color: #fff; font-family: 'HarmoniaSansW01-Bold'; font-size: 2.5em;  margin-bottom:15px; }
 .banner-principal p{ font-family: 'HarmoniaSansW01-Regular'!important; font-size:18px; margin-bottom:15px; color:#f5f5f5; }
 .banner-principal a{background:#faaf11; font-size:14px; color:#FFF; padding:13px 32px; display:inline-block; font-family: 'HarmoniaSansW01-Regular'; }
 .banner-principal a:hover{background:#394fa2; text-decoration:none;  }
-
+.banner-consultor h4 { font-size: 1.95em }
 .banner-principal h5{-webkit-animation-name:fadeInUp; animation-name:fadeInUp;}
 .banner-principal h4{-webkit-animation-name:fadeInLeft; animation-name:fadeInLeft;}
 .banner-principal p {-webkit-animation-name:slideInRight; animation-name:slideInRight;}
@@ -209,11 +216,15 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
   .banner-principal h5{ position: absolute; left: -33% }
   .bp-h5-1{ display: none!important; }
   .bp-h5-2{ display: block; left: -40%!important; font-size: 1em!important;}
-  .banner-principal h4{ font-size: 1.4em!important; }
-  .banner-principal p{ font-size: 14px!important; }
+  .banner-principal h4{ font-size: 1.4em; }
+  .banner-consultor h4 { font-size: 1em; }
+  .banner-principal p{ font-size: 14px; }
   .banner-principal a{ margin-bottom: 5%;}
-  .banner-principal img{ margin-top: 45%; }
-  .banner-consultor img{ margin-top: 90%!important }
+  .banner-principal img{ margin-top: 45%; width: 100%; }
+  .banner-consultor img{ margin-top: 90%; width: 75%; }
+  .lexlite a { width: 50%!important }
+  .guia {right: 49%!important;padding: 1% 2.5%!important;}
+
 }
 
           /* Fin propiedades de las olas que van detras del slider */

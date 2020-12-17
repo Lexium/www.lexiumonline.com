@@ -7,12 +7,12 @@
 		 	  <div class="col-md-6">
 		 	  	   <form class="pt-5 pb-3 form" method="post" action="contacto.php">
                         <div class="form-row align-items-center">
-                            <div class="col-auto" style="width: 60%;">
+                            <div class="col-auto col-6" style="width: 60%;">
                                 <div class="input-group">
                                     <input type="email" name="email" class="form-control mb-4" id="inlineFormInputGroup" placeholder="Email *" required />
                                 </div>
                             </div>
-                            <div class="col-auto">
+                            <div class="col-auto col-6">
                                 <input type="hidden" name="completo" value="0">
                                 <button type="submit" class="btn btn-success mb-4" style="margin-top:0">Solicitar Demo</button>
                             </div>
@@ -25,7 +25,7 @@
           <div class="col-md-8">
                <h3>Soluciones</h3>
                <div class="row">
-                    <div class="col-md-3">
+                    <div class=" col-xl-3 col-md-6">
                          <ul>
                              <li><a class="strongetxt" href="skillmap.php">Skill Map</a></li>
                              <li>
@@ -36,7 +36,7 @@
                              <li><a  href="herramientas.php">Herramientas</a></li>
                          </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class=" col-xl-4 col-md-6">
                          <ul>
                             <li><a class="strongetxt"  href="skillmaptrainingpu.php">Skill Training</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#DP" title="Ver video">Entrenamiento Skill T</a></li>
@@ -46,7 +46,7 @@
                             <li><a href="op.php">OP</a></li>
                          </ul>
                     </div>
-                    <div class="col-md-5">
+                    <div class=" col-xl-5 col-md-12">
                          <ul>
                              <li><a class="strongetxt"  href="sip.php">Captación/ Ingreso / Permanencia</a></li>
                              <li><a href="captacion.php">Captación</a></li>

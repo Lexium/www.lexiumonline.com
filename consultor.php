@@ -58,11 +58,11 @@ include 'menu.php';
           
     <div class="container banner-container">
           <div class="row">
-               <div class="col-md-7 col-8 order-md-1 order-2 "> 
-                    <div class="banner-principal" style="margin-top: -25px;">
+               <div class="col-md-7 col-8 order-md-1 order-2"> 
+                    <div class="banner-principal banner-consultor" style="margin-top: -25px;">
                          <h5 class="bp-h5-1">Consultor/Orientador/Psicopedagogo </h5>
                          <h5 class="bp-h5-2">Consultor/</br>Orientador/</br>Psicopedagogo </h5>
-                         <h4 style="font-size: 1.95em">Enriquece tu propuesta incorporando instrumentos de medición de nueva generación y diagnósticos que integran grandes posibilidades para el acompañamiento y el seguimiento oportuno.</h4>
+                         <h4 style="">Enriquece tu propuesta incorporando instrumentos de medición de nueva generación y diagnósticos que integran grandes posibilidades para el acompañamiento y el seguimiento oportuno.</h4>
                          <p>Bienvenido a Lexium la plataforma de tecnología de aprendizaje más innovadora del mercado.</p>
                          <a href="contacto.php">Solicitar Demo</a> 
                     </div>
