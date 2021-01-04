@@ -16,7 +16,7 @@
     'contacto.php' => 'Contacto | ',
     'skillmap.php' => 'Skill Map | ',
     'evaluacion.php' => 'Evaluaciones | ',
-    'diagnostico.php' => 'Diagnóstico',
+    'diagnostico.php' => 'Diagnóstico | ',
     'herramientas.php' => 'Herramientas | ',
     'skillmaptrainingk9.php' => 'Skill Map & Training | ',
     'skillmaptrainingpu.php' => 'Skill Map & Training | ',
