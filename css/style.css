@@ -211,12 +211,12 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
   .banner-principal h5{ position: absolute; left: -33% }
   .bp-h5-1{ display: none!important; }
   .bp-h5-2{ display: block; left: -40%!important; font-size: 1em!important;}
-  .banner-principal h4{ font-size: 1.4em; }
+  .banner-principal h4{ font-size: 1.2em; }
   .banner-consultor h4 { font-size: 1em; }
   .banner-principal p{ font-size: 14px; }
   .banner-principal a{ margin-bottom: 5%;}
   .banner-principal img{ margin-top: 45%; width: 100%; }
-  .banner-consultor img{ margin-top: 90%; width: 75%; }
+  .banner-consultor img{ margin-top: 120%; width: 75%; }
   .lexlite a { width: 50%!important }
   .guia {right: 49%!important;padding: 1% 2.5%!important;}
 
