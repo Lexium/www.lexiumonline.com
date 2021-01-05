@@ -4,7 +4,7 @@ include 'header.php';
 include 'menu.php';
 ?> 
 <section class="text-center titulocontenido">
-    <h3>La confianza es el testimonio máximo, éstos son algunos de nuestros clientes</h3>
+    <h1>La confianza es el testimonio máximo, éstos son algunos de nuestros clientes</h1>
 </section>
 <div class="container py-5 college">
     <h2></h2>

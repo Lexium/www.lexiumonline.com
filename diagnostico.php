@@ -66,10 +66,10 @@ include 'menu.php';
                 <div class="line"></div>
                 <div class="col-md-6 datasgral">
                    <div class="row">
-                         <div class="col-md-4 col-6 orderdata3">
+                         <div class="col-md-4 col-6">
                                     <img class="img-fluid" src="./resources/icons/diagnostico/ppa_icon.png" alt="Perﬁl y Potencial de Aprendizaje" title="Perﬁl y Potencial de Aprendizaje">
                          </div>
-                         <div class="col-md-8 col-6 orderdata4">
+                         <div class="col-md-8 col-6">
                                     <h5>Diagnóstico ejecutivo</h5>
                                     <p>Consulta fácilmente el perfil y potencial de aprendizaje de cada persona.</p>
                                     <a href="#!" data-toggle="modal" data-target="#PPA" class="btn btn-primary" href="evaluacion.php">Ver más</a>
@@ -79,10 +79,10 @@ include 'menu.php';
                 <div class="line"></div>
                 <div class="col-md-6 datasgral">
                    <div class="row">
-                         <div class="col-md-4 col-6">
+                         <div class="col-md-4 col-6 orderdata3">
                                     <img class="img-fluid" src="./resources/icons/diagnostico/personalizado_icon.png" alt="Personalizado" title="Personalizado">
                          </div>
-                         <div class="col-md-8 col-6">
+                         <div class="col-md-8 col-6 orderdata4">
                                     <h5>Personalizado</h5>
                                     <p>involucra a cada evaluado en un proceso de autoconocimiento y desarrollo intencionado.</p>
                                     <a href="#!" data-toggle="modal" data-target="#personalizado" class="btn btn-primary" href="evaluacion.php">Ver más</a>

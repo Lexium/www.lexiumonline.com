@@ -153,7 +153,7 @@ include 'menu.php';
         <div class="carousel-item">
              <div class="row">
                   <div class="col-md-3"></div>
-                  <div class="col-md-6 clearfix d-none d-md-block tarjeta2">
+                  <div class="col-md-6 clearfix d-md-block tarjeta2">
                        <a href="https://www.potentor.com.mx/" target="_blank">
                           <img class="card-img-top img-fluid" style="width: 50%; display: block; margin: 0 auto;" src="resources/images/alianzas/potentor.png" alt="Potentor" title="Potentor">
                           <p class="card-text" style="padding-top: 5%!important">Con Lexium le genera una poderosa minería de datos sobre las habilidades de aprendizaje de las personas de cualquier edad y nivel académico en México, y es la base estadística y científica de su psicometría.</p>
@@ -168,7 +168,7 @@ include 'menu.php';
         <div class="carousel-item">
              <div class="row">
                   <div class="col-md-3"></div>
-                  <div class="col-md-6 clearfix d-none d-md-block tarjeta2">
+                  <div class="col-md-6 clearfix d-md-block tarjeta2">
                        <a href="http://sea.anahuac.mx/" target="_blank">
                           <img class="card-img-top img-fluid" style="width: 50%; display: block; margin: 0 auto;" src="resources/images/alianzas/anahuac.png" alt="Anahuac" title="Anahuac">
                           <p class="card-text" style="padding-top: 5%!important">Con Lexium: Agrega a sus servicios de consultoría información cuantitativa y cualitativa sobre las habilidades de aprendizaje de alumnos y docentes.</p>
