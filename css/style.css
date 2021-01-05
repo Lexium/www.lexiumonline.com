@@ -34,7 +34,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 .overlay { position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: black; opacity: 0.7; z-index: 1;}
 .selectbox{background-color: white;border-radius: 5%; min-height: 420px; max-width: 600px;}
 .texbox{padding: 3em!important;}
-.texbox > .btn{ margin-bottom: 2.2em;font-family: 'HarmoniaSansW01-Bold';}
+.texbox > .btn{ margin-bottom: 2.2em;font-family: 'HarmoniaSansW01-Bold';color: #fff;background-color: #007bff;border-color: #007bff;}
 .imgbox{margin-bottom: 2em;}
 .display-5{margin-bottom: 1.5em;font-family: 'HarmoniaSansW01-Bold'!important;}
 
