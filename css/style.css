@@ -41,12 +41,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 
 @media (max-width: 992px) {
-  .selectbox{ height: 75%!important;}
-  .banner-principal h5 { font-size: 1.7em!important; }
-  .banner-principal h4 { font-size: 1.7em!important; }
-  .banner-consultor h4 { font-size: 1.5em; }
-  .banner-principal a { padding: 10px 15px; }
-  .banner-principal img { width: 130%; }
+ 
   .lexlite a { width: 25%!important; }
   footer h3 { font-size: 1.5rem; }
   .menuses ul { padding-left: 0px!important; }
@@ -345,7 +340,8 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
 
 
 @media (max-width: 768px) {
-    .testimonio { height: 500px; }
+    .testimonio { height: 550px; }
+    .carousel-item { height: 450px!important;;}
     .comillas{ margin: 15% 25%!important; }
 }
 /* FIN de TESTIMONIOS SLIDER */
@@ -551,11 +547,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
      .card-text{ padding-top: 15%;}
      .carousel-indicators li{ background-color: #27beef;}
 
-     @media (max-width:780px){
-         /*.carousel{
-            display: none;
-         }*/
-     }
+    
 
 
 /*OTROSCLIENTESTAMBIENVIERON*/
