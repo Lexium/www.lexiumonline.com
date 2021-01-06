@@ -1,7 +1,6 @@
 <?php
-include('header.php');
+include('menu.php');
 ?>
-<link href="../fontawesome-free-5.13.1-web/css/all.css" rel="stylesheet"> <!--load all styles -->
 <?php
 
 $grados = array(
@@ -426,4 +425,4 @@ O puedes descargarlo como PDF en este link: $link?pdf=true&uuid=$uuid
 </div>
 
 
-<?php include('footer.php'); ?>
+<?php include('../footer.php'); ?>
