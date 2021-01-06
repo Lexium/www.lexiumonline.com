@@ -22,10 +22,10 @@
 		 </div>
 
      <div class="row menuses">
-          <div class="col-md-8">
+          <div class="col-md-8 col-12">
                <h3>Soluciones</h3>
                <div class="row">
-                    <div class=" col-xl-3 col-md-6">
+                    <div class=" col-xl-3 col-md-6 col-6">
                          <ul>
                              <li><a class="strongetxt" href="skillmap.php">Skill Map</a></li>
                              <li>
@@ -36,7 +36,7 @@
                              <li><a  href="herramientas.php">Herramientas</a></li>
                          </ul>
                     </div>
-                    <div class=" col-xl-4 col-md-6">
+                    <div class=" col-xl-4 col-md-6 col-6">
                          <ul>
                             <li><a class="strongetxt"  href="skillmaptrainingpu.php">Skill Training</a></li>
                             <li><a href="#" data-toggle="modal" data-target="#DP" title="Ver video">Entrenamiento Skill T</a></li>

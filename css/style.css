@@ -45,7 +45,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
   .lexlite a { width: 25%!important; }
   footer h3 { font-size: 1.5rem; }
   .menuses ul { padding-left: 0px!important; }
-  .guia2 {right: 50%!important;top: 40%!important;padding: 0.75% 2.5%!important; }
+  .guia2 {right: 50%!important;top: 40%!important;padding: 0.65% 1%!important; }
 }
 
 @media (max-width: 768px) {
@@ -218,7 +218,7 @@ video {position: absolute;top: 50%;left: 50%;min-width: 100%;min-height: 100%;wi
   .banner-principal img{ margin-top: 45%; width: 100%; }
   .banner-consultor img{ margin-top: 120%; width: 75%; }
   .lexlite a { width: 50%!important }
-  .guia {right: 49%!important;padding: 1% 2.5%!important;}
+  .guia {right: 35%!important;padding: 1% 2.5%!important;}
 
 }
 
