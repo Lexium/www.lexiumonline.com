@@ -3,6 +3,8 @@ $archivo_previo = __FILE__;
 include 'header.php' ?>
 <body>
 	  <div class="gral">
+        <?php include('resolucion.php'); ?> 
+
 	    <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
           <source src="resources/bg.mp4" type="video/mp4">
