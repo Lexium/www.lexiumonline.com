@@ -1,5 +1,5 @@
 <div class="resolucion container pt-3 pb-3">
-     <span>Para una mejor navegación en este sitio le recomendamos poner su dispositivo en forma orizontal </span> <br>
+     <span>Para una mejor navegación en este sitio le recomendamos poner su dispositivo en forma horizontal </span> <br>
      <img class="img-fluid" src="resources/rotatedevice.gif"><br>
      <!-- <a class="btn btn-primary closewindow" href="">Cerrar</a> -->
 </div>
