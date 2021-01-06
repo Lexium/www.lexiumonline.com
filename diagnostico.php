@@ -3,6 +3,7 @@ $archivo_previo = __FILE__;
 include 'header.php'; 
 include 'menu.php';
 ?> 
+<?php include('resolucion.php'); ?> 
 <section class="text-center titulocontenido">
     <h1>Diagnóstico</h1>
     <p>Apóyate en una plataforma diagnóstica que contiene el DNA de las habilidades de aprendizaje con las que cuenta tu comunidad educativa.</p>

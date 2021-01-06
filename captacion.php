@@ -3,6 +3,7 @@ $archivo_previo = __FILE__;
 include 'header.php'; 
 include 'menu.php';
 ?> 
+<?php include('resolucion.php'); ?> 
 <section class="text-center titulocontenido">
     <h1>Captación</h1>
     <p>Capta alumnos con la ayuda de una evaluación breve y eficaz que identifica las preferencias de aprendizaje y vocacionales en 20 minutos.</p>

@@ -3,7 +3,7 @@ $archivo_previo = __FILE__;
 include 'header.php'; 
 include 'menu.php';
 ?> 
-
+<?php include('resolucion.php'); ?> 
 <section class="text-center titulocontenido">
     <h3>Te presentamos algunos datos interesantes sobre nosotros</h3>
 </section>

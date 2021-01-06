@@ -3,6 +3,7 @@ $archivo_previo = __FILE__;
 include 'header.php'; 
 include 'menu.php';
 ?> 
+<?php include('resolucion.php'); ?> 
 <script language="javascript" type="text/javascript">
     $(document).ready(function() {
 

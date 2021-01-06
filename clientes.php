@@ -3,6 +3,7 @@ $archivo_previo = __FILE__;
 include 'header.php'; 
 include 'menu.php';
 ?> 
+<?php include('resolucion.php'); ?> 
 <section class="text-center titulocontenido">
     <h1>La confianza es el testimonio máximo, éstos son algunos de nuestros clientes</h1>
 </section>

@@ -59,7 +59,7 @@
                     </div>
                </div>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-6">
                <h3>Niveles</h3>
                <ul>
                   <li><a  href="k9.php">K9</a></li>
@@ -67,7 +67,7 @@
                   <li><a  href="consultor.php">Consultor / orientador / psicopedagogo</a></li>
                </ul>
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 col-6">
                <h3>Más</h3>
                <ul>
                   <li><a  href="nosotros.php">Nosotros</a></li>

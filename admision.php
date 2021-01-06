@@ -3,6 +3,7 @@ $archivo_previo = __FILE__;
 include 'header.php'; 
 include 'menu.php';
 ?> 
+<?php include('resolucion.php'); ?> 
 <section class="text-center titulocontenido">
     <h1>Admisión</h1>
     <p>Aplica un examen de admisión de nueva generación que identifique las habilidades de aprendizaje necesarias para ingresar a la institución.</p>

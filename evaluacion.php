@@ -3,7 +3,7 @@ $archivo_previo = __FILE__;
 include 'header.php'; 
 include 'menu.php';
 ?> 
-
+<?php include('resolucion.php'); ?> 
 <section class="text-center titulocontenido">
     <h1>Evaluaciones</h1>
     <p>Elige entre más de 20 evaluaciones para mapear el perfil de aprendizaje de los alumnos y de la comunidad educativa.</p>

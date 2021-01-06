@@ -3,6 +3,7 @@ $archivo_previo = __FILE__;
 include 'header.php'; 
 include 'menu.php';
 ?> 
+<?php include('resolucion.php'); ?> 
 <section class="text-center titulocontenido">
     <h1>Skill Training</h1>
     <p>Enriquece a Skill Map incorporando entrenamiento electrónico, modular y personalizado dirigido al desarrollo y mejora de las habilidades de aprendizaje.</p>

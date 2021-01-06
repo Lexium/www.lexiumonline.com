@@ -2,6 +2,7 @@
 $archivo_previo = __FILE__;
 include 'header.php' ?>
 <?php include('menu.php'); ?>
+<?php include('resolucion.php'); ?> 
 <section class="text-center titulocontenido">
     <h1>Sistema de Ingreso y Permanencia</h1>
     <p>Descubre las increíbles posibilidades que brinda esta innovadora propuesta para admisión, selección, acompañamiento, tutoraje y desarrollo de cada alumno que ingresa en tu institución.</p>

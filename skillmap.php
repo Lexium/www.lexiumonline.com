@@ -3,6 +3,7 @@ $archivo_previo = __FILE__;
 include 'header.php'; 
 include 'menu.php';
 ?> 
+<?php include('resolucion.php'); ?> 
 <section class="text-center titulocontenido">
     <h1>Skill Map</h1>
     <p>Skill Map la propuesta que necesitas para impulsar la creación de ambientes de aprendizaje efectivos.</p>
