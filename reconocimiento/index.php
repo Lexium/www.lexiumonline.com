@@ -425,4 +425,4 @@ O puedes descargarlo como PDF en este link: $link?pdf=true&uuid=$uuid
 </div>
 
 
-<?php include('../footer.php'); ?>
+<?php include('footer.php'); ?>
