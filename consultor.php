@@ -56,7 +56,7 @@ include 'menu.php';
             <div class="layer" id="img7" style="z-index: 3000; " data-depth="1.50"><img src="./resources/images/parallax-mouse/bg-wave-07.png"></div>
     </div>
           
-    <div class="container banner-container">
+    <div class="container-fluid banner-container">
           <div class="row">
                <div class="col-md-7 col-8 order-md-1 order-2"> 
                     <div class="banner-principal banner-consultor" style="margin-top: -25px;">
@@ -68,7 +68,7 @@ include 'menu.php';
                     </div>
                </div>
                <div class="col-md-5 col-4 order-md-2 order-1">
-                     <div class="banner-principal banner-consultor" style="width: 150%; margin-top: -160px;">
+                     <div class="banner-principal" style="">
                          <img src="./resources/cop.png" class="mx-auto" alt="slide" width="100%">
                     </div>
                </div>
