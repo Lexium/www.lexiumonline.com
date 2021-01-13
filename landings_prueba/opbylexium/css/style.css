@@ -36,12 +36,12 @@
 .frase h1{  color: white;font-family: montserrat-bold }
 
 /*Cuarto Bloque*/
-.datacontact{ padding-top: 10%; height: 960px; background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
+.datacontact{ padding-top: 10%;background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
 .datacontact p{ color: white; font-family: montserrat-bold; font-size: 1.5rem  }
 .infocontact{padding-left: 5%; padding-top: 2%;}
 .contactcontact{ background-color: rgba(0,0,0,0.5); padding: 2%; border-radius: 5%; }
 
-@media (max-width: 1920px) {
+/*@media (max-width: 1920px) {
   .bg1{ height: 865px; }
   .text{ top: 65%; }
   .whatis{ height: 865px; }
@@ -58,7 +58,7 @@
   .datacontact{ height: 865px; }
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 1280px) {
   .text{ top: 40%; }
   .bg1{ height: 640px; }
   .datacontact{ height: 640px; }
@@ -82,12 +82,12 @@
    .contenidowhat{ right: -25%; top: 40%; }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .text{ top: 35%; }
   .text h1{ font-size: 5rem; }
-}
+}*/
 
-@media (max-width: 500px) { 
+/*@media (max-width: 500px) { 
   .bg1{height: 420px;}
   .text{ top: 20%; }
   .text h1{ font-size: 4rem; }
@@ -109,12 +109,29 @@
 
   .datacontact { height: 480px!important; }
   .datacontact p{ font-size: 1rem; }
-}
+}*/
 
 @media (min-width: 375px) { 
-  .bg1{height: 420px;}
+  .bg1{height: 420px; background-position: unset;}
   .text{ top: 10%; }
   .text h1{ font-size: 4rem; }
   .text h2{ font-size: 3rem; }
   .text h4{ font-size: 2rem; }
+
+  .whatis{ height: 740px; }
+  .chica{  width: 50%; margin-top: 0;}
+  .whatis h1{ font-size: 4rem; width: 75%; margin-top: 1rem; margin-left: -2%}
+  .whatis span { top: 15%; font-size: 1.5rem; width: 66%; right: 5%;}
+  .contenidowhat{ width: 50%; top: 40%; right: 0; }
+  .contenidowhat img{ width: 10%; }
+  .contenidowhat p{ font-size: 1.5rem; }
+
+  .text2 h1{ font-size: 3.5rem; }
+  .text2 span{ font-size: 1.5rem; }
+  
+  .infocontact{ margin-bottom: 5%; }
+  .infocontact p{ width: 50%; display: inline-block; float: left; }
+
+  .contactcontact{ width: 80%; margin: 0 auto; margin-bottom: 5%; padding-bottom: 5%;}
+  .contactobtn{ font-family:  montserrat-medium; background-color: #f78f1e; color: white; font-size: 1.5rem; padding: 3%; width: 70%; margin: 0 auto; display: block; text-align: center; }
 }
