@@ -13,26 +13,29 @@
   src: url("fonts/Montserrat-medium.ttf") format('ttf');
 }
 
+/*Primer Bloque*/
 .bg1{height: 960px;background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
 .text{ position: absolute;  left: 7%; }
 .text h1{ color: #f78f20; font-size: 8rem; font-family: montserrat-black; }
 .text h2{ color: #f78f20; font-size: 4rem; font-family: montserrat-bold; }
 .text h4{ color: white; font-size: 3rem; font-family: montserrat-bold; }
 
+/*Segundo Bloque*/
 .whatis{ position: relative;  overflow: hidden; }
 .whatis h1{ color: #f78f20;font-family: montserrat-black; position: absolute; right: 0px; }
 .whatis h1 > img { width: 50%; }
 .whatis span{ color: #2b368c;  font-family: montserrat-medium; position: absolute; text-align: right; }
-
 .contenidowhat{ position: absolute; }
 .points img{ display: inline-block; }
 .points p{ font-family: montserrat-bold; color: #2b368c; display: inline-block; }
 
+/*Tercer Bloque*/
 .text2 h1{ color: #2b378d;  font-family: montserrat-black; line-height: 0.8; }
 .text2 span{ color: white;  font-family: montserrat-medium; width: 30%; }
 .frase{text-align: center;}
 .frase h1{  color: white;font-family: montserrat-bold }
 
+/*Cuarto Bloque*/
 .datacontact{ padding-top: 10%; height: 960px; background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
 .datacontact p{ color: white; font-family: montserrat-bold; font-size: 1.5rem  }
 .infocontact{padding-left: 5%; padding-top: 2%;}
@@ -54,7 +57,6 @@
   .frase h1{ font-size: 5rem; }
   .datacontact{ height: 865px; }
 }
-
 
 @media (max-width: 1280px) {
   .text{ top: 40%; }
@@ -105,14 +107,14 @@
   .text2 span{ font-size: 0.9rem; }
   .frase h1{ font-size: 1.8rem; }
 
-  ..datacontact { height: 480px!important; }
+  .datacontact { height: 480px!important; }
   .datacontact p{ font-size: 1rem; }
 }
 
-@media (max-width: 375px) { 
+@media (min-width: 375px) { 
   .bg1{height: 420px;}
-  .text{ top: 25%; }
-   .text h1{ font-size: 3rem; }
-  .text h2{ font-size: 2rem; }
-  .text h4{ font-size: 1rem; }
+  .text{ top: 10%; }
+  .text h1{ font-size: 4rem; }
+  .text h2{ font-size: 3rem; }
+  .text h4{ font-size: 2rem; }
 }
