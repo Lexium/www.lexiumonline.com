@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "montserrat-black";
+  src: url("fonts/Montserrat-Black.ttf") format('ttf');
+}
+
+@font-face {
+  font-family: "montserrat-bold";
+  src: url("fonts/Montserrat-bold.ttf") format('ttf');
+}
+
+@font-face {
+  font-family: "montserrat-medium";
+  src: url("fonts/Montserrat-medium.ttf") format('ttf');
+}
+
+.bg1{height: 960px;background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
+.text{ position: absolute;  left: 7%; }
+.text h1{ color: #f78f20; font-size: 8rem; font-family: montserrat-black; }
+.text h2{ color: #f78f20; font-size: 4rem; font-family: montserrat-bold; }
+.text h4{ color: white; font-size: 3rem; font-family: montserrat-bold; }
+
+.whatis{ position: relative;  overflow: hidden; }
+.whatis h1{ color: #f78f20;font-family: montserrat-black; position: absolute; right: 0px; }
+.whatis h1 > img { width: 50%; }
+.whatis span{ color: #2b368c;  font-family: montserrat-medium; position: absolute; text-align: right; }
+
+.contenidowhat{ position: absolute; }
+.points img{ display: inline-block; }
+.points p{ font-family: montserrat-bold; color: #2b368c; display: inline-block; }
+
+.text2 h1{ color: #2b378d;  font-family: montserrat-black; line-height: 0.8; }
+.text2 span{ color: white;  font-family: montserrat-medium; width: 30%; }
+.frase{text-align: center;}
+.frase h1{  color: white;font-family: montserrat-bold }
+
+.datacontact{ padding-top: 10%; height: 960px; background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
+.datacontact p{ color: white; font-family: montserrat-bold; font-size: 1.5rem  }
+.infocontact{padding-left: 5%; padding-top: 2%;}
+.contactcontact{ background-color: rgba(0,0,0,0.5); padding: 2%; border-radius: 5%; }
+
+@media (max-width: 1920px) {
+  .bg1{ height: 865px; }
+  .text{ top: 65%; }
+  .whatis{ height: 865px; }
+  .chica{ width: 30%; }
+  .whatis h1{ font-size: 8rem; max-width: 1890px; }
+  .whatis span{font-size: 2rem; max-width: 1485px;}
+  .contenidowhat{width: 1200px; margin-right: 5%; top: 50%; right: 0;}
+  .points{ display: inline-block; width: 50%; float: left }
+  .points img{ width: 15%; margin-bottom: 10%; }
+  .points p{ font-size: 2rem; }
+  .text2 h1{ font-size: 10rem }
+  .text2 span{ font-size: 2.5rem; }
+  .frase h1{ font-size: 5rem; }
+  .datacontact{ height: 865px; }
+}
+
+
+@media (max-width: 1280px) {
+  .text{ top: 40%; }
+  .bg1{ height: 640px; }
+  .datacontact{ height: 640px; }
+  .whatis{height: 680px;}
+  .whatis h1{ font-size: 5rem; max-width: 895px; }
+  .whatis span{font-size: 1.5rem; right: 7%; top: 25%; max-width: 685px; }
+  .chica{ width: 35%; }
+  .contenidowhat{top: 45%; width: 450px; right: 0;}
+  .points{ display:block; width: 100%;  margin-bottom: 2%; }
+  .points img{  width: 10%; }
+  .points p{  font-size: 1.2rem; }
+
+  .text2 h1{ font-size: 8rem; }
+  .text2 span{ font-size: 1.3rem; }
+  .frase h1{ font-size: 4rem; }
+}
+
+@media (max-width: 990px) {
+   .whatis h1{ font-size: 4rem;right: -6%; top: -3%; max-width: 820px;}
+   .whatis span{ top: 18%; }
+   .contenidowhat{ right: -25%; top: 40%; }
+}
+
+@media (max-width: 768px) {
+  .text{ top: 35%; }
+  .text h1{ font-size: 5rem; }
+}
+
+@media (max-width: 500px) { 
+  .bg1{height: 420px;}
+  .text{ top: 20%; }
+  .text h1{ font-size: 4rem; }
+  .text h2{ font-size: 3rem; }
+  .text h4{ font-size: 2rem; }
+
+  .whatis{height: 420px; }
+  .chica{  width: 50%; margin-top: 10%;}
+  .whatis h1{ font-size: 2rem;right: -5%; top: -10%; max-width: 420px;}
+  .whatis span{ font-size: .8rem;  right: 7%; top: 15%; max-width: 300px; }
+  .contenidowhat{ right: -45%; top: 35%; }
+  .points{ margin-bottom: -3% }
+  .points img{ width: 7%; }
+  .points p{ font-size: 0.7rem; }
+
+  .text2 h1{ font-size: 3rem; }
+  .text2 span{ font-size: 0.9rem; }
+  .frase h1{ font-size: 1.8rem; }
+
+  ..datacontact { height: 480px!important; }
+  .datacontact p{ font-size: 1rem; }
+}
