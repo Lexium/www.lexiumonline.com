@@ -1,45 +1,32 @@
-@font-face {
-  font-family: "montserrat-black";
-  src: url("fonts/Montserrat-Black.ttf") format('ttf');
-}
-
-@font-face {
-  font-family: "montserrat-bold";
-  src: url("fonts/Montserrat-bold.ttf") format('ttf');
-}
-
-@font-face {
-  font-family: "montserrat-medium";
-  src: url("fonts/Montserrat-medium.ttf") format('ttf');
-}
-
 /*Primer Bloque*/
-.bg1{height: 960px;background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
-.text{ position: absolute;  left: 7%; }
-.text h1{ color: #f78f20; font-size: 8rem; font-family: montserrat-black; }
-.text h2{ color: #f78f20; font-size: 4rem; font-family: montserrat-bold; }
-.text h4{ color: white; font-size: 3rem; font-family: montserrat-bold; }
+.bg1{height: 865px;background-position: unset; background-repeat: no-repeat; background-size: cover; overflow: hidden; position: relative}
+.text{ position: absolute;  left: 7%; top: 55%; }
+.text h1{ color: #f78f20; font-size: 8rem; font-family: 'Montserrat', sans-serif; font-weight: 900; }
+.text h2{ color: #f78f20; font-size: 4rem; font-family: 'Montserrat', sans-serif; font-weight: 800; }
+.text h4{ color: white; font-size: 3rem; font-family: 'Montserrat', sans-serif; font-weight: 500; }
 
 /*Segundo Bloque*/
 .whatis{ position: relative;  overflow: hidden; }
-.whatis h1{ color: #f78f20;font-family: montserrat-black; position: absolute; right: 0px; }
+.whatis h1{ color: #f78f20;font-family: 'Montserrat', sans-serif; font-weight: 900; position: absolute; right: 0; top: 5%; font-size: 5rem; width: 885px;}
 .whatis h1 > img { width: 50%; }
-.whatis span{ color: #2b368c;  font-family: montserrat-medium; position: absolute; text-align: right; }
-.contenidowhat{ position: absolute; }
-.points img{ display: inline-block; }
-.points p{ font-family: montserrat-bold; color: #2b368c; display: inline-block; }
+.chica{ width: 40%; margin-top: 10%; }
+.whatis span{ color: #2b368c;  font-family: 'Montserrat', sans-serif; font-weight: 500; position: absolute; text-align: right; font-size: 2rem; right: 3%; max-width: 785px; top: 18%; }
+.contenidowhat{ position: absolute; right: 0; top: 40%; max-width: 640px; }
+.points img{ display: inline-block; width: 10%;}
+.points p{ font-family: 'Montserrat', sans-serif; font-weight: 800; color: #2b368c; display: inline-block; font-size: 1.5rem; }
 
 /*Tercer Bloque*/
-.text2 h1{ color: #2b378d;  font-family: montserrat-black; line-height: 0.8; }
-.text2 span{ color: white;  font-family: montserrat-medium; width: 30%; }
-.frase{text-align: center;}
-.frase h1{  color: white;font-family: montserrat-bold }
+.text2 h1{ color: #2b378d; font-family: 'Montserrat', sans-serif; font-weight: 900; line-height: 1.2; font-size: 8rem; }
+.text2 span{ color: white;  font-family: 'Montserrat', sans-serif; font-weight: 500; width: 30%; font-size: 2.5rem }
+.frase{text-align: center; margin-top: 5%}
+.frase h1{  color: white; font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 3.5rem; }
 
 /*Cuarto Bloque*/
-.datacontact{ padding-top: 10%;background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
-.datacontact p{ color: white; font-family: montserrat-bold; font-size: 1.5rem  }
-.infocontact{padding-left: 5%; padding-top: 2%;}
-.contactcontact{ background-color: rgba(0,0,0,0.5); padding: 2%; border-radius: 5%; }
+.datacontact{ padding-top: 10%; padding-bottom: 5%; background-position: center; background-repeat: no-repeat; background-size: cover; overflow: hidden;}
+.datacontact p{ color: white; font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 1.5rem; margin-bottom: 10%;  }
+.infocontact{padding-left: 5%; padding-top: 2%; width: 50%;}
+.contactcontact{ background-color: rgba(0,0,0,0.5); padding: 2%; border-radius: 5%; width: 50%; }
+.contactobtn{ font-family: 'Montserrat', sans-serif; font-weight: 500; background-color: #f78f1e; color: white; font-size: 1.5rem; padding: 3%; width: 70%; margin: 0 auto; display: block; text-align: center; }
 
 /*@media (max-width: 1920px) {
   .bg1{ height: 865px; }
@@ -111,7 +98,7 @@
   .datacontact p{ font-size: 1rem; }
 }*/
 
-@media (min-width: 375px) { 
+/*@media (max-width: 375px) { 
   .bg1{height: 420px; background-position: unset;}
   .text{ top: 10%; }
   .text h1{ font-size: 4rem; }
@@ -134,4 +121,4 @@
 
   .contactcontact{ width: 80%; margin: 0 auto; margin-bottom: 5%; padding-bottom: 5%;}
   .contactobtn{ font-family:  montserrat-medium; background-color: #f78f1e; color: white; font-size: 1.5rem; padding: 3%; width: 70%; margin: 0 auto; display: block; text-align: center; }
-}
+}*/
