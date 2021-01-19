@@ -1,7 +1,7 @@
 body{background-color: white;}
 
 
-#login_all{background-color: #ff5900;margin-top: 10%;position: relative; height: 500px; overflow: hidden; border: none; }
+#login_all{background-color: #ff5900;position: relative; height: 500px; overflow: hidden; border: none; }
 .title_login{ margin-left: 10%;	padding: 5%  0%; max-width: 720px; }
 .title_login div{	display: inline-block; margin-right: 3%; }
 .formulario{ width: 35%; margin-left: 10%; background: rgba(255,255,255, 0.4); padding: 2%; border-radius: 30px; }
