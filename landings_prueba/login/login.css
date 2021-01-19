@@ -1,0 +1,52 @@
+body{background-color: white;}
+
+
+#login_all{background-color: #ff5900;margin-top: 10%;position: relative; height: 500px; overflow: hidden; border: none; }
+
+.title_login{ margin-left: 10%;	padding: 5%  0%; max-width: 720px;}
+.title_login div{	display: inline-block; margin-right: 3%;}
+
+.formulario{
+	width: 35%; margin-left: 10%; background: rgba(255,255,255, 0.4); padding: 2%; border-radius: 30px;
+}
+
+.formulario label{ color: white; }
+
+.formulario a img{
+	width: 35%; float: right; margin-top: 5%;
+}
+
+.input-group-text {
+    color: #ff9c75;
+    background-color: #ff5900;
+    border: none;
+}
+
+.pareja{ position: absolute; right: -5%; bottom: -1px; width: 50%; }
+
+.anahuac{ margin-left: 10%; margin-top: 3%; }
+.anahuac img{ width: 20%; }
+
+
+@media (max-width: 570px){
+    #login_all{ margin-top: 0; height: 430px; }
+
+    .formulario{ width: 425px; margin-right: 10%; z-index: 10; position: relative; }
+
+    .pareja{ z-index: 0; }
+
+    .anahuac img{ width: 50%; }
+
+}
+
+@media (max-width: 375px){
+    #login_all{ margin-top: 0; }
+
+    .title_login{ margin-left: 0; }
+
+    .formulario{ width: 100%; margin-right: 0; margin-left: 0;}
+
+    .formulario a img{ float: none; width: 100%; }
+
+}
+
