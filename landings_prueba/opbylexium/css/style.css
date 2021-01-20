@@ -1,8 +1,8 @@
 
 .cabezal{max-width: 1280px; margin: 0 auto;}
 /*Primer Bloque*/
-.bg1{max-width:1280px;height: 665px; margin: 0 auto; background-position: unset; background-repeat: no-repeat; background-size: contain; overflow: hidden; position: relative}
-.text{ position: absolute;  left: 7%; top: 35%; background-color: red; }
+.bg1{max-width:1280px;height: 665px; margin: 0 auto; background-position: unset; background-repeat: no-repeat; background-size: cover; overflow: hidden; position: relative}
+.text{ position: absolute;  left: 7%; top: 35%; }
 .text h1{ color: #f78f20; font-size: 8rem; font-family: 'Montserrat', sans-serif; font-weight: 900; }
 .text h2{ color: #f78f20; font-size: 4rem; font-family: 'Montserrat', sans-serif; font-weight: 800; }
 .text h4{ color: white; font-size: 3rem; font-family: 'Montserrat', sans-serif; font-weight: 500; }
@@ -43,8 +43,7 @@
 
 
 @media (max-width: 375px) {
-  .bg1{ max-width: 375px; height: 320px; }
-  .text{ top: 25%; }
+  .bg1{ max-width: 375px; height: 275px; }
   .text h1{ font-size: 2.6rem; }
   .text h2{ font-size: 2rem; }
   .text h4{ font-size: 1rem; }
