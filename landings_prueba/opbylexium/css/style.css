@@ -32,7 +32,7 @@
 
 
 @media (max-width: 1024px) {
-  .chica { width: 35%; margin-top: 10%; }
+  .chica { width: 40%; margin-top: 15%; }
   .whatis span { font-size: 1.8rem; }
   .contenidowhat { top: 45%; }
   .text2 h1 { padding-top: 8rem; }
