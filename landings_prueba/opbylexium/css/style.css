@@ -2,7 +2,7 @@
 .cabezal{max-width: 1280px; margin: 0 auto; padding: 1.5rem; }
 /*Primer Bloque*/
 .bg1{max-width:1280px;height: 665px; margin: 0 auto; background-position: unset; background-repeat: no-repeat; background-size: cover; overflow: hidden; position: relative}
-.text{ position: absolute;  left: 7%; top: 35%; background-color: red; }
+.text{ position: absolute;  left: 7%; top: 35%; }
 .text h1{ color: #f78f20; font-size: 8rem; font-family: 'Montserrat', sans-serif; font-weight: 900; }
 .text h2{ color: #f78f20; font-size: 4rem; font-family: 'Montserrat', sans-serif; font-weight: 800; }
 .text h4{ color: white; font-size: 3rem; font-family: 'Montserrat', sans-serif; font-weight: 500; }
@@ -38,7 +38,22 @@
   .text2 h1 { padding-top: 8rem; }
   .text2 p { font-size: 2rem; }
 }
-
+@media (max-width: 860px){
+  .bg1 { max-width: 860px; height: 500px;}
+  .text{ top: 40%; }
+  .text h1{ font-size: 5rem; }
+  .text h2{ font-size: 3rem; }
+  .text h4{ font-size: 2rem; }
+  .whatis{ height: 600px; }
+  .chica { margin-top: 10%; }
+  .whatis h1 { font-size: 4rem; width: 815px; }
+  .whatis span { font-size: 1.4rem; right: 5%; max-width: 603px; top: 20%; }
+  .contenidowhat { top: 40%; }
+  .text2 h1 { padding-top: 5rem; font-size: 4rem; }
+  .text2 p { font-size: 1.5rem; margin-top: 3%; }
+  .frase{ margin-top: 3%}
+  .frase h1 { font-size: 3rem; }
+}
 @media (max-width: 768px) {
   .bg1 { max-width: 768px; height: 500px;}
   .text{ top: 40%; }
@@ -51,7 +66,7 @@
   .whatis span{ top: 23%; font-size: 1.3rem; max-width: 600px; }
   .contenidowhat { top: 45%; max-width: 420px; }
   .points p{ font-size: 1rem; }
-  .text2 h1 { font-size: 4rem; }
+  .text2 h1 { font-size: 4rem; padding-top: 6rem;}
   .text2 p { font-size: 1.5rem;}
   .frase { margin-top: 6%; }
   .frase h1{ font-size: 2.5rem; }
@@ -59,7 +74,8 @@
 }
 
 @media (max-width: 540px){
-  .bg1 { max-width: 540px; height: 405px;}
+  .bg1 { max-width: 540px; height: 370px;}
+  .text { top: 35%; }
   .text h1{ font-size: 4rem; }
   .text h2{ font-size: 3rem; }
   .text h4{ font-size: 1.5rem; }
@@ -68,8 +84,9 @@
   .whatis h1 { width: 510px; font-size: 3rem; top: 2%; }
   .whatis span { top: 17%; font-size: 1rem; max-width: 395px; }
   .contenidowhat { top: 40%; max-width: 315px; }
-  .text2 h1 { font-size: 3rem; }
+  .text2 h1 { font-size: 3rem; padding-top: 3rem;}
   .text2 p{ font-size: 1rem; }
+  .frase { margin-top: 3%; }
   .infocontact{ width: 100%; }
   .infocontact p{ margin-bottom: 2%; font-size: 1.5rem; }
   .contactcontact{ width: 100%; }
@@ -86,7 +103,7 @@
   .chica{ margin-left: -2%; width: 45%; }
   .contenidowhat{ width: 160px; top: 45%; }
   .points p{ font-size: 0.5rem; }
-  .text2 h1{ font-size: 2rem; padding-left: 1rem; }
+  .text2 h1{ font-size: 2rem; padding-left: 1rem; padding-top: 2rem;}
   .text2 p{ font-size: .8rem; width: 60%; padding-left: 1rem; }
   .frase{ margin-top: 5%; }
   .frase h1{ font-weight: 900; font-size: 1.3rem; }
