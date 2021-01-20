@@ -1,4 +1,4 @@
-body{ max-width: 1280px; margin: 0 auto; background-color: red;}
+body{ max-width: 1280px; margin: 0 auto; }
 /*Primer Bloque*/
 .bg1{max-width:1280px;height: 665px; margin: 0 auto; background-position: unset; background-repeat: no-repeat; background-size: cover; overflow: hidden; position: relative}
 .text{ position: absolute;  left: 7%; top: 35%; }
