@@ -32,13 +32,14 @@
 
 
 @media (max-width: 1024px) {
+  .bg1{ max-width: 1024px; }
   .chica { width: 40%; margin-top: 15%; }
-  .whatis span { font-size: 1.8rem; }
+  .whatis span { font-size: 1.8rem; max-width: 725px; }
   .contenidowhat { top: 45%; }
   .text2 h1 { padding-top: 8rem; }
   .text2 p { font-size: 2rem; }
 }
-@media (max-width: 860px){
+@media (max-width: 920px){
   .bg1 { max-width: 860px; height: 500px;}
   .text{ top: 40%; }
   .text h1{ font-size: 5rem; }

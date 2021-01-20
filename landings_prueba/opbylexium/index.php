@@ -116,21 +116,14 @@
                                           </span>
                                           <?php endif; ?>
                                      </div>
-
+                                    
+        								             <input class="form-control" type="hidden" placeholder="Asunto" id="asunto" name="subject" value="OP by Lexium">
+                                     
                                      <div class="input-group  mb-3">
-        								                  <input class="form-control" type="text" placeholder="Asunto" id="asunto" name="asunto" value="<?php echo (isset($_POST ['asunto']) ? $_POST['asunto'] : ''); ?>">
-                                    <?php if (array_key_exists('asunto', $has_error)): ?>
-                                    <span class="text-danger has-error">
-                                        <i><?php echo $has_error['asunto'] ?></i>
-                                    </span>
-                                    <?php endif; ?>
-                                     </div>
-
-                                     <div class="input-group  mb-3">
-                                          <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"><?php echo (isset($_POST ['message']) ? $_POST['message'] : ''); ?></textarea>
-                                           <?php if (array_key_exists('message', $has_error)): ?>
+                                          <textarea class="form-control" name="mensaje" rows="5" placeholder="Mensaje"><?php echo (isset($_POST ['mensaje']) ? $_POST['mensaje'] : ''); ?></textarea>
+                                           <?php if (array_key_exists('mensaje', $has_error)): ?>
                                              <span class="text-danger has-error">
-                                               <i><?php echo $has_error['message'] ?></i>
+                                               <i><?php echo $has_error['mensaje'] ?></i>
                                              </span>
                                            <?php endif; ?>
                                      </div>
