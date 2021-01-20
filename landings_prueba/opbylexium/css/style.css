@@ -29,7 +29,7 @@
 .infocontact{padding-left: 5%; padding-top: 2%; padding-right: 3%; width: 50%;}
 .contactcontact{ background-color: rgba(0,0,0,0.5); padding: 2%; border-radius: 5%; width: 50%; }
 .contactobtn{ font-family: 'Montserrat', sans-serif; font-weight: 500; background-color: #f78f1e; color: white; font-size: 1.5rem; padding: 3%; width: 70%; margin: 0 auto; display: block; text-align: center; }
-
+/*
 
 @media (max-width: 1024px) {
   .chica { width: 40%; margin-top: 15%; }
@@ -136,7 +136,7 @@
   .datacontact p { font-size: .9rem; }
   .contactcontact {width: 100%; }
 }
-
+*/
 
 
 
