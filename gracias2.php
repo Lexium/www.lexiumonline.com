@@ -1,3 +1,5 @@
+<?php
+$archivo_previo = __FILE__;?> 
 <?php include('email_contacto.php'); ?>
 <?php include('header.php'); ?>
 <?php include('menu.php'); ?>

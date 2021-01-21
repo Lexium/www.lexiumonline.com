@@ -11,7 +11,7 @@
 .whatis{ position: relative;  overflow: hidden; max-width: 1280px; height: 760px; display: block; margin: 0 auto; }
 .whatis h1{ color: #f78f20;font-family: 'Montserrat', sans-serif; font-weight: 900; position: absolute; right: 0; top: 5%; font-size: 5rem; width: 885px;}
 .whatis h1 > img { width: 50%; }
-.chica{ width: 40%; margin-top: -1%; }
+.chica{ width: 50%; }
 .whatis span{ color: #2b368c;  font-family: 'Montserrat', sans-serif; font-weight: 500; position: absolute; text-align: right; font-size: 2rem; right: 3%; max-width: 785px; top: 22%; }
 .contenidowhat{ position: absolute; right: 0; top: 55%; max-width: 520px; }
 .points img{ display: inline-block; width: 10%; margin-top: -6%;}
@@ -93,12 +93,12 @@
   .contactcontact{ width: 100%; }
 }
 
-@media (max-width: 414px) {
-  .bg1{ max-width: 414px; height: 260px; }
+@media (max-width: 450px) {
+  .bg1{ max-width: 450px; height: 260px; }
   .text h1{ font-size: 2.6rem; }
   .text h2{ font-size: 2rem; }
   .text h4{ font-size: 1rem; }
-  .whatis{ max-width: 414px; height: 275px; }
+  .whatis{ max-width: 450px; height: 275px; }
   .whatis h1 { font-weight: 800; top: 1%; font-size: 2rem; width: 345px; }
   .whatis span { top: 20%; font-size: 0.7rem; max-width: 280px; }
   .chica{ margin-left: -2%; width: 45%; }

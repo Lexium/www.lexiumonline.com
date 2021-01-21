@@ -23,7 +23,9 @@
     'skillmaptrainingcop.php' => 'Skill Map & Training | ',
     'captacion.php' => 'Captaciòn | ',
     'admision.php' => 'Admisión | ',
-    'op.php' => 'Orientación Profesional |'
+    'op.php' => 'Orientación Profesional |',
+    'gracias.php' => '¡Gracias! |',
+    'gracias2.php' => '¡Gracias! |',
   );
 
   //   session_start();
