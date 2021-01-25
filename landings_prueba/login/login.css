@@ -1,7 +1,7 @@
 body{background-color: #ff5900; font-family: 'Zilla Slab', serif;}
 
 
-#login_all{background-color: #ff5900;position: relative; height: 500px; border: none; max-width: 1800px }
+#login_all{background-color: #ff5900;position: relative; height: 500px; border: none; }
 .title_login{ margin-left: 10%;	padding: 5%  0%; max-width: 720px; }
 .title_login div{	display: inline-block; margin-right: 3%; }
 .formulario{ width: 35%; margin-left: 10%; background: rgba(255,255,255, 0.4); padding: 2%; border-radius: 30px; }
