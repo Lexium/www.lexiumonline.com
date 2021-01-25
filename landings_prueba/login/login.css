@@ -16,7 +16,7 @@ body{background-color: #ff5900; font-family: 'Zilla Slab', serif;}
     #login_all{ margin-top: 0; height: 530px; background-color:  }
     .formulario{ width: 65%; margin-left: 0; }
     .pareja{ z-index: 0; }
-    .anahuac { margin-left: 6%; margin-top: 3%;position: relative; }
+    .anahuac { margin-left: 6%; margin-top: 3%;position: relative; z-index: 9; }
     .anahuac img{ width: 60%; }
     .title_login { margin-left: 0; }
 }
