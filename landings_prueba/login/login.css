@@ -1,14 +1,14 @@
-body{background-color: white;}
+body{background-color: #ff5900; font-family: 'Zilla Slab', serif;}
 
 
-#login_all{background-color: #ff5900;position: relative; height: 500px; overflow: hidden; border: none; }
+#login_all{background-color: #ff5900;position: relative; height: 500px; border: none; max-width: 1800px }
 .title_login{ margin-left: 10%;	padding: 5%  0%; max-width: 720px; }
 .title_login div{	display: inline-block; margin-right: 3%; }
 .formulario{ width: 35%; margin-left: 10%; background: rgba(255,255,255, 0.4); padding: 2%; border-radius: 30px; }
-.formulario label{ color: white; }
+.formulario label{ color: white; font-size: 1.2rem }
 .formulario a img{ width: 50%; display: block; margin: 0 auto; padding-top: 5%; }
 .input-group-text { color: #ff9c75; background-color: #ff5900; border: none; }
-.pareja{ position: absolute; right: -5%; bottom: -1px; width: 50%; }
+.pareja{ position: absolute; right: 1%; bottom: -1px; width: 50%; }
 .anahuac{ margin-left: 11%; margin-top: 3%; }
 .anahuac img{ width: 25%; }
 
