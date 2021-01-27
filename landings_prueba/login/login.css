@@ -1,6 +1,5 @@
 body{background-color: #ff5900; font-family: 'Zilla Slab', serif;}
 
-
 #login_all{background-color: #ff5900;position: relative; height: 500px; border: none; }
 .title_login{ margin-left: 10%;	padding: 5%  0%; max-width: 720px; }
 .title_login div{	display: inline-block; margin-right: 3%; }
@@ -8,6 +7,7 @@ body{background-color: #ff5900; font-family: 'Zilla Slab', serif;}
 .formulario label{ color: white; font-size: 1.2rem }
 .formulario a img{ width: 50%; display: block; margin: 0 auto; padding-top: 5%; }
 .input-group-text { color: #ff9c75; background-color: #ff5900; border: none; }
+.initsesion{  -webkit-appearance: none; -moz-appearance: none; }
 .pareja{ position: absolute; right: 1%; bottom: -1px; width: 50%; }
 .anahuac{ margin-left: 11%; margin-top: 3%; }
 .anahuac img{ width: 25%; }
@@ -34,6 +34,6 @@ body{background-color: #ff5900; font-family: 'Zilla Slab', serif;}
     #login_all{ margin-top: 0; }
     .title_login{ margin-left: 0; }
     .formulario{ width: 100%; margin-right: 0; margin-left: 0;}
-    .formulario a img{ float: none; width: 100%; }
+    .formulario a img{ float: none; width: 60%; padding-top: 0; }
 }
 
