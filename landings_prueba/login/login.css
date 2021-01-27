@@ -24,9 +24,10 @@ body{background-color: #ff5900; font-family: 'Zilla Slab', serif;}
 @media (max-width: 570px){
     #login_all{ margin-top: 0; height: 470px; }
     .formulario{ width: 100%; margin-left: 0; z-index: 10; position: relative; }
-    .pareja{ z-index: 0; }
-    .anahuac { margin-left: 10%; margin-top: 8%; z-index: 20; position: relative; }
-    .anahuac img{ width: 60%; }
+    .formulario a img { width: 30%; padding-top: 3%; }
+    .pareja{ z-index: 0; display: none; }
+    .anahuac { margin-left: 0; margin-top: 8%; z-index: 20; position: relative;  }
+    .anahuac img{ width: 60%; margin: 0 auto; display: block}
     .title_login { text-align: center; margin-left: 0; }
 }
 
