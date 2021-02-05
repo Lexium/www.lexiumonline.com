@@ -256,7 +256,11 @@
         <footer>
             <div class="container p-3">
                 <div class="row">
-                    <div class="col-md-12" style="text-align:center">All rights reserved © 2020 by LEXIUM</div>
+                    <div class="col-md-12" style="text-align:center">All rights reserved © <?php 
+                    $Year = date("Y");
+                    echo "$Year";
+                    echo "\n";
+                    ?>  by LEXIUM</div>
                 </div>
             </div>
         </footer>
